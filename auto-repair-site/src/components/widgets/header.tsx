@@ -30,19 +30,22 @@ export function Header() {
                     </Link>
                 </div>
                 <nav className="hidden md:flex items-center gap-8 text-sm font-medium">
-                    <Link href="#services" className="text-text-secondary hover:text-brand-red transition-colors">
+                    <Link href="/#services" className="text-text-secondary hover:text-brand-red transition-colors">
                         Services
                     </Link>
-                    <Link href="#about" className="text-text-secondary hover:text-brand-red transition-colors">
+                    <Link href="/#about" className="text-text-secondary hover:text-brand-red transition-colors">
                         About
                     </Link>
-                    <Link href="#testimonials" className="text-text-secondary hover:text-brand-red transition-colors">
+                    <Link href="/#testimonials" className="text-text-secondary hover:text-brand-red transition-colors">
                         Reviews
+                    </Link>
+                    <Link href="/contact" className="text-text-secondary hover:text-brand-red transition-colors">
+                        Contact
                     </Link>
                 </nav>
                 <div className="flex items-center gap-4">
                     <Button asChild className="hidden md:inline-flex bg-brand-red hover:bg-brand-red-hover text-white rounded-md px-6">
-                        <Link href="#contact">Schedule Service</Link>
+                        <Link href="/contact">Schedule Service</Link>
                     </Button>
                     {/* Mobile Menu Toggle could be added here */}
                 </div>
