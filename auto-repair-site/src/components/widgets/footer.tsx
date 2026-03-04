@@ -36,7 +36,7 @@ export function Footer() {
                         <div className="space-y-4">
                             <h4 className="font-heading text-lg font-semibold text-surface">Quick Links</h4>
                             <nav className="flex flex-col space-y-2 text-sm text-muted/80">
-                                <Link href="/#services" className="hover:text-copper transition-colors">Our Services</Link>
+                                <Link href="/services" className="hover:text-copper transition-colors">Our Services</Link>
                                 <Link href="/#about" className="hover:text-copper transition-colors">About Us</Link>
                                 <Link href="/#testimonials" className="hover:text-copper transition-colors">Customer Reviews</Link>
                                 <Link href="/contact" className="hover:text-copper transition-colors">Schedule Appointment</Link>
