@@ -1,3 +1,13 @@
+---
+title: "Advanced Diagnostics"
+description: "Pinpoint root-cause analysis for complex electronic and mechanical failures."
+categories: ["Diagnostics", "All"]
+section: "Diagnostics"
+isMostRequested: false
+icon: "Activity"
+order: 1
+---
+
 # Advanced Vehicle Diagnostics in Missoula, MT
 
 Modern vehicles rely on dozens of computers, sensors, and electronic systems working together. When something goes wrong, guessing at the cause can lead to unnecessary repairs and wasted money. Accurate diagnostics is the first step to fixing the problem correctly.

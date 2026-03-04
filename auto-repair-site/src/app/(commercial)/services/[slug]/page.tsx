@@ -14,18 +14,23 @@ export async function generateStaticParams() {
     }));
 }
 
-// 2. Generate Metadata
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
     const resolvedParams = await params;
     const { slug } = resolvedParams;
-    const serviceName = slug
-        .split("-")
-        .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-        .join(" ");
+
+    const result = await getServiceMarkdown(slug);
+
+    if (!result) {
+        return {
+            title: "Service Not Found"
+        };
+    }
+
+    const { title, description } = result.data;
 
     return {
-        title: `${serviceName} in Missoula, MT | Benchmark Automotive Service`,
-        description: `Professional ${serviceName.toLowerCase()} in Missoula. Accurate testing, honest recommendations, and confirmed repairs.`,
+        title: `${title} in Missoula, MT | Benchmark Automotive Service`,
+        description: description || `Professional ${title.toLowerCase()} in Missoula. Accurate testing, honest recommendations, and confirmed repairs.`,
     };
 }
 
@@ -34,11 +39,12 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
     const resolvedParams = await params;
     const { slug } = resolvedParams;
 
-    // Server-side fetch of markdown content
-    const md = await getServiceMarkdown(slug);
-    if (!md) return notFound();
+    // Server-side fetch of markdown content and frontmatter
+    const mdResult = await getServiceMarkdown(slug);
+    if (!mdResult) return notFound();
 
-    const serviceName = slug
+    const { content: md, data } = mdResult;
+    const serviceName = data.title || slug
         .split("-")
         .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
         .join(" ");

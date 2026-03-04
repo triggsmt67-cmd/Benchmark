@@ -1,9 +1,9 @@
 ---
 title: "Pre-Purchase Inspection"
-description: "Buying a used vehicle in Missoula? Get a clear, professional inspection before you commit."
+description: "Buying a used vehicle in Missoula? Get a professional pre-purchase inspection before you commit."
 category: "Diagnostics"
 featured: true
-order: 2
+order: 1
 related:
   - advanced-diagnostics
   - suspension-steering
@@ -12,80 +12,71 @@ related:
 
 # Pre-Purchase Inspection in Missoula, MT
 
-Buying a used vehicle is a big decision — and photos plus a quick test drive rarely tell the full story. A pre-purchase inspection helps you understand what you’re actually buying before money changes hands.
+Buying a used vehicle can be a smart decision, but it’s important to know what you’re getting before money changes hands. A pre-purchase inspection helps identify safety issues, worn components, and potential repairs before you commit to the purchase.
 
-At Benchmark Automotive Service, we perform inspections that focus on safety, reliability, and costly surprises — then we explain what we found in plain language.
+At Benchmark Automotive Service, we perform inspections designed to help buyers make informed decisions.
 
 ---
 
 ## What a Pre-Purchase Inspection Includes
 
-Our inspection is built to answer one question: **Is this a smart buy?**
-
 Typical inspection areas include:
 
-- Brakes and tire condition  
-- Steering and suspension wear  
-- Fluid condition and visible leaks  
-- Battery/starting/charging basics  
-- Warning lights and basic scan checks (when applicable)  
-- Road test to evaluate drivability, noises, vibration, and braking feel  
-
-If we find something concerning, we’ll show you what it means and what it could cost to address.
-
----
-
-## What This Helps You Avoid
-
-A pre-purchase inspection is especially valuable if you’re trying to avoid:
-
-- Hidden brake or suspension issues  
-- Overheating or cooling system problems  
-- Electrical problems that show up intermittently  
-- Expensive wear items that were “almost due”  
-- A vehicle that looks good but drives poorly  
+- Brake system condition
+- Steering and suspension wear
+- Tire condition and alignment indicators
+- Fluid levels and fluid condition
+- Visible leaks or damage
+- Battery and charging system basics
+- Road test for drivability, vibration, and noise
 
 ---
 
-## How the Process Works
+## Why a Pre-Purchase Inspection Matters
+
+Used vehicles can look good on the surface while hiding expensive problems underneath. An inspection helps identify:
+
+- upcoming repairs
+- safety concerns
+- worn suspension or brake components
+- electrical issues
+- warning lights or hidden codes
+
+This information can help you negotiate or avoid a problematic vehicle.
+
+---
+
+## Our Inspection Process
 
 ### Inspect
-We visually inspect key systems and wear points.
+We visually inspect major vehicle systems and wear components.
 
 ### Test
-We evaluate drivability with a road test and perform basic checks where needed.
+A road test evaluates drivability, braking feel, and unusual vibration or noise.
 
 ### Confirm
-We separate “normal wear” from “this will cost you soon.”
+We explain what we find and help you understand the condition of the vehicle.
 
 ### Decide
-You get a clear summary so you can negotiate, walk away, or buy with confidence.
-
----
-
-## What to Bring (Helpful)
-
-- The vehicle (and enough time for an inspection)  
-- Any listing details or seller notes  
-- Questions you want answered (history, noises, warning lights, etc.)  
+You receive clear information so you can buy with confidence or walk away.
 
 ---
 
 ## FAQs
 
 ### Can you inspect a vehicle from a private seller?
-Yes. Private-party purchases are one of the best reasons to do an inspection.
+Yes. Pre-purchase inspections are commonly performed for private-party sales.
 
-### Will you tell me whether to buy it?
-We’ll give you a clear, professional assessment of condition and risk so you can decide confidently.
+### Will you tell me whether the vehicle is worth buying?
+We provide a professional assessment of condition and potential repairs so you can make an informed decision.
 
 ### Can I drop the vehicle off after hours?
-Yes. After-hours drop-off is available. **We’ll confirm receipt the next business day.**
+Yes. After-hours drop-off is available. We’ll confirm receipt the next business day.
 
 ---
 
 ## Schedule a Pre-Purchase Inspection
 
-If you’re considering a used vehicle, the best time to learn about problems is **before** you buy it.
+If you’re considering buying a used vehicle, the best time to identify problems is before the purchase.
 
-Call **(406) 317-1405** or request service and we’ll help you schedule an inspection.
+Call (406) 317-1405 or request service to schedule an inspection.

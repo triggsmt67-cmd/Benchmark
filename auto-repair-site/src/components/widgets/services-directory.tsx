@@ -13,7 +13,7 @@ import { cn } from "@/lib/utils";
 
 type Category = "All" | "Diagnostics" | "Repairs" | "Vehicle Problems" | "Comfort & Climate";
 
-interface ServiceItem {
+export interface ServiceItem {
     id: string;
     title: string;
     description: string;
@@ -22,130 +22,8 @@ interface ServiceItem {
     section: "Diagnostics" | "Repairs" | "Common Vehicle Problems" | "Comfort & Climate";
     isMostRequested: boolean;
     isComingSoon?: boolean;
-    icon: React.ReactNode;
+    icon?: string;
 }
-
-const SERVICES_DATA: ServiceItem[] = [
-    // Diagnostics
-    {
-        id: "adv-diag",
-        title: "Advanced Diagnostics",
-        description: "Pinpoint root-cause analysis for complex electronic and mechanical failures.",
-        slug: "advanced-diagnostics",
-        categories: ["Diagnostics", "All"],
-        section: "Diagnostics",
-        isMostRequested: false,
-        icon: <Activity className="w-6 h-6" />
-    },
-    {
-        id: "cel",
-        title: "Check Engine Light",
-        description: "Accurate code scanning and sensor datastream analysis.",
-        slug: "check-engine-light",
-        categories: ["Diagnostics", "Vehicle Problems", "All"],
-        section: "Diagnostics",
-        isMostRequested: true,
-        icon: <CarFront className="w-6 h-6" />
-    },
-    {
-        id: "elec-diag",
-        title: "Electrical Diagnostics",
-        description: "Tracing shorts, open circuits, and module communication errors.",
-        slug: "electrical-diagnostics",
-        categories: ["Diagnostics", "All"],
-        section: "Diagnostics",
-        isMostRequested: true,
-        icon: <Activity className="w-6 h-6" />
-    },
-
-    // Repairs
-    {
-        id: "brake",
-        title: "Brake Repair",
-        description: "Premium pad replacement, rotor resurfacing, and fluid flushes.",
-        slug: "brake-repair",
-        categories: ["Repairs", "All"],
-        section: "Repairs",
-        isMostRequested: true,
-        icon: <Wrench className="w-6 h-6" />
-    },
-    {
-        id: "susp",
-        title: "Suspension & Steering",
-        description: "Shocks, struts, tie rods, and complete chassis alignments.",
-        slug: "suspension-steering",
-        categories: ["Repairs", "All"],
-        section: "Repairs",
-        isMostRequested: true,
-        icon: <Wrench className="w-6 h-6" />
-    },
-    {
-        id: "ac-heat",
-        title: "A/C & Heating",
-        description: "Refrigerant recharges, compressor replacements, and heater cores.",
-        slug: "ac-heating",
-        categories: ["Repairs", "Comfort & Climate", "All"],
-        section: "Repairs",
-        isMostRequested: true,
-        icon: <ThermometerSnowflake className="w-6 h-6" />
-    },
-
-    // Vehicle Problems
-    {
-        id: "no-start",
-        title: "Car Won't Start",
-        description: "Testing batteries, starters, alternators, and fuel delivery systems.",
-        slug: "car-wont-start",
-        categories: ["Vehicle Problems", "Diagnostics", "All"],
-        section: "Common Vehicle Problems",
-        isMostRequested: true,
-        icon: <AlertTriangle className="w-6 h-6" />
-    },
-    {
-        id: "bat-drain",
-        title: "Battery Drain",
-        description: "Parasitic draw testing for batteries that keep dying over night.",
-        slug: "battery-drain",
-        categories: ["Vehicle Problems", "Diagnostics", "All"],
-        section: "Common Vehicle Problems",
-        isMostRequested: false,
-        isComingSoon: true,
-        icon: <AlertTriangle className="w-6 h-6" />
-    },
-    {
-        id: "overheat",
-        title: "Engine Overheating",
-        description: "Diagnosing leaks, thermostats, water pumps, and cooling fans.",
-        slug: "engine-overheating",
-        categories: ["Vehicle Problems", "All"],
-        section: "Common Vehicle Problems",
-        isMostRequested: false,
-        isComingSoon: true,
-        icon: <AlertTriangle className="w-6 h-6" />
-    },
-    {
-        id: "vibration",
-        title: "Steering Vibration",
-        description: "Identifying warped rotors, unbalanced tires, or worn front-end parts.",
-        slug: "steering-vibration",
-        categories: ["Vehicle Problems", "All"],
-        section: "Common Vehicle Problems",
-        isMostRequested: false,
-        isComingSoon: true,
-        icon: <AlertTriangle className="w-6 h-6" />
-    },
-    {
-        id: "noise",
-        title: "Car Making Noise",
-        description: "Squeaks, grinds, and clunks isolated and correctly repaired.",
-        slug: "car-making-noise",
-        categories: ["Vehicle Problems", "All"],
-        section: "Common Vehicle Problems",
-        isMostRequested: false,
-        isComingSoon: true,
-        icon: <AlertTriangle className="w-6 h-6" />
-    }
-];
 
 const CATEGORIES: Category[] = ["All", "Diagnostics", "Repairs", "Vehicle Problems", "Comfort & Climate"];
 
@@ -188,7 +66,12 @@ function ServiceCard({ service }: { service: ServiceItem }) {
                             "transition-colors duration-200 [&>svg]:stroke-[1.5]",
                             isComingSoon ? "text-muted-foreground" : "text-navy-900 group-hover:text-copper"
                         )}>
-                            {service.icon}
+                            {service.icon === "Activity" && <Activity className="w-6 h-6" />}
+                            {service.icon === "CarFront" && <CarFront className="w-6 h-6" />}
+                            {service.icon === "Wrench" && <Wrench className="w-6 h-6" />}
+                            {service.icon === "ThermometerSnowflake" && <ThermometerSnowflake className="w-6 h-6" />}
+                            {service.icon === "AlertTriangle" && <AlertTriangle className="w-6 h-6" />}
+                            {!service.icon && <Wrench className="w-6 h-6" />}
                         </div>
                         {isComingSoon && (
                             <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-muted text-muted-foreground border border-border">
@@ -221,11 +104,11 @@ function ServiceCard({ service }: { service: ServiceItem }) {
     );
 }
 
-export function ServicesDirectory() {
+export function ServicesDirectory({ initialServices }: { initialServices: ServiceItem[] }) {
     const [searchQuery, setSearchQuery] = React.useState("");
     const [activeCategory, setActiveCategory] = React.useState<Category>("All");
 
-    const filteredServices = SERVICES_DATA.filter((service) => {
+    const filteredServices = initialServices.filter((service) => {
         const matchesCategory = activeCategory === "All" || service.categories.includes(activeCategory);
         const matchesSearch = service.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
             service.description.toLowerCase().includes(searchQuery.toLowerCase());
@@ -240,7 +123,7 @@ export function ServicesDirectory() {
         "Common Vehicle Problems": filteredServices.filter(s => s.section === "Common Vehicle Problems"),
     };
 
-    const mostRequested = SERVICES_DATA.filter(s => s.isMostRequested);
+    const mostRequested = initialServices.filter(s => s.isMostRequested);
 
     return (
         <div className="w-full flex flex-col">

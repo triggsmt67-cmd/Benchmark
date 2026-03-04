@@ -11,7 +11,7 @@ const services = [
         title: "AC & Heating",
         description: "Complete climate control diagnostics, refrigerant recharges, and compressor repairs.",
         icon: <Wrench className="h-6 w-6" />,
-        slug: "ac-and-heating",
+        slug: "ac-heating",
         isElevated: false,
     },
     {

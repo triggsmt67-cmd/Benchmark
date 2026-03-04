@@ -30,6 +30,9 @@ export function Header() {
                     </Link>
                 </div>
                 <nav className="hidden md:flex items-center gap-8 text-sm font-medium">
+                    <Link href="/" className="text-text-secondary hover:text-brand-red transition-colors">
+                        Home
+                    </Link>
                     <Link href="/services" className="text-text-secondary hover:text-brand-red transition-colors">
                         Services
                     </Link>

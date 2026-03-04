@@ -10,7 +10,38 @@ export const metadata: Metadata = {
     description: "Explore diagnostic, repair, and common vehicle problem pages. Clear answers and confirmed repairs in Missoula.",
 };
 
-export default function ServicesHubPage() {
+import { getAllServiceData } from "@/lib/serviceContent";
+import { ServiceItem } from "@/components/widgets/services-directory";
+
+export default async function ServicesHubPage() {
+    const rawData = await getAllServiceData();
+
+    // Sort all services by the 'order' field to maintain exact layout control
+    const sortedData = rawData.sort((a, b) => (a.order || 99) - (b.order || 99));
+
+    const services: ServiceItem[] = sortedData.map(data => {
+        let cats = ["All"];
+        if (Array.isArray(data.categories)) {
+            cats = data.categories;
+        } else if (typeof data.category === "string") {
+            cats = [data.category, "All"];
+        } else if (typeof data.categories === "string") {
+            cats = [data.categories, "All"];
+        }
+
+        return {
+            id: data.slug,
+            title: data.title || data.slug.replace("-", " "),
+            description: data.description || "",
+            slug: data.slug,
+            categories: cats as any,
+            section: data.section || (cats[0] !== "All" ? cats[0] : "Common Vehicle Problems"),
+            isMostRequested: data.isMostRequested === true || data.featured === true,
+            isComingSoon: data.isComingSoon === true,
+            icon: data.icon
+        };
+    });
+
     return (
         <article className="flex flex-col min-h-[100dvh]">
             {/* HER0 */}
@@ -63,7 +94,7 @@ export default function ServicesHubPage() {
                 </div>
             </section>
 
-            <ServicesDirectory />
+            <ServicesDirectory initialServices={services} />
 
             <FinalCtaBand />
         </article>
