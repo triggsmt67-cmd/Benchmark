@@ -47,7 +47,7 @@ export function TrustBar() {
                         </div>
                         <div>
                             <h3 className="font-semibold text-lg text-surface">Premium OEM Quality Parts</h3>
-                            <p className="text-sm text-muted/70 mt-1">We don't compromise on materials.</p>
+                            <p className="text-sm text-muted/70 mt-1">We don&apos;t compromise on materials.</p>
                         </div>
                     </StaggerItem>
                 </Stagger>

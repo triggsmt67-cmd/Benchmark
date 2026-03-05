@@ -50,7 +50,7 @@ export function TestimonialsSection() {
                                         ))}
                                     </div>
                                     <p className="text-text-secondary italic leading-relaxed mb-6">
-                                        "{t.quote}"
+                                        &quot;{t.quote}&quot;
                                     </p>
                                     <div className="mt-auto">
                                         <p className="font-heading font-bold text-navy-950 text-lg">{t.name}</p>

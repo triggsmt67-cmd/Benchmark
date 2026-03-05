@@ -44,7 +44,7 @@ export function ServiceCTABand() {
                             </div>
 
                             <p className="text-sm italic text-muted-foreground mt-4">
-                                After-hours drop-off available. We'll confirm receipt the next business day.
+                                After-hours drop-off available. We&apos;ll confirm receipt the next business day.
                             </p>
                         </div>
                     </div>

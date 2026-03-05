@@ -30,77 +30,73 @@ const CATEGORIES: Category[] = ["All", "Diagnostics", "Repairs", "Vehicle Proble
 function ServiceCard({ service }: { service: ServiceItem }) {
     const isComingSoon = service.isComingSoon;
 
-    const CardWrap = ({ children }: { children: React.ReactNode }) => {
-        if (isComingSoon) {
-            return (
-                <div title="This detailed guide is coming soon." className="h-full cursor-not-allowed opacity-[0.85]">
-                    {children}
-                </div>
-            );
-        }
-        return (
-            <Link href={`/services/${service.slug}`} className="block h-full cursor-pointer focus-visible:outline-copper rounded-sm">
-                {children}
-            </Link>
-        );
-    };
+    const content = (
+        <Card
+            className={cn(
+                "group relative h-full flex flex-col overflow-hidden rounded-sm border bg-surface transition-all duration-200 ease-out text-left",
+                isComingSoon ? "border-border shadow-none" : "border-border shadow-sm shadow-navy-900/5 hover:-translate-y-[2px] hover:shadow-md"
+            )}
+        >
+            {/* Top styling strip */}
+            <div className={cn(
+                "absolute top-0 left-0 right-0 h-[2px] transition-colors duration-200",
+                isComingSoon ? "bg-muted" : "bg-copper/40 group-hover:bg-copper"
+            )} />
+            <div className="absolute top-[2px] left-0 right-0 h-[1px] bg-white opacity-40" />
 
-    return (
-        <CardWrap>
-            <Card
-                className={cn(
-                    "group relative h-full flex flex-col overflow-hidden rounded-sm border bg-surface transition-all duration-200 ease-out text-left",
-                    isComingSoon ? "border-border shadow-none" : "border-border shadow-sm shadow-navy-900/5 hover:-translate-y-[2px] hover:shadow-md"
-                )}
-            >
-                {/* Top styling strip */}
-                <div className={cn(
-                    "absolute top-0 left-0 right-0 h-[2px] transition-colors duration-200",
-                    isComingSoon ? "bg-muted" : "bg-copper/40 group-hover:bg-copper"
-                )} />
-                <div className="absolute top-[2px] left-0 right-0 h-[1px] bg-white opacity-40" />
-
-                <CardHeader className="pt-8 pb-4 px-6 md:px-8 relative">
-                    <div className="mb-4 flex items-start justify-between">
-                        <div className={cn(
-                            "transition-colors duration-200 [&>svg]:stroke-[1.5]",
-                            isComingSoon ? "text-muted-foreground" : "text-navy-900 group-hover:text-copper"
-                        )}>
-                            {service.icon === "Activity" && <Activity className="w-6 h-6" />}
-                            {service.icon === "CarFront" && <CarFront className="w-6 h-6" />}
-                            {service.icon === "Wrench" && <Wrench className="w-6 h-6" />}
-                            {service.icon === "ThermometerSnowflake" && <ThermometerSnowflake className="w-6 h-6" />}
-                            {service.icon === "AlertTriangle" && <AlertTriangle className="w-6 h-6" />}
-                            {!service.icon && <Wrench className="w-6 h-6" />}
-                        </div>
-                        {isComingSoon && (
-                            <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-muted text-muted-foreground border border-border">
-                                Coming Soon
-                            </span>
-                        )}
-                        {!isComingSoon && (
-                            <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-200 text-copper transform -translate-x-2 group-hover:translate-x-0">
-                                <ChevronRight className="w-5 h-5" />
-                            </div>
-                        )}
+            <CardHeader className="pt-8 pb-4 px-6 md:px-8 relative">
+                <div className="mb-4 flex items-start justify-between">
+                    <div className={cn(
+                        "transition-colors duration-200 [&>svg]:stroke-[1.5]",
+                        isComingSoon ? "text-muted-foreground" : "text-navy-900 group-hover:text-copper"
+                    )}>
+                        {service.icon === "Activity" && <Activity className="w-6 h-6" />}
+                        {service.icon === "CarFront" && <CarFront className="w-6 h-6" />}
+                        {service.icon === "Wrench" && <Wrench className="w-6 h-6" />}
+                        {service.icon === "ThermometerSnowflake" && <ThermometerSnowflake className="w-6 h-6" />}
+                        {service.icon === "AlertTriangle" && <AlertTriangle className="w-6 h-6" />}
+                        {!service.icon && <Wrench className="w-6 h-6" />}
                     </div>
-                    <CardTitle className={cn(
-                        "font-heading text-xl font-semibold tracking-tight",
-                        isComingSoon ? "text-navy-900/70" : "text-navy-950"
-                    )}>
-                        {service.title}
-                    </CardTitle>
-                </CardHeader>
-                <CardContent className="px-6 md:px-8 pb-8 flex-grow">
-                    <p className={cn(
-                        "font-sans text-[15px] leading-relaxed",
-                        isComingSoon ? "text-muted-foreground" : "text-text-secondary"
-                    )}>
-                        {service.description}
-                    </p>
-                </CardContent>
-            </Card>
-        </CardWrap>
+                    {isComingSoon && (
+                        <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-muted text-muted-foreground border border-border">
+                            Coming Soon
+                        </span>
+                    )}
+                    {!isComingSoon && (
+                        <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-200 text-copper transform -translate-x-2 group-hover:translate-x-0">
+                            <ChevronRight className="w-5 h-5" />
+                        </div>
+                    )}
+                </div>
+                <CardTitle className={cn(
+                    "font-heading text-xl font-semibold tracking-tight",
+                    isComingSoon ? "text-navy-900/70" : "text-navy-950"
+                )}>
+                    {service.title}
+                </CardTitle>
+            </CardHeader>
+            <CardContent className="px-6 md:px-8 pb-8 flex-grow">
+                <p className={cn(
+                    "font-sans text-[15px] leading-relaxed",
+                    isComingSoon ? "text-muted-foreground" : "text-text-secondary"
+                )}>
+                    {service.description}
+                </p>
+            </CardContent>
+        </Card>
+    );
+
+    if (isComingSoon) {
+        return (
+            <div title="This detailed guide is coming soon." className="h-full cursor-not-allowed opacity-[0.85]">
+                {content}
+            </div>
+        );
+    }
+    return (
+        <Link href={`/services/${service.slug}`} className="block h-full cursor-pointer focus-visible:outline-copper rounded-sm">
+            {content}
+        </Link>
     );
 }
 
@@ -179,7 +175,7 @@ export function ServicesDirectory({ initialServices }: { initialServices: Servic
                                 </h2>
                             </Reveal>
                             <Stagger className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                                {mostRequested.map((service, index) => (
+                                {mostRequested.map((service) => (
                                     <StaggerItem key={service.id}>
                                         <ServiceCard service={service} />
                                     </StaggerItem>
@@ -246,7 +242,7 @@ export function ServicesDirectory({ initialServices }: { initialServices: Servic
                                     Not sure what to pick?
                                 </h2>
                                 <p className="text-lg text-text-secondary mb-10 max-w-2xl">
-                                    Describe the symptoms and we'll help point you in the right direction. No guesswork, just clear answers.
+                                    Describe the symptoms and we&apos;ll help point you in the right direction. No guesswork, just clear answers.
                                 </p>
 
                                 <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto mb-8">
@@ -264,7 +260,7 @@ export function ServicesDirectory({ initialServices }: { initialServices: Servic
 
                                 <div className="text-sm text-muted-foreground pt-6 border-t border-border w-full max-w-sm">
                                     <p className="font-medium text-navy-900 mb-1">After-hours drop-off available.</p>
-                                    <p>We'll confirm receipt the next business day.</p>
+                                    <p>We&apos;ll confirm receipt the next business day.</p>
                                 </div>
                             </CardContent>
                         </Card>

@@ -9,7 +9,7 @@ export function WhatWeDontDoSection() {
                         {/* Heading Side */}
                         <div className="md:w-1/3 shrink-0">
                             <h2 className="font-heading text-3xl md:text-5xl font-bold text-navy-950">
-                                What We Don't Do
+                                What We Don&apos;t Do
                             </h2>
                         </div>
 

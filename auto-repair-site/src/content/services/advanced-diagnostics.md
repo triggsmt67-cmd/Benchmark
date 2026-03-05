@@ -32,15 +32,15 @@ Drivers often come to us when their vehicle shows symptoms that cannot be identi
 
 Some of the most common diagnostic concerns include:
 
-• Check engine light illumination  
-• Electrical system failures  
-• Battery drain issues  
-• Starting or charging problems  
-• Intermittent warning lights  
-• Sensor communication faults  
-• Performance problems or reduced power  
-• ABS, traction control, or stability control warnings  
-• Air conditioning electronic faults  
+- Check engine light illumination  
+- Electrical system failures  
+- Battery drain issues  
+- Starting or charging problems  
+- Intermittent warning lights  
+- Sensor communication faults  
+- Performance problems or reduced power  
+- ABS, traction control, or stability control warnings  
+- Air conditioning electronic faults  
 
 These problems frequently involve multiple systems interacting with each other, which is why a structured diagnostic process is essential.
 
@@ -69,13 +69,13 @@ Electrical diagnostics is one of the most challenging areas of modern automotive
 
 Benchmark Automotive Service specializes in diagnosing:
 
-• Complex wiring faults  
-• Sensor communication failures  
-• Network communication issues  
-• Control module errors  
-• Starting and charging system faults  
-• Electrical drain and battery discharge problems  
-• Advanced drivability concerns  
+- Complex wiring faults  
+- Sensor communication failures  
+- Network communication issues  
+- Control module errors  
+- Starting and charging system faults  
+- Electrical drain and battery discharge problems  
+- Advanced drivability concerns  
 
 This experience allows us to resolve issues that often go unresolved elsewhere.
 

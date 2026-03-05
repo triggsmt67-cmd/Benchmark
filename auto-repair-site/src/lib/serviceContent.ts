@@ -9,7 +9,7 @@ export interface ServiceData {
     featured: boolean;
     order: number;
     related?: string[];
-    [key: string]: any;
+    [key: string]: unknown;
 }
 
 export async function getServiceMarkdown(slug: string): Promise<{ content: string; data: ServiceData } | null> {
@@ -18,7 +18,7 @@ export async function getServiceMarkdown(slug: string): Promise<{ content: strin
         const fileContent = await fs.readFile(filePath, "utf-8");
         const { data, content } = matter(fileContent);
         return { content, data: data as ServiceData };
-    } catch (e) {
+    } catch {
         return null;
     }
 }
@@ -30,7 +30,7 @@ export async function getAllServiceSlugs(): Promise<string[]> {
         return files
             .filter(file => file.endsWith(".md"))
             .map(file => file.replace(/\.md$/, ""));
-    } catch (e) {
+    } catch {
         return [];
     }
 }

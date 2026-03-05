@@ -34,11 +34,11 @@ export default async function ServicesHubPage() {
             title: data.title || data.slug.replace("-", " "),
             description: data.description || "",
             slug: data.slug,
-            categories: cats as any,
-            section: data.section || (cats[0] !== "All" ? cats[0] : "Common Vehicle Problems"),
+            categories: cats as ServiceItem["categories"],
+            section: (data.section || (cats[0] !== "All" ? cats[0] : "Common Vehicle Problems")) as ServiceItem["section"],
             isMostRequested: data.isMostRequested === true || data.featured === true,
             isComingSoon: data.isComingSoon === true,
-            icon: data.icon
+            icon: data.icon as string | undefined
         };
     });
 
@@ -86,7 +86,7 @@ export default async function ServicesHubPage() {
                                 </div>
                                 <div className="flex items-center gap-3">
                                     <div className="w-1.5 h-1.5 rounded-full bg-copper flex-shrink-0" />
-                                    <span>We'll confirm receipt the next business day</span>
+                                    <span>We&apos;ll confirm receipt the next business day</span>
                                 </div>
                             </div>
                         </div>
