@@ -10,47 +10,77 @@ related:
   - ignition-service
 ---
 
-# Engine and Performance Service in Missoula, MT
+# Engine and Performance in Missoula, MT
 
-A rough idle, hesitation during acceleration, or a sudden loss of power are all signs that your engine is not performing properly. Modern engines use a complex network of sensors, modules, and mechanical components to balance power, fuel efficiency, and emissions. 
+When your engine isn't running the way it should — hesitation on acceleration, rough idle, unexpected power loss — something in the system has shifted. This page explains what we look at, why these issues develop, and how we diagnose them before recommending any repair.
 
-At Benchmark Automotive Service, we take the guesswork out of engine repair. We rely on advanced diagnostic testing to find the root cause of performance issues so we can restore your vehicle's reliability and power.
+---
 
-## What Causes Poor Engine Performance?
+## What This Service Covers
 
-Engine drivability problems can originate from several different systems. A few common causes include:
+- Diagnosis of engine misfires, rough idle, and power loss
+- Fuel system inspection — fuel pump pressure, injector flow, filter condition
+- Ignition system evaluation — spark plugs, coils, wires, and timing
+- Sensor testing — MAF, oxygen sensors, throttle position, crankshaft position
+- Compression and leak-down testing to assess internal engine health
+- Timing chain or belt inspection for stretch, wear, or synchronization issues
 
-- **Fuel System Issues:** Clogged fuel injectors, a failing fuel pump, or a dirty fuel filter can starve the engine of the fuel it needs.
-- **Ignition System Failures:** Worn spark plugs, faulty ignition coils, or damaged wiring can cause misfires and a rough running engine.
-- **Airflow and Vacuum Leaks:** Unmetered air entering the engine through a vacuum leak or a faulty Mass Airflow (MAF) sensor will disrupt the air-fuel ratio.
-- **Emissions and Exhaust Problems:** A clogged catalytic converter or a failing oxygen (O2) sensor can dramatically reduce performance and trigger warning lights.
-- **Mechanical Wear:** Internal issues like low compression or timing chain problems can also lead to significant power loss.
+---
 
-## Symptoms of Engine Trouble
+## Common Symptoms
 
-Don't ignore the warning signs. If your vehicle is experiencing any of these symptoms, it's time for professional testing:
+- Noticeable hesitation or stumble when accelerating from a stop
+- Rough idle — the engine shakes or feels uneven at rest
+- Reduced power or sluggishness, especially under load or at highway speeds
+- Unexplained drop in fuel economy over several fill-ups
+- Check engine light, often with misfire codes (P0300–P0308)
+- Engine knocking or tapping sounds that change with RPM
 
-- **Rough idling or stalling** at stoplights.
-- **Hesitation or sluggishness** when accelerating.
-- **Engine misfires** (feeling a shake or shudder).
-- **Reduced fuel economy** (burning more gas than usual).
-- **Check Engine Light** is illuminated or flashing.
+---
 
-## Our Testing First Approach
+## Why It Happens
 
-We don't replace parts on a hunch. Diagnosing a drivability issue requires systematic testing. Our process includes:
+Most engine performance issues trace back to one of three systems breaking down: ignition, fuel, or airflow. Spark plugs are the most common starting point — they wear gradually and can foul with carbon or oil, causing misfires in specific cylinders. When a plug fails, the ignition coil driving that cylinder often follows. The result is a cylinder that fires inconsistently, creating the rough idle and vibration drivers notice first.
 
-### 1. Data Analysis
-We connect to the vehicle's onboard computers to monitor live data from sensors, fuel trims, and ignition timing.
+Fuel delivery problems are the next common culprit. Clogged injectors can't atomize fuel properly, leading to a lean condition in that cylinder. A failing fuel pump may deliver inconsistent pressure — fine at idle but insufficient under load — which explains why the problem often shows up on highway acceleration rather than around town. A dirty or failing mass airflow (MAF) sensor compounds this by feeding the ECU inaccurate air intake readings, causing the computer to miscalculate the fuel trim.
 
-### 2. Component Testing
-We perform pinpoint testing on suspected circuits, vacuum lines, fuel pressure, or ignition components to verify if they have failed.
+Timing issues are less common but more serious. The timing chain or belt synchronizes the crankshaft and camshaft — if it stretches or jumps a tooth, valve timing shifts out of spec. The engine may still run, but power drops noticeably and damage accelerates. A faulty crankshaft or camshaft position sensor produces similar symptoms by sending the ECU incorrect timing data, even when the mechanical components are fine.
 
-### 3. Confirmed Solutions
-Once we've identified the specific component or system responsible for the performance issue, we provide a clear explanation and a recommended repair plan.
+---
 
-## Honest, Professional Engine Repair
+## How We Diagnose It
 
-Engine problems can be stressful, but getting them diagnosed shouldn't be. By focusing on accurate testing rather than parts guessing, we save you time and ensure the job is done right the first time. We use premium replacement parts designed to restore your vehicle's factory performance.
+### Inspect
+We start with a visual walkthrough of the engine bay: checking for obvious vacuum leaks at hoses and intake boots, inspecting ignition wires for cracking or carbon tracking, and looking for oil or coolant contamination around the spark plug tubes — a sign of seal failure that often causes misfires.
 
-If your vehicle isn't running the way it should, don't wait for a breakdown. Contact Benchmark Automotive Service in Missoula for professional engine and performance diagnostics.
+### Test
+We connect to the OBD-II port and pull live data alongside any stored codes. Freeze frame data tells us what conditions were present when the fault triggered. From there we test fuel pressure at idle and under load, perform a cylinder balance test to isolate weak cylinders, and use a lab scope to evaluate ignition coil output waveforms. Compression testing and leak-down testing confirm whether the issue is mechanical — worn rings, leaking valves — or system-level.
+
+### Confirm
+We don't recommend a repair based on a code alone. A P0301 (cylinder 1 misfire) could mean a spark plug, coil, injector, or low compression in that cylinder. We confirm the root cause before any parts are ordered or quoted.
+
+### Repair
+After the repair, we clear codes and run a drive cycle to confirm the misfire monitors pass. Live data is reviewed again to verify fuel trims, sensor readings, and idle quality are within spec. The fix is verified — not assumed.
+
+---
+
+## FAQs
+
+**Q: My car runs fine most of the time. Do I really need to address this now?**
+A: Intermittent misfires are often a sign that a component is failing gradually — not that everything is fine. Running a misfiring cylinder sends unburned fuel into the catalytic converter, which can damage it. Addressing the root cause early is almost always less expensive than waiting.
+
+**Q: Can a bad spark plug really cause all these symptoms?**
+A: Yes. A single fouled or worn plug can cause rough idle, reduced power, poor fuel economy, and a check engine light simultaneously. It's one of the more common cases where a relatively simple repair resolves multiple complaints at once.
+
+**Q: How long does engine performance diagnostics take?**
+A: Most diagnostic appointments take 1–2 hours depending on how quickly symptoms can be reproduced and which tests are needed. If a drive cycle is required to trigger the fault, it may take longer. We'll give you a realistic timeframe after the initial scan.
+
+After-hours drop-off is available. **We'll confirm receipt the next business day.**
+
+---
+
+## Related Services
+
+- [Check Engine Light](/services/check-engine-light)
+- [Fuel System Service](/services/fuel-system-service)
+- [Ignition Service](/services/ignition-service)

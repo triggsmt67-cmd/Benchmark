@@ -1,3 +1,15 @@
+---
+title: "General Maintenance"
+description: "Professional General Maintenance in Missoula, MT."
+category: "Maintenance"
+featured: false
+order: 10
+related:
+  - oil-change
+  - vehicle-inspection
+  - fluid-services
+---
+
 # General Maintenance in Missoula, MT
 
 Routine maintenance is the most reliable way to prevent expensive repairs — and the most consistently skipped. If your vehicle hasn't been serviced in a while, or you're not sure what's been done and when, a general maintenance visit gives us a clear picture of where things stand and what actually needs attention. Most major mechanical failures — blown engines, seized calipers, overheated transmissions — have warning signs that show up weeks or months before the breakdown. The problem is they're easy to miss if nobody's looking.
@@ -6,10 +18,10 @@ Routine maintenance is the most reliable way to prevent expensive repairs — an
 
 ## What This Service Covers
 
-- [Engine oil and filter replacement](/oil-change) with the correct oil type and viscosity for your vehicle and climate
+- [Engine oil and filter replacement](/services/oil-change) with the correct oil type and viscosity for your vehicle and climate
 - Engine air filter inspection and replacement as needed — critical for fuel economy and intake health
 - Cabin air filter check — often overlooked, directly affects HVAC airflow and air quality inside the car
-- [Full fluid inspection](/fluid-services): coolant, brake fluid, power steering fluid, transmission fluid, and windshield washer fluid
+- [Full fluid inspection](/services/fluid-services): coolant, brake fluid, power steering fluid, transmission fluid, and windshield washer fluid
 - Multi-point belt and hose inspection — serpentine belt condition, tension, and coolant hose integrity
 - Brake pad thickness and rotor surface condition check
 - Tire pressure adjustment to manufacturer spec and tread depth measurement
@@ -47,7 +59,7 @@ Brake fluid is hygroscopic — it absorbs moisture from the air over time. As wa
 ## How We Diagnose It
 
 ### Inspect
-We start with a [visual walk-around and under-hood inspection](/vehicle-inspection) — fluid levels and condition, belt surface and tension, hose firmness and integrity, brake hardware visibility, tire wear patterns, and battery terminals. Most deferred maintenance surfaces here. This takes roughly 15 minutes and gives us a ranked list of what's actually due versus what can wait.
+We start with a [visual walk-around and under-hood inspection](/services/vehicle-inspection) — fluid levels and condition, belt surface and tension, hose firmness and integrity, brake hardware visibility, tire wear patterns, and battery terminals. Most deferred maintenance surfaces here. This takes roughly 15 minutes and gives us a ranked list of what's actually due versus what can wait.
 
 ### Test
 The battery gets a load test to measure cold cranking amps under simulated demand — a battery can read 12.6V at rest and still fail when the starter engages on a cold January morning in Missoula. Brake pad thickness is measured with calipers against minimum spec. Tire pressure is checked with a calibrated gauge and adjusted to the door placard value for your specific vehicle and load.
@@ -69,7 +81,7 @@ A: We'll show you what we found and explain the reasoning behind any recommendat
 A: Most maintenance items don't produce noticeable symptoms until they're significantly overdue. Old oil still pours. A serpentine belt that's 90% through its life looks normal at a glance. Brake fluid with elevated water content feels the same as fresh fluid — until it doesn't. The whole point of routine maintenance is to catch wear before it causes a problem, not after it already has.
 
 **Q: How long does a general maintenance visit take?**
-A: A standard [oil change](/oil-change) with a full multi-point inspection runs 45–60 minutes. If we find items that need additional service — a fluid flush, filter replacements, belt replacement — we'll give you a revised time estimate before we proceed. We don't start work you haven't approved.
+A: A standard [oil change](/services/oil-change) with a full multi-point inspection runs 45–60 minutes. If we find items that need additional service — a fluid flush, filter replacements, belt replacement — we'll give you a revised time estimate before we proceed. We don't start work you haven't approved.
 
 **Q: What if I don't know the last time my car was serviced?**
 A: That's common, especially with a recently purchased used vehicle. We can pull up any prior service records if the VIN has history in our system. Beyond that, we'll assess fluid condition and component wear visually and give you our honest read on where things stand. From there, we establish a baseline and you'll know exactly what's been done going forward.
@@ -80,9 +92,9 @@ After-hours drop-off is available. **We'll confirm receipt the next business day
 
 ## Related Services
 
-- [Oil Change](/oil-change)
-- [Vehicle Inspection](/vehicle-inspection)
-- [Fluid Services](/fluid-services)
+- [Oil Change](/services/oil-change)
+- [Vehicle Inspection](/services/vehicle-inspection)
+- [Fluid Services](/services/fluid-services)
 
 ---
 

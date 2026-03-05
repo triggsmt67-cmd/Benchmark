@@ -2,12 +2,14 @@
 
 import * as React from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { MapPin, Phone, Menu, X } from "lucide-react";
 import { siteConfig } from "@/lib/siteConfig";
 
 export function Header() {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
+    const pathname = usePathname();
 
     const toggleMobileMenu = () => setIsMobileMenuOpen(!isMobileMenuOpen);
     const closeMobileMenu = () => setIsMobileMenuOpen(false);
@@ -40,10 +42,10 @@ export function Header() {
 
                 {/* Desktop Nav */}
                 <nav className="hidden md:flex items-center gap-8 text-sm font-medium">
-                    <Link href="/" className="text-text-secondary hover:text-brand-red transition-colors">
+                    <Link href="/" className={`transition-colors ${pathname === "/" ? "text-brand-red" : "text-text-secondary hover:text-brand-red"}`}>
                         Home
                     </Link>
-                    <Link href="/services" className="text-text-secondary hover:text-brand-red transition-colors">
+                    <Link href="/services" className={`transition-colors ${(pathname === "/services" || pathname.startsWith("/services/")) ? "text-brand-red" : "text-text-secondary hover:text-brand-red"}`}>
                         Services
                     </Link>
                     <Link href="/#about" className="text-text-secondary hover:text-brand-red transition-colors">
@@ -52,7 +54,7 @@ export function Header() {
                     <Link href="/#testimonials" className="text-text-secondary hover:text-brand-red transition-colors">
                         Reviews
                     </Link>
-                    <Link href="/contact" className="text-text-secondary hover:text-brand-red transition-colors">
+                    <Link href="/contact" className={`transition-colors ${pathname === "/contact" ? "text-brand-red" : "text-text-secondary hover:text-brand-red"}`}>
                         Contact
                     </Link>
                 </nav>
@@ -77,10 +79,10 @@ export function Header() {
             {isMobileMenuOpen && (
                 <div className="md:hidden absolute top-full left-0 right-0 h-screen bg-white border-b border-border shadow-lg overflow-y-auto pb-32">
                     <nav className="flex flex-col py-6 px-6 gap-2 font-medium text-lg">
-                        <Link href="/" className="py-4 border-b border-muted/30 text-navy-950 hover:text-brand-red transition-colors" onClick={closeMobileMenu}>
+                        <Link href="/" className={`py-4 border-b border-muted/30 transition-colors ${pathname === "/" ? "text-brand-red font-semibold" : "text-navy-950 hover:text-brand-red"}`} onClick={closeMobileMenu}>
                             Home
                         </Link>
-                        <Link href="/services" className="py-4 border-b border-muted/30 text-navy-950 hover:text-brand-red transition-colors" onClick={closeMobileMenu}>
+                        <Link href="/services" className={`py-4 border-b border-muted/30 transition-colors ${(pathname === "/services" || pathname.startsWith("/services/")) ? "text-brand-red font-semibold" : "text-navy-950 hover:text-brand-red"}`} onClick={closeMobileMenu}>
                             Services
                         </Link>
                         <Link href="/#about" className="py-4 border-b border-muted/30 text-navy-950 hover:text-brand-red transition-colors" onClick={closeMobileMenu}>
@@ -89,7 +91,7 @@ export function Header() {
                         <Link href="/#testimonials" className="py-4 border-b border-muted/30 text-navy-950 hover:text-brand-red transition-colors" onClick={closeMobileMenu}>
                             Reviews
                         </Link>
-                        <Link href="/contact" className="py-4 mb-4 text-navy-950 hover:text-brand-red transition-colors" onClick={closeMobileMenu}>
+                        <Link href="/contact" className={`py-4 mb-4 transition-colors ${pathname === "/contact" ? "text-brand-red font-semibold" : "text-navy-950 hover:text-brand-red"}`} onClick={closeMobileMenu}>
                             Contact
                         </Link>
                         <Button asChild className="w-full bg-brand-red hover:bg-brand-red-hover text-white rounded-md py-6 text-lg" onClick={closeMobileMenu}>

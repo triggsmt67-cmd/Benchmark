@@ -35,6 +35,11 @@ export async function getAllServiceSlugs(): Promise<string[]> {
     }
 }
 
+export async function isValidServiceSlug(slug: string): Promise<boolean> {
+    const slugs = await getAllServiceSlugs();
+    return slugs.includes(slug);
+}
+
 export async function getAllServiceData(): Promise<(ServiceData & { slug: string })[]> {
     const slugs = await getAllServiceSlugs();
     const services = await Promise.all(
