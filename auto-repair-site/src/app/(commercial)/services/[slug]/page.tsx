@@ -120,6 +120,21 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
         }
     ];
 
+    if (data.faqs && data.faqs.length > 0) {
+        schema.push({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": data.faqs.map((faq) => ({
+                "@type": "Question",
+                "name": faq.question,
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": faq.answer
+                }
+            }))
+        } as any);
+    }
+
     return (
         <article className="flex flex-col min-h-[100dvh]">
             <script
@@ -163,6 +178,21 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
                                 [&>a]:text-copper [&>a]:font-medium hover:[&>a]:underline">
                             <ReactMarkdown>{md}</ReactMarkdown>
                         </div>
+
+                        {/* Dynamic FAQ Block */}
+                        {data.faqs && data.faqs.length > 0 && (
+                            <div className="mt-16 pt-16 border-t border-border">
+                                <h2 className="font-heading text-3xl font-bold text-navy-950 mb-8">Frequently Asked Questions</h2>
+                                <div className="space-y-6">
+                                    {data.faqs.map((faq, index) => (
+                                        <div key={index} className="bg-bg p-6 rounded-sm border border-border">
+                                            <h3 className="font-heading text-xl font-bold text-navy-950 mb-3">{faq.question}</h3>
+                                            <p className="text-text-secondary leading-relaxed">{faq.answer}</p>
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
+                        )}
                     </div>
                 </div>
             </section>

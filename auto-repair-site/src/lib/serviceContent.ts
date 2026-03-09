@@ -9,6 +9,7 @@ export interface ServiceData {
     featured: boolean;
     order: number;
     related?: string[];
+    faqs?: { question: string; answer: string }[];
     [key: string]: unknown;
 }
 
