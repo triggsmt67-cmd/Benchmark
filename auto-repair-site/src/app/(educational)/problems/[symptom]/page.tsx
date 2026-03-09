@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: { params: Promise<{ symptom: 
     return {
         title: problem.seo.title,
         description: problem.seo.description,
-        alternates: { canonical: `https://www.premiumauto.local/problems/${problem.slug}` }
+        alternates: { canonical: `/problems/${problem.slug}` }
     };
 }
 

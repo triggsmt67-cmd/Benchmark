@@ -6,7 +6,7 @@ import Link from "next/link";
 import { Phone, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-    title: "Services in Missoula, MT | Benchmark Automotive Service",
+    title: "Services in Missoula, MT",
     description: "Explore diagnostic, repair, and common vehicle problem pages. Clear answers and confirmed repairs in Missoula.",
 };
 

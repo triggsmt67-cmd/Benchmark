@@ -17,15 +17,19 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: siteConfig.businessName,
+  metadataBase: new URL("https://benchmarkautomotive.com"),
+  title: {
+    default: siteConfig.businessName,
+    template: `%s | ${siteConfig.businessName}`,
+  },
   description: "A trusted local shop delivering precise diagnostics, honest recommendations, and repairs built to last.",
   alternates: {
-    canonical: "https://www.premiumauto.local",
+    canonical: "/",
   },
   openGraph: {
     title: siteConfig.businessName,
     description: "Auto Repair Done Right — The First Time.",
-    url: "https://www.premiumauto.local",
+    url: "/",
     siteName: siteConfig.businessName,
     locale: "en_US",
     type: "website",

@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     const { title, description } = result.data;
 
     return {
-        title: `${title} in Missoula, MT | Benchmark Automotive Service`,
+        title: `${title} in Missoula, MT`,
         description: description || `Professional ${title.toLowerCase()} in Missoula. Accurate testing, honest recommendations, and confirmed repairs.`,
     };
 }
@@ -73,6 +73,8 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
         {
             "@context": "https://schema.org",
             "@type": "Service",
+            name: serviceName,
+            description: data.description || `Professional ${serviceName.toLowerCase()}`,
             serviceType: serviceName,
             areaServed: {
                 "@type": "City",
@@ -115,11 +117,6 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
                     "item": `${baseUrl}/services/${slug}`
                 }
             ]
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            mainEntity: []
         }
     ];
 

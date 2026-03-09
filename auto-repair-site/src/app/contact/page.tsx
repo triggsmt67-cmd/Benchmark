@@ -5,7 +5,7 @@ import { Reveal } from "@/components/motion/Reveal";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-    title: `Contact | ${siteConfig.businessName}`,
+    title: "Contact",
     description: "Schedule your automotive service or diagnostic appointment with Benchmark Automotive in Missoula.",
 };
 

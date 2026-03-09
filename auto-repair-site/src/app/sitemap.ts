@@ -1,13 +1,30 @@
 import { MetadataRoute } from 'next';
-import { generateSitemapUrls } from '@/lib/linking';
+import { getAllServiceSlugs } from '@/lib/serviceContent';
 
-export default function sitemap(): MetadataRoute.Sitemap {
-    const urls = generateSitemapUrls();
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+    const baseUrl = "https://benchmarkautomotive.com";
 
-    return urls.map((url) => ({
-        url,
+    // Core routes
+    const routes = [
+        '',
+        '/services',
+        '/about',
+        '/contact'
+    ].map((route) => ({
+        url: `${baseUrl}${route}`,
         lastModified: new Date(),
-        changeFrequency: 'weekly',
-        priority: url === 'https://www.premiumauto.local/' ? 1 : 0.8,
+        changeFrequency: 'weekly' as const,
+        priority: route === '' ? 1 : 0.8,
     }));
+
+    // Dynamic service routes
+    const serviceSlugs = await getAllServiceSlugs();
+    const serviceRoutes = serviceSlugs.map((slug) => ({
+        url: `${baseUrl}/services/${slug}`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly' as const,
+        priority: 0.9,
+    }));
+
+    return [...routes, ...serviceRoutes];
 }
