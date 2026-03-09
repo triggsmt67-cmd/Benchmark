@@ -1,12 +1,13 @@
 ---
 title: "Engine Overheating"
-description: "Diagnosing leaks, thermostats, water pumps, and cooling fans."
-categories: ["Vehicle Problems","All"]
-section: "Common Vehicle Problems"
-isMostRequested: false
-isComingSoon: true
-icon: "AlertTriangle"
-order: 9
+description: "Professional Engine Overheating diagnosis and repair in Missoula, MT."
+category: "Diagnostics"
+featured: false
+order: 10
+related:
+  - coolant-flush
+  - serpentine-belt
+  - advanced-diagnostics
 ---
 
 # Engine Overheating

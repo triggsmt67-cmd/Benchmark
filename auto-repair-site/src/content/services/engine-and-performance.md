@@ -76,11 +76,3 @@ A: Yes. A single fouled or worn plug can cause rough idle, reduced power, poor f
 A: Most diagnostic appointments take 1–2 hours depending on how quickly symptoms can be reproduced and which tests are needed. If a drive cycle is required to trigger the fault, it may take longer. We'll give you a realistic timeframe after the initial scan.
 
 After-hours drop-off is available. **We'll confirm receipt the next business day.**
-
----
-
-## Related Services
-
-- [Check Engine Light](/services/check-engine-light)
-- [Fuel System Service](/services/fuel-system-service)
-- [Ignition Service](/services/ignition-service)

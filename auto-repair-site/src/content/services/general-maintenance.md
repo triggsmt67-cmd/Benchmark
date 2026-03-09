@@ -87,17 +87,3 @@ A: A standard [oil change](/services/oil-change) with a full multi-point inspect
 A: That's common, especially with a recently purchased used vehicle. We can pull up any prior service records if the VIN has history in our system. Beyond that, we'll assess fluid condition and component wear visually and give you our honest read on where things stand. From there, we establish a baseline and you'll know exactly what's been done going forward.
 
 After-hours drop-off is available. **We'll confirm receipt the next business day.**
-
----
-
-## Related Services
-
-- [Oil Change](/services/oil-change)
-- [Vehicle Inspection](/services/vehicle-inspection)
-- [Fluid Services](/services/fluid-services)
-
----
-
-## Schedule Service
-
-Call (406) 317-1405 or [request service](#) and we'll follow up with next steps.

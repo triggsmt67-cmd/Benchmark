@@ -5,6 +5,8 @@ import ReactMarkdown from "react-markdown";
 import { Reveal } from "@/components/motion/Reveal";
 import { FinalCtaBand } from "@/components/widgets/final-cta-band";
 import { ServiceCTABand } from "@/components/widgets/service-cta-band";
+import { Breadcrumbs } from "@/components/widgets/breadcrumbs";
+import { RelatedServices } from "@/components/widgets/related-services";
 
 // 1. Generate Static Params for build time
 export async function generateStaticParams() {
@@ -49,13 +51,15 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
         .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
         .join(" ");
 
+    const baseUrl = "https://benchmarkautomotive.com";
+
     const schema = [
         {
             "@context": "https://schema.org",
             "@type": "AutoRepair",
             name: "Benchmark Automotive Service",
             image: "/logo.png",
-            url: `https://benchmarkautomotive.com/services/${slug}`,
+            url: `${baseUrl}/services/${slug}`,
             telephone: "+1-406-317-1405",
             address: {
                 "@type": "PostalAddress",
@@ -90,6 +94,30 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
         },
         {
             "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": `${baseUrl}/`
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Services",
+                    "item": `${baseUrl}/services`
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": serviceName,
+                    "item": `${baseUrl}/services/${slug}`
+                }
+            ]
+        },
+        {
+            "@context": "https://schema.org",
             "@type": "FAQPage",
             mainEntity: []
         }
@@ -113,6 +141,15 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
                 </div>
             </section>
 
+            {/* Breadcrumb Navigation */}
+            <Breadcrumbs
+                items={[
+                    { label: "Home", href: "/" },
+                    { label: "Services", href: "/services" },
+                    { label: serviceName }
+                ]}
+            />
+
             {/* Markdown Content Section */}
             <section className="py-20 md:py-28 bg-surface">
                 <div className="container mx-auto px-4 md:px-6">
@@ -132,6 +169,9 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
                     </div>
                 </div>
             </section>
+
+            {/* Related Services block */}
+            <RelatedServices slugs={data.related || []} />
 
             <ServiceCTABand />
 

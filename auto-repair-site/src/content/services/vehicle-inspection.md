@@ -70,11 +70,3 @@ Yes. Knowing the condition beforehand can make selling a vehicle easier.
 
 ### Can I drop the vehicle off after hours?
 Yes. After-hours drop-off is available. We'll confirm receipt the next business day.
-
----
-
-## Schedule a Vehicle Inspection
-
-If you want to understand the condition of your vehicle, an inspection is the best place to start.
-
-Call (406) 317-1405 or request service and we’ll follow up with next steps.

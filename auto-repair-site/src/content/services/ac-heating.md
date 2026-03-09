@@ -80,13 +80,4 @@ Sometimes low refrigerant points to a leak. We prefer to diagnose the cause so t
 ### Why does my heat work sometimes but not others?
 It may be a cooling system issue, airflow/blend door problem, or control fault. Testing confirms which.
 
-### Can I drop the vehicle off after hours?
-Yes. After-hours drop-off is available. **We’ll confirm receipt the next business day.**
-
----
-
-## Schedule Service
-
-If your A/C or heat isn’t working right, we can diagnose the system and confirm what it needs.
-
-Call (406) 317-1405 or request service and we’ll follow up with next steps.
+After-hours drop-off is available. **We’ll confirm receipt the next business day.**

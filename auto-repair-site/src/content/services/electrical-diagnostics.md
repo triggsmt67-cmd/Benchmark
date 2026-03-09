@@ -1,3 +1,15 @@
+---
+title: "Electrical Diagnostics"
+description: "Professional Electrical Diagnostics in Missoula, MT."
+category: "Diagnostics"
+featured: false
+order: 10
+related:
+  - check-engine-light
+  - battery-charging-service
+  - vehicle-inspection
+---
+
 # Electrical Diagnostics in Missoula, MT
 
 Modern vehicles run dozens of control modules — the engine computer (ECM/PCM), body control module (BCM), ABS module, airbag system, and more — all communicating over shared data networks. When something goes wrong electrically, pinning down the cause requires more than a code reader. At Benchmark, we work through vehicle electrical problems the same way every time: methodically, with the right equipment, and without guessing.
@@ -59,17 +71,3 @@ A: Depends on which light. An ABS or airbag warning means that specific safety s
 A: The diagnostic work is the service. It's what tells us whether the alternator is bad, whether the fault is in the wiring, or whether the module itself has failed. Without it, you're replacing parts based on guesses — which usually costs more in the end.
 
 After-hours drop-off is available. **We'll confirm receipt the next business day.**
-
----
-
-## Related Services
-
-- [Check Engine Light](/check-engine-light)
-- [Battery & Charging Service](/battery-charging-service)
-- [Vehicle Inspection](/vehicle-inspection)
-
----
-
-## Schedule Service
-
-Call (406) 317-1405 or [request service](#) and we'll follow up with next steps.

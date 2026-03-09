@@ -92,9 +92,3 @@ This approach often saves time, reduces unnecessary expenses, and ensures repair
 Benchmark Automotive Service proudly serves drivers throughout Missoula and surrounding communities who want clear answers when their vehicle develops a problem.
 
 Whether your vehicle has a persistent warning light, electrical issue, or performance concern, professional diagnostic testing can help identify the cause and determine the correct repair.
-
-## Schedule Diagnostic Testing
-
-If your vehicle is showing warning lights, experiencing electrical problems, or behaving differently than normal, advanced diagnostic testing can help determine the cause.
-
-Contact Benchmark Automotive Service to schedule a diagnostic appointment and get clear answers about what your vehicle needs.

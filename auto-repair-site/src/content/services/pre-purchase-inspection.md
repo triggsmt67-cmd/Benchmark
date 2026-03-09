@@ -72,11 +72,3 @@ We provide a professional assessment of condition and potential repairs so you c
 
 ### Can I drop the vehicle off after hours?
 Yes. After-hours drop-off is available. We’ll confirm receipt the next business day.
-
----
-
-## Schedule a Pre-Purchase Inspection
-
-If you’re considering buying a used vehicle, the best time to identify problems is before the purchase.
-
-Call (406) 317-1405 or request service to schedule an inspection.
