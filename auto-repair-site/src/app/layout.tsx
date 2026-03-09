@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import { Header } from "@/components/widgets/header";
 import { Footer } from "@/components/widgets/footer";
-import { generateLocalBusinessSchema } from "@/lib/seo";
+import { generateLocalBusinessSchema, generateWebSiteSchema } from "@/lib/seo";
 import { siteConfig } from "@/lib/siteConfig";
 import "./globals.css";
 
@@ -17,7 +17,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://benchmarkautomotive.com"),
+  metadataBase: new URL("https://benchmarkmissoula.com"),
   title: {
     default: siteConfig.businessName,
     template: `%s | ${siteConfig.businessName}`,
@@ -41,7 +41,10 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const schema = generateLocalBusinessSchema();
+  const schema = [
+    generateWebSiteSchema(),
+    generateLocalBusinessSchema()
+  ];
 
   return (
     <html lang="en" className="scroll-smooth" suppressHydrationWarning>

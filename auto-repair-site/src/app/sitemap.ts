@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { getAllServiceSlugs } from '@/lib/serviceContent';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-    const baseUrl = "https://benchmarkautomotive.com";
+    const baseUrl = "https://benchmarkmissoula.com";
 
     // Core routes
     const routes = [

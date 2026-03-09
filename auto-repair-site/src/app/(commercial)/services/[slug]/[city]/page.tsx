@@ -36,7 +36,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
         title: `${service.name} in ${location.city}, ${location.state} | ${siteConfig.businessName}`,
         description: `Leading ${service.name.toLowerCase()} for drivers in ${location.city}. ${service.seo.description}`,
         alternates: {
-            canonical: `https://www.premiumauto.local/services/${service.slug}/${location.slug}`
+            canonical: `/services/${service.slug}/${location.slug}`
         }
     };
 }

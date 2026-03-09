@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: { params: Promise<{ topic: st
     return {
         title: guide.seo.title,
         description: guide.seo.description,
-        alternates: { canonical: `https://www.premiumauto.local/guides/${guide.slug}` }
+        alternates: { canonical: `/guides/${guide.slug}` }
     };
 }
 

@@ -51,25 +51,9 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
         .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
         .join(" ");
 
-    const baseUrl = "https://benchmarkautomotive.com";
+    const baseUrl = "https://benchmarkmissoula.com";
 
     const schema = [
-        {
-            "@context": "https://schema.org",
-            "@type": "AutoRepair",
-            name: "Benchmark Automotive Service",
-            image: "/logo.png",
-            url: `${baseUrl}/services/${slug}`,
-            telephone: "+1-406-317-1405",
-            address: {
-                "@type": "PostalAddress",
-                streetAddress: "1914 North Ave W",
-                addressLocality: "Missoula",
-                addressRegion: "MT",
-                postalCode: "59801",
-                addressCountry: "US"
-            }
-        },
         {
             "@context": "https://schema.org",
             "@type": "Service",
@@ -82,16 +66,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
             },
             provider: {
                 "@type": "AutoRepair",
-                name: "Benchmark Automotive Service",
-                telephone: "+1-406-317-1405",
-                address: {
-                    "@type": "PostalAddress",
-                    streetAddress: "1914 North Ave W",
-                    addressLocality: "Missoula",
-                    addressRegion: "MT",
-                    postalCode: "59801",
-                    addressCountry: "US"
-                }
+                "@id": "https://benchmarkmissoula.com/#business"
             }
         },
         {
