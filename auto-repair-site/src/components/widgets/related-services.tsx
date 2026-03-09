@@ -39,7 +39,12 @@ export async function RelatedServices({ slugs }: RelatedServicesProps) {
                     </div>
                 </Reveal>
 
-                <Stagger className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+                <Stagger
+                    className={`grid gap-6 md:gap-8 ${services.length === 1 ? 'grid-cols-1 max-w-md mx-auto' :
+                            services.length === 2 ? 'grid-cols-1 md:grid-cols-2 max-w-4xl mx-auto' :
+                                'grid-cols-1 md:grid-cols-2 lg:grid-cols-3'
+                        }`}
+                >
                     {services.map((service, index) => (
                         <StaggerItem key={index} className="h-full">
                             <Link href={`/services/${service.slug}`} className="block h-full group">

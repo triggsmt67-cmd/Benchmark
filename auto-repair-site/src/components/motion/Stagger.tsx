@@ -36,7 +36,7 @@ export function Stagger({
             variants={containerVariants}
             initial="hidden"
             whileInView="visible"
-            viewport={{ once: motionTokens.viewport.once, amount: motionTokens.viewport.amount }}
+            viewport={{ once: motionTokens.viewport.once, amount: motionTokens.viewport.amount, margin: motionTokens.viewport.margin }}
         >
             {children}
         </motion.div>

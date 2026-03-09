@@ -138,7 +138,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
             />
 
             {/* Markdown Content Section */}
-            <section className="py-20 md:py-28 bg-surface">
+            <section className="py-12 md:py-28 bg-surface">
                 <div className="container mx-auto px-4 md:px-6">
                     <div className="max-w-3xl mx-auto">
                         <div className="max-w-none text-text-secondary text-[17px] md:text-lg

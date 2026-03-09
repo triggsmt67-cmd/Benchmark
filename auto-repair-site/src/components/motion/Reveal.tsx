@@ -30,7 +30,7 @@ export function Reveal({
         <motion.div
             initial={{ opacity: 0, y: yOffset, x: xOffset }}
             whileInView={{ opacity: 1, y: 0, x: 0 }}
-            viewport={{ once: motionTokens.viewport.once, amount: motionTokens.viewport.amount }}
+            viewport={{ once: motionTokens.viewport.once, amount: motionTokens.viewport.amount, margin: motionTokens.viewport.margin }}
             transition={{
                 duration: motionTokens.duration.base,
                 ease: motionTokens.ease.out,

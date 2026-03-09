@@ -17,6 +17,7 @@ export const motionTokens = {
     },
     viewport: {
         once: true,
-        amount: "some" as const,
+        amount: 0.1 as const,
+        margin: "0px 0px 50px 0px",
     },
 } as const;
