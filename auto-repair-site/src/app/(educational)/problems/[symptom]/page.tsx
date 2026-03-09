@@ -1,4 +1,4 @@
-import { getProblemBySlug, getServiceById, PROBLEMS, ServiceContent } from "@/lib/linking";
+import { getProblemBySlug, getServiceById, PROBLEMS } from "@/lib/linking";
 import { notFound } from "next/navigation";
 import { Metadata } from "next";
 import Link from "next/link";

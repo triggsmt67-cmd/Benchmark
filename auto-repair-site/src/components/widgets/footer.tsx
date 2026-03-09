@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { MapPin, Phone, Clock, Mail } from "lucide-react";
+import { MapPin, Phone, Mail } from "lucide-react";
 import { siteConfig } from "@/lib/siteConfig";
 import { Reveal } from "@/components/motion/Reveal";
 

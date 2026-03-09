@@ -18,10 +18,10 @@ Routine maintenance is the most reliable way to prevent expensive repairs — an
 
 ## What This Service Covers
 
-- [Engine oil and filter replacement](/services/oil-change) with the correct oil type and viscosity for your vehicle and climate
+- Engine oil and filter replacement with the correct oil type and viscosity for your vehicle and climate
 - Engine air filter inspection and replacement as needed — critical for fuel economy and intake health
 - Cabin air filter check — often overlooked, directly affects HVAC airflow and air quality inside the car
-- [Full fluid inspection](/services/fluid-services): coolant, brake fluid, power steering fluid, transmission fluid, and windshield washer fluid
+- Full fluid inspection: coolant, brake fluid, power steering fluid, transmission fluid, and windshield washer fluid
 - Multi-point belt and hose inspection — serpentine belt condition, tension, and coolant hose integrity
 - Brake pad thickness and rotor surface condition check
 - Tire pressure adjustment to manufacturer spec and tread depth measurement
@@ -81,7 +81,7 @@ A: We'll show you what we found and explain the reasoning behind any recommendat
 A: Most maintenance items don't produce noticeable symptoms until they're significantly overdue. Old oil still pours. A serpentine belt that's 90% through its life looks normal at a glance. Brake fluid with elevated water content feels the same as fresh fluid — until it doesn't. The whole point of routine maintenance is to catch wear before it causes a problem, not after it already has.
 
 **Q: How long does a general maintenance visit take?**
-A: A standard [oil change](/services/oil-change) with a full multi-point inspection runs 45–60 minutes. If we find items that need additional service — a fluid flush, filter replacements, belt replacement — we'll give you a revised time estimate before we proceed. We don't start work you haven't approved.
+A: A standard oil change with a full multi-point inspection runs 45–60 minutes. If we find items that need additional service — a fluid flush, filter replacements, belt replacement — we'll give you a revised time estimate before we proceed. We don't start work you haven't approved.
 
 **Q: What if I don't know the last time my car was serviced?**
 A: That's common, especially with a recently purchased used vehicle. We can pull up any prior service records if the VIN has history in our system. Beyond that, we'll assess fluid condition and component wear visually and give you our honest read on where things stand. From there, we establish a baseline and you'll know exactly what's been done going forward.

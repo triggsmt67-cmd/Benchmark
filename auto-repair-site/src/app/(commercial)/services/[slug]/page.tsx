@@ -2,7 +2,6 @@ import { notFound } from "next/navigation";
 import { Metadata } from "next";
 import { getServiceMarkdown, getAllServiceSlugs } from "@/lib/serviceContent";
 import ReactMarkdown from "react-markdown";
-import { Reveal } from "@/components/motion/Reveal";
 import { FinalCtaBand } from "@/components/widgets/final-cta-band";
 import { ServiceCTABand } from "@/components/widgets/service-cta-band";
 import { Breadcrumbs } from "@/components/widgets/breadcrumbs";
@@ -93,7 +92,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
                 }
             ]
         }
-    ];
+    ] as Record<string, unknown>[];
 
     if (data.faqs && data.faqs.length > 0) {
         schema.push({
@@ -107,7 +106,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
                     "text": faq.answer
                 }
             }))
-        } as any);
+        } as Record<string, unknown>);
     }
 
     return (

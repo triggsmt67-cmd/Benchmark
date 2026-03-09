@@ -1,7 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Wrench, Disc2, Zap, Cog, Activity, ArrowDownToLine } from "lucide-react";
 import { PrecisionDivider } from "@/components/widgets/precision-divider";
-import { CornerNotch } from "@/components/widgets/corner-notch";
 import { Reveal } from "@/components/motion/Reveal";
 import { Stagger, StaggerItem } from "@/components/motion/Stagger";
 import Link from "next/link";

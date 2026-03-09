@@ -8,7 +8,6 @@ interface PrecisionDividerProps extends React.HTMLAttributes<HTMLDivElement> {
 export function PrecisionDivider({
     className = "",
     width = "w-20",
-    ...props
 }: PrecisionDividerProps) {
     return (
         <LineDraw className={className} width={width} />
