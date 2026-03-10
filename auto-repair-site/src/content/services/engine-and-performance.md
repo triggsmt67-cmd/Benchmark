@@ -6,8 +6,7 @@ featured: false
 order: 10
 related:
   - check-engine-light
-  - fuel-system-service
-  - ignition-service
+  - advanced-diagnostics
 ---
 
 # Engine and Performance in Missoula, MT

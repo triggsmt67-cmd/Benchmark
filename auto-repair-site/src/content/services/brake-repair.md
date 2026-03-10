@@ -5,9 +5,8 @@ category: "Brakes"
 featured: false
 order: 10
 related:
-  - brake-pad-replacement
-  - brake-fluid-service
   - vehicle-inspection
+  - undercarriage-and-suspension
 ---
 
 # Brake Repair in Missoula, MT

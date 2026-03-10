@@ -6,7 +6,7 @@ featured: false
 order: 10
 related:
   - check-engine-light
-  - battery-charging-service
+  - battery-drain
   - vehicle-inspection
 ---
 
@@ -28,7 +28,7 @@ Modern vehicles run dozens of control modules — the engine computer (ECM/PCM),
 ## Common Symptoms
 
 - Battery goes dead overnight or after sitting for a few days
-- Warning lights on for ABS, airbag/SRS, stability control, or check engine
+- Warning lights on for ABS, airbag/SRS, stability control, or [check engine](/services/check-engine-light)
 - Accessories behaving intermittently — windows, locks, lights, infotainment
 - Vehicle won't crank or start with no obvious reason
 - Fuses that blow repeatedly without explanation
@@ -39,7 +39,7 @@ Modern vehicles run dozens of control modules — the engine computer (ECM/PCM),
 
 Most electrical complaints trace back to one of three things: a component drawing power it shouldn't, a module that's lost communication with the rest of the network, or a wiring fault interrupting a circuit.
 
-Parasitic draw — battery drain while the vehicle is off — is one of the more common complaints we see. A normal vehicle pulls 20–50 milliamps in key-off sleep mode to maintain memory in modules like the ECM and BCM. Above 50mA, something isn't sleeping correctly. The most frequent culprits are a stuck relay, a body control module that won't enter sleep mode, a failed alternator diode in the rectifier assembly (which allows current to flow backward from the battery into the alternator when the engine is off), or an aftermarket accessory wired without a proper switched power source.
+[Parasitic draw](/services/battery-drain) — battery drain while the vehicle is off — is one of the more common complaints we see. A normal vehicle pulls 20–50 milliamps in key-off sleep mode to maintain memory in modules like the ECM and BCM. Above 50mA, something isn't sleeping correctly. The most frequent culprits are a stuck relay, a body control module that won't enter sleep mode, a failed alternator diode in the rectifier assembly (which allows current to flow backward from the battery into the alternator when the engine is off), or an aftermarket accessory wired without a proper switched power source.
 
 Communication faults show up when a control module loses power or ground, or when the CAN bus network connecting those modules develops an open or short. A U0100 code — lost communication with the ECM — often traces back not to a failed computer but to a voltage drop in the module's power supply circuit severe enough to prevent proper operation. The same applies to ABS and airbag modules: the fault code points to where to start looking, not what to replace.
 

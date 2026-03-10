@@ -5,9 +5,8 @@ category: "Diagnostics"
 featured: false
 order: 10
 related:
-  - coolant-flush
-  - serpentine-belt
   - advanced-diagnostics
+  - general-maintenance
 ---
 
 # Engine Overheating

@@ -5,9 +5,8 @@ category: "Maintenance"
 featured: false
 order: 10
 related:
-  - wheel-alignment
   - brake-repair
-  - tire-rotation
+  - vehicle-inspection
 ---
 
 # Undercarriage and Suspension in Missoula, MT

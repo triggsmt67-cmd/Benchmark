@@ -5,9 +5,8 @@ category: "Maintenance"
 featured: false
 order: 10
 related:
-  - oil-change
   - vehicle-inspection
-  - fluid-services
+  - brake-repair
 ---
 
 # General Maintenance in Missoula, MT

@@ -32,9 +32,9 @@ Drivers often come to us when their vehicle shows symptoms that cannot be identi
 
 Some of the most common diagnostic concerns include:
 
-- Check engine light illumination  
+- [Check engine light](/services/check-engine-light) illumination  
 - Electrical system failures  
-- Battery drain issues  
+- [Battery drain](/services/battery-drain) issues  
 - Starting or charging problems  
 - Intermittent warning lights  
 - Sensor communication faults  

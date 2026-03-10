@@ -14,7 +14,7 @@ related:
 
 When your climate system isn’t working, it’s more than comfort — it affects visibility, safety, and daily driveability. The right fix starts with diagnostics that confirm the cause, not guesswork.
 
-At Benchmark Automotive Service, we diagnose the system properly and recommend repairs based on confirmed findings.
+At Benchmark Automotive Service, we diagnose the system properly and recommend repairs based on confirmed [vehicle inspection](/services/vehicle-inspection) findings. 
 
 ---
 

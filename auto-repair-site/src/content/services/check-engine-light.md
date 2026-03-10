@@ -14,7 +14,7 @@ related:
 
 When your check engine light comes on, your vehicle is trying to tell you that a system isn’t functioning within normal parameters. While an auto parts store can read the code for free, a code alone does not tell you what part has failed. It only tells you what system the computer is complaining about.
 
-At Benchmark Automotive Service, we take a diagnostic-first approach. We don't guess at parts based on codes—we isolate the real cause and confirm the failure before starting any repair.
+At Benchmark Automotive Service, we take a [diagnostic-first approach](/services/advanced-diagnostics). We don't guess at parts based on codes—we isolate the real cause and confirm the failure before starting any repair.
 
 ---
 
