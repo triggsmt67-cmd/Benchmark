@@ -8,25 +8,16 @@ interface StaggerProps {
     children: ReactNode;
     className?: string;
     staggerDelay?: number;
+    instant?: boolean;
 }
 
 export function Stagger({
     children,
     className = "",
-    staggerDelay = motionTokens.stagger.md
+    staggerDelay = motionTokens.stagger.md,
+    instant = false,
 }: StaggerProps) {
     const shouldReduceMotion = useReducedMotion();
-    const [hasMounted, setHasMounted] = useState(false);
-
-    useEffect(() => {
-        const timer = setTimeout(() => setHasMounted(true), 50);
-        return () => clearTimeout(timer);
-    }, []);
-
-    // SSR, pre-hydration, or reduced motion: render fully visible immediately
-    if (!hasMounted || shouldReduceMotion) {
-        return <div className={className}>{children}</div>;
-    }
 
     const containerVariants = {
         hidden: {},
@@ -42,8 +33,9 @@ export function Stagger({
             className={className}
             variants={containerVariants}
             initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.05, margin: "0px 0px 100px 0px" }}
+            animate={instant ? "visible" : undefined}
+            whileInView={!instant ? "visible" : undefined}
+            viewport={!instant ? motionTokens.viewport : undefined}
         >
             {children}
         </motion.div>
@@ -57,17 +49,6 @@ interface StaggerItemProps {
 
 export function StaggerItem({ children, className = "" }: StaggerItemProps) {
     const shouldReduceMotion = useReducedMotion();
-    const [hasMounted, setHasMounted] = useState(false);
-
-    useEffect(() => {
-        const timer = setTimeout(() => setHasMounted(true), 50);
-        return () => clearTimeout(timer);
-    }, []);
-
-    // SSR, pre-hydration, or reduced motion: render fully visible immediately
-    if (!hasMounted || shouldReduceMotion) {
-        return <div className={className}>{children}</div>;
-    }
 
     const itemVariants = {
         hidden: { opacity: 0, y: motionTokens.distance.sm },

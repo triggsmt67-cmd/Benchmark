@@ -22,11 +22,13 @@ export default async function ServicesHubPage() {
     const services: ServiceItem[] = sortedData.map(data => {
         let cats = ["All"];
         if (Array.isArray(data.categories)) {
-            cats = data.categories;
+            cats = data.categories.map(c => (c === "Repair" ? "Repairs" : c));
         } else if (typeof data.category === "string") {
-            cats = [data.category, "All"];
+            const rawCat = data.category === "Repair" ? "Repairs" : data.category;
+            cats = [rawCat, "All"];
         } else if (typeof data.categories === "string") {
-            cats = [data.categories, "All"];
+            const rawCat = data.categories === "Repair" ? "Repairs" : data.categories;
+            cats = [rawCat, "All"];
         }
 
         return {

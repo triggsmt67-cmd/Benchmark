@@ -1,27 +1,16 @@
 "use client";
 
-import { motion, useReducedMotion } from "framer-motion";
-import { ReactNode, useEffect, useState } from "react";
+import { motion } from "framer-motion";
+import { ReactNode } from "react";
 import { motionTokens } from "@/lib/motion";
 
 interface HeroIntroProps {
     children: ReactNode;
     className?: string;
+    instant?: boolean;
 }
 
-export function HeroIntro({ children, className = "" }: HeroIntroProps) {
-    const shouldReduceMotion = useReducedMotion();
-    const [hasMounted, setHasMounted] = useState(false);
-
-    useEffect(() => {
-        const timer = setTimeout(() => setHasMounted(true), 50);
-        return () => clearTimeout(timer);
-    }, []);
-
-    // SSR, pre-hydration, or reduced motion: render fully visible immediately
-    if (!hasMounted || shouldReduceMotion) {
-        return <div className={className}>{children}</div>;
-    }
+export function HeroIntro({ children, className = "", instant = true }: HeroIntroProps) {
 
     const containerVariants = {
         hidden: {},
@@ -38,7 +27,9 @@ export function HeroIntro({ children, className = "" }: HeroIntroProps) {
             className={className}
             variants={containerVariants}
             initial="hidden"
-            animate="visible"
+            animate={instant ? "visible" : undefined}
+            whileInView={!instant ? "visible" : undefined}
+            viewport={!instant ? motionTokens.viewport : undefined}
         >
             {children}
         </motion.div>
@@ -46,18 +37,6 @@ export function HeroIntro({ children, className = "" }: HeroIntroProps) {
 }
 
 export function HeroIntroItem({ children, className = "" }: { children: ReactNode; className?: string }) {
-    const shouldReduceMotion = useReducedMotion();
-    const [hasMounted, setHasMounted] = useState(false);
-
-    useEffect(() => {
-        const timer = setTimeout(() => setHasMounted(true), 50);
-        return () => clearTimeout(timer);
-    }, []);
-
-    // SSR, pre-hydration, or reduced motion: render fully visible immediately
-    if (!hasMounted || shouldReduceMotion) {
-        return <div className={className}>{children}</div>;
-    }
 
     const itemVariants = {
         hidden: { opacity: 0, y: motionTokens.distance.sm },

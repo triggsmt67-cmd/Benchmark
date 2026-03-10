@@ -7,16 +7,16 @@ export function ModernVehiclesSection() {
     return (
         <section className="py-24 md:py-32 bg-surface">
             <div className="container mx-auto px-4 md:px-6">
-                <Reveal>
+                <Reveal instant>
                     <div className="mb-16 max-w-2xl">
                         <h2 className="font-heading text-3xl md:text-5xl font-bold text-navy-950 mb-6">
                             Built for Modern Vehicles
                         </h2>
-                        <PrecisionDivider />
+                        <PrecisionDivider instant />
                     </div>
                 </Reveal>
 
-                <Stagger className="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <Stagger instant className="grid grid-cols-1 md:grid-cols-3 gap-12">
                     {/* Block 1 */}
                     <StaggerItem className="h-full">
                         <div className="flex flex-col gap-4 h-full group">

@@ -11,7 +11,7 @@ import { DiagnosticConfidenceStrip } from "@/components/widgets/diagnostic-confi
 import { Search, ChevronRight, Activity, Wrench, AlertTriangle, ThermometerSnowflake, Phone, CarFront } from "lucide-react";
 import { cn } from "@/lib/utils";
 
-type Category = "All" | "Diagnostics" | "Repairs" | "Vehicle Problems" | "Comfort & Climate";
+type Category = "All" | "Diagnostics" | "Repairs" | "Maintenance" | "Vehicle Problems" | "Comfort & Climate";
 
 export interface ServiceItem {
     id: string;
@@ -19,13 +19,13 @@ export interface ServiceItem {
     description: string;
     slug: string;
     categories: Category[];
-    section: "Diagnostics" | "Repairs" | "Common Vehicle Problems" | "Comfort & Climate";
+    section: "Diagnostics" | "Repairs" | "Maintenance" | "Common Vehicle Problems" | "Comfort & Climate";
     isMostRequested: boolean;
     isComingSoon?: boolean;
     icon?: string;
 }
 
-const CATEGORIES: Category[] = ["All", "Diagnostics", "Repairs", "Vehicle Problems", "Comfort & Climate"];
+const CATEGORIES: Category[] = ["All", "Diagnostics", "Repairs", "Maintenance", "Vehicle Problems", "Comfort & Climate"];
 
 function ServiceCard({ service }: { service: ServiceItem }) {
     const isComingSoon = service.isComingSoon;
@@ -115,8 +115,10 @@ export function ServicesDirectory({ initialServices }: { initialServices: Servic
 
     const groupedServices = {
         "Diagnostics": filteredServices.filter(s => s.section === "Diagnostics"),
+        "Maintenance": filteredServices.filter(s => s.section === "Maintenance"),
         "Repairs": filteredServices.filter(s => s.section === "Repairs"),
         "Common Vehicle Problems": filteredServices.filter(s => s.section === "Common Vehicle Problems"),
+        "Comfort & Climate": filteredServices.filter(s => s.section === "Comfort & Climate"),
     };
 
     const mostRequested = initialServices.filter(s => s.isMostRequested);

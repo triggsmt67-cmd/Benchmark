@@ -54,16 +54,16 @@ export function ServicesSection() {
     return (
         <section id="services" className="bg-surface py-24 md:py-32">
             <div className="container mx-auto px-4 md:px-6">
-                <Reveal>
+                <Reveal instant>
                     <div className="mb-16 max-w-3xl text-left">
                         <h2 className="font-heading text-3xl md:text-5xl font-bold text-navy-950 mb-6 tracking-tight">
                             Comprehensive Automotive Service. No Guesswork.
                         </h2>
-                        <PrecisionDivider />
+                        <PrecisionDivider instant />
                     </div>
                 </Reveal>
 
-                <Stagger className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+                <Stagger instant className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
                     {services.map((service, index) => (
                         <StaggerItem key={index} className="h-full">
                             <Link href={`/services/${service.slug}`} className="block h-full">

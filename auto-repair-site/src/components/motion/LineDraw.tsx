@@ -8,23 +8,19 @@ interface LineDrawProps {
     className?: string;
     width?: string;
     delay?: number;
+    instant?: boolean;
 }
 
 export function LineDraw({
     className = "",
-    width = "w-20",
-    delay = 0.1
+    width = "w-16",
+    delay = 0,
+    instant = false,
 }: LineDrawProps) {
     const shouldReduceMotion = useReducedMotion();
-    const [hasMounted, setHasMounted] = useState(false);
-
-    useEffect(() => {
-        const timer = setTimeout(() => setHasMounted(true), 50);
-        return () => clearTimeout(timer);
-    }, []);
 
     // SSR, pre-hydration, or reduced motion: render fully visible immediately
-    if (!hasMounted || shouldReduceMotion) {
+    if (shouldReduceMotion) {
         return (
             <div className={`relative flex items-end h-[4px] ${className}`}>
                 <div className={`h-[2px] bg-copper ${width} mb-[1px]`} />
@@ -38,8 +34,9 @@ export function LineDraw({
             <motion.div
                 className={`h-[2px] bg-copper ${width} origin-left mb-[1px]`}
                 initial={{ scaleX: 0 }}
-                whileInView={{ scaleX: 1 }}
-                viewport={{ once: true, amount: 0.05 }}
+                animate={instant ? { scaleX: 1 } : undefined}
+                whileInView={!instant ? { scaleX: 1 } : undefined}
+                viewport={!instant ? { once: true, amount: 0.05 } : undefined}
                 transition={{
                     duration: motionTokens.duration.base,
                     ease: motionTokens.ease.out,
@@ -49,8 +46,9 @@ export function LineDraw({
             <motion.div
                 className="h-[4px] w-[2px] bg-copper/60 ml-[2px]"
                 initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                viewport={{ once: true }}
+                animate={instant ? { opacity: 1 } : undefined}
+                whileInView={!instant ? { opacity: 1 } : undefined}
+                viewport={!instant ? { once: true } : undefined}
                 transition={{
                     duration: motionTokens.duration.fast,
                     delay: delay + motionTokens.duration.base

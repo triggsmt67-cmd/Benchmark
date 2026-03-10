@@ -28,7 +28,7 @@ export function HeroSection() {
             <div className="absolute inset-0 bg-navy-950/40 md:hidden z-10" />
 
             <div className="container relative z-20 mx-auto px-4 md:px-6">
-                <HeroIntro className="max-w-3xl flex flex-col items-start gap-6">
+                <HeroIntro instant className="max-w-3xl flex flex-col items-start gap-6">
 
                     <HeroIntroItem>
                         <h1 className="font-heading text-4xl md:text-5xl lg:text-7xl font-extrabold tracking-tight text-white leading-[1.1]">

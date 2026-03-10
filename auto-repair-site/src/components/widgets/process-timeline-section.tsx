@@ -29,7 +29,7 @@ export function ProcessTimelineSection() {
     return (
         <section className="py-24 md:py-32 bg-bg border-t border-border">
             <div className="container mx-auto px-4 md:px-6">
-                <Reveal>
+                <Reveal instant>
                     <div className="mb-16">
                         <h2 className="font-heading text-3xl md:text-5xl font-bold text-navy-950 mb-4">
                             Our Process
@@ -41,10 +41,10 @@ export function ProcessTimelineSection() {
                 <div className="relative pt-4">
                     {/* The continuous connector line drawn left to right */}
                     <div className="absolute top-0 left-0 right-0 hidden md:block">
-                        <LineDraw className="w-full opacity-60" width="w-full" />
+                        <LineDraw instant className="w-full opacity-60" width="w-full" />
                     </div>
 
-                    <Stagger className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-6 lg:gap-12 relative pt-8 md:pt-12">
+                    <Stagger instant className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-6 lg:gap-12 relative pt-8 md:pt-12">
                         {steps.map((step, idx) => (
                             <StaggerItem key={idx} className="relative group">
                                 {/* Mobile/Desktop Tick marks */}
@@ -52,7 +52,7 @@ export function ProcessTimelineSection() {
                                     <div className="w-[2px] h-4 bg-copper/60 transition-colors group-hover:bg-copper" />
                                 </div>
                                 <div className="md:hidden mb-4">
-                                    <LineDraw width="w-12" />
+                                    <LineDraw instant width="w-12" />
                                 </div>
 
                                 <div className="flex flex-col gap-3">
