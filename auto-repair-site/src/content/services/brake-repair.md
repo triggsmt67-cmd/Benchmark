@@ -1,46 +1,120 @@
 ---
 title: "Brake Repair"
-description: "Professional Brake Repair in Missoula, MT."
-category: "Brakes"
+description: "Brake repair in Missoula, MT — pads, rotors, calipers, and hydraulic systems diagnosed and repaired correctly. Benchmark Automotive Service: (406) 317-1405."
+category: "Repair"
 featured: false
-order: 10
+order: 5
 related:
-  - vehicle-inspection
-  - undercarriage-and-suspension
+  - brakes-squeaking
+  - car-pulling-to-one-side
+  - suspension-steering
+faqs:
+  - question: "Do I need new rotors every time I replace my brake pads?"
+    answer: "Not necessarily. Rotors can be reused if they're above minimum thickness and have a smooth, even surface. We measure rotor thickness and check for lateral runout before making that call. If they're worn below spec or scored deep enough to affect pad contact, replacement is the right move."
+  - question: "Is it safe to drive with grinding brakes?"
+    answer: "No. Metal-on-metal contact between worn pads and rotors generates heat, scores rotor surfaces rapidly, and can compromise hydraulic components if the caliper overheats. It also extends stopping distances. If you're hearing grinding, bring it in."
+  - question: "How long does brake repair take?"
+    answer: "A standard two-axle brake job — pads and rotors — typically takes 1.5 to 2.5 hours. Caliper replacement or hydraulic repairs add time. After-hours drop-off is available if your schedule is tight."
 ---
 
 # Brake Repair in Missoula, MT
 
-When it comes to your vehicle's safety, your braking system is the single most critical component. Squeaking, grinding, or a soft brake pedal aren't just annoyances—they are signs that your ability to stop safely is compromised.
+When brakes start making noise, pulling, or feeling different underfoot, the symptom points to somewhere in a system that includes pads, rotors, calipers, hydraulic lines, and the master cylinder. Accurate brake repair in Missoula starts with identifying exactly which component has failed — not replacing everything in the vicinity. We diagnose first, then repair what actually needs it.
 
-At Benchmark Automotive Service, we take brake repair seriously. We don't just "slap pads" on. We perform a comprehensive inspection of all brake components to ensure your vehicle stops exactly when you need it to, without compromise.
+---
 
-## Our Approach to Brake Service
+## What This Service Covers
 
-A proper brake job requires attention to detail. Our process includes:
+- Brake pad inspection and replacement (front and rear axles)
+- Rotor measurement, resurfacing assessment, and replacement
+- Caliper inspection, rebuild, and replacement
+- Caliper slide pin cleaning and lubrication
+- Brake fluid inspection and replacement
+- Brake hose inspection for internal collapse or exterior deterioration
+- Master cylinder and hydraulic system inspection
 
-- **Comprehensive Inspection:** We evaluate the condition of pads, rotors, calipers, hoses, and brake fluid.
-- **Precision Measurements:** We measure rotor thickness and runout to determine if they can be safely machined or need replacement.
-- **Quality Parts:** We use premium OEM or equivalent parts designed to meet or exceed original specifications for a quiet, reliable stop.
-- **Fluid Health Check:** We inspect your brake fluid for moisture contamination, which can lead to diminished braking performance and internal corrosion.
+---
 
-## When to Have Your Brakes Checked
+## Common Symptoms
 
-Don't wait for your brakes to fail. Bring your vehicle in if you experience any of the following:
+- Squealing or squeaking when applying the brakes
+- Grinding or growling noise during braking
+- Brake pedal feels soft, spongy, or sinks lower than normal
+- Steering wheel or brake pedal pulsates when stopping
+- Vehicle pulls to one side when braking
+- Burning smell after driving, particularly in stop-and-go traffic
+- Vehicle feels sluggish or like it's dragging during acceleration
+- Brake warning light on the dashboard
 
-- **Squeaking or Grinding:** This is often the first indicator that brake pads are worn down to their wear sensors or metal backing plates.
-- **Spongy Pedal:** A brake pedal that feels soft or sinks to the floor when pressed could indicate air in the hydraulic lines or a fluid leak.
-- **Vibration or Pulsation:** Feeling a shake in the steering wheel or brake pedal when stopping usually points to warped or uneven rotors.
-- **Pulling to One Side:** If your car pulls left or right when braking, you may have a stuck caliper or a collapsed brake hose.
+---
 
-## We Test, We Don't Guess
+## Why It Happens
 
-We won't sell you brake parts you don't need. Every brake repair begins with an accurate diagnosis. We test the system, pinpoint the exact cause of your braking issue, and provide you with a clear, honest recommendation before any work begins.
+Brake pads wear down through normal use — that's expected. The rate varies significantly based on driving habits, pad material, and vehicle weight. City driving with frequent stops chews through pads faster than highway miles. When the friction material wears to the metal backing plate, a small wear indicator tab contacts the rotor and produces the high-pitched squeal most drivers recognize. If that warning goes unaddressed, the metal backing plate begins grinding directly into the rotor face. If [brakes are squeaking](/services/brakes-squeaking) after the vehicle has sat for several days, surface rust is usually the cause — but if the sound persists after a few stops, the rotor surface may need evaluation.
 
-## FAQs About Brake Repair
+Rotors fail through a combination of wear, heat, and corrosion. Each brake application generates heat; repeated hard stops without adequate cooling time can cause the rotor to develop thickness variation — an uneven surface where the pad contacts different amounts of material at different points around the rotor face. This shows up as a rhythmic pulsation through the brake pedal. A [car shaking while driving](/services/car-shaking-while-driving) that worsens specifically during braking almost always has rotor thickness variation or lateral runout as the cause, not a suspension component.
 
-### How often should I have my brakes inspected?
-We recommend a comprehensive brake inspection at least once a year, or every 12,000 to 15,000 miles. However, you should have them checked immediately if you notice any unusual noises, vibrations, or changes in pedal feel.
+Calipers are the hydraulic clamps that press pads against the rotor. They fail in two main ways: the piston sticks in its bore and won't retract after the pedal is released — causing the pad to drag continuously and generate heat — or the caliper slide pins seize from corrosion or dried-out grease, preventing the caliper from floating evenly across the rotor face. Either condition causes uneven pad wear, generates excess heat, and pulls the vehicle to one side under braking. A [car pulling to one side](/services/car-pulling-to-one-side) specifically when stopping is one of the more reliable signs of a seized caliper or stuck slide pin.
 
-### Do I always need to replace my rotors when I replace my brake pads?
-Not necessarily. If the rotors are still thick enough and haven't warped or developed deep grooves, we can often resurface (machine) them to a smooth finish. However, as modern rotors are increasingly made thinner to save weight, they frequently fall below the safe minimum thickness limit and require replacement. We always measure carefully and provide the safest recommendation.
+Brake fluid absorbs moisture over time. As water content increases, the fluid's boiling point drops, reducing effectiveness under sustained braking loads. Contaminated fluid also accelerates corrosion inside calipers, wheel cylinders, and the master cylinder bore. We check fluid condition as part of any brake inspection. For fluid replacement intervals and what's involved, see our [fluid services](/services/fluid-services) page.
+
+---
+
+## How We Diagnose It
+
+### Inspect
+We start with a visual inspection at all four corners: pad thickness remaining, rotor surface condition and scoring depth, caliper hardware and slide pin condition, brake hoses for exterior cracking or internal swelling, and master cylinder reservoir level and fluid color.
+
+### Test
+We measure rotor thickness at multiple points around the face to check for parallelism. A dial indicator checks lateral runout. Calipers are evaluated for piston retraction and slide pin movement. If a soft pedal or fluid leak is present, hydraulic line pressure is checked to isolate the source.
+
+### Confirm
+Root cause is confirmed before any repair recommendation. A dragging caliper is confirmed by comparing rotor and pad temperatures across axles after a test drive — an overheating corner points directly to a stuck piston or seized slide pin. Thickness variation is measured and documented rather than assumed from pedal feel alone.
+
+### Repair
+After repair, we road test under real braking conditions to verify pedal feel, stopping distance, and straight tracking. The job isn't done until braking performance is confirmed — not just inspected post-installation.
+
+---
+
+## When To Schedule Service
+
+Bring it in if pads are making any noise, the pedal feels different than normal, the vehicle pulls when stopping, or the brake warning light is on. These symptoms don't resolve on their own. Metal-on-metal contact between a worn pad and a rotor will score the rotor surface in a short period of continued driving — turning what was a pad-only job into pads plus rotors.
+
+If brakes feel normal but haven't been inspected in two or more years, a visual check during your next oil change or tire rotation is practical — especially on a vehicle that sees significant winter driving.
+
+---
+
+## Local Conditions in Missoula
+
+Missoula winters create specific brake wear patterns. Sand and gravel applied to icy roads work into caliper slide pin bores and accelerate corrosion. The magnesium chloride used on local roads is highly corrosive and attacks caliper hardware and rotor surfaces more aggressively than moisture alone. Vehicles driven on routes with significant grade — Highway 12, the South Hills, or the Rattlesnake — put more sustained thermal load on brake components than flat urban driving because downhill braking generates heat over a longer duration than stop-and-go stops.
+
+Spring is a reasonable time to inspect brakes after winter exposure, before corrosion works further into caliper pistons and slide pin bores. By then, any wear that developed over winter is visible and easier to address before it progresses.
+
+---
+
+## FAQs
+
+**Q: Do I need new rotors every time I replace my brake pads?**
+A: Not necessarily. Rotors can be reused if they're above minimum thickness and have a smooth, even surface. We measure rotor thickness and check for lateral runout before making that call. If they're worn below spec or scored deep enough to affect pad contact, replacement is the right move.
+
+**Q: Is it safe to drive with grinding brakes?**
+A: No. Metal-on-metal contact between worn pads and rotors generates heat, scores rotor surfaces rapidly, and can compromise hydraulic components if the caliper overheats. It also extends stopping distances. If you're hearing grinding, bring it in.
+
+**Q: How long does brake repair take?**
+A: A standard two-axle brake job — pads and rotors — typically takes 1.5 to 2.5 hours. Caliper replacement or hydraulic repairs add time. After-hours drop-off is available if your schedule is tight.
+
+After-hours drop-off is available. We'll confirm receipt the next business day.
+
+---
+
+## Related Services
+
+- [Brakes Squeaking](/services/brakes-squeaking)
+- [Car Pulling to One Side](/services/car-pulling-to-one-side)
+- [Suspension & Steering](/services/suspension-steering)
+
+---
+
+## Schedule Service
+
+Ready to have your brakes inspected or repaired? Call us at **(406) 317-1405** or use our online scheduler. We'll confirm what needs attention and what doesn't.
