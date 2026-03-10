@@ -1,7 +1,7 @@
 "use client";
 
 import { motion, useReducedMotion } from "framer-motion";
-import { ReactNode } from "react";
+import { ReactNode, useEffect, useState } from "react";
 import { motionTokens } from "@/lib/motion";
 
 interface HeroIntroProps {
@@ -11,8 +11,15 @@ interface HeroIntroProps {
 
 export function HeroIntro({ children, className = "" }: HeroIntroProps) {
     const shouldReduceMotion = useReducedMotion();
+    const [hasMounted, setHasMounted] = useState(false);
 
-    if (shouldReduceMotion) {
+    useEffect(() => {
+        const timer = setTimeout(() => setHasMounted(true), 50);
+        return () => clearTimeout(timer);
+    }, []);
+
+    // SSR, pre-hydration, or reduced motion: render fully visible immediately
+    if (!hasMounted || shouldReduceMotion) {
         return <div className={className}>{children}</div>;
     }
 
@@ -40,8 +47,15 @@ export function HeroIntro({ children, className = "" }: HeroIntroProps) {
 
 export function HeroIntroItem({ children, className = "" }: { children: ReactNode; className?: string }) {
     const shouldReduceMotion = useReducedMotion();
+    const [hasMounted, setHasMounted] = useState(false);
 
-    if (shouldReduceMotion) {
+    useEffect(() => {
+        const timer = setTimeout(() => setHasMounted(true), 50);
+        return () => clearTimeout(timer);
+    }, []);
+
+    // SSR, pre-hydration, or reduced motion: render fully visible immediately
+    if (!hasMounted || shouldReduceMotion) {
         return <div className={className}>{children}</div>;
     }
 
