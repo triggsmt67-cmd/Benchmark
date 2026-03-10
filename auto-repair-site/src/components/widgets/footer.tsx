@@ -9,9 +9,9 @@ export function Footer() {
         <footer className="bg-navy-950 text-white border-t border-navy-900">
             <div className="container mx-auto px-4 md:px-6 py-12 md:py-16">
                 <Reveal direction="up">
-                    <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12">
+                    <div className="grid grid-cols-1 md:grid-cols-5 gap-8 md:gap-12">
                         {/* Brand & NAP */}
-                        <div className="space-y-4">
+                        <div className="space-y-4 md:col-span-1">
                             <h3 className="font-heading text-2xl font-bold text-surface">{siteConfig.businessName}</h3>
                             <p className="text-muted/80 text-sm leading-relaxed">
                                 A trusted local shop delivering precise diagnostics, honest recommendations, and repairs built to last.
@@ -36,6 +36,21 @@ export function Footer() {
                                 <Link href="/#about" className="hover:text-copper transition-colors">About Us</Link>
                                 <Link href="/#testimonials" className="hover:text-copper transition-colors">Customer Reviews</Link>
                                 <Link href="/contact" className="hover:text-copper transition-colors">Schedule Appointment</Link>
+                            </nav>
+                        </div>
+
+                        {/* Areas We Serve */}
+                        <div className="space-y-4">
+                            <h4 className="font-heading text-lg font-semibold text-surface">Areas We Serve</h4>
+                            <nav className="flex flex-col space-y-2 text-sm text-muted/80">
+                                <Link href="/service-areas/missoula" className="hover:text-copper transition-colors">Missoula</Link>
+                                <Link href="/service-areas/lolo" className="hover:text-copper transition-colors">Lolo</Link>
+                                <Link href="/service-areas/frenchtown" className="hover:text-copper transition-colors">Frenchtown</Link>
+                                <Link href="/service-areas/bonner" className="hover:text-copper transition-colors">Bonner</Link>
+                                <Link href="/service-areas/east-missoula" className="hover:text-copper transition-colors">East Missoula</Link>
+                                <Link href="/service-areas/milltown" className="hover:text-copper transition-colors">Milltown</Link>
+                                <Link href="/service-areas/orchard-homes" className="hover:text-copper transition-colors">Orchard Homes</Link>
+                                <Link href="/service-areas/target-range" className="hover:text-copper transition-colors">Target Range</Link>
                             </nav>
                         </div>
 

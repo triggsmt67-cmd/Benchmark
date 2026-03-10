@@ -9,7 +9,16 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         '',
         '/services',
         '/about',
-        '/contact'
+        '/contact',
+        '/service-areas',
+        '/service-areas/missoula',
+        '/service-areas/lolo',
+        '/service-areas/frenchtown',
+        '/service-areas/bonner',
+        '/service-areas/east-missoula',
+        '/service-areas/milltown',
+        '/service-areas/orchard-homes',
+        '/service-areas/target-range'
     ].map((route) => ({
         url: `${baseUrl}${route}`,
         lastModified: new Date(),

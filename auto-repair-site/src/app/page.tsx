@@ -10,6 +10,7 @@ import { AboutSection } from "@/components/widgets/about-section";
 import { TestimonialsSection } from "@/components/widgets/testimonials-section";
 import { WhatWeDontDoSection } from "@/components/widgets/what-we-dont-do-section";
 import { FinalCtaBand } from "@/components/widgets/final-cta-band";
+import { ServiceAreasSection } from "@/components/widgets/service-areas-section";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
       <AboutSection />
       <TestimonialsSection />
       <WhatWeDontDoSection />
+      <ServiceAreasSection />
       <FinalCtaBand />
     </div>
   );
