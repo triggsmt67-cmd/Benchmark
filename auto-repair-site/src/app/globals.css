@@ -1,5 +1,4 @@
 @import "tailwindcss";
-@import "tw-animate-css";
 @import "shadcn/tailwind.css";
 
 @custom-variant dark (&:is(.dark *));
@@ -51,6 +50,21 @@
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
+
+  /* Custom Animations */
+  --animate-fade-in-up: fade-in-up 0.5s ease-out forwards;
+
+  @keyframes fade-in-up {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
 }
 
 :root {
@@ -77,32 +91,32 @@
   /* Shadcn Semantic Variables mapped to Brand */
   --background: var(--bg);
   --foreground: var(--text-primary);
-  
+
   --card: var(--surface);
   --card-foreground: var(--text-primary);
-  
+
   --popover: var(--surface);
   --popover-foreground: var(--text-primary);
-  
+
   --primary: var(--brand-red);
   --primary-foreground: #FFFFFF;
-  
+
   --secondary: var(--navy-950);
   --secondary-foreground: #FFFFFF;
-  
+
   --muted: var(--brand-muted);
   --muted-foreground: var(--text-secondary);
-  
+
   --accent: var(--navy-700);
   --accent-foreground: #FFFFFF;
-  
+
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.985 0 0);
-  
+
   --border: var(--brand-border);
   --input: var(--brand-border);
   --ring: var(--brand-red);
-  
+
   --radius: 0.5rem;
 }
 
@@ -110,6 +124,7 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }

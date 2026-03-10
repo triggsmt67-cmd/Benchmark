@@ -15,6 +15,7 @@ export function HeroSection() {
                     alt="Technician performing advanced diagnostics on a vehicle"
                     fill
                     priority
+                    fetchPriority="high"
                     className="object-cover object-center"
                     sizes="100vw"
                 />
