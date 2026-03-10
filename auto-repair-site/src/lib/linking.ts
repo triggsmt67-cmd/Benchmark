@@ -48,7 +48,7 @@ export function getServiceAvailability(serviceId: string) {
 
 export function generateSitemapUrls() {
     const urls: string[] = [];
-    const baseUrl = "https://benchmarkmissoula.com";
+    const baseUrl = "https://www.benchmarkmissoula.com";
 
     // Core
     urls.push(`${baseUrl}/`);

@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
             allow: '/',
             disallow: '/private/',
         },
-        sitemap: 'https://benchmarkmissoula.com/sitemap.xml',
+        sitemap: 'https://www.benchmarkmissoula.com/sitemap.xml',
     }
 }

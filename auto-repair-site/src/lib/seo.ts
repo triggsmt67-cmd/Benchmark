@@ -4,13 +4,13 @@ export function generateWebSiteSchema() {
     return {
         "@context": "https://schema.org",
         "@type": "WebSite",
-        "@id": "https://benchmarkmissoula.com/#website",
+        "@id": "https://www.benchmarkmissoula.com/#website",
         "name": siteConfig.businessName,
-        "url": "https://benchmarkmissoula.com",
+        "url": "https://www.benchmarkmissoula.com",
         "description": "Automotive diagnostics and repair services in Missoula, Montana.",
         "publisher": {
             "@type": "AutoRepair",
-            "@id": "https://benchmarkmissoula.com/#business"
+            "@id": "https://www.benchmarkmissoula.com/#business"
         }
     };
 }
@@ -19,10 +19,10 @@ export function generateLocalBusinessSchema() {
     return {
         "@context": "https://schema.org",
         "@type": "AutoRepair",
-        "@id": "https://benchmarkmissoula.com/#business",
+        "@id": "https://www.benchmarkmissoula.com/#business",
         "name": siteConfig.businessName,
-        "image": "https://benchmarkmissoula.com/images/shop-interior.jpg",
-        "url": "https://benchmarkmissoula.com",
+        "image": "https://www.benchmarkmissoula.com/images/shop-interior.jpg",
+        "url": "https://www.benchmarkmissoula.com",
         "telephone": "+14063171405", // Normalized to standard E.164
         "priceRange": "$$",
         "address": {

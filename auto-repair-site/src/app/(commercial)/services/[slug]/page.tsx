@@ -50,7 +50,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
         .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
         .join(" ");
 
-    const baseUrl = "https://benchmarkmissoula.com";
+    const baseUrl = "https://www.benchmarkmissoula.com";
 
     const schema = [
         {
@@ -61,12 +61,13 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
             serviceType: serviceName,
             areaServed: {
                 "@type": "City",
-                name: "Missoula"
+                name: "Missoula, MT"
             },
             provider: {
                 "@type": "AutoRepair",
-                "@id": "https://benchmarkmissoula.com/#business"
-            }
+                "@id": "https://www.benchmarkmissoula.com/#business"
+            },
+            url: `${baseUrl}/services/${slug}`
         },
         {
             "@context": "https://schema.org",
