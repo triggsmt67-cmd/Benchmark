@@ -51,20 +51,13 @@ export default function RootLayout({
 
   return (
     <html lang="en" className="scroll-smooth" suppressHydrationWarning>
-      <head>
-        {/* Preconnect hints to reduce critical path latency */}
-        <link rel="preconnect" href="https://www.googletagmanager.com" />
-        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
-        <link rel="preconnect" href="https://www.google-analytics.com" />
-        <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+      <body
+        className={`${inter.variable} ${playfair.variable} font-sans antialiased min-h-screen flex flex-col`}
+      >
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
-      </head>
-      <body
-        className={`${inter.variable} ${playfair.variable} font-sans antialiased min-h-screen flex flex-col`}
-      >
         {/* Google Tag Manager (noscript) */}
         <noscript>
           <iframe

@@ -32,6 +32,14 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     return {
         title: `${title} in Missoula, MT`,
         description: description || `Professional ${title.toLowerCase()} in Missoula. Accurate testing, honest recommendations, and confirmed repairs.`,
+        alternates: {
+            canonical: `https://www.benchmarkmissoula.com/services/${slug}`
+        },
+        openGraph: {
+            url: `https://www.benchmarkmissoula.com/services/${slug}`,
+            title: `${title} in Missoula, MT`,
+            description: description || `Professional ${title.toLowerCase()} in Missoula. Accurate testing, honest recommendations, and confirmed repairs.`
+        }
     };
 }
 

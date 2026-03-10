@@ -25,10 +25,6 @@ export function Footer() {
                                     <Phone className="h-5 w-5 text-copper shrink-0" />
                                     <a href={`tel:${siteConfig.phone.link}`} className="hover:text-copper transition-colors">{siteConfig.phone.display}</a>
                                 </div>
-                                <div className="flex items-center gap-3">
-                                    <Mail className="h-5 w-5 text-copper shrink-0" />
-                                    <a href="mailto:service@benchmarkauto.local" className="hover:text-copper transition-colors">service@benchmarkauto.local</a>
-                                </div>
                             </div>
                         </div>
 

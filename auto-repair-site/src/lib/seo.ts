@@ -35,8 +35,8 @@ export function generateLocalBusinessSchema() {
         },
         "geo": {
             "@type": "GeoCoordinates",
-            "latitude": 42.3314, // Replace with actual Missoula MT coords if needed later (Missoula is ~46.8, -114.0)
-            "longitude": -83.0458
+            "latitude": 46.855018,
+            "longitude": -114.0255
         },
         "openingHoursSpecification": [
             {
