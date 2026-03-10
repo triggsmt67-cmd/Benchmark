@@ -1,8 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Optimize production CSS extraction
   experimental: {
+    // Tree-shake large icon and animation libraries
+    optimizePackageImports: ["lucide-react", "framer-motion"],
+    // Inline critical CSS above-the-fold (requires critters package)
     optimizeCss: true,
   },
   // Optimize images
