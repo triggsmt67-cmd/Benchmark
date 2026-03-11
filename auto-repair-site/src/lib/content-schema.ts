@@ -110,7 +110,7 @@ export const SERVICES: ServiceContent[] = [
         whyChooseUs: [
             "We use only premium, low-dust, noise-free brake formulations.",
             "Every rotor replacement includes proper hub cleaning to prevent lateral runout.",
-            "Backed by our 24-Month / 24,000-Mile warranty."
+            "Backed by our 12-Month / 12,000-Mile warranty."
         ],
         faqs: [
             { question: "How often should I replace my brake pads?", answer: "Typically every 30,000 to 50,000 miles, but this varies heavily based on your driving habits (city vs. highway)." },

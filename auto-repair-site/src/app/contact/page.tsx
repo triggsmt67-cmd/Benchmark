@@ -54,7 +54,7 @@ export default function ContactPage() {
 
                                             <div className="flex items-center gap-4 text-text-secondary">
                                                 <Mail className="h-5 w-5 text-copper shrink-0" strokeWidth={1.5} />
-                                                <a href={`mailto:${siteConfig.email}`} className="font-medium text-navy-900 hover:text-copper transition-colors">{siteConfig.email}</a>
+                                                <a href={`mailto:${siteConfig.email}`} className="font-medium text-copper hover:text-copper-dark transition-colors">{siteConfig.email}</a>
                                             </div>
                                         </div>
 

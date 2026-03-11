@@ -128,4 +128,17 @@
   body {
     @apply bg-background text-foreground;
   }
+
+  a {
+    @apply transition-colors duration-200;
+  }
+
+  /* Default link color for body text areas */
+  p a, li a, .prose a {
+    @apply text-copper font-medium;
+  }
+
+  p a:hover, li a:hover, .prose a:hover {
+    @apply text-brand-red-hover underline;
+  }
 }

@@ -158,7 +158,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
                                 [&>ol]:list-decimal [&>ol]:pl-6 [&>ol]:mb-6
                                 [&>li]:my-2
                                 [&>strong]:text-navy-950 [&>strong]:font-semibold
-                                [&>a]:text-copper [&>a]:font-medium hover:[&>a]:underline">
+                                [&_a]:text-copper [&_a]:font-medium hover:[&_a]:underline">
                             <ReactMarkdown>{md}</ReactMarkdown>
                         </div>
 

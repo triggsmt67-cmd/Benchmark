@@ -35,7 +35,7 @@ export function TrustBar() {
                             <Shield className="h-8 w-8 text-gold-soft" />
                         </div>
                         <div>
-                            <h3 className="font-semibold text-lg text-surface">24-Month / 24,000-Mile Warranty</h3>
+                            <h3 className="font-semibold text-lg text-surface">12-Month / 12,000-Mile Warranty</h3>
                             <p className="text-sm text-muted/70 mt-1">Nationwide coverage for peace of mind.</p>
                         </div>
                     </StaggerItem>
