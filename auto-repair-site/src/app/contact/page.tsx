@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import { siteConfig } from "@/lib/siteConfig";
-import { MapPin, Phone, Clock, KeySquare } from "lucide-react";
+import { MapPin, Phone, Clock, KeySquare, Mail } from "lucide-react";
 import { Reveal } from "@/components/motion/Reveal";
 import { Button } from "@/components/ui/button";
 
@@ -50,6 +50,11 @@ export default function ContactPage() {
                                             <div className="flex items-center gap-4 text-text-secondary">
                                                 <Phone className="h-5 w-5 text-copper shrink-0" strokeWidth={1.5} />
                                                 <p className="font-medium text-navy-900">{siteConfig.phone.display}</p>
+                                            </div>
+
+                                            <div className="flex items-center gap-4 text-text-secondary">
+                                                <Mail className="h-5 w-5 text-copper shrink-0" strokeWidth={1.5} />
+                                                <a href={`mailto:${siteConfig.email}`} className="font-medium text-navy-900 hover:text-copper transition-colors">{siteConfig.email}</a>
                                             </div>
                                         </div>
 

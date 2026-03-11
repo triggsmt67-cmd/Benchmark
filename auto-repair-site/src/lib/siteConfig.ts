@@ -12,6 +12,7 @@ export const siteConfig = {
         link: "+14063171405", // for href="tel:..."
         schema: "+1-406-317-1405"
     },
+    email: "driggs@benchmarkautomotiveservice.com",
     get formattedAddress() {
         return `${this.address.street}\n${this.address.city}, ${this.address.state} ${this.address.zip}\nUnited States`;
     },
