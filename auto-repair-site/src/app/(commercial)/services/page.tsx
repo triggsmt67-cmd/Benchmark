@@ -22,13 +22,18 @@ export default async function ServicesHubPage() {
     const services: ServiceItem[] = sortedData.map(data => {
         let cats = ["All"];
         if (Array.isArray(data.categories)) {
-            cats = data.categories.map(c => (c === "Repair" ? "Repairs" : c));
+            cats = data.categories.map(c => (c === "Repair" ? "Repairs" : c === "Problem" ? "Vehicle Problems" : c));
         } else if (typeof data.category === "string") {
-            const rawCat = data.category === "Repair" ? "Repairs" : data.category;
+            const rawCat = data.category === "Repair" ? "Repairs" : data.category === "Problem" ? "Vehicle Problems" : data.category;
             cats = [rawCat, "All"];
         } else if (typeof data.categories === "string") {
-            const rawCat = data.categories === "Repair" ? "Repairs" : data.categories;
+            const rawCat = data.categories === "Repair" ? "Repairs" : data.categories === "Problem" ? "Vehicle Problems" : data.categories;
             cats = [rawCat, "All"];
+        }
+
+        let defaultSection = cats[0] !== "All" ? cats[0] : "Common Vehicle Problems";
+        if (defaultSection === "Vehicle Problems") {
+            defaultSection = "Common Vehicle Problems";
         }
 
         return {
@@ -37,7 +42,7 @@ export default async function ServicesHubPage() {
             description: data.description || "",
             slug: data.slug,
             categories: cats as ServiceItem["categories"],
-            section: (data.section || (cats[0] !== "All" ? cats[0] : "Common Vehicle Problems")) as ServiceItem["section"],
+            section: (data.section || defaultSection) as ServiceItem["section"],
             isMostRequested: data.isMostRequested === true || data.featured === true,
             isComingSoon: data.isComingSoon === true,
             icon: data.icon as string | undefined
