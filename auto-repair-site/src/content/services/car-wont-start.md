@@ -18,7 +18,7 @@ faqs:
     answer: "Yes. If the immobilizer doesn't recognize the key's transponder chip — due to a dead key fob battery, a worn key, or an ECU fault — it will block fuel or ignition. The dash security light is usually illuminated in this case. A scan tool can pull any stored immobilizer codes."
 ---
 
-# Car Won't Start in Missoula, MT
+## Car Won't Start in Missoula, MT
 
 When your car doesn't start, the cause can be anywhere in a chain of systems — battery, starter, fuel delivery, ignition, or security. The right fix starts with knowing which system failed, not with replacing parts until something works. Drivers in Missoula dealing with a no-start condition can bring the vehicle to Benchmark Automotive Service for a systematic diagnosis before any parts are ordered.
 

@@ -17,7 +17,7 @@ faqs:
     answer: "Yes. After-hours drop-off is available. We’ll confirm receipt the next business day."
 ---
 
-# Check Engine Light Diagnostics in Missoula, MT
+## Check Engine Light Diagnostics in Missoula, MT
 
 When your check engine light comes on, your vehicle is trying to tell you that a system isn’t functioning within normal parameters. While an auto parts store can read the code for free, a code alone does not tell you what part has failed. It only tells you what system the computer is complaining about.
 

@@ -17,7 +17,7 @@ faqs:
     answer: "The diagnostic work is the service. It's what tells us whether the alternator is bad, whether the fault is in the wiring, or whether the module itself has failed. Without it, you're replacing parts based on guesses — which usually costs more in the end."
 ---
 
-# Electrical Diagnostics in Missoula, MT
+## Electrical Diagnostics in Missoula, MT
 
 Modern vehicles run dozens of control modules — the engine computer (ECM/PCM), body control module (BCM), ABS module, airbag system, and more — all communicating over shared data networks. When something goes wrong electrically, pinning down the cause requires more than a code reader. At Benchmark, we work through vehicle electrical problems the same way every time: methodically, with the right equipment, and without guessing.
 

@@ -17,7 +17,7 @@ faqs:
     answer: "No. A code identifies a circuit condition or system failure — not a specific component. P0300 means the ECM detected random misfires; it doesn't tell you whether the cause is a failing coil, a clogged injector, low compression, or a crankshaft sensor producing a degraded signal. Interpreting the code and testing the system is the actual diagnosis."
 ---
 
-# Advanced Diagnostics in Missoula, MT
+## Advanced Diagnostics in Missoula, MT
 
 When a warning light comes on — or a vehicle behaves strangely without any light at all — the answer isn't always in a fault code. Advanced diagnostics at Benchmark Automotive Service goes beyond pulling codes and into the full picture: live sensor data, bi-directional component testing, and oscilloscope-level circuit analysis to find what basic scanners miss. For Missoula drivers dealing with intermittent problems or symptoms that other shops couldn't pin down, this is where accurate diagnosis starts.
 

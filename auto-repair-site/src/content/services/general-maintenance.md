@@ -18,7 +18,7 @@ faqs:
     answer: "That's common, especially with a recently purchased used vehicle. We can pull up any prior service records if the VIN has history in our system. Beyond that, we'll assess fluid condition and component wear visually and give you our honest read on where things stand. From there, we establish a baseline and you'll know exactly what's been done going forward."
 ---
 
-# General Maintenance in Missoula, MT
+## General Maintenance in Missoula, MT
 
 Routine maintenance is the most reliable way to prevent expensive repairs — and the most consistently skipped. If your vehicle hasn't been serviced in a while, or you're not sure what's been done and when, a general maintenance visit gives us a clear picture of where things stand and what actually needs attention. Most major mechanical failures — blown engines, seized calipers, overheated transmissions — have warning signs that show up weeks or months before the breakdown. The problem is they're easy to miss if nobody's looking.
 

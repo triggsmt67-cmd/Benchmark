@@ -16,7 +16,7 @@ faqs:
     answer: "The additive package depletes first — detergents stop suspending contaminants, ZDDP breaks down, and the base oil oxidizes. You'll likely see sludge formation in oil passages and increased wear on camshaft and crankshaft bearings. One late change isn't catastrophic. A consistent pattern of extended intervals accelerates wear in a way that compounds over time."
 ---
 
-# Oil Change in Missoula, MT
+## Oil Change in Missoula, MT
 
 Engine oil has a finite service life. The base oil oxidizes under heat, combustion byproducts contaminate the fluid, and the additive package depletes — all of it independent of the odometer. An oil change in Missoula isn't just a routine task; it's the most direct way to prevent accelerated wear on the components that keep your engine running. We use the oil type and viscosity your manufacturer specifies, replace the filter, and do a visual check before you leave.
 

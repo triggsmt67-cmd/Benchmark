@@ -9,6 +9,6 @@ icon: "AlertTriangle"
 order: 8
 ---
 
-# Battery Drain
+## Battery Drain
 
 Content coming soon.

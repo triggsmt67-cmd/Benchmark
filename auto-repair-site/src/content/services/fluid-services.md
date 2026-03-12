@@ -17,7 +17,7 @@ faqs:
     answer: "Oxidation and heat damage. Healthy automatic transmission fluid is pink or red and translucent. Dark brown, black, or fluid with a burnt odor means the friction modifiers and viscosity improvers have broken down. At that point, the fluid is no longer protecting clutch packs and solenoid valve bores the way it should. A service interval was missed, or the fluid was pushed past its thermal limit."
 ---
 
-# Fluid Services in Missoula, MT
+## Fluid Services in Missoula, MT
 
 Vehicle fluids don't just lubricate — they transfer heat, carry hydraulic pressure, suspend wear particles, and protect metal surfaces from corrosion. When they degrade or drop below spec, the systems they support absorb wear they weren't designed to handle. Benchmark Automotive Service inspects and services transmission fluid, brake fluid, coolant, differential fluid, transfer case fluid, and power steering fluid for drivers in Missoula. Getting the right fluid in the right condition is straightforward maintenance — but the intervals and specifications vary enough by vehicle and driving pattern that a generic schedule often misses the mark.
 

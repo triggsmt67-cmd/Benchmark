@@ -18,7 +18,7 @@ faqs:
     answer: "It depends on the cause. A tire balance issue won't strand you, but it accelerates tire wear. Worn tie rod ends, ball joints, or a failing wheel bearing affect steering control and can worsen without warning. If the vibration is new, came on after an impact, or is accompanied by noise or loose steering feel, have it inspected before your next highway drive."
 ---
 
-# Steering Vibration in Missoula, MT
+## Steering Vibration in Missoula, MT
 
 Steering wheel vibration is one of those complaints where the fix depends entirely on the diagnosis. When Missoula drivers search for why their steering wheel shakes, the answer isn't always the same — tire imbalance, worn tie rod ends, a failing wheel bearing, and CV axle wear all produce vibration, but each shows up under different conditions. Replacing the wrong part doesn't fix it. That's why we identify when and how the vibration occurs before recommending anything.
 

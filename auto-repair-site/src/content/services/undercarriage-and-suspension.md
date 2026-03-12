@@ -16,7 +16,7 @@ faqs:
     answer: "In our region, we see shocks and struts beginning to lose effectiveness around 50,000 to 80,000 miles. However, this varies wildly based on whether the vehicle is used on dirt roads, carries heavy loads, or is driven primarily on the highway."
 ---
 
-# Undercarriage and Suspension in Missoula, MT
+## Undercarriage and Suspension in Missoula, MT
 
 The undercarriage of your vehicle is its structural foundation, responsible for everything from ride quality and steering precision to how effectively the car can stop. When suspension components wear, they don't just make the car less comfortable — they compromise safety and accelerate tire wear. This page details how we inspect and maintain the complex network of components beneath your vehicle.
 

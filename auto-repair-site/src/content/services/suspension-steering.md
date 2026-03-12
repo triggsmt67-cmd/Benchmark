@@ -18,7 +18,7 @@ faqs:
     answer: "Most shocks and struts are rated for 50,000–75,000 miles, but Montana roads — potholes, frost heaves, gravel — tend to shorten that. Driving style and vehicle weight are factors too. We inspect the components rather than replace based on a mileage threshold."
 ---
 
-# Suspension & Steering Repair in Missoula, MT
+## Suspension & Steering Repair in Missoula, MT
 
 Your suspension and steering systems are mechanically linked — what wears in one affects the behavior of the other. When Missoula drivers notice a car [pulling to one side](/services/car-pulling-to-one-side), a rough ride over frost heaves, or a vague and wandering steering feel, the cause is almost always a specific worn component rather than a system-wide failure. Identifying which part is responsible determines what actually needs to be repaired.
 

@@ -17,7 +17,7 @@ faqs:
     answer: "A standard two-axle brake job — pads and rotors — typically takes 1.5 to 2.5 hours. Caliper replacement or hydraulic repairs add time. After-hours drop-off is available if your schedule is tight."
 ---
 
-# Brake Repair in Missoula, MT
+## Brake Repair in Missoula, MT
 
 When brakes start making noise, pulling, or feeling different underfoot, the symptom points to somewhere in a system that includes pads, rotors, calipers, hydraulic lines, and the master cylinder. Accurate brake repair in Missoula starts with identifying exactly which component has failed — not replacing everything in the vicinity. We diagnose first, then repair what actually needs it.
 

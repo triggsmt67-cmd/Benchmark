@@ -17,7 +17,7 @@ faqs:
     answer: "Yes. After-hours drop-off is available. We'll confirm receipt the next business day."
 ---
 
-# Vehicle Inspection in Missoula, MT
+## Vehicle Inspection in Missoula, MT
 
 A vehicle inspection helps identify wear, safety concerns, and potential repairs before they turn into bigger problems.
 

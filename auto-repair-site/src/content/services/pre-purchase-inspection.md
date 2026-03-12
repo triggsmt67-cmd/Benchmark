@@ -17,7 +17,7 @@ faqs:
     answer: "No. A Carfax or AutoCheck report shows what was reported — accidents that went through insurance, registered title changes, some service records. It won't tell you if a valve cover gasket is leaking, the rear shocks are worn out, or the A/C compressor is failing. The report and the inspection serve different purposes."
 ---
 
-# Pre-Purchase Inspection in Missoula, MT
+## Pre-Purchase Inspection in Missoula, MT
 
 A pre-purchase inspection is a mechanical evaluation of a used vehicle conducted by an independent technician before you buy. In Missoula, where used vehicles regularly come off high-mileage rural commutes, seasonal road conditions, and out-of-state sales, the condition described by a seller often misses what's actually happening underneath. We put the car on a lift, run a full diagnostic scan, and give you a documented account of what the vehicle needs now, what's likely coming, and whether the asking price reflects any of it.
 

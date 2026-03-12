@@ -17,7 +17,7 @@ faqs:
     answer: "That's almost always the blower motor resistor. The resistor controls fan speed by varying electrical resistance; when it fails, the blower usually defaults to high speed only. It's a straightforward replacement once confirmed."
 ---
 
-# AC & Heating Service in Missoula, MT
+## AC & Heating Service in Missoula, MT
 
 Missoula's climate swings from single-digit January lows to summer highs near 90°F, which means your vehicle's climate control system carries a real load in both directions. When the AC stops blowing cold or the heater stops producing heat, the same symptom can trace back to very different causes — a refrigerant leak, a failed compressor clutch, a stuck blend door actuator, or a clogged heater core all produce warm air from the vents. Diagnosis determines which one before any parts get replaced.
 

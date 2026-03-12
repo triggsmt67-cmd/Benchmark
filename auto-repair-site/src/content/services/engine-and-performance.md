@@ -16,7 +16,7 @@ faqs:
     answer: "Most diagnostic appointments take 1–2 hours depending on how quickly symptoms can be reproduced and which tests are needed. If a drive cycle is required to trigger the fault, it may take longer. We'll give you a realistic timeframe after the initial scan."
 ---
 
-# Engine and Performance in Missoula, MT
+## Engine and Performance in Missoula, MT
 
 When your engine isn't running the way it should — hesitation on acceleration, rough idle, unexpected power loss — something in the system has shifted. This page explains what we look at, why these issues develop, and how we diagnose them before recommending any repair.
 

@@ -18,7 +18,7 @@ faqs:
     answer: "Cost depends entirely on root cause. A thermostat replacement is a relatively minor repair. A water pump is more involved. A head gasket replacement on most engines is a significant job. That's why accurate diagnosis before repair matters — treating the wrong cause doesn't solve the problem and adds unnecessary expense."
 ---
 
-# Engine Overheating in Missoula, MT
+## Engine Overheating in Missoula, MT
 
 Engine overheating causes specific, predictable damage — warped cylinder heads, failed head gaskets, or a cracked block — when the cooling system can no longer manage heat. If your temperature gauge is climbing or you're seeing steam from under the hood in Missoula, that's a cooling system problem that needs an accurate [diagnosis](/services/advanced-diagnostics) before any part gets replaced.
 
