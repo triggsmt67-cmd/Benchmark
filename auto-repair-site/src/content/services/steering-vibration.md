@@ -90,20 +90,6 @@ Winter affects tires in a specific way worth knowing. A vehicle parked for sever
 
 ---
 
-## FAQs
-
-**Q: My tires were recently balanced. Could it still be a balance issue?**
-A: Yes. A balance weight can fall off between services, and some tires develop flat spots or out-of-round conditions that balancing alone won't correct. A road force balance test — which applies simulated load to the tire while spinning — catches problems a standard spin balance misses.
-
-**Q: How do I know if it's my wheel bearings or something else?**
-A: Wheel bearing vibration tends to shift with steering input — if the sound or feel changes when you move the wheel slightly left or right at highway speed, that's a reliable indicator. Tire imbalance doesn't shift with steering. Bearing wear also typically produces a grinding or humming sound that increases steadily with speed, rather than peaking in a specific speed range.
-
-**Q: Is it safe to drive with steering vibration?**
-A: It depends on the cause. A tire balance issue won't strand you, but it accelerates tire wear. Worn tie rod ends, ball joints, or a failing wheel bearing affect steering control and can worsen without warning. If the vibration is new, came on after an impact, or is accompanied by noise or loose steering feel, have it inspected before your next highway drive.
-
-After-hours drop-off is available. We'll confirm receipt the next business day.
-
----
 
 ## Related Services
 
