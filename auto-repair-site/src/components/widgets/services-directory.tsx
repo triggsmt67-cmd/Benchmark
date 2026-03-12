@@ -31,17 +31,18 @@ function ServiceCard({ service }: { service: ServiceItem }) {
     const isComingSoon = service.isComingSoon;
 
     const content = (
-        <Card
-            className={cn(
-                "group relative h-full flex flex-col overflow-hidden rounded-sm border bg-surface transition-all duration-200 ease-out text-left",
-                isComingSoon ? "border-border shadow-none" : "border-border shadow-sm shadow-navy-900/5 hover:-translate-y-[2px] hover:shadow-md"
-            )}
-        >
-            {/* Top styling strip */}
-            <div className={cn(
-                "absolute top-0 left-0 right-0 h-[2px] transition-colors duration-200",
-                isComingSoon ? "bg-muted" : "bg-copper/40 group-hover:bg-copper"
-            )} />
+        <article className="h-full">
+            <Card
+                className={cn(
+                    "group relative h-full flex flex-col overflow-hidden rounded-sm border bg-surface transition-all duration-200 ease-out text-left",
+                    isComingSoon ? "border-border shadow-none" : "border-border shadow-sm shadow-navy-900/5 hover:-translate-y-[2px] hover:shadow-md"
+                )}
+            >
+                {/* Top styling strip */}
+                <div className={cn(
+                    "absolute top-0 left-0 right-0 h-[2px] transition-colors duration-200",
+                    isComingSoon ? "bg-muted" : "bg-copper/40 group-hover:bg-copper"
+                )} aria-hidden="true" />
             <div className="absolute top-[2px] left-0 right-0 h-[1px] bg-white opacity-40" />
 
             <CardHeader className="pt-8 pb-4 px-6 md:px-8 relative">
@@ -49,7 +50,7 @@ function ServiceCard({ service }: { service: ServiceItem }) {
                     <div className={cn(
                         "transition-colors duration-200 [&>svg]:stroke-[1.5]",
                         isComingSoon ? "text-muted-foreground" : "text-navy-900 group-hover:text-copper"
-                    )}>
+                    )} aria-hidden="true">
                         {service.icon === "Activity" && <Activity className="w-6 h-6" />}
                         {service.icon === "CarFront" && <CarFront className="w-6 h-6" />}
                         {service.icon === "Wrench" && <Wrench className="w-6 h-6" />}
@@ -83,7 +84,8 @@ function ServiceCard({ service }: { service: ServiceItem }) {
                     {service.description}
                 </p>
             </CardContent>
-        </Card>
+            </Card>
+        </article>
     );
 
     if (isComingSoon) {

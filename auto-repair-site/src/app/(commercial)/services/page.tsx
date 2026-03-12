@@ -8,6 +8,25 @@ import { Phone, ArrowRight } from "lucide-react";
 export const metadata: Metadata = {
     title: "Services in Missoula, MT",
     description: "Explore diagnostic, repair, and common vehicle problem pages. Clear answers and confirmed repairs in Missoula.",
+    alternates: {
+        canonical: "https://www.benchmarkmissoula.com/services",
+    },
+    openGraph: {
+        title: "Professional Auto Services in Missoula, MT | Benchmark Automotive Service",
+        description: "From advanced diagnostics to routine maintenance, explore our full range of professional auto services in Missoula.",
+        url: "https://www.benchmarkmissoula.com/services",
+        siteName: "Benchmark Automotive Service",
+        images: [
+            {
+                url: "/images/og-services.jpg",
+                width: 1200,
+                height: 630,
+                alt: "Benchmark Automotive Services Hub",
+            },
+        ],
+        locale: "en_US",
+        type: "website",
+    },
 };
 
 import { getAllServiceData } from "@/lib/serviceContent";
@@ -51,6 +70,58 @@ export default async function ServicesHubPage() {
 
     return (
         <article className="flex flex-col min-h-[100dvh]">
+            {/* Structured Data: ItemList of Services */}
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "ItemList",
+                        "name": "Benchmark Automotive Service Offerings",
+                        "description": "Comprehensive list of auto repair and diagnostic services in Missoula, MT.",
+                        "itemListElement": services.map((s, index) => ({
+                            "@type": "ListItem",
+                            "position": index + 1,
+                            "item": {
+                                "@type": "Service",
+                                "name": s.title,
+                                "description": s.description,
+                                "url": `https://www.benchmarkmissoula.com/services/${s.slug}`,
+                                "provider": {
+                                    "@type": "AutoRepair",
+                                    "name": "Benchmark Automotive Service"
+                                }
+                            }
+                        }))
+                    })
+                }}
+            />
+
+            {/* Structured Data: BreadcrumbList */}
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "BreadcrumbList",
+                        "itemListElement": [
+                            {
+                                "@type": "ListItem",
+                                "position": 1,
+                                "name": "Home",
+                                "item": "https://www.benchmarkmissoula.com/"
+                            },
+                            {
+                                "@type": "ListItem",
+                                "position": 2,
+                                "name": "Services",
+                                "item": "https://www.benchmarkmissoula.com/services"
+                            }
+                        ]
+                    })
+                }}
+            />
+
             {/* HER0 */}
             <section className="bg-navy-950 text-white py-24 md:py-32 border-b border-navy-900 relative overflow-hidden">
                 <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(255,255,255,0.03),transparent_50%)]" />
