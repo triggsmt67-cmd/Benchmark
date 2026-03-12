@@ -99,20 +99,6 @@ The city sits at roughly 3,200 feet, and many daily drives go higher — toward 
 
 ---
 
-## FAQs
-
-**Q: How long does a pre-purchase inspection take?**
-A: Plan on about 1.5 to 2 hours. We put the vehicle on a lift, run a full OBD-II scan, test drive it, and document everything. If something needs closer attention, it may run a bit longer.
-
-**Q: What if the seller won't let me bring the car to a shop?**
-A: That's a significant red flag. A legitimate private seller or dealer has no reason to refuse an independent inspection. Walk away from any seller who declines — they're protecting themselves, not you.
-
-**Q: Does a vehicle history report replace a pre-purchase inspection?**
-A: No. A Carfax or AutoCheck report shows what was reported — accidents that went through insurance, registered title changes, some service records. It won't tell you if a valve cover gasket is leaking, the rear shocks are worn out, or the A/C compressor is failing. The report and the inspection serve different purposes.
-
-After-hours drop-off is available for vehicles already in your possession. We'll confirm receipt the next business day.
-
----
 
 ## Related Services
 

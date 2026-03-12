@@ -7,6 +7,13 @@ order: 10
 related:
   - check-engine-light
   - advanced-diagnostics
+faqs:
+  - question: "My car runs fine most of the time. Do I really need to address this now?"
+    answer: "Intermittent misfires are often a sign that a component is failing gradually — not that everything is fine. Running a misfiring cylinder sends unburned fuel into the catalytic converter, which can damage it. Addressing the root cause early is almost always less expensive than waiting."
+  - question: "Can a bad spark plug really cause all these symptoms?"
+    answer: "Yes. A single fouled or worn plug can cause rough idle, reduced power, poor fuel economy, and a check engine light simultaneously. It's one of the more common cases where a relatively simple repair resolves multiple complaints at once."
+  - question: "How long does engine performance diagnostics take?"
+    answer: "Most diagnostic appointments take 1–2 hours depending on how quickly symptoms can be reproduced and which tests are needed. If a drive cycle is required to trigger the fault, it may take longer. We'll give you a realistic timeframe after the initial scan."
 ---
 
 # Engine and Performance in Missoula, MT
@@ -61,17 +68,3 @@ We don't recommend a repair based on a code alone. A P0301 (cylinder 1 misfire) 
 ### Repair
 After the repair, we clear codes and run a drive cycle to confirm the misfire monitors pass. Live data is reviewed again to verify fuel trims, sensor readings, and idle quality are within spec. The fix is verified — not assumed.
 
----
-
-## FAQs
-
-**Q: My car runs fine most of the time. Do I really need to address this now?**
-A: Intermittent misfires are often a sign that a component is failing gradually — not that everything is fine. Running a misfiring cylinder sends unburned fuel into the catalytic converter, which can damage it. Addressing the root cause early is almost always less expensive than waiting.
-
-**Q: Can a bad spark plug really cause all these symptoms?**
-A: Yes. A single fouled or worn plug can cause rough idle, reduced power, poor fuel economy, and a check engine light simultaneously. It's one of the more common cases where a relatively simple repair resolves multiple complaints at once.
-
-**Q: How long does engine performance diagnostics take?**
-A: Most diagnostic appointments take 1–2 hours depending on how quickly symptoms can be reproduced and which tests are needed. If a drive cycle is required to trigger the fault, it may take longer. We'll give you a realistic timeframe after the initial scan.
-
-After-hours drop-off is available. **We'll confirm receipt the next business day.**

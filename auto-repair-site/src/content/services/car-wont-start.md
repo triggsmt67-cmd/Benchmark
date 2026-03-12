@@ -87,20 +87,6 @@ Missoula winters put real load on starting systems. A fully charged battery at 3
 
 ---
 
-## FAQs
-
-**Q: How do I know if it's the battery or the starter?**
-A: A dead battery typically produces rapid clicking, dim interior lights, or complete silence. A bad starter usually produces one loud mechanical click with normal interior lighting. The distinction isn't always clean — a battery load test and starter circuit voltage drop measurement are the definitive tools.
-
-**Q: If I can jump-start the car, does that mean the battery is fine?**
-A: No. Jump-starting bypasses the battery — it supplies external current to the starter. A battery that won't hold a charge may be failing on its own, or it may be draining faster than the alternator can recharge it due to a parasitic draw or an alternator that isn't putting out enough amperage. Load testing will show whether it has real capacity or just surface charge.
-
-**Q: Can a security system prevent the car from starting?**
-A: Yes. If the immobilizer doesn't recognize the key's transponder chip — due to a dead key fob battery, a worn key, or an ECU fault — it will block fuel or ignition. The dash security light is usually illuminated in this case. A scan tool can pull any stored immobilizer codes.
-
-After-hours drop-off is available. We'll confirm receipt the next business day.
-
----
 
 ## Related Services
 

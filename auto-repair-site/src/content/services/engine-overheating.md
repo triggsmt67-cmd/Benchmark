@@ -100,20 +100,6 @@ Missoula's stop-and-go traffic near the university and downtown, especially duri
 
 ---
 
-## FAQs
-
-**Q: Can I drive a short distance if my engine is overheating?**
-A: No. Driving on an overheating engine — even a short distance — can warp an aluminum cylinder head, which turns a minor repair into a major one. Pull over, shut it off, and wait for it to cool before driving or calling for a tow.
-
-**Q: How do I know if my head gasket is blown versus something simpler?**
-A: A combustion leak test is the most reliable indicator. White smoke from the exhaust, coolant disappearing without any visible external leak, milky residue on the oil cap, and bubbling in the coolant reservoir are all signs of combustion gases entering the cooling system. Any of those symptoms warrant a pressure and combustion test before anything else.
-
-**Q: What does it cost to fix an overheating engine?**
-A: Cost depends entirely on root cause. A thermostat replacement is a relatively minor repair. A water pump is more involved. A head gasket replacement on most engines is a significant job. That's why accurate diagnosis before repair matters — treating the wrong cause doesn't solve the problem and adds unnecessary expense.
-
-After-hours drop-off is available. We'll confirm receipt the next business day.
-
----
 
 ## Related Services
 

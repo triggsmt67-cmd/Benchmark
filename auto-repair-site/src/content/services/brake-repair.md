@@ -92,20 +92,6 @@ Spring is a reasonable time to inspect brakes after winter exposure, before corr
 
 ---
 
-## FAQs
-
-**Q: Do I need new rotors every time I replace my brake pads?**
-A: Not necessarily. Rotors can be reused if they're above minimum thickness and have a smooth, even surface. We measure rotor thickness and check for lateral runout before making that call. If they're worn below spec or scored deep enough to affect pad contact, replacement is the right move.
-
-**Q: Is it safe to drive with grinding brakes?**
-A: No. Metal-on-metal contact between worn pads and rotors generates heat, scores rotor surfaces rapidly, and can compromise hydraulic components if the caliper overheats. It also extends stopping distances. If you're hearing grinding, bring it in.
-
-**Q: How long does brake repair take?**
-A: A standard two-axle brake job — pads and rotors — typically takes 1.5 to 2.5 hours. Caliper replacement or hydraulic repairs add time. After-hours drop-off is available if your schedule is tight.
-
-After-hours drop-off is available. We'll confirm receipt the next business day.
-
----
 
 ## Related Services
 

@@ -7,6 +7,13 @@ order: 10
 related:
   - brake-repair
   - vehicle-inspection
+faqs:
+  - question: "Can I just replace one shock or strut if only one is leaking?"
+    answer: "We almost always recommend replacing them in pairs (both fronts or both rears). Shocks wear at similar rates, and having one new dampener and one worn dampener causes an imbalance that can affect handling and braking safety."
+  - question: "My car is making a clunking sound, is it safe to drive?"
+    answer: "It depends on the root cause. A worn sway bar link is a nuisance but rarely dangerous. However, a failing ball joint or a broken coil spring is a significant safety risk that could lead to a loss of control. We recommend an inspection as soon as you hear consistent suspension noise."
+  - question: "How long do suspension components typically last?"
+    answer: "In our region, we see shocks and struts beginning to lose effectiveness around 50,000 to 80,000 miles. However, this varies wildly based on whether the vehicle is used on dirt roads, carries heavy loads, or is driven primarily on the highway."
 ---
 
 # Undercarriage and Suspension in Missoula, MT
@@ -61,17 +68,3 @@ Suspension issues are often best identified on the road. We look for steering pu
 ### Digital Alignment Check
 If suspension wear is suspected, we often recommend a quick alignment check. If the vehicle cannot be brought into factory specifications, it's a definitive sign that a component is bent or excessively worn.
 
----
-
-## FAQs
-
-**Q: Can I just replace one shock or strut if only one is leaking?**
-A: We almost always recommend replacing them in pairs (both fronts or both rears). Shocks wear at similar rates, and having one new dampener and one worn dampener causes an imbalance that can affect handling and braking safety.
-
-**Q: My car is making a clunking sound, is it safe to drive?**
-A: It depends on the root cause. A worn sway bar link is a nuisance but rarely dangerous. However, a failing ball joint or a broken coil spring is a significant safety risk that could lead to a loss of control. We recommend an inspection as soon as you hearth consistent suspension noise.
-
-**Q: How long do suspension components typically last?**
-A: In our region, we see shocks and struts beginning to lose effectiveness around 50,000 to 80,000 miles. However, this varies wildly based on whether the vehicle is used on dirt roads, carries heavy loads, or is driven primarily on the highway.
-
-After-hours drop-off is available. **We'll confirm receipt the next business day.**

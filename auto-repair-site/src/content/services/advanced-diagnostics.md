@@ -92,20 +92,6 @@ Distinguishing a cold-start false code from an actual sensor failure requires re
 
 ---
 
-## FAQs
-
-**Q: My car was scanned somewhere else and they said nothing came up. How is advanced diagnostics different?**
-A: Generic code readers only access standardized OBD-II data — typically the powertrain module and emissions-related codes. Advanced diagnostics covers all available control modules, manufacturer-specific fault codes, live sensor data, and bi-directional component testing. Many real faults don't generate standard OBD codes and are invisible to a basic scan tool.
-
-**Q: How much does a diagnostic charge cover?**
-A: Diagnostic time is billed as labor, and it replaces parts replacement by guesswork — which routinely costs more. A confirmed diagnosis means you're only paying for the repair that actually fixes the problem. If we can't identify a root cause, we'll tell you that clearly rather than recommend a repair we're not confident in.
-
-**Q: Does a fault code tell you which part to replace?**
-A: No. A code identifies a circuit condition or system failure — not a specific component. P0300 means the ECM detected random misfires; it doesn't tell you whether the cause is a failing coil, a clogged injector, low compression, or a crankshaft sensor producing a degraded signal. Interpreting the code and testing the system is the actual diagnosis.
-
-After-hours drop-off is available. We'll confirm receipt the next business day.
-
----
 
 ## Related Services
 

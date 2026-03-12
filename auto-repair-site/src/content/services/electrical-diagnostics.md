@@ -8,6 +8,13 @@ related:
   - check-engine-light
   - battery-drain
   - vehicle-inspection
+faqs:
+  - question: "My battery keeps dying. Do I need a new battery or something else?"
+    answer: "Sometimes both, sometimes neither. A battery that won't hold a charge may be failing on its own, or it may be draining faster than the alternator can recharge it due to a parasitic draw or an alternator that isn't putting out enough amperage. We test each part of the system separately before drawing any conclusions."
+  - question: "I have a warning light on but the car drives fine. Is it okay to wait?"
+    answer: "Depends on which light. An ABS or airbag warning means that specific safety system is offline — the vehicle drives normally, but those systems won't function in an emergency. A check engine light covers a wide range, from a loose gas cap to a misfiring cylinder. We can tell you which category yours falls into."
+  - question: "Why does electrical diagnosis cost money even if nothing gets fixed that day?"
+    answer: "The diagnostic work is the service. It's what tells us whether the alternator is bad, whether the fault is in the wiring, or whether the module itself has failed. Without it, you're replacing parts based on guesses — which usually costs more in the end."
 ---
 
 # Electrical Diagnostics in Missoula, MT
@@ -59,15 +66,3 @@ We trace each fault to its root cause before recommending repair. A code pointin
 After repair, we re-scan all modules, verify charging system output is within spec, and confirm the original symptom is resolved — not just that the code is cleared.
 
 
-## FAQs
-
-**Q: My battery keeps dying. Do I need a new battery or something else?**
-A: Sometimes both, sometimes neither. A battery that won't hold a charge may be failing on its own, or it may be draining faster than the alternator can recharge it due to a parasitic draw or an alternator that isn't putting out enough amperage. We test each part of the system separately before drawing any conclusions.
-
-**Q: I have a warning light on but the car drives fine. Is it okay to wait?**
-A: Depends on which light. An ABS or airbag warning means that specific safety system is offline — the vehicle drives normally, but those systems won't function in an emergency. A check engine light covers a wide range, from a loose gas cap to a misfiring cylinder. We can tell you which category yours falls into.
-
-**Q: Why does electrical diagnosis cost money even if nothing gets fixed that day?**
-A: The diagnostic work is the service. It's what tells us whether the alternator is bad, whether the fault is in the wiring, or whether the module itself has failed. Without it, you're replacing parts based on guesses — which usually costs more in the end.
-
-After-hours drop-off is available. **We'll confirm receipt the next business day.**

@@ -8,6 +8,13 @@ related:
   - advanced-diagnostics
   - electrical-diagnostics
   - vehicle-inspection
+faqs:
+  - question: "Is it safe to drive with the check engine light on?"
+    answer: "If the light is solid, it is generally safe to drive the vehicle to the shop, but you should have it inspected soon. If the light is flashing, pull over immediately in a safe location and have the vehicle towed. A flashing light indicates a severe misfire that can cause expensive damage to your catalytic converter."
+  - question: "Can you just clear the code for me?"
+    answer: "Clearing a code does not fix the problem. The vehicle's computer will continue running its self-tests, and the light will inevitably return as soon as the underlying issue is detected again."
+  - question: "Can I drop the vehicle off after hours?"
+    answer: "Yes. After-hours drop-off is available. We’ll confirm receipt the next business day."
 ---
 
 # Check Engine Light Diagnostics in Missoula, MT
@@ -58,18 +65,6 @@ Once we have isolated the root cause, we explain our findings completely and pre
 
 ---
 
-## FAQs
-
-### Is it safe to drive with the check engine light on?
-If the light is **solid**, it is generally safe to drive the vehicle to the shop, but you should have it inspected soon. If the light is **flashing**, pull over immediately in a safe location and have the vehicle towed. A flashing light indicates a severe misfire that can cause expensive damage to your catalytic converter.
-
-### Can you just clear the code for me?
-Clearing a code does not fix the problem. The vehicle's computer will continue running its self-tests, and the light will inevitably return as soon as the underlying issue is detected again. 
-
-### Can I drop the vehicle off after hours?
-Yes. After-hours drop-off is available. We’ll confirm receipt the next business day.
-
----
 
 ## Get Clear Answers
 

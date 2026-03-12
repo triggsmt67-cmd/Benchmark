@@ -94,20 +94,6 @@ Summer wildfire smoke loads cabin air filters faster than typical driving condit
 
 ---
 
-## FAQs
-
-**Q: Why does my AC blow cold at first and then gradually get warmer?**
-A: The most common cause is a refrigerant leak. As the system runs, pressure drops low enough to trigger the low-pressure cutoff switch, which prevents the compressor from running to protect it from oil starvation. A UV dye leak test identifies where the refrigerant is escaping.
-
-**Q: Can I just recharge the system myself with a kit from the parts store?**
-A: A DIY recharge adds refrigerant without finding or fixing the leak, so the same problem returns in weeks or months. Overcharging also puts excess pressure on the compressor. Different model years use different refrigerant types — R-134a vs. R-1234yf — and using the wrong PAG oil damages the compressor. Diagnosis first, recharge second.
-
-**Q: My heat works, but the fan only blows at one speed. What's wrong?**
-A: That's almost always the blower motor resistor. The resistor controls fan speed by varying electrical resistance; when it fails, the blower usually defaults to high speed only. It's a straightforward replacement once confirmed.
-
-After-hours drop-off is available. We'll confirm receipt the next business day.
-
----
 
 ## Related Services
 

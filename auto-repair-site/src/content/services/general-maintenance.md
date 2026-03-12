@@ -5,8 +5,17 @@ category: "Maintenance"
 featured: false
 order: 10
 related:
+  - fluid-services
   - vehicle-inspection
-  - brake-repair
+faqs:
+  - question: "How do I know what's actually due versus what's just being upsold?"
+    answer: "We'll show you what we found and explain the reasoning behind any recommendation. If a filter looks clean, we say so and move on. If a belt shows no signs of wear and isn't near its service interval, we're not going to suggest replacing it. Manufacturer maintenance schedules are published in your owner's manual — we work from those, not from a flat upsell checklist. If you want to see the part before we replace it, just ask."
+  - question: "My car feels fine. Is maintenance still necessary?"
+    answer: "Most maintenance items don't produce noticeable symptoms until they're significantly overdue. Old oil still pours. A serpentine belt that's 90% through its life looks normal at a glance. Brake fluid with elevated water content feels the same as fresh fluid — until it doesn't. The whole point of routine maintenance is to catch wear before it causes a problem, not after it already has."
+  - question: "How long does a general maintenance visit take?"
+    answer: "A standard oil change with a full multi-point inspection runs 45–60 minutes. If we find items that need additional service — a fluid flush, filter replacements, belt replacement — we'll give you a revised time estimate before we proceed. We don't start work you haven't approved."
+  - question: "What if I don't know the last time my car was serviced?"
+    answer: "That's common, especially with a recently purchased used vehicle. We can pull up any prior service records if the VIN has history in our system. Beyond that, we'll assess fluid condition and component wear visually and give you our honest read on where things stand. From there, we establish a baseline and you'll know exactly what's been done going forward."
 ---
 
 # General Maintenance in Missoula, MT
@@ -69,20 +78,3 @@ We cross-reference your mileage and service history against manufacturer mainten
 ### Repair
 After service is complete, we reset maintenance reminders, confirm all fluid levels are correct, and do a short road test to verify normal operation. You leave with a written summary of what was done and, if anything was flagged for future attention, a clear explanation of what it is and how urgent it actually is.
 
----
-
-## FAQs
-
-**Q: How do I know what's actually due versus what's just being upsold?**
-A: We'll show you what we found and explain the reasoning behind any recommendation. If a filter looks clean, we say so and move on. If a belt shows no signs of wear and isn't near its service interval, we're not going to suggest replacing it. Manufacturer maintenance schedules are published in your owner's manual — we work from those, not from a flat upsell checklist. If you want to see the part before we replace it, just ask.
-
-**Q: My car feels fine. Is maintenance still necessary?**
-A: Most maintenance items don't produce noticeable symptoms until they're significantly overdue. Old oil still pours. A serpentine belt that's 90% through its life looks normal at a glance. Brake fluid with elevated water content feels the same as fresh fluid — until it doesn't. The whole point of routine maintenance is to catch wear before it causes a problem, not after it already has.
-
-**Q: How long does a general maintenance visit take?**
-A: A standard oil change with a full multi-point inspection runs 45–60 minutes. If we find items that need additional service — a fluid flush, filter replacements, belt replacement — we'll give you a revised time estimate before we proceed. We don't start work you haven't approved.
-
-**Q: What if I don't know the last time my car was serviced?**
-A: That's common, especially with a recently purchased used vehicle. We can pull up any prior service records if the VIN has history in our system. Beyond that, we'll assess fluid condition and component wear visually and give you our honest read on where things stand. From there, we establish a baseline and you'll know exactly what's been done going forward.
-
-After-hours drop-off is available. **We'll confirm receipt the next business day.**

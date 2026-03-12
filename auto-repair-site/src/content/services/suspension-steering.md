@@ -100,20 +100,6 @@ Cold temperatures also stiffen the rubber in bushings and CV boots. A bushing th
 
 ---
 
-## FAQs
-
-**Q: How do I know if my suspension needs repair or just an alignment?**
-A: Alignment corrects the angle of your wheels — it doesn't fix worn components. If your car pulls to one side after a recent alignment, or if the steering feels loose or clunky, there's a mechanical issue that needs to be found before the alignment can hold. Alignment is a calibration step, not a substitute for component repair.
-
-**Q: Can I keep driving if my car is pulling to one side or bouncing a lot?**
-A: Mild pulling often continues for a while without immediate failure, but worn tie rods, ball joints, or struts change how the car responds in a sudden maneuver. The problem isn't steady-state driving on familiar roads — it's what happens when you have to react fast.
-
-**Q: How long do shocks and struts typically last?**
-A: Most shocks and struts are rated for 50,000–75,000 miles, but Montana roads — potholes, frost heaves, gravel — tend to shorten that. Driving style and vehicle weight are factors too. We inspect the components rather than replace based on a mileage threshold.
-
-After-hours drop-off is available. We'll confirm receipt the next business day.
-
----
 
 ## Related Services
 

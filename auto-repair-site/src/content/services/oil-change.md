@@ -95,20 +95,6 @@ Missoula's seasonal temperature swings also accelerate the thermal cycling that 
 
 ---
 
-## FAQs
-
-**Q: How often should I actually change my oil?**
-A: It depends on your vehicle, oil type, and driving conditions. Most modern vehicles on full synthetic run 7,500–10,000 miles between changes. If you're using conventional oil or do a lot of short trips, cold-weather starts, or towing, shorter intervals apply. The sticker in your window matters less than what your owner's manual and oil life monitor say.
-
-**Q: Do I have to use synthetic oil if my car didn't originally call for it?**
-A: Not necessarily, but synthetic is worth considering if your vehicle has the mileage or operating conditions for it. Synthetic oil resists thermal breakdown better, flows faster at cold start, and holds its additive package longer between changes. If your manufacturer specifies synthetic, use synthetic — substituting conventional shortens your protection window significantly.
-
-**Q: What actually happens if I go significantly past my oil change interval?**
-A: The additive package depletes first — detergents stop suspending contaminants, ZDDP breaks down, and the base oil oxidizes. You'll likely see sludge formation in oil passages and increased wear on camshaft and crankshaft bearings. One late change isn't catastrophic. A consistent pattern of extended intervals accelerates wear in a way that compounds over time.
-
-After-hours drop-off is available. We'll confirm receipt the next business day.
-
----
 
 ## Related Services
 

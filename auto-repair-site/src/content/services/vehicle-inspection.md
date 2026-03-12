@@ -8,6 +8,13 @@ related:
   - pre-purchase-inspection
   - advanced-diagnostics
   - brake-repair
+faqs:
+  - question: "How long does an inspection take?"
+    answer: "Inspection time varies depending on the vehicle and the concerns being evaluated."
+  - question: "Can this help before selling a vehicle?"
+    answer: "Yes. Knowing the condition beforehand can make selling a vehicle easier."
+  - question: "Can I drop the vehicle off after hours?"
+    answer: "Yes. After-hours drop-off is available. We'll confirm receipt the next business day."
 ---
 
 # Vehicle Inspection in Missoula, MT
@@ -60,13 +67,3 @@ If repairs are needed, we outline the next steps so you can decide confidently.
 
 ---
 
-## FAQs
-
-### How long does an inspection take?
-Inspection time varies depending on the vehicle and the concerns being evaluated.
-
-### Can this help before selling a vehicle?
-Yes. Knowing the condition beforehand can make selling a vehicle easier.
-
-### Can I drop the vehicle off after hours?
-Yes. After-hours drop-off is available. We'll confirm receipt the next business day.

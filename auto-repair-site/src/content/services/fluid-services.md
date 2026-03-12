@@ -91,20 +91,6 @@ Western Montana's range of conditions puts unusual demands on vehicle fluids com
 
 ---
 
-## FAQs
-
-**Q: How often does transmission fluid need to be changed?**
-A: Most manufacturers specify 30,000–60,000 miles for conventional automatic transmission fluid and up to 100,000 miles for full synthetic — but those intervals assume average driving. Towing, sustained mountain grades, and frequent stop-and-go accelerate fluid breakdown. If you do a lot of that in western Montana, the shorter end of the range is more accurate for your vehicle.
-
-**Q: Can I just top off brake fluid instead of doing a full flush?**
-A: Topping off corrects low level but not fluid quality. Brake fluid absorbs moisture through rubber brake hoses over time, and as water content increases, the boiling point drops. Heavily contaminated fluid can boil under sustained braking — when that happens, the fluid vaporizes and pedal pressure drops suddenly. A flush clears the moisture throughout the entire hydraulic circuit, from master cylinder to calipers.
-
-**Q: What does dark or burnt-smelling transmission fluid indicate?**
-A: Oxidation and heat damage. Healthy automatic transmission fluid is pink or red and translucent. Dark brown, black, or fluid with a burnt odor means the friction modifiers and viscosity improvers have broken down. At that point, the fluid is no longer protecting clutch packs and solenoid valve bores the way it should. A service interval was missed, or the fluid was pushed past its thermal limit.
-
-After-hours drop-off is available. We'll confirm receipt the next business day.
-
----
 
 ## Related Services
 
