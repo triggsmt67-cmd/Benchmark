@@ -1,5 +1,5 @@
 ---
-title: "Check Engine Light Diagnostics"
+title: "Missoula Check Engine Light Diagnostics"
 description: "Check engine light diagnostics in Missoula, MT. Identify the real cause of engine warning lights with professional testing and confirmed repairs."
 category: "Diagnostics"
 featured: true
