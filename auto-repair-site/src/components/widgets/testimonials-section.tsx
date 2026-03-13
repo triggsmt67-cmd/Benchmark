@@ -12,8 +12,8 @@ const testimonials = [
         timing: "2 weeks ago"
     },
     {
-        name: "Sarah J.",
-        quote: "Brought my SUV in for what I thought was a failing transmission. They found it was just a loose heat shield and a minor sensor. Saved me thousands. They have a customer for life.",
+        name: "J. Johnson",
+        quote: "I went in for a oil change and the guy's noticed I had a leaky axle seal, they caught it before my warranty ran out, That saved me thousands, thanks guys.",
         timing: "1 month ago"
     },
     {
