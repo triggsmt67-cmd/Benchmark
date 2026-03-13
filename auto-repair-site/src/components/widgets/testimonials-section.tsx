@@ -17,9 +17,9 @@ const testimonials = [
         timing: "1 month ago"
     },
     {
-        name: "David R.",
-        quote: "I'm a car enthusiast and extremely particular about who touches my vehicles. The precision and cleanliness of this shop are unmatched in the area. Exceptional work on my suspension rebuild.",
-        timing: "3 months ago"
+        name: "J. Fritz",
+        quote: "These guys did a great job! They were able to fit me in quickly and did a really good job on my brake service.",
+        timing: "Recent Visit"
     }
 ];
 
