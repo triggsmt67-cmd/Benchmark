@@ -41,17 +41,7 @@ export function AboutSection() {
                         <div className="space-y-6 text-text-secondary text-lg leading-relaxed mt-8">
                             <StaggerItem>
                                 <p>
-                                    For over two decades, {siteConfig.businessName} has served {siteConfig.cityState} with a singular focus: doing the job right the first time. We aren&apos;t interested in making a quick buck off unnecessary upsells. We are interested in building lifelong relationships with drivers who value their safety and their vehicles.
-                                </p>
-                            </StaggerItem>
-                            <StaggerItem>
-                                <p>
-                                    Our shop is equipped with dealer-level diagnostic technology, but our approach remains fundamentally human. We explain every recommendation clearly, prioritize what&apos;s urgent versus what can wait, and stand firmly behind every wrench we turn with a comprehensive warranty.
-                                </p>
-                            </StaggerItem>
-                            <StaggerItem>
-                                <p className="font-medium text-navy-950">
-                                    When you bring your car to us, you aren&apos;t just getting a repair. You&apos;re getting peace of mind from technicians who treat your vehicle like their own.
+                                    Benchmark Automotive Service is an auto repair shop in Missoula, MT focused on accurate diagnostics, honest recommendations, and repairs done right the first time. Backed by over 20 years of hands-on automotive experience, we service brakes, electrical issues, engine performance concerns, suspension, AC and heating, and routine maintenance. We explain what’s urgent, what can wait, and never recommend repairs without proper testing. If you want clear answers and dependable automotive repair in Missoula, Benchmark is here to help.
                                 </p>
                             </StaggerItem>
                         </div>
