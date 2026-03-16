@@ -55,7 +55,7 @@ Every fluid in a vehicle has a service life, and each one fails differently.
 
 **Brake fluid** is hygroscopic — it absorbs moisture through the microscopic permeability of rubber brake hoses, even on sealed systems. Fresh DOT 3 fluid has a dry boiling point above 400°F. As absorbed water content climbs to 2–3% by weight, that boiling point can drop below 300°F, which is reachable under sustained braking on a mountain descent. When fluid vaporizes, pedal pressure transmits through a compressible gas bubble instead of an incompressible liquid, and pedal feel changes fast. This is why brake fluid flush intervals matter independent of how the brakes feel day-to-day. See also: [Brake Repair](/services/brake-repair).
 
-**Coolant** becomes acidic as its corrosion inhibitors deplete. Acidic coolant attacks aluminum — water pump impellers, intake manifold passages, and heater core tubes are all vulnerable. OAT (organic acid technology) and silicate-based coolants have different service intervals and must not be mixed; the combination creates a gel that reduces flow through radiator and heater core passages. Correct freeze-point concentration also matters — too dilute and the coolant freezes in a Montana January; too concentrated and heat transfer efficiency drops. See also: Cooling System Repair.
+**Coolant** becomes acidic as its corrosion inhibitors deplete. Acidic coolant attacks aluminum — water pump impellers, intake manifold passages, and heater core tubes are all vulnerable. OAT (organic acid technology) and silicate-based coolants have different service intervals and must not be mixed; the combination creates a gel that reduces flow through radiator and heater core passages. Correct freeze-point concentration also matters — too dilute and the coolant freezes in a Montana January; too concentrated and heat transfer efficiency drops. See also: [Engine Overheating](/services/engine-overheating).
 
 **Differential and transfer case fluid** breaks down through the same thermal cycling that affects transmission fluid, with the added factor of moisture intrusion from off-pavement use or water crossings. Worn seals let water into the housing, which emulsifies with the gear oil and strips its load-carrying capacity from the hypoid gear surfaces.
 
@@ -95,7 +95,7 @@ Western Montana's range of conditions puts unusual demands on vehicle fluids com
 ## Related Services
 
 - [Oil Change](/services/oil-change)
-- Cooling System Repair
+- [Engine Overheating](/services/engine-overheating)
 - [Brake Repair](/services/brake-repair)
 
 ---

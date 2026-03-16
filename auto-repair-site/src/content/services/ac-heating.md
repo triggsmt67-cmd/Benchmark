@@ -6,7 +6,7 @@ featured: false
 order: 5
 related:
   - car-not-blowing-cold-air
-  - cooling-system-repair
+  - fluid-services
   - general-maintenance
 faqs:
   - question: "Why does my AC blow cold at first and then gradually get warmer?"
@@ -56,7 +56,7 @@ On the AC side, refrigerant leaks are the most common cause of lost cooling. Ref
 
 Compressor failure is the other major AC cause. The compressor circulates refrigerant through the system; when its clutch fails to engage, internal mechanical components seize, or it runs dry due to low refrigerant, cooling stops. Newer vehicles with variable-displacement compressors — which run continuously without a clutch — require scan tool data alongside pressure testing to diagnose accurately.
 
-On the heating side, the heater core is a small radiator inside the dash that transfers heat from engine coolant into cabin air. A heater core clogged with scale from neglected coolant produces weak or no heat; a leaking one shows up as a sweet smell in the cabin, foggy interior glass, or coolant loss without an obvious external leak. A stuck-closed thermostat prevents the engine from reaching operating temperature, so the coolant never gets hot enough to heat the cabin. A faulty blend door actuator — the motorized flap that mixes hot and cold airflow — leaves the system stuck at one temperature regardless of what the controls say. Related [cooling system issues](/services/cooling-system-repair) are diagnosed separately when needed.
+On the heating side, the heater core is a small radiator inside the dash that transfers heat from engine coolant into cabin air. A heater core clogged with scale from neglected coolant produces weak or no heat; a leaking one shows up as a sweet smell in the cabin, foggy interior glass, or coolant loss without an obvious external leak. A stuck-closed thermostat prevents the engine from reaching operating temperature, so the coolant never gets hot enough to heat the cabin. A faulty blend door actuator — the motorized flap that mixes hot and cold airflow — leaves the system stuck at one temperature regardless of what the controls say. Related [cooling system issues](/services/fluid-services) are diagnosed separately when needed.
 
 ---
 
@@ -98,7 +98,7 @@ Summer wildfire smoke loads cabin air filters faster than typical driving condit
 ## Related Services
 
 - [Car Not Blowing Cold Air](/services/car-not-blowing-cold-air)
-- [Cooling System Repair](/services/cooling-system-repair)
+- [Fluid Services (Coolant)](/services/fluid-services)
 - [General Maintenance](/services/general-maintenance)
 
 ---

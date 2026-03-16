@@ -6,7 +6,6 @@ featured: false
 order: 3
 lastReviewed: 2026-03-11
 related:
-  - cooling-system-repair
   - fluid-services
   - advanced-diagnostics
 faqs:
@@ -103,8 +102,7 @@ Missoula's stop-and-go traffic near the university and downtown, especially duri
 
 ## Related Services
 
-- Cooling System Repair
-- [Fluid Services](/services/fluid-services)
+- [Fluid Services (Coolant)](/services/fluid-services)
 - [Advanced Diagnostics](/services/advanced-diagnostics)
 
 ---

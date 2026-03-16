@@ -7,8 +7,8 @@ order: 10
 lastReviewed: 2026-03-12
 related:
   - battery-keeps-dying
-  - battery-charging-system
-  - starter-alternator-repair
+  - electrical-diagnostics
+  - car-wont-start
 faqs:
   - question: "If I replace the battery, will the drain stop?"
     answer: "Not necessarily. A new battery addresses the symptom but not the cause. If a parasitic draw or underperforming alternator is present, it will drain the new battery too. We test the charging system and current draw before recommending replacement."
@@ -50,7 +50,7 @@ A car battery that keeps dying is rarely just a bad battery. Most repeat cases t
 
 The most common cause of repeat battery drain is a parasitic draw — current leaving the battery through a circuit that should be inactive when the vehicle is off. Modern vehicles have dozens of control modules that enter a sleep state after shutdown, and when one of them fails to sleep, it keeps drawing current around the clock. A stuck relay, a glove box light with a faulty switch, or an aftermarket accessory wired to a constant-power circuit can each produce enough drain to kill a battery overnight. Alternator diodes are another source: a failed diode can allow current to flow backward through the charging circuit even with the ignition off, creating a draw that's easy to miss without the right test.
 
-The charging system itself is a separate but related cause. If the alternator is only producing 12 volts instead of the 13.5 to 14.5 volts required to maintain battery charge, the battery slowly discharges every time the vehicle is driven. This shows up as a battery that starts fine in the morning but gets progressively weaker through the day. A worn-out voltage regulator — either integrated into the alternator or mounted externally — is typically the cause when output is low or unstable. For more on charging system failures, see our [starter and alternator repair](/services/starter-alternator-repair) page.
+The charging system itself is a separate but related cause. If the alternator is only producing 12 volts instead of the 13.5 to 14.5 volts required to maintain battery charge, the battery slowly discharges every time the vehicle is driven. This shows up as a battery that starts fine in the morning but gets progressively weaker through the day. A worn-out voltage regulator — either integrated into the alternator or mounted externally — is typically the cause when output is low or unstable. For more on charging system failures, see our starter and alternator repair page.
 
 Battery chemistry also plays a role. Lead-acid batteries have a service life of three to five years, and as the internal lead plates sulfate and the electrolyte depletes, usable capacity drops. An aging battery may test acceptable at room temperature but fail the moment cold weather reduces its output, or when a series of short trips prevents the alternator from fully recharging it. These factors stack, and understanding which one is actually driving the problem is what the diagnostic process is designed to determine.
 
@@ -90,9 +90,8 @@ Short-trip driving patterns compound the problem. Missoula is a compact city, an
 
 ## Related Services
 
-- [Battery & Charging System](/services/battery-charging-system)
-- [Starter & Alternator Repair](/services/starter-alternator-repair)
 - [Electrical Diagnostics](/services/electrical-diagnostics)
+- [Car Won't Start](/services/car-wont-start)
 
 ---
 

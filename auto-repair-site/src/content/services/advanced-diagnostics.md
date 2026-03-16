@@ -7,7 +7,7 @@ order: 1
 related:
   - electrical-diagnostics
   - check-engine-light
-  - battery-charging-system
+  - battery-drain
 faqs:
   - question: "My car was scanned somewhere else and they said nothing came up. How is advanced diagnostics different?"
     answer: "Generic code readers only access standardized OBD-II data — typically the powertrain module and emissions-related codes. Advanced diagnostics covers all available control modules, manufacturer-specific fault codes, live sensor data, and bi-directional component testing. Many real faults don't generate standard OBD codes and are invisible to a basic scan tool."
@@ -78,7 +78,7 @@ After repair, we clear fault codes and run a full re-scan to confirm no remainin
 
 If another shop scanned the vehicle and returned no codes but the symptom is still present, that's the most common reason drivers come to us for advanced diagnostics. Generic code readers miss manufacturer-specific fault codes, module communication errors, and faults that only appear under driving conditions.
 
-Multiple unrelated warning lights appearing together often point to a single failing ground circuit, a low [battery-charging-system](/services/battery-charging-system) voltage event, or a CAN bus communication fault — not several separate component failures. Advanced diagnostics can sort those situations out quickly rather than chasing each code individually.
+Multiple unrelated warning lights appearing together often point to a single failing ground circuit, a low [battery and charging system](/services/battery-drain) voltage event, or a CAN bus communication fault — not several separate component failures. Advanced diagnostics can sort those situations out quickly rather than chasing each code individually.
 
 Any time a vehicle has had prior work involving ADAS features — radar sensors, forward cameras, lane-assist systems — [electrical diagnostics](/services/electrical-diagnostics) and calibration verification is worth confirming before those systems affect real-world safety function.
 
@@ -97,7 +97,7 @@ Distinguishing a cold-start false code from an actual sensor failure requires re
 
 - [Electrical Diagnostics](/services/electrical-diagnostics)
 - [Check Engine Light](/services/check-engine-light)
-- [Battery & Charging System](/services/battery-charging-system)
+- [Battery Drain & Charging System](/services/battery-drain)
 
 ---
 
