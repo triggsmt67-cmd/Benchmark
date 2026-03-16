@@ -37,4 +37,5 @@ export const serviceOfferConfigs: Record<string, NewCustomerOfferProps> = {
     "oil-change": { ...defaultOffer },
     "general-maintenance": { ...defaultOffer },
     "undercarriage-and-suspension": { ...defaultOffer },
+    "how-cold-weather-affects-your-car": { ...defaultOffer },
 };

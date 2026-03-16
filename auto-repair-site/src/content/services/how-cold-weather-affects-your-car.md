@@ -6,9 +6,9 @@ featured: false
 order: 20
 lastReviewed: "2026-03-16"
 related:
-  - battery-charging-system
+  - battery-drain
   - oil-change
-  - cooling-system-repair
+  - fluid-services
 faqs:
   - question: "At what temperature does a car battery start to struggle?"
     answer: "Battery capacity drops to roughly 50% of its rated output at 0°F, while the engine simultaneously requires more current to crank through cold, thickened oil. In Missoula, where overnight lows regularly hit single digits from December through February, a battery already weakened by age or repeated deep discharge will often fail to start the car when it matters most."
@@ -92,15 +92,15 @@ Missoula sits in the Clark Fork River valley, which holds cold air during winter
 
 Road salt and abrasive sand applied on Missoula streets and along the I-90 corridor accelerate battery terminal corrosion and work into brake hardware and suspension components over the season. If you're doing regular winter miles on the interstate, Highway 93, or the Bitterroot corridor, your vehicle sees more chemical and abrasive exposure than a vehicle stored or driven in a milder climate.
 
-The battery and charging system is the most common failure point in Missoula winters. The cooling system and an [oil change](/services/oil-change) to a cold-appropriate viscosity round out what most vehicles need before temperatures drop.
+The [battery and charging system](/services/battery-drain) is the most common failure point in Missoula winters. The [cooling system](/services/fluid-services) and an [oil change](/services/oil-change) to a cold-appropriate viscosity round out what most vehicles need before temperatures drop.
 
 ---
 
 ## Related Services
 
-- Battery & Charging System
+- [Battery Drain & Charging System](/services/battery-drain)
 - [Oil Change](/services/oil-change)
-- Cooling System Repair
+- [Fluid Services (Coolant)](/services/fluid-services)
 
 ---
 
