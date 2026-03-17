@@ -30,15 +30,17 @@ export const metadata: Metadata = {
 };
 
 import { getAllServiceData } from "@/lib/serviceContent";
+import { getAllGuideData } from "@/lib/guideContent";
 import { ServiceItem } from "@/components/widgets/services-directory";
 
 export default async function ServicesHubPage() {
-    const rawData = await getAllServiceData();
+    const [rawServices, rawGuides] = await Promise.all([
+        getAllServiceData(),
+        getAllGuideData()
+    ]);
 
-    // Sort all services by the 'order' field to maintain exact layout control
-    const sortedData = rawData.sort((a, b) => (a.order || 99) - (b.order || 99));
-
-    const services: ServiceItem[] = sortedData.map(data => {
+    // Map services
+    const services: ServiceItem[] = rawServices.map(data => {
         let cats = ["All"];
         if (Array.isArray(data.categories)) {
             cats = data.categories.map(c => (c === "Repair" ? "Repairs" : c === "Problem" ? "Vehicle Problems" : c));
@@ -64,9 +66,27 @@ export default async function ServicesHubPage() {
             section: (data.section || defaultSection) as ServiceItem["section"],
             isMostRequested: data.isMostRequested === true || data.featured === true,
             isComingSoon: data.isComingSoon === true,
-            icon: data.icon as string | undefined
+            icon: data.icon as string | undefined,
+            order: data.order || 99
         };
     });
+
+    // Map guides
+    const guideItems: ServiceItem[] = rawGuides.map(data => ({
+        id: data.slug,
+        title: data.title,
+        description: data.description,
+        slug: data.slug,
+        categories: ["Guides", "All"],
+        section: "Educational Guides",
+        isMostRequested: data.featured === true,
+        icon: "CarFront",
+        basePath: "/guides",
+        order: data.order || 99
+    }));
+
+    // Combine and sort
+    const allItems = [...services, ...guideItems].sort((a, b) => (a.order || 99) - (b.order || 99));
 
     return (
         <article className="flex flex-col min-h-[100dvh]">
@@ -79,7 +99,7 @@ export default async function ServicesHubPage() {
                         "@type": "ItemList",
                         "name": "Benchmark Automotive Service Offerings",
                         "description": "Comprehensive list of auto repair and diagnostic services in Missoula, MT.",
-                        "itemListElement": services.map((s, index) => ({
+                        "itemListElement": allItems.map((s, index) => ({
                             "@type": "ListItem",
                             "position": index + 1,
                             "item": {
@@ -172,7 +192,7 @@ export default async function ServicesHubPage() {
                 </div>
             </section>
 
-            <ServicesDirectory initialServices={services} />
+            <ServicesDirectory initialServices={allItems} />
 
             <FinalCtaBand />
         </article>

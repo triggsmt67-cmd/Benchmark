@@ -11,7 +11,7 @@ import { DiagnosticConfidenceStrip } from "@/components/widgets/diagnostic-confi
 import { Search, ChevronRight, Activity, Wrench, AlertTriangle, ThermometerSnowflake, Phone, CarFront } from "lucide-react";
 import { cn } from "@/lib/utils";
 
-type Category = "All" | "Diagnostics" | "Repairs" | "Maintenance" | "Vehicle Problems" | "Comfort & Climate";
+type Category = "All" | "Diagnostics" | "Repairs" | "Maintenance" | "Vehicle Problems" | "Comfort & Climate" | "Guides";
 
 export interface ServiceItem {
     id: string;
@@ -19,13 +19,15 @@ export interface ServiceItem {
     description: string;
     slug: string;
     categories: Category[];
-    section: "Diagnostics" | "Repairs" | "Maintenance" | "Common Vehicle Problems" | "Comfort & Climate";
+    section: "Diagnostics" | "Repairs" | "Maintenance" | "Common Vehicle Problems" | "Comfort & Climate" | "Educational Guides";
     isMostRequested: boolean;
     isComingSoon?: boolean;
     icon?: string;
+    basePath?: string;
+    order?: number;
 }
 
-const CATEGORIES: Category[] = ["All", "Diagnostics", "Repairs", "Maintenance", "Vehicle Problems", "Comfort & Climate"];
+const CATEGORIES: Category[] = ["All", "Diagnostics", "Repairs", "Maintenance", "Vehicle Problems", "Comfort & Climate", "Guides"];
 
 function ServiceCard({ service }: { service: ServiceItem }) {
     const isComingSoon = service.isComingSoon;
@@ -95,8 +97,9 @@ function ServiceCard({ service }: { service: ServiceItem }) {
             </div>
         );
     }
+    const basePath = service.basePath || "/services";
     return (
-        <Link href={`/services/${service.slug}`} className="block h-full cursor-pointer focus-visible:outline-copper rounded-sm">
+        <Link href={`${basePath}/${service.slug}`} className="block h-full cursor-pointer focus-visible:outline-copper rounded-sm">
             {content}
         </Link>
     );
@@ -121,6 +124,7 @@ export function ServicesDirectory({ initialServices }: { initialServices: Servic
         "Repairs": filteredServices.filter(s => s.section === "Repairs"),
         "Common Vehicle Problems": filteredServices.filter(s => s.section === "Common Vehicle Problems"),
         "Comfort & Climate": filteredServices.filter(s => s.section === "Comfort & Climate"),
+        "Educational Guides": filteredServices.filter(s => s.section === "Educational Guides"),
     };
 
     const mostRequested = initialServices.filter(s => s.isMostRequested);
