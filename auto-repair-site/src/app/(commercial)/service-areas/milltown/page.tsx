@@ -85,10 +85,10 @@ export default function MilltownServiceAreaPage() {
                         <Reveal>
                             <div className="space-y-6 text-text-secondary text-lg leading-relaxed">
                                 <p>
-                                    Drivers from Milltown frequently travel along Interstate 90 or MT-200 to our single, fully-capable shop located centrally in Missoula. We know that maintaining a dependable vehicle requires access to professionals who prioritize data-driven testing. Milltown residents rely heavily on their cars and light trucks for daily hauling, navigating tricky winter conditions, and making regular trips across the valley, making downtime or incomplete repairs completely unacceptable.
+                                    Drivers from Milltown often make the short trip into Missoula when they want a vehicle problem diagnosed correctly before money gets spent on the wrong repair. Whether it’s a warning light, a starting problem, brake noise, suspension wear, or a car that just doesn’t feel right, Benchmark Automotive Service gives Milltown drivers a place to get clear answers before parts are replaced.
                                 </p>
                                 <p>
-                                    At Benchmark Automotive Service, we take the stress out of automotive trouble by implementing a strict policy to test and confirm before we ever recommend replacing a part. We operate out of highly-equipped bays where our diagnostic specialists can pinpoint electrical anomalies and deeply embedded mechanical issues.
+                                    At Benchmark Automotive Service, we take a diagnostic-first approach. We inspect the vehicle, test the system causing the problem, confirm the cause, and explain what we found before recommending repairs. For Milltown drivers dealing with commuting, changing weather, rough roads, and year-round Montana driving conditions, that kind of accuracy matters.
                                 </p>
                             </div>
                         </Reveal>
@@ -97,87 +97,79 @@ export default function MilltownServiceAreaPage() {
                             <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Why Drivers From Milltown Choose Benchmark</h2>
                             <div className="space-y-6 text-text-secondary text-lg leading-relaxed">
                                 <p>
-                                    Milltown drivers seek out our facility because of our unyielding commitment to our diagnostic-first philosophy. We don't believe in gambling with your money. If your vehicle exhibits an intermittent judder or an erratic fuel economy change, we measure the sensor feedback directly to identify the failing component.
+                                    Many drivers from Milltown come to us because they want more than a quick guess. They want to know what failed, why it failed, and what the repair is actually meant to fix.
                                 </p>
                                 <p>
-                                    Our shop provides honest repair recommendations that clearly detail the condition of your vehicle. You receive accurate cost breakdowns and understand precisely why a repair is necessary before you approve any work. With significantly experienced technicians managing the workflow, we guarantee every repair holds up to the rugged realities of living in Montana.
+                                    We work on everything from check engine lights and electrical problems to brake issues, suspension wear, starting problems, drivability concerns, and routine maintenance. Our process is built around careful testing, clear recommendations, and repairs based on confirmed findings instead of trial-and-error part replacement.
                                 </p>
                             </div>
                         </Reveal>
 
                         <Reveal>
-                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Common Vehicle Issues for Drivers in Milltown</h2>
+                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Common Vehicle Issues for Milltown Drivers</h2>
                             <div className="space-y-6 text-text-secondary text-lg leading-relaxed">
                                 <p>
-                                    Vehicles in the Milltown community are subjected to extreme environmental shifts, which commonly spawn issues like:
+                                    Milltown vehicles often see a mix of highway travel, local driving, changing weather, and seasonal road wear. That can bring out problems like:
                                 </p>
                                 <ul className="list-disc pl-6 space-y-4">
-                                    <li><strong>Engine Thermostat Stuck Open or Closed:</strong> Sub-zero winter mornings cause mechanical thermostat springs to fail, leading to overheating or no interior cabin heat.</li>
-                                    <li><strong>Corroded Electrical Wiring:</strong> Road salts rapidly damage exposed ground straps, leading to intermittent failures.</li>
-                                    <li><strong>Cold-Weather Battery Failures:</strong> Aging lead-acid batteries fail to maintain sufficient cranking amps during a deep freeze.</li>
-                                    <li><strong>Towing Strain on Braking Systems:</strong> Hauling trailers through the area rapidly warps brake rotors and severely depletes pad thickness.</li>
-                                    <li><strong>Complex Air/Fuel Imbalances:</strong> Sensor fouling from highway driving often disrupts engine power causing stalling or hesitation.</li>
+                                    <li>battery and charging issues after cold weather or repeated short-trip driving</li>
+                                    <li>warning lights tied to sensors, electrical faults, or drivability issues</li>
+                                    <li>suspension and steering wear from rough roads, potholes, and freeze-thaw damage</li>
+                                    <li>brake wear from traffic, changing road conditions, and heavier vehicle use</li>
+                                    <li>electrical problems caused by moisture, corrosion, or damaged wiring</li>
+                                    <li>vibration, pulling, or uneven tire wear that becomes more noticeable at speed</li>
                                 </ul>
-                            </div>
-                        </Reveal>
-
-                        <Reveal>
-                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Drivers From Milltown We Regularly Help</h2>
-                            <div className="space-y-6 text-text-secondary text-lg leading-relaxed">
                                 <p>
-                                    When an engine control module constantly throws an unfamiliar code, residents from Milltown know they can trust our facility to provide concrete answers.
-                                </p>
-                                <p>
-                                    For vehicles producing unusual smoke profiles or running inconsistently, our rigorous <Link href="/services/check-engine-light" className="text-copper hover:underline font-medium">check engine light testing</Link> completely prevents misdiagnosed sensor replacements. Similarly, when a car is fully immobilized, isolating the core issue within the network requires patient <Link href="/services/electrical-diagnostics" className="text-copper hover:underline font-medium">electrical diagnostics</Link> to ensure we mend the root fault safely.
-                                </p>
-                                <p>
-                                    Tracking down parasitic battery draws using highly sensitive digital testing for <Link href="/services/battery-drain" className="text-copper hover:underline font-medium">intermittent battery drain problems</Link> protects you from casually throwing expensive new batteries under the hood week after week.
+                                    Some of these issues show up slowly. Others don’t. The important part is figuring out what is actually wrong before it turns into a bigger repair or leads to money spent on the wrong parts.
                                 </p>
                             </div>
                         </Reveal>
 
                         <Reveal>
-                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Popular Services</h2>
+                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Services Milltown Drivers Commonly Need</h2>
                             <div className="space-y-6 text-text-secondary text-lg leading-relaxed">
                                 <p>
-                                    We manage essential safety features and foundational vehicle health.
+                                    Drivers from Milltown often come to us for services like:
                                 </p>
+                                <ul className="list-disc pl-6 space-y-4">
+                                    <li><Link href="/services/advanced-diagnostics" className="text-copper hover:underline font-medium">Advanced Diagnostics</Link></li>
+                                    <li><Link href="/services/brake-repair" className="text-copper hover:underline font-medium">Brake Repair</Link></li>
+                                    <li><Link href="/services/electrical-diagnostics" className="text-copper hover:underline font-medium">Electrical Diagnostics</Link></li>
+                                    <li><Link href="/services/oil-change" className="text-copper hover:underline font-medium">Oil Change</Link></li>
+                                    <li><Link href="/services/suspension-steering" className="text-copper hover:underline font-medium">Suspension &amp; Steering Repair</Link></li>
+                                    <li><Link href="/services/vehicle-inspection" className="text-copper hover:underline font-medium">Vehicle Inspection</Link></li>
+                                </ul>
                                 <p>
-                                    Comprehensive <Link href="/services/brake-repair" className="text-copper hover:underline font-medium">brake inspection and component replacement</Link> is routinely requested by drivers relying on strong stopping authority. In addition to repairs, we frequently complete rigorous, photographed <Link href="/services/vehicle-inspection" className="text-copper hover:underline font-medium">multi-point vehicle inspections</Link> to give owners full visibility into the wear and tear hiding underneath their daily driver.
+                                    If your vehicle has a warning light on, is making noise, won’t start, pulls to one side, shakes at speed, or just doesn’t feel right on the road, we can work through the issue and help you understand the next step.
                                 </p>
                             </div>
                         </Reveal>
 
                         <Reveal>
-                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Driving Distance and Convenience</h2>
+                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Getting Here from Milltown</h2>
                             <div className="space-y-6 text-text-secondary text-lg leading-relaxed">
                                 <p>
-                                    The brief transit from Milltown into Missoula is straightforward. This extremely close geographic proximity makes our shop the ideal primary service center. By offering after-hours vehicle drop-off mechanisms and entirely remote digital inspection reports synced directly to your email, we preserve your daily schedule while maintaining full transparency regarding your vehicle's condition.
+                                    Getting to our shop from Milltown is straightforward for drivers heading into Missoula. Many customers make the short drive in because they want the problem checked carefully before committing to repairs.
                                 </p>
-                            </div>
-                        </Reveal>
-
-                        <Reveal>
-                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Driving From Milltown to Benchmark Automotive Service</h2>
-                            <div className="space-y-6 text-text-secondary text-lg leading-relaxed">
                                 <p>
-                                    Navigating from Milltown is incredibly fast. Jump on Interstate 90 W heading toward Missoula, taking the Reserve Street exit southbound. Proceed down Reserve Street past the shopping centers and take a left heading east onto North Ave W. You will see us shortly on your right, situated prominently at 1914 North Ave W within Missoula.
+                                    If dropping the vehicle off during the day is difficult, after-hours drop-off is available. We’ll confirm receipt the next business day.
                                 </p>
                             </div>
                         </Reveal>
 
                         <Reveal>
                             <div className="mt-12 p-8 bg-surface-secondary border border-border rounded-sm">
-                                <h2 className="font-heading text-3xl font-bold text-navy-950 mb-4">Ready for Reliable Auto Repair?</h2>
+                                <h2 className="font-heading text-3xl font-bold text-navy-950 mb-4">Schedule Service</h2>
                                 <p className="text-text-secondary text-lg mb-8">
-                                    Stop wondering if your vehicle is actually fixed. Experience the difference of premium independent automotive care centered on definitive answers.
+                                    If you live in Milltown and want clear answers before moving forward with repairs, call Benchmark Automotive Service at <strong>(406) 317-1405</strong> to schedule service.<br /><br />
+                                    After-hours drop-off is available. We’ll confirm receipt the next business day.
                                 </p>
                                 <div className="flex flex-col sm:flex-row gap-4">
                                     <Link
                                         href="/contact"
                                         className="inline-flex justify-center items-center bg-brand-red hover:bg-brand-red-hover text-white px-8 py-4 font-medium rounded-sm transition-colors text-lg"
                                     >
-                                        Schedule Service Today
+                                        Schedule Service
                                     </Link>
                                 </div>
                             </div>

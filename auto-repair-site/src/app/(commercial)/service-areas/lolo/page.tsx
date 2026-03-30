@@ -87,10 +87,10 @@ export default function LoloServiceAreaPage() {
                         <Reveal>
                             <div className="space-y-6 text-text-secondary text-lg leading-relaxed">
                                 <p>
-                                    Lolo residents frequently travel north to Missoula for reliable, high-end automotive diagnostics and maintenance. The drive up Highway 93 provides Lolo drivers direct access to Benchmark Automotive Service, where they can receive independent, dealership-level care without the pressure and pricing structures common to large franchise chains. Because Lolo drivers rely heavily on their vehicles for long commutes and traversing the Bitterroot Valley, having a shop that focuses precisely on repairing the right parts the very first time is completely essential to keeping schedules intact.
+                                    Drivers from Lolo often make the trip into Missoula when they want clear answers before spending money on repairs. Whether it’s a warning light, a no-start problem, brake noise, or a car that just doesn’t feel right, Benchmark Automotive Service gives Lolo drivers a place to get the problem tested properly before parts are replaced.
                                 </p>
                                 <p>
-                                    Our single location in Missoula allows us to house the most advanced diagnostic scanners, oscilloscopes, and electrical tracking equipment available today. Whether you depend on a heavy-duty truck for hauling and agricultural work, or a fuel-efficient compact car for commuting directly into the city, we can verify your system performance, discover the root of any issues, and get you back home securely.
+                                    At Benchmark Automotive Service, we take a diagnostic-first approach. That means we inspect the vehicle, test the system causing the problem, confirm the cause, and explain what we found before recommending repairs. For Lolo drivers who rely on their vehicles for daily commuting, highway travel, and year-round use in the Bitterroot Valley, that kind of clarity matters.
                                 </p>
                             </div>
                         </Reveal>
@@ -100,99 +100,82 @@ export default function LoloServiceAreaPage() {
                             <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Why Drivers From Lolo Choose Benchmark</h2>
                             <div className="space-y-6 text-text-secondary text-lg leading-relaxed">
                                 <p>
-                                    We often see drivers from Lolo seek out our services because they are frustrated with "parts cannons"—repair strategies that involve swapping components randomly until a symptom disappears. Our diagnostic-first philosophy protects you from wasting money and enduring multiple, repetitive trips to a repair shop.
+                                    Many drivers from Lolo come to us because they want more than a guess. They want to know what failed, why it failed, and what the repair is actually meant to fix.
                                 </p>
                                 <p>
-                                    Our technicians are deeply experienced with all aspects of modern automotive networks, including complex CAN bus communications and computerized ignition systems. Before replacing an oxygen sensor or a transmission control module, we will literally test the circuit outputs to definitively prove the part has failed.
-                                </p>
-                                <p>
-                                    Transparency and honest repair recommendations define the Benchmark experience. We pride ourselves on clear, concise communication, providing digital inspection reports straight to your phone.
+                                    We work on everything from check engine lights and electrical problems to brake issues, starting problems, suspension concerns, and routine maintenance. Our process is built around accurate testing, clear recommendations, and repairs based on confirmed findings instead of trial-and-error parts replacement.
                                 </p>
                             </div>
                         </Reveal>
 
                         {/* Common Vehicle Issues */}
                         <Reveal>
-                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Common Vehicle Issues for Drivers in Lolo</h2>
+                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Common Vehicle Issues for Lolo Drivers</h2>
                             <div className="space-y-6 text-text-secondary text-lg leading-relaxed">
                                 <p>
-                                    The combination of highway mileage, steep valley topography, and punishing Montana winters creates unique strain on vehicles driven in and out of Lolo:
+                                    Lolo drivers often put their vehicles through a mix of highway commuting, valley driving, changing weather, and long-term seasonal wear. That can bring out issues like:
                                 </p>
                                 <ul className="list-disc pl-6 space-y-4">
-                                    <li><strong>Highway Commuting Wear:</strong> The daily drive up US-93 into Missoula rapidly ages fluids. We handle a high volume of oil changes, transmission servicing, and differential fluid replacements for commuting vehicles.</li>
-                                    <li><strong>Cold-Weather Starts:</strong> Dropping temperatures severely impact aging batteries. We evaluate batteries for proper cold-cranking amps to ensure your car will start consistently before work.</li>
-                                    <li><strong>Rural Road Strain:</strong> Unpaved access roads outside the Lolo town center vibrate and wear down critical suspension and steering components rapidly. </li>
-                                    <li><strong>Brake System Aging:</strong> Descending from elevations or dealing with highway traffic stops causes rapid heat-cycling on brake pads and rotors. </li>
-                                    <li><strong>Persistent Electrical Gremlins:</strong> Heavy moisture and temperature shifts can lead to failing electronics. </li>
+                                    <li>battery and charging problems after cold weather or repeated short trips</li>
+                                    <li>brake wear from commuting, traffic, and downhill stops</li>
+                                    <li>suspension and steering wear from rough roads and broken pavement</li>
+                                    <li>warning lights tied to sensors, wiring faults, or drivability issues</li>
+                                    <li>vibration, pulling, or uneven tire wear that shows up more at highway speeds</li>
                                 </ul>
+                                <p>
+                                    Some of these problems start small. Some don’t. The important part is figuring out which issue you’re dealing with before it turns into a bigger repair or leads to more wasted money.
+                                </p>
                             </div>
                         </Reveal>
 
-                        {/* Drivers We Regularly Help */}
+                        {/* Services Lolo Drivers Commonly Need */}
                         <Reveal>
-                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Drivers From Lolo We Regularly Help</h2>
+                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Services Lolo Drivers Commonly Need</h2>
                             <div className="space-y-6 text-text-secondary text-lg leading-relaxed">
                                 <p>
-                                    Many of the customers we serve from Lolo arrive specifically because another facility could not resolve a severe drivability or check engine light concern. Often, they come to us when a car unexpectedly leaves them stranded on their commute.
+                                    Drivers from Lolo often come to us for services like:
                                 </p>
+                                <ul className="list-disc pl-6 space-y-4">
+                                    <li><Link href="/services/advanced-diagnostics" className="text-copper hover:underline font-medium">Advanced Diagnostics</Link></li>
+                                    <li><Link href="/services/brake-repair" className="text-copper hover:underline font-medium">Brake Repair</Link></li>
+                                    <li><Link href="/services/electrical-diagnostics" className="text-copper hover:underline font-medium">Electrical Diagnostics</Link></li>
+                                    <li><Link href="/services/oil-change" className="text-copper hover:underline font-medium">Oil Change</Link></li>
+                                    <li><Link href="/services/suspension-steering" className="text-copper hover:underline font-medium">Suspension &amp; Steering Repair</Link></li>
+                                    <li><Link href="/services/vehicle-inspection" className="text-copper hover:underline font-medium">Vehicle Inspection</Link></li>
+                                </ul>
                                 <p>
-                                    For example, resolving a severe <Link href="/services/car-wont-start" className="text-copper hover:underline font-medium">no-start condition</Link> is a priority operation for our team. Rather than casually suggesting a new starter, we evaluate the entire starting and charging circuit to guarantee the source of the electrical failure. In instances where the battery keeps dying repeatedly over night, thorough <Link href="/services/electrical-diagnostics" className="text-copper hover:underline font-medium">electrical diagnostics</Link> are crucial to isolating the precise module remaining awake and bleeding energy from the vehicle.
-                                </p>
-                                <p>
-                                    With any complex lighting or dashboard error, isolating the symptoms with direct testing is how we have earned a significant volume of regular customers commuting up from the Bitterroot Valley.
+                                    If your vehicle has a warning light on, won’t start, is making noise, pulls to one side, or just doesn’t feel right on the road, we can work through the problem and help you understand the next step.
                                 </p>
                             </div>
                         </Reveal>
 
-                        {/* Popular Services */}
+                        {/* Getting Here from Lolo */}
                         <Reveal>
-                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Popular Services</h2>
+                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Getting Here from Lolo</h2>
                             <div className="space-y-6 text-text-secondary text-lg leading-relaxed">
                                 <p>
-                                    When Lolo residents bring their vehicles into Missoula, they are often scheduling high-value, critical maintenance steps prioritizing the longevity of their vehicles.
+                                    Getting to our shop from Lolo is straightforward for drivers heading into Missoula. Many customers make the trip in for diagnostics, repair, or maintenance because they want the issue checked carefully before committing to repairs.
                                 </p>
                                 <p>
-                                    Ensuring peak stopping safety is paramount for high-speed valley traffic, making our <Link href="/services/brake-repair" className="text-copper hover:underline font-medium">brake inspection and repair</Link> services heavily utilized. Additionally, we use data-logging to provide professional <Link href="/services/check-engine-light" className="text-copper hover:underline font-medium">engine component testing</Link> for strange lean-running conditions, and offer full-synthetic <Link href="/services/oil-change" className="text-copper hover:underline font-medium">fluid intervals</Link> to ensure your internal engine components are protected under high-stress conditions.
+                                    If dropping the vehicle off during the day is difficult, after-hours drop-off is available. We’ll confirm receipt the next business day.
                                 </p>
                             </div>
                         </Reveal>
 
-                        {/* Driving Distance / Convenience */}
-                        <Reveal>
-                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Driving Distance and Convenience</h2>
-                            <div className="space-y-6 text-text-secondary text-lg leading-relaxed">
-                                <p>
-                                    We strive to minimize the inconvenience of getting to our Missoula shop from the Lolo area. The drive via US-93 N straight up Reserve Street makes accessing our facility extremely easy. For maximum flexibility, drivers routinely utilize our secure overnight key-drop box when heading into town early for work.
-                                </p>
-                                <p>
-                                    Furthermore, since our technicians send completed digital inspections straight to your phone via text message, you can review photographs and approve services remotely alongside your coffee, without making a mid-day trip up the highway.
-                                </p>
-                            </div>
-                        </Reveal>
-
-                        {/* Driving Directions */}
-                        <Reveal>
-                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Driving From Lolo to Benchmark Automotive Service</h2>
-                            <div className="space-y-6 text-text-secondary text-lg leading-relaxed">
-                                <p>
-                                    Head north out of Lolo on US-93 N, continuing onto Brooks Street/US Highway 93. Continue northbound by taking a left onto South Reserve Street. Proceed north on Reserve Street through the major intersections, then turn right onto North Ave W. You will see Benchmark Automotive Service immediately down the street on the right side. Our single hub facility at 1914 North Ave W awaits your vehicle.
-                                </p>
-                            </div>
-                        </Reveal>
-
-                        {/* Call to Action */}
+                        {/* Schedule Service */}
                         <Reveal>
                             <div className="mt-12 p-8 bg-surface-secondary border border-border rounded-sm">
-                                <h2 className="font-heading text-3xl font-bold text-navy-950 mb-4">Ready for Reliable Auto Repair?</h2>
+                                <h2 className="font-heading text-3xl font-bold text-navy-950 mb-4">Schedule Service</h2>
                                 <p className="text-text-secondary text-lg mb-8">
-                                    Stop wondering if your vehicle is actually fixed. Experience the difference of premium independent automotive care centered on definitive answers.
+                                    If you live in Lolo and want clear answers before moving forward with repairs, call Benchmark Automotive Service at <strong>(406) 317-1405</strong> to schedule service.<br /><br />
+                                    After-hours drop-off is available. We’ll confirm receipt the next business day.
                                 </p>
                                 <div className="flex flex-col sm:flex-row gap-4">
                                     <Link
                                         href="/contact"
                                         className="inline-flex justify-center items-center bg-brand-red hover:bg-brand-red-hover text-white px-8 py-4 font-medium rounded-sm transition-colors text-lg"
                                     >
-                                        Schedule Service Today
+                                        Schedule Service
                                     </Link>
                                 </div>
                             </div>

@@ -87,109 +87,96 @@ export default function FrenchtownServiceAreaPage() {
                         <Reveal>
                             <div className="space-y-6 text-text-secondary text-lg leading-relaxed">
                                 <p>
-                                    Drivers living in Frenchtown frequently traverse Interstate 90 to reach our single, fully-equipped shop located centrally in Missoula. Because highway commuting and heavy agricultural use place severe demands on Frenchtown vehicles, residents require a shop capable of performing precision diagnostics rather than superficial inspections. Benchmark Automotive Service was built exactly for this purpose.
+                                    Drivers from Frenchtown often make the trip into Missoula when they want the problem diagnosed correctly before spending money on repairs. Whether it’s a warning light that keeps coming back, a truck that doesn’t feel right at highway speed, or a vehicle that just isn’t starting or shifting the way it should, Benchmark Automotive Service gives Frenchtown drivers a place to get clear answers before parts are replaced.
                                 </p>
                                 <p>
-                                    When you bring your vehicle in from out West, we focus our full attention on discovering the root cause of the problem. Modern sedans, heavily loaded trucks, and fleet vehicles all rely on an intricate web of modules and sensors. Our technicians dive deep into the data streams to isolate anomalies, saving you from replacing perfectly good parts.
+                                    At Benchmark Automotive Service, we take a diagnostic-first approach. We inspect the vehicle, test the system causing the problem, confirm the cause, and explain what we found before recommending repairs. For Frenchtown drivers who split time between Interstate 90, rural roads, work trucks, and daily commuting, that kind of accuracy matters.
                                 </p>
                             </div>
                         </Reveal>
 
                         {/* Why Drivers Choose Benchmark */}
                         <Reveal>
-                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Why Frenchtown Drivers Choose Benchmark</h2>
+                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Why Drivers From Frenchtown Choose Benchmark</h2>
                             <div className="space-y-6 text-text-secondary text-lg leading-relaxed">
                                 <p>
-                                    Frenchtown residents choose Benchmark Automotive Service to escape the dealership bottleneck without sacrificing high-end capabilities. They value our diagnostic-first methodology, which eliminates the frustrating cycle of incomplete repairs.
+                                    Many Frenchtown drivers come to us because they want more than a quick guess. They want to know what failed, why it failed, and what the repair is actually meant to fix.
                                 </p>
                                 <p>
-                                    We employ experienced technicians trained to evaluate complex electrical and mechanical systems holistically. Because we do not run a franchise quota, we provide honest repair recommendations based solely on safety, longevity, and drivability. We test individual circuits to prove what has failed before quoting any repairs, giving you data-backed answers rather than high-pressure sales pitches.
+                                    We work on everything from warning lights and electrical problems to brake issues, starting problems, drivability concerns, suspension wear, and routine maintenance. Our process is built around careful testing, clear recommendations, and repairs based on confirmed findings instead of trial-and-error part replacement.
                                 </p>
                             </div>
                         </Reveal>
 
                         {/* Common Vehicle Issues */}
                         <Reveal>
-                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Common Vehicle Issues for Drivers in Frenchtown</h2>
+                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Common Vehicle Issues for Frenchtown Drivers</h2>
                             <div className="space-y-6 text-text-secondary text-lg leading-relaxed">
                                 <p>
-                                    The unique combination of rural roads, agricultural towing, and high-speed interstate commuting brings a specific set of wear patterns to our diagnostic bays from Frenchtown:
+                                    Frenchtown vehicles often see a mix of interstate driving, rural roads, heavier use, and year-round weather changes. That can bring out problems like:
                                 </p>
                                 <ul className="list-disc pl-6 space-y-4">
-                                    <li><strong>Interstate Transmission Wear:</strong> Commuting long distances regularly requires clean, high-performing transmission fluid and secure shift-solenoid operation.</li>
-                                    <li><strong>Battery Drain:</strong> Exposure to the cold Montana environment often causes aging batteries to lose their holding voltage entirely.</li>
-                                    <li><strong>Suspension Fatigue:</strong> Rough county roads quickly degrade ball joints and stabilizer links, causing noticeable steering deviations.</li>
-                                    <li><strong>Electrical Component Failure:</strong> Dirt entry and rapid vibration often compromise wiring harnesses on heavy-use rural vehicles.</li>
-                                    <li><strong>Advanced Check Engine Lights:</strong> Consistent highway driving can highlight catalytic converter and mass-airflow sensor deterioration.</li>
+                                    <li>battery and charging issues after cold weather or repeated short-trip driving</li>
+                                    <li>suspension and steering wear from rough roads and broken pavement</li>
+                                    <li>brake wear from highway speeds, traffic slowdowns, and heavier vehicle loads</li>
+                                    <li>warning lights tied to sensors, electrical faults, or drivability problems</li>
+                                    <li>vibration, pulling, or uneven tire wear that becomes more noticeable at higher speeds</li>
+                                    <li>fluid and maintenance needs that show up faster on vehicles used for commuting, hauling, or regular long-distance driving</li>
                                 </ul>
+                                <p>
+                                    Some of these issues show up slowly. Others don’t. The important part is finding out what is actually wrong before it turns into a bigger repair or leads to money spent on the wrong parts.
+                                </p>
                             </div>
                         </Reveal>
 
-                        {/* Drivers We Regularly Help */}
+                        {/* Services Frenchtown Drivers Commonly Need */}
                         <Reveal>
-                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Drivers From Frenchtown We Regularly Help</h2>
+                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Services Frenchtown Drivers Commonly Need</h2>
                             <div className="space-y-6 text-text-secondary text-lg leading-relaxed">
                                 <p>
-                                    We regularly serve Frenchtown drivers who are struggling with elusive dashboard warnings or severe drivability issues. Our facility is known for tackling scenarios where a light keeps returning intermittently after the primary code has supposedly been handled elsewhere.
+                                    Drivers from Frenchtown often come to us for services like:
                                 </p>
+                                <ul className="list-disc pl-6 space-y-4">
+                                    <li><Link href="/services/advanced-diagnostics" className="text-copper hover:underline font-medium">Advanced Diagnostics</Link></li>
+                                    <li><Link href="/services/brake-repair" className="text-copper hover:underline font-medium">Brake Repair</Link></li>
+                                    <li><Link href="/services/electrical-diagnostics" className="text-copper hover:underline font-medium">Electrical Diagnostics</Link></li>
+                                    <li><Link href="/services/oil-change" className="text-copper hover:underline font-medium">Oil Change</Link></li>
+                                    <li><Link href="/services/suspension-steering" className="text-copper hover:underline font-medium">Suspension &amp; Steering Repair</Link></li>
+                                    <li><Link href="/services/vehicle-inspection" className="text-copper hover:underline font-medium">Vehicle Inspection</Link></li>
+                                </ul>
                                 <p>
-                                    When tracking a strange power loss issue or misfire, utilizing intense <Link href="/services/check-engine-light" className="text-copper hover:underline font-medium">check engine light diagnostics</Link> prevents customers from endlessly swapping spark plugs without analyzing the fuel trims. When a truck consistently has a dead battery every morning, finding the root cause requires methodical <Link href="/services/battery-drain" className="text-copper hover:underline font-medium">battery drain investigation</Link> instead of just selling another alternator.
-                                </p>
-                                <p>
-                                    Additionally, diagnosing failing window regulators or blown internal modules via our comprehensive <Link href="/services/electrical-diagnostics" className="text-copper hover:underline font-medium">electrical diagnostics</Link> tools provides our regional clients undeniable peace of mind.
+                                    If your vehicle has a warning light on, is making noise, feels rough at speed, won’t start, or just doesn’t feel right on the road, we can work through the issue and help you understand the next step.
                                 </p>
                             </div>
                         </Reveal>
 
-                        {/* Popular Services */}
+                        {/* Getting Here from Frenchtown */}
                         <Reveal>
-                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Popular Services</h2>
+                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Getting Here from Frenchtown</h2>
                             <div className="space-y-6 text-text-secondary text-lg leading-relaxed">
                                 <p>
-                                    When making the trip from Frenchtown, drivers usually request essential stability and safety operations alongside deep-level network diagnostics.
+                                    Getting to our shop from Frenchtown is straightforward for drivers heading into Missoula. Many customers make the drive in because they want the problem checked carefully before committing to repairs.
                                 </p>
                                 <p>
-                                    Ensuring stopping power at highway speeds makes our <Link href="/services/brake-repair" className="text-copper hover:underline font-medium">brake inspection and repair</Link> extremely popular. In addition to brakes, drivers also utilize our shop to maintain their powertrain fluid intervals natively. And of course, getting a complete <Link href="/services/vehicle-inspection" className="text-copper hover:underline font-medium">vehicle inspection</Link> prior to buying a used four-wheel-drive allows our customers to bypass hidden repair disasters.
+                                    If dropping the vehicle off during the day is difficult, after-hours drop-off is available. We’ll confirm receipt the next business day.
                                 </p>
                             </div>
                         </Reveal>
 
-                        {/* Driving Distance / Convenience */}
-                        <Reveal>
-                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Driving Distance and Convenience</h2>
-                            <div className="space-y-6 text-text-secondary text-lg leading-relaxed">
-                                <p>
-                                    Connecting to our Missoula facility is exceptionally easy for Frenchtown residents thanks to Interstate 90. Drivers can head directly into town and access Reserve Street without navigating dense downtown cross-traffic.
-                                </p>
-                                <p>
-                                    We offer an after-hours key drop so your schedule remains entirely in your control, and provide detailed diagnostic findings equipped with photos sent straight to your phone so you can confidently authorize repairs remotely without returning into Missoula midday.
-                                </p>
-                            </div>
-                        </Reveal>
-
-                        {/* Driving Directions */}
-                        <Reveal>
-                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Driving From Frenchtown to Benchmark Automotive Service</h2>
-                            <div className="space-y-6 text-text-secondary text-lg leading-relaxed">
-                                <p>
-                                    From Frenchtown, jump directly onto Interstate 90 East. Follow I-90 E until you take the Reserve Street exit heading southbound. Continue down Reserve Street, then turn left eastward onto North Ave W. You will see our shop centrally located at 1914 North Ave W, fully equipped to resolve your vehicle’s challenges.
-                                </p>
-                            </div>
-                        </Reveal>
-
-                        {/* Call to Action */}
+                        {/* Schedule Service */}
                         <Reveal>
                             <div className="mt-12 p-8 bg-surface-secondary border border-border rounded-sm">
-                                <h2 className="font-heading text-3xl font-bold text-navy-950 mb-4">Ready for Reliable Auto Repair?</h2>
+                                <h2 className="font-heading text-3xl font-bold text-navy-950 mb-4">Schedule Service</h2>
                                 <p className="text-text-secondary text-lg mb-8">
-                                    Stop wondering if your vehicle is actually fixed. Experience the difference of premium independent automotive care centered on definitive answers.
+                                    If you live in Frenchtown and want clear answers before moving forward with repairs, call Benchmark Automotive Service at <strong>(406) 317-1405</strong> to schedule service.<br /><br />
+                                    After-hours drop-off is available. We’ll confirm receipt the next business day.
                                 </p>
                                 <div className="flex flex-col sm:flex-row gap-4">
                                     <Link
                                         href="/contact"
                                         className="inline-flex justify-center items-center bg-brand-red hover:bg-brand-red-hover text-white px-8 py-4 font-medium rounded-sm transition-colors text-lg"
                                     >
-                                        Schedule Service Today
+                                        Schedule Service
                                     </Link>
                                 </div>
                             </div>

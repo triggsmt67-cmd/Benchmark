@@ -88,13 +88,10 @@ export default function BonnerServiceAreaPage() {
                         <Reveal>
                             <div className="space-y-6 text-text-secondary text-lg leading-relaxed">
                                 <p>
-                                    Drivers from Bonner often travel to Missoula for professional automotive diagnostics and repair. The short drive down Interstate 90 connects the community directly to the resources and advanced technical expertise available at our facility. We understand that finding a reliable mechanic you can actually trust is challenging, which is why we’ve built our entire business model around accuracy, transparency, and doing the job right the very first time.
+                                    Drivers from Bonner often make the short trip into Missoula when they want a vehicle problem diagnosed correctly before money gets spent on the wrong repair. Whether it’s a warning light, an electrical issue, a suspension noise, or a car that just doesn’t feel right, Benchmark Automotive Service gives Bonner drivers a place to get clear answers before parts are replaced.
                                 </p>
                                 <p>
-                                    When you rely on your vehicle to get to work, run errands, or explore Montana's rugged landscapes, you cannot afford guesswork. At Benchmark Automotive Service, we take the time to properly diagnose the root cause of the issue before ever recommending a replacement part. Our single Missoula location is fully equipped to handle complex electrical tracking, deep engine performance testing, and routine preventative maintenance.
-                                </p>
-                                <p>
-                                    Whether you're contending with a sudden check engine light while heading into town or you've noticed a strange new noise coming from the chassis after navigating winter roads, our team is standing by to evaluate the problem comprehensively. We don't just clear codes and hope the problem goes away—we identify the failure, confirm the fix, and get you safely back to Bonner.
+                                    At Benchmark Automotive Service, we take a diagnostic-first approach. We inspect the vehicle, test the system causing the problem, confirm the cause, and explain what we found before recommending repairs. For Bonner drivers who rely on their vehicles for commuting, family use, and year-round Montana driving conditions, that kind of accuracy matters.
                                 </p>
                             </div>
                         </Reveal>
@@ -104,99 +101,83 @@ export default function BonnerServiceAreaPage() {
                             <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Why Drivers From Bonner Choose Benchmark</h2>
                             <div className="space-y-6 text-text-secondary text-lg leading-relaxed">
                                 <p>
-                                    Automotive repair has unfortunately gained a reputation for unnecessary upsells and misdiagnoses. Our shop was founded directly in response to these industry shortcomings. We maintain a firm, diagnostic-first philosophy. This means that when a Bonner resident brings their vehicle to us, they receive an objective analysis driven purely by data and confirmed testing.
+                                    Many drivers from Bonner come to us because they want more than a quick guess. They want to know what failed, why it failed, and what the repair is actually meant to fix.
                                 </p>
                                 <p>
-                                    We employ experienced technicians who undergo continuous training to keep up with the complex electronics and computer networks embedded in modern vehicles. It's no longer enough to simply listen to an engine or swap out the most obvious component. Our team utilizes advanced scan tools, oscilloscopes, and pinpoint testing equipment to trace electrical faults down to the specific broken wire or failing module.
-                                </p>
-                                <p>
-                                    Honest repair recommendations are the cornerstone of our operations. Once we locate the actual root cause of your vehicle's problem, we provide a clear, plain-language explanation of what has failed, why it failed, and what it will take to correctly repair it. We prioritize the repairs based on safety and drivability, allowing you to make an informed decision without aggressive pressure tactics.
+                                    We work on everything from check engine lights and electrical problems to brake issues, suspension wear, starting problems, and routine maintenance. Our process is built around careful testing, clear recommendations, and repairs based on confirmed findings instead of trial-and-error part replacement.
                                 </p>
                             </div>
                         </Reveal>
 
                         {/* Common Vehicle Issues */}
                         <Reveal>
-                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Common Vehicle Issues for Drivers in Bonner</h2>
+                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Common Vehicle Issues for Bonner Drivers</h2>
                             <div className="space-y-6 text-text-secondary text-lg leading-relaxed">
                                 <p>
-                                    The environmental and driving conditions in Western Montana present specific challenges for vehicles. The temperature swings, winter road treatments, and variable road surfaces contribute directly to the types of wear and failures we regularly see in the shop.
+                                    Bonner drivers often deal with a mix of interstate travel, local commuting, weather changes, and seasonal road wear. That can bring out issues like:
                                 </p>
                                 <ul className="list-disc pl-6 space-y-4">
-                                    <li><strong>Cold-Weather Battery Failures:</strong> Rapid temperature drops put massive strain on aging batteries. We frequently test batteries that have lost their cold-cranking amps, leaving drivers stranded on icy mornings.</li>
-                                    <li><strong>Check Engine Lights:</strong> Fluctuating temperatures and long commutes can trigger emissions and sensor faults. Rather than guessing, we evaluate the live fuel trims and sensor data to find the exact anomaly.</li>
-                                    <li><strong>Suspension Wear from Seasonal Roads:</strong> Potholes and frost heaves accelerate wear on struts, shocks, and ball joints. Proper suspension inspection is vital for safe handling at highway speeds.</li>
-                                    <li><strong>Commuting-Related Vehicle Wear:</strong> For those driving daily from Bonner into Missoula, the consistent mileage speeds up the degradation of fluids, brakes, and belts. Preventative maintenance is critical to avoiding major breakdowns.</li>
-                                    <li><strong>Electrical System Issues:</strong> Corrosion from road treatments can infiltrate wiring harnesses, leading to intermittent starting problems and failing accessories.</li>
+                                    <li>battery and charging problems after cold weather or repeated short-trip driving</li>
+                                    <li>warning lights tied to sensors, electrical faults, or drivability issues</li>
+                                    <li>suspension and steering wear from rough roads, potholes, and freeze-thaw damage</li>
+                                    <li>brake wear from commuting, traffic slowdowns, and changing road conditions</li>
+                                    <li>electrical issues caused by moisture, corrosion, or damaged wiring</li>
+                                    <li>vibration, pulling, or uneven tire wear that becomes more noticeable at highway speeds</li>
                                 </ul>
+                                <p>
+                                    Some of these issues start small. Some don’t. The important part is finding out what is actually wrong before it turns into a bigger repair or leads to money spent on the wrong parts.
+                                </p>
                             </div>
                         </Reveal>
 
-                        {/* Drivers We Regularly Help */}
+                        {/* Services Bonner Drivers Commonly Need */}
                         <Reveal>
-                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Drivers From Bonner We Regularly Help</h2>
+                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Services Bonner Drivers Commonly Need</h2>
                             <div className="space-y-6 text-text-secondary text-lg leading-relaxed">
                                 <p>
-                                    We regularly assist individuals and families from the Bonner community who have grown frustrated with persistent vehicle issues that other shops have failed to resolve. Often, drivers bring us vehicles that have already had multiple parts replaced without success.
+                                    Drivers from Bonner often come to us for services like:
                                 </p>
+                                <ul className="list-disc pl-6 space-y-4">
+                                    <li><Link href="/services/advanced-diagnostics" className="text-copper hover:underline font-medium">Advanced Diagnostics</Link></li>
+                                    <li><Link href="/services/brake-repair" className="text-copper hover:underline font-medium">Brake Repair</Link></li>
+                                    <li><Link href="/services/electrical-diagnostics" className="text-copper hover:underline font-medium">Electrical Diagnostics</Link></li>
+                                    <li><Link href="/services/oil-change" className="text-copper hover:underline font-medium">Oil Change</Link></li>
+                                    <li><Link href="/services/suspension-steering" className="text-copper hover:underline font-medium">Suspension &amp; Steering Repair</Link></li>
+                                    <li><Link href="/services/vehicle-inspection" className="text-copper hover:underline font-medium">Vehicle Inspection</Link></li>
+                                </ul>
                                 <p>
-                                    A common scenario involves diagnosing a persistent check engine light. A vehicle might have a lean-running code, and the previous recommendation was simply to replace the oxygen sensors. When that fails, the driver brings the vehicle from Bonner to our Missoula shop. Through careful <Link href="/services/check-engine-light" className="text-copper hover:underline font-medium">check engine light diagnostics</Link>, we might find that the true issue is actually a tiny, hidden vacuum leak rather than the expensive sensors themselves.
-                                </p>
-                                <p>
-                                    We also see many vehicles experiencing electrical anomalies. Identifying <Link href="/services/battery-drain" className="text-copper hover:underline font-medium">battery drain problems</Link> is a frequent request; discovering exactly which module refuses to go to sleep when the car is parked requires patience and precise measurement. Furthermore, resolving intermittent electrical faults and confirming drivability problems before tearing engines apart is how we save our customers significant amounts of money and stress.
+                                    If your vehicle has a warning light on, is making noise, won’t start, pulls to one side, or just doesn’t feel right on the road, we can work through the issue and help you understand the next step.
                                 </p>
                             </div>
                         </Reveal>
 
-                        {/* Popular Services */}
+                        {/* Getting Here from Bonner */}
                         <Reveal>
-                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Popular Services</h2>
+                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Getting Here from Bonner</h2>
                             <div className="space-y-6 text-text-secondary text-lg leading-relaxed">
                                 <p>
-                                    Our shop covers almost every aspect of automotive care. When Bonner residents visit our Missoula location, they typically request our specialized diagnostic capabilities and safety inspections.
+                                    Getting to our shop from Bonner is straightforward for drivers heading into Missoula. Many customers make the short drive in because they want the problem checked carefully before committing to repairs.
                                 </p>
                                 <p>
-                                    If your vehicle is behaving strangely, our <Link href="/services/electrical-diagnostics" className="text-copper hover:underline font-medium">electrical diagnostics</Link> service is designed to isolate the fault accurately. Whether you need comprehensive <Link href="/services/brake-repair" className="text-copper hover:underline font-medium">brake repair and inspection</Link> prior to winter driving, or a thorough <Link href="/services/vehicle-inspection" className="text-copper hover:underline font-medium">vehicle inspection</Link> before purchasing a used car or heading out on a long trip, our team is ready to provide documented, visual evidence of your vehicle's condition. We also perform manufacturer-specified maintenance to keep your warranty fully intact.
+                                    If dropping the vehicle off during the day is difficult, after-hours drop-off is available. We’ll confirm receipt the next business day.
                                 </p>
                             </div>
                         </Reveal>
 
-                        {/* Driving Distance / Convenience */}
-                        <Reveal>
-                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Driving Distance and Convenience</h2>
-                            <div className="space-y-6 text-text-secondary text-lg leading-relaxed">
-                                <p>
-                                    We know that dropping off a vehicle for service requires planning, especially when you are commuting from out of town. Drivers from Bonner typically reach the shop via Interstate 90, making it a very straightforward trip.
-                                </p>
-                                <p>
-                                    Once you arrive, we aim to make the process as seamless as possible. We offer an after-hours key drop so you can leave your vehicle securely either before work or late in the evening. Our digital inspection reports are sent directly to your smartphone or email, meaning you do not have to drive back and forth to Missoula just to look at the worn components yourself. You can review the photos, read the technician's notes, and approve repairs entirely remotely from your home or office.
-                                </p>
-                            </div>
-                        </Reveal>
-
-                        {/* Driving Directions */}
-                        <Reveal>
-                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Driving From Bonner to Benchmark Automotive Service</h2>
-                            <div className="space-y-6 text-text-secondary text-lg leading-relaxed">
-                                <p>
-                                    Finding our shop is easy. From Bonner, take I-90 west toward Missoula. Continue on I-90 W until you reach the North Reserve Street exit. Head south on Reserve Street, then turn left onto North Ave W. Follow North Ave W eastward, and you will find Benchmark Automotive Service clearly marked. Our single, centralized location at 1914 North Ave W is strategically positioned to be accessible for the entire Missoula valley and surrounding communities.
-                                </p>
-                            </div>
-                        </Reveal>
-
-                        {/* Call to Action */}
+                        {/* Schedule Service */}
                         <Reveal>
                             <div className="mt-12 p-8 bg-surface-secondary border border-border rounded-sm">
-                                <h2 className="font-heading text-3xl font-bold text-navy-950 mb-4">Ready for Reliable Auto Repair?</h2>
+                                <h2 className="font-heading text-3xl font-bold text-navy-950 mb-4">Schedule Service</h2>
                                 <p className="text-text-secondary text-lg mb-8">
-                                    Stop wondering if your vehicle is actually fixed. Experience the difference of premium independent automotive care centered on definitive answers.
+                                    If you live in Bonner and want clear answers before moving forward with repairs, call Benchmark Automotive Service at <strong>(406) 317-1405</strong> to schedule service.<br /><br />
+                                    After-hours drop-off is available. We’ll confirm receipt the next business day.
                                 </p>
                                 <div className="flex flex-col sm:flex-row gap-4">
                                     <Link
                                         href="/contact"
                                         className="inline-flex justify-center items-center bg-brand-red hover:bg-brand-red-hover text-white px-8 py-4 font-medium rounded-sm transition-colors text-lg"
                                     >
-                                        Schedule Service Today
+                                        Schedule Service
                                     </Link>
                                 </div>
                             </div>

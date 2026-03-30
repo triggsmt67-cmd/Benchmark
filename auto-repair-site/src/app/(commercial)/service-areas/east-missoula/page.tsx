@@ -86,10 +86,10 @@ export default function EastMissoulaServiceAreaPage() {
                         <Reveal>
                             <div className="space-y-6 text-text-secondary text-lg leading-relaxed">
                                 <p>
-                                    Drivers from East Missoula know the importance of a properly running vehicle when navigating canyon roadways and dense town traffic. By crossing directly through Missoula to Benchmark Automotive Service, East Missoula residents unlock access to a professional facility dedicated entirely to advanced diagnostics and proven mechanical repairs. While our single centralized shop is located in mid-town, we draw customers from the eastern limits who are tired of throwing parts at lingering automotive problems.
+                                    Drivers from East Missoula often make the short trip across town when they want a vehicle problem diagnosed correctly before money gets spent on the wrong repair. Whether it’s a warning light, a starting problem, brake noise, suspension wear, or a car that just doesn’t feel right, Benchmark Automotive Service gives East Missoula drivers a place to get clear answers before parts are replaced.
                                 </p>
                                 <p>
-                                    We believe your safety requires certainty. Instead of merely swapping components based on a guess, we find the root cause of every symptom you describe, using our state-of-the-art diagnostic equipment to provide clear, definitive answers.
+                                    At Benchmark Automotive Service, we take a diagnostic-first approach. We inspect the vehicle, test the system causing the problem, confirm the cause, and explain what we found before recommending repairs. For East Missoula drivers dealing with daily commuting, changing weather, canyon travel, and year-round road wear, that kind of accuracy matters.
                                 </p>
                             </div>
                         </Reveal>
@@ -98,93 +98,79 @@ export default function EastMissoulaServiceAreaPage() {
                             <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Why Drivers From East Missoula Choose Benchmark</h2>
                             <div className="space-y-6 text-text-secondary text-lg leading-relaxed">
                                 <p>
-                                    Automotive repair shouldn't involve high-pressure sales or anxiety. Our diagnostic-first philosophy protects you from wasting resources on inaccurate repairs.
+                                    Many drivers from East Missoula come to us because they want more than a guess. They want to know what failed, why it failed, and what the repair is actually meant to fix.
                                 </p>
                                 <p>
-                                    Before we recommend any replacement part, our experienced technicians physically test the component in question to prove that it is failing. From checking an individual fuel injector's firing pattern on an oscilloscope to manually tracing voltage drops across heavy-duty battery cables, we provide an objective analysis.
-                                </p>
-                                <p>
-                                    We summarize our findings via honest repair recommendations delivered cleanly without confusing jargon, allowing you to prioritize the longevity of your vehicle accurately.
+                                    We work on everything from check engine lights and electrical problems to brake issues, suspension wear, starting problems, drivability concerns, and routine maintenance. Our process is built around careful testing, clear recommendations, and repairs based on confirmed findings instead of trial-and-error part replacement.
                                 </p>
                             </div>
                         </Reveal>
 
                         <Reveal>
-                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Common Vehicle Issues for Drivers in East Missoula</h2>
+                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Common Vehicle Issues for East Missoula Drivers</h2>
                             <div className="space-y-6 text-text-secondary text-lg leading-relaxed">
                                 <p>
-                                    Living near the canyon corridor subjects vehicles to intense seasonal variations, creating frequent visits for:
+                                    East Missoula vehicles often see a mix of in-town driving, highway travel, weather shifts, rough pavement, and year-round commuting. That can bring out problems like:
                                 </p>
                                 <ul className="list-disc pl-6 space-y-4">
-                                    <li><strong>Cold-Weather Defaults:</strong> Winter temperatures plummet rapidly down the canyon, frequently destroying weakened batteries.</li>
-                                    <li><strong>Engine Thermostat Failures:</strong> Fluctuating daily driving temperatures can cause cooling systems and thermostats to stick.</li>
-                                    <li><strong>Suspension Damage:</strong> Winding roads and localized unpaved streets deteriorate tie rods, ball joints, and shocks.</li>
-                                    <li><strong>Intermittent Sensor Misreads:</strong> Humidity and road debris can frequently cloud MAF sensors and trigger dashboard lights.</li>
-                                    <li><strong>Warning Lights:</strong> Deep freeze-thaw cycles frequently compromise plastic casing on electrical systems causing sudden warning errors.</li>
+                                    <li>battery and charging issues after cold weather or repeated short-trip driving</li>
+                                    <li>warning lights tied to sensors, electrical faults, or drivability issues</li>
+                                    <li>suspension and steering wear from potholes, rough roads, and freeze-thaw damage</li>
+                                    <li>brake wear from traffic, changing road conditions, and downhill braking</li>
+                                    <li>electrical problems caused by moisture, corrosion, or damaged wiring</li>
+                                    <li>vibration, pulling, or uneven tire wear that becomes more noticeable at speed</li>
                                 </ul>
-                            </div>
-                        </Reveal>
-
-                        <Reveal>
-                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Drivers From East Missoula We Regularly Help</h2>
-                            <div className="space-y-6 text-text-secondary text-lg leading-relaxed">
                                 <p>
-                                    Our typical East Missoula customer frequently arrives after struggling with a sporadic loss of engine power, an unstable idle, or a warning chime that they cannot seem to clear at the local parts store.
-                                </p>
-                                <p>
-                                    When an engine randomly shudders at stoplights, utilizing deep <Link href="/services/check-engine-light" className="text-copper hover:underline font-medium">check engine light testing</Link> prevents an expensive and useless fuel system swap. For cars that randomly drop power overnight or lose radio settings, performing patient <Link href="/services/battery-drain" className="text-copper hover:underline font-medium">battery drain diagnostics</Link> remains crucial to finding the parasitic draw hidden in the network.
-                                </p>
-                                <p>
-                                    Additionally, diagnosing the entire chassis for hidden shorts requires precise <Link href="/services/electrical-diagnostics" className="text-copper hover:underline font-medium">electrical diagnostics</Link>, a service we specialize deeply in right here in Missoula.
+                                    Some of these issues show up slowly. Others don’t. The important part is figuring out what is actually wrong before it turns into a bigger repair or leads to money spent on the wrong parts.
                                 </p>
                             </div>
                         </Reveal>
 
                         <Reveal>
-                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Popular Services</h2>
+                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Services East Missoula Drivers Commonly Need</h2>
                             <div className="space-y-6 text-text-secondary text-lg leading-relaxed">
                                 <p>
-                                    East Missoula residents depend on us for both deep-level troubleshooting and essential preventative steps.
+                                    Drivers from East Missoula often come to us for services like:
                                 </p>
+                                <ul className="list-disc pl-6 space-y-4">
+                                    <li><Link href="/services/advanced-diagnostics" className="text-copper hover:underline font-medium">Advanced Diagnostics</Link></li>
+                                    <li><Link href="/services/brake-repair" className="text-copper hover:underline font-medium">Brake Repair</Link></li>
+                                    <li><Link href="/services/electrical-diagnostics" className="text-copper hover:underline font-medium">Electrical Diagnostics</Link></li>
+                                    <li><Link href="/services/oil-change" className="text-copper hover:underline font-medium">Oil Change</Link></li>
+                                    <li><Link href="/services/suspension-steering" className="text-copper hover:underline font-medium">Suspension &amp; Steering Repair</Link></li>
+                                    <li><Link href="/services/vehicle-inspection" className="text-copper hover:underline font-medium">Vehicle Inspection</Link></li>
+                                </ul>
                                 <p>
-                                    Maintaining absolute stopping authority through the canyon makes a comprehensive <Link href="/services/brake-repair" className="text-copper hover:underline font-medium">brake repair and inspection</Link> incredibly important before the snow falls. Similarly, bringing newly purchased used cars to us for a rigorous <Link href="/services/vehicle-inspection" className="text-copper hover:underline font-medium">vehicle inspection</Link> ensures that pre-existing safety failures are identified well before you sign the ownership papers.
+                                    If your vehicle has a warning light on, is making noise, won’t start, pulls to one side, shakes at speed, or just doesn’t feel right on the road, we can work through the issue and help you understand the next step.
                                 </p>
                             </div>
                         </Reveal>
 
                         <Reveal>
-                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Driving Distance and Convenience</h2>
+                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Getting Here from East Missoula</h2>
                             <div className="space-y-6 text-text-secondary text-lg leading-relaxed">
                                 <p>
-                                    Driving from East Missoula to Benchmark Automotive Service is practically a straight shot across town. The trip typically takes just a few minutes, making us an incredibly accessible resource for drivers seeking premium-grade care without traveling out of the local valley.
+                                    Getting to our shop from East Missoula is straightforward for drivers heading across town into Missoula. Many customers make the short drive in because they want the problem checked carefully before committing to repairs.
                                 </p>
                                 <p>
-                                    Our shop implements an after-hours key drop and comprehensive digital inspection reporting sent to your phone. This means you do not have to rearrange your weekday schedule to view the findings of your car repair or to drop your vehicle off securely.
-                                </p>
-                            </div>
-                        </Reveal>
-
-                        <Reveal>
-                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Driving From East Missoula to Benchmark Automotive Service</h2>
-                            <div className="space-y-6 text-text-secondary text-lg leading-relaxed">
-                                <p>
-                                    From East Missoula, take MT-200 W crossing into the main Missoula grid. You can proceed down Broadway Street or take Interstate 90 W to bypass downtown traffic entirely. Either route allows you to immediately access Reserve Street heading south. Make a final turn onto North Ave W, and you'll find our single diagnostic facility located easily at 1914 North Ave W, ready to assist you.
+                                    If dropping the vehicle off during the day is difficult, after-hours drop-off is available. We’ll confirm receipt the next business day.
                                 </p>
                             </div>
                         </Reveal>
 
                         <Reveal>
                             <div className="mt-12 p-8 bg-surface-secondary border border-border rounded-sm">
-                                <h2 className="font-heading text-3xl font-bold text-navy-950 mb-4">Ready for Reliable Auto Repair?</h2>
+                                <h2 className="font-heading text-3xl font-bold text-navy-950 mb-4">Schedule Service</h2>
                                 <p className="text-text-secondary text-lg mb-8">
-                                    Stop wondering if your vehicle is actually fixed. Experience the difference of premium independent automotive care centered on definitive answers.
+                                    If you live in East Missoula and want clear answers before moving forward with repairs, call Benchmark Automotive Service at <strong>(406) 317-1405</strong> to schedule service.<br /><br />
+                                    After-hours drop-off is available. We’ll confirm receipt the next business day.
                                 </p>
                                 <div className="flex flex-col sm:flex-row gap-4">
                                     <Link
                                         href="/contact"
                                         className="inline-flex justify-center items-center bg-brand-red hover:bg-brand-red-hover text-white px-8 py-4 font-medium rounded-sm transition-colors text-lg"
                                     >
-                                        Schedule Service Today
+                                        Schedule Service
                                     </Link>
                                 </div>
                             </div>
