@@ -61,6 +61,20 @@ export function TestimonialsSection() {
                         </StaggerItem>
                     ))}
                 </Stagger>
+                
+                <Reveal>
+                    <div className="mt-12 md:mt-16 text-center">
+                        <a 
+                            href="https://maps.app.goo.gl/k1AJiMky4sBqGitA9" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-2 text-lg font-semibold text-copper hover:text-navy-950 transition-colors border-b-2 border-copper/30 hover:border-navy-950 pb-1"
+                        >
+                            Read More Reviews on Google
+                            <Star className="h-5 w-5 fill-current" />
+                        </a>
+                    </div>
+                </Reveal>
             </div>
         </section>
     );

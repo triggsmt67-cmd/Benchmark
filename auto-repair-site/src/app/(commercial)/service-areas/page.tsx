@@ -79,7 +79,7 @@ export default function ServiceAreasIndexPage() {
                         <Reveal>
                             <div className="space-y-6 text-text-secondary text-lg leading-relaxed">
                                 <p>
-                                    Benchmark Automotive Service is conveniently located at 1914 North Ave W in Missoula. We proudly welcome drivers from throughout the surrounding communities who are seeking high-quality diagnostics, professional maintenance, and honest repair recommendations. Instead of replacing parts on a guess, we find the root cause of vehicle failures.
+                                    Benchmark Automotive Service is conveniently located at 1914 North Ave W, Missoula, MT 59801. We proudly welcome drivers from throughout the surrounding communities who are seeking high-quality diagnostics, professional maintenance, and honest repair recommendations. Instead of replacing parts on a guess, we find the root cause of vehicle failures.
                                 </p>
                             </div>
                         </Reveal>
