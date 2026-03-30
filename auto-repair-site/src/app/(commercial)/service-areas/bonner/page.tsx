@@ -24,7 +24,10 @@ export default function BonnerServiceAreaPage() {
         "@type": "AutoRepair",
         "@id": "https://www.benchmarkmissoula.com/#business",
         "name": siteConfig.businessName,
-        "areaServed": "Bonner MT",
+        "areaServed": {
+            "@type": "City",
+            "name": "Bonner, MT"
+        },
         "url": "https://www.benchmarkmissoula.com",
     };
 

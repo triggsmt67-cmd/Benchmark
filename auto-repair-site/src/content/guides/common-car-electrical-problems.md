@@ -72,7 +72,7 @@ We perform a battery load test to measure how the battery performs under demand,
 
 ### Confirm
 
-Before recommending a repair, we confirm the root cause. A battery that fails a load test may be failing because something is drawing power while the car is parked — a relay stuck closed, a module that won't go to sleep, or an accessory wired incorrectly. We check for parasitic draw with an ammeter before concluding the battery is the problem. Replacing a battery won't fix a draw. If you've had a [battery that keeps dying](/services/battery-keeps-dying), that's usually why.
+Before recommending a repair, we confirm the root cause. A battery that fails a load test may be failing because something is drawing power while the car is parked — a relay stuck closed, a module that won't go to sleep, or an accessory wired incorrectly. We check for parasitic draw with an ammeter before concluding the battery is the problem. Replacing a battery won't fix a draw. If you've had a [battery that keeps dying](/services/battery-drain), that's usually why.
 
 ### Repair
 
@@ -105,7 +105,7 @@ Rodent damage to wiring is more common here than many drivers expect. Vehicles t
 ## Related Services
 
 - [Electrical Diagnostics](/services/electrical-diagnostics)
-- [Battery & Charging System Service](/services/battery-charging-system)
+- [Battery & Charging System Service](/services/battery-drain)
 - [Car Won't Start](/services/car-wont-start)
 
 ---

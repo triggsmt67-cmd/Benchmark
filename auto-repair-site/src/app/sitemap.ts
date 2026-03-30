@@ -1,5 +1,7 @@
 import { MetadataRoute } from 'next';
 import { getAllServiceSlugs } from '@/lib/serviceContent';
+import { getAllGuideSlugs } from '@/lib/guideContent';
+import { PROBLEMS } from '@/lib/content-schema';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     const baseUrl = "https://www.benchmarkmissoula.com";
@@ -26,7 +28,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         priority: route === '' ? 1 : 0.8,
     }));
 
-    // Dynamic service routes
+    // Dynamic service routes (from markdown)
     const serviceSlugs = await getAllServiceSlugs();
     const serviceRoutes = serviceSlugs.map((slug) => ({
         url: `${baseUrl}/services/${slug}`,
@@ -35,5 +37,24 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         priority: 0.9,
     }));
 
-    return [...routes, ...serviceRoutes];
+    // Dynamic guide routes (from markdown)
+    const guideSlugs = await getAllGuideSlugs();
+    const guideRoutes = guideSlugs.map((slug) => ({
+        url: `${baseUrl}/guides/${slug}`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly' as const,
+        priority: 0.7,
+    }));
+
+    // Dynamic problem routes (from static array)
+    const problemRoutes = PROBLEMS
+        .filter(p => p.renderingEnabled)
+        .map((p) => ({
+            url: `${baseUrl}/problems/${p.slug}`,
+            lastModified: new Date(),
+            changeFrequency: 'weekly' as const,
+            priority: 0.7,
+        }));
+
+    return [...routes, ...serviceRoutes, ...guideRoutes, ...problemRoutes];
 }

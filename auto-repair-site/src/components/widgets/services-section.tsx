@@ -56,7 +56,7 @@ export function ServicesSection() {
             <div className="container mx-auto px-4 md:px-6">
                 <Reveal instant>
                     <div className="mb-16 max-w-3xl text-left">
-                        <h2 className="font-heading text-3xl md:text-5xl font-bold text-navy-950 mb-6 tracking-tight">
+                        <h2 id="missoula-auto-services" className="font-heading text-3xl md:text-5xl font-bold text-navy-950 mb-6 tracking-tight">
                             Comprehensive Automotive Service. No Guesswork.
                         </h2>
                         <PrecisionDivider instant />

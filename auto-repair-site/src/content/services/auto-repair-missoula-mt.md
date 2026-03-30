@@ -54,7 +54,7 @@ Missoula's climate and terrain create specific wear patterns that drivers in mil
 
 Brake and suspension wear shows up earlier here than in flat-terrain cities. Braking on mountain grades — down off Reserve Street, out toward the Rattlesnake, or anywhere in the surrounding valleys — generates more rotor heat and puts more load on calipers than stop-and-go city driving does. Suspension components like struts, ball joints, and control arm bushings take repeated impact from Missoula's potholed streets and gravel county roads. That wear is gradual, so drivers often don't notice how far it's gone until the ride quality is noticeably off.
 
-[Cooling system](/services/cooling-system-repair) problems often develop over a summer of heat cycles and then become a problem when cold weather arrives. The thermostat, water pump, and radiator hoses all wear over time. Coolant that hasn't been changed in several years loses its corrosion inhibitors, which lets rust and scale build up inside the engine block and radiator. Once that process starts, it's more expensive to fix than a routine coolant flush would have been.
+[Cooling system](/services/fluid-services) problems often develop over a summer of heat cycles and then become a problem when cold weather arrives. The thermostat, water pump, and radiator hoses all wear over time. Coolant that hasn't been changed in several years loses its corrosion inhibitors, which lets rust and scale build up inside the engine block and radiator. Once that process starts, it's more expensive to fix than a routine coolant flush would have been.
 
 ---
 
@@ -88,7 +88,7 @@ If you're not sure whether something is urgent, call us. Describing what you're 
 
 Missoula sits in a mountain valley, and that geography shapes how vehicles wear here in specific ways.
 
-Winter temperatures regularly drop below 0°F in January and February. At those temps, a marginal [battery](/services/battery-charging-system) will fail without warning. Oil viscosity matters more here than in warmer climates — using the right weight for cold starts reduces wear during the first minutes of operation. Coolant that isn't properly mixed freezes in the radiator; a 50/50 antifreeze-to-water ratio holds down to around -34°F, which is the standard we check for.
+Winter temperatures regularly drop below 0°F in January and February. At those temps, a marginal [battery](/services/battery-drain) will fail without warning. Oil viscosity matters more here than in warmer climates — using the right weight for cold starts reduces wear during the first minutes of operation. Coolant that isn't properly mixed freezes in the radiator; a 50/50 antifreeze-to-water ratio holds down to around -34°F, which is the standard we check for.
 
 Road salt applied to I-90, Highway 93, and Reserve Street accelerates corrosion on brake lines, wheel bearing housings, and suspension components. Vehicles driven year-round in Missoula show undercarriage rust years earlier than vehicles in drier climates. Brake line condition is something we inspect on any vehicle that's spent more than a few Montana winters on salted roads.
 

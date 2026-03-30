@@ -24,7 +24,10 @@ export default function LoloServiceAreaPage() {
         "@type": "AutoRepair",
         "@id": "https://www.benchmarkmissoula.com/#business",
         "name": siteConfig.businessName,
-        "areaServed": "Lolo MT",
+        "areaServed": {
+            "@type": "City",
+            "name": "Lolo, MT"
+        },
         "url": "https://www.benchmarkmissoula.com",
     };
 

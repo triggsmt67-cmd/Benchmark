@@ -32,7 +32,7 @@ export function AboutSection() {
 
                     <Stagger className="max-w-2xl">
                         <StaggerItem>
-                            <h2 className="font-heading text-3xl md:text-5xl font-bold text-navy-950 mb-6 leading-tight">
+                            <h2 id="about-benchmark-missoula" className="font-heading text-3xl md:text-5xl font-bold text-navy-950 mb-6 leading-tight">
                                 Built on Craftsmanship.<br />Backed by Integrity.
                             </h2>
                             <PrecisionDivider />

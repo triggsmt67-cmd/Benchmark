@@ -24,7 +24,10 @@ export default function MissoulaServiceAreaPage() {
         "@type": "AutoRepair",
         "@id": "https://www.benchmarkmissoula.com/#business",
         "name": siteConfig.businessName,
-        "areaServed": "Missoula MT",
+        "areaServed": {
+            "@type": "City",
+            "name": "Missoula, MT"
+        },
         "url": "https://www.benchmarkmissoula.com",
     };
 

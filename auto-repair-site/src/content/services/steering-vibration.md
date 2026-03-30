@@ -7,8 +7,8 @@ order: 11
 lastReviewed: "2026-03-11"
 related:
   - suspension-steering
-  - car-shaking-while-driving
-  - car-pulling-to-one-side
+  - brake-repair
+  - vehicle-inspection
 faqs:
   - question: "My tires were recently balanced. Could it still be a balance issue?"
     answer: "Yes. A balance weight can fall off between services, and some tires develop flat spots or out-of-round conditions that balancing alone won't correct. A road force balance test — which applies simulated load to the tire while spinning — catches problems a standard spin balance misses."

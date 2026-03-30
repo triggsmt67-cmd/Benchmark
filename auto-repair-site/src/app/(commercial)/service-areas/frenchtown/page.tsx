@@ -24,7 +24,10 @@ export default function FrenchtownServiceAreaPage() {
         "@type": "AutoRepair",
         "@id": "https://www.benchmarkmissoula.com/#business",
         "name": siteConfig.businessName,
-        "areaServed": "Frenchtown MT",
+        "areaServed": {
+            "@type": "City",
+            "name": "Frenchtown, MT"
+        },
         "url": "https://www.benchmarkmissoula.com",
     };
 

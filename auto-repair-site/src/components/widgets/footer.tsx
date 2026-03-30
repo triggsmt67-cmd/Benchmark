@@ -16,7 +16,7 @@ export function Footer() {
                             <p className="text-muted/80 text-sm leading-relaxed">
                                 A trusted local shop delivering precise diagnostics, honest recommendations, and repairs built to last.
                             </p>
-                            <div className="space-y-2 pt-4 text-sm text-surface">
+                            <address className="not-italic space-y-2 pt-4 text-sm text-surface">
                                 <div className="flex items-start gap-3">
                                     <MapPin className="h-5 w-5 text-copper shrink-0 mt-0.5" />
                                     <span className="whitespace-pre-line">{siteConfig.formattedAddress}</span>
@@ -29,6 +29,17 @@ export function Footer() {
                                     <Mail className="h-5 w-5 text-copper shrink-0" />
                                     <a href={`mailto:${siteConfig.email}`} className="hover:text-copper transition-colors">{siteConfig.email}</a>
                                 </div>
+                            </address>
+                            <div className="pt-2">
+                                <a 
+                                    href="https://maps.app.goo.gl/k1AJiMky4sBqGitA9" 
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                    className="text-xs font-semibold uppercase tracking-wider text-copper hover:text-surface transition-colors flex items-center gap-2"
+                                >
+                                    Read our Reviews
+                                    <span className="text-lg">→</span>
+                                </a>
                             </div>
                         </div>
 
@@ -38,7 +49,14 @@ export function Footer() {
                             <nav className="flex flex-col space-y-2 text-sm text-muted/80">
                                 <Link href="/services" className="hover:text-copper transition-colors">Our Services</Link>
                                 <Link href="/#about" className="hover:text-copper transition-colors">About Us</Link>
-                                <Link href="/#testimonials" className="hover:text-copper transition-colors">Customer Reviews</Link>
+                                <a 
+                                    href="https://maps.app.goo.gl/k1AJiMky4sBqGitA9" 
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                    className="hover:text-copper transition-colors"
+                                >
+                                    Customer Reviews
+                                </a>
                                 <Link href="/contact" className="hover:text-copper transition-colors">Schedule Appointment</Link>
                             </nav>
                         </div>

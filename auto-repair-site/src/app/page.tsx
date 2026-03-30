@@ -14,7 +14,7 @@ import { ServiceAreasSection } from "@/components/widgets/service-areas-section"
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-[100dvh]">
+    <article className="flex flex-col min-h-[100dvh]">
       <HeroSection />
       <ServicesSection />
       <DiagnosticConfidenceStrip />
@@ -28,6 +28,6 @@ export default function Home() {
       <WhatWeDontDoSection />
       <ServiceAreasSection />
       <FinalCtaBand />
-    </div>
+    </article>
   );
 }

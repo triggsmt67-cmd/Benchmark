@@ -29,7 +29,7 @@ export function TestimonialsSection() {
             <div className="container mx-auto px-4 md:px-6">
                 <Reveal>
                     <div className="text-center max-w-2xl mx-auto mb-16">
-                        <h2 className="font-heading text-3xl md:text-5xl font-bold text-navy-950 mb-6">
+                        <h2 id="missoula-auto-repair-reviews" className="font-heading text-3xl md:text-5xl font-bold text-navy-950 mb-6">
                             What Local Drivers Are Saying
                         </h2>
                         <div className="flex justify-center mt-2">

@@ -18,12 +18,14 @@ export function generateWebSiteSchema() {
 export function generateLocalBusinessSchema() {
     return {
         "@context": "https://schema.org",
-        "@type": "AutoRepair",
+        "@type": "ProfessionalService",
         "@id": "https://www.benchmarkmissoula.com/#business",
         "name": siteConfig.businessName,
-        "image": "https://www.benchmarkmissoula.com/images/shop-interior.jpg",
+        "image": "https://www.benchmarkmissoula.com/diagnostic_hero_bg_v2.png",
+        "logo": "https://www.benchmarkmissoula.com/diagnostic_hero_bg_v2.png",
         "url": "https://www.benchmarkmissoula.com",
-        "telephone": "+14063171405", // Normalized to standard E.164
+        "hasMap": "https://maps.app.goo.gl/k1AJiMky4sBqGitA9",
+        "telephone": "+14063171405",
         "priceRange": "$$",
         "address": {
             "@type": "PostalAddress",
@@ -37,6 +39,22 @@ export function generateLocalBusinessSchema() {
             "@type": "GeoCoordinates",
             "latitude": 46.855018,
             "longitude": -114.0255
+        },
+        "areaServed": [
+            {
+                "@type": "City",
+                "name": "Missoula",
+                "sameAs": "https://www.google.com/maps?cid=10852396155502161751" 
+            },
+            {
+                "@type": "City",
+                "name": "Lolo",
+                "sameAs": "https://en.wikipedia.org/wiki/Lolo,_Montana"
+            }
+        ],
+        "mainEntityOfPage": {
+            "@type": "WebSite",
+            "@id": "https://www.benchmarkmissoula.com/#website"
         },
         "openingHoursSpecification": [
             {

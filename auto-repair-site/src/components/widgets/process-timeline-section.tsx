@@ -31,7 +31,7 @@ export function ProcessTimelineSection() {
             <div className="container mx-auto px-4 md:px-6">
                 <Reveal instant>
                     <div className="mb-16">
-                        <h2 className="font-heading text-3xl md:text-5xl font-bold text-navy-950 mb-4">
+                        <h2 id="auto-repair-diagnostic-process" className="font-heading text-3xl md:text-5xl font-bold text-navy-950 mb-4">
                             Our Process
                         </h2>
                     </div>

@@ -143,6 +143,25 @@ export const PROBLEMS: ProblemContent[] = [
         diagnosticAdvice: "If the squeal goes away after a few stops in the morning, it's likely just moisture. If the noise is constant, metallic, or turns into a grinding sound, you need an immediate inspection. Do not ignore persistent brake noises.",
         recommendedServiceId: "srv_brakes",
         renderingEnabled: true
+    },
+    {
+        id: "prob_shaking_brakes",
+        slug: "shaking-brakes",
+        title: "Why Does My Car Shake When I Brake?",
+        seo: {
+            title: `Steering Wheel Shaking When Braking? | ${siteConfig.businessName}`,
+            description: "Car shaking while braking is usually a sign of warped brake rotors or suspension wear. Find out why it happens and how to fix it."
+        },
+        symptomsTitle: "Causes of Braking Vibration",
+        symptomsList: [
+            "Warped brake rotors (lateral runout) from excessive heat.",
+            "Debris or rust buildup on the hub face prevents the rotor from sitting flat.",
+            "Worn front suspension bushings or loose wheel bearings.",
+            "Uneven brake pad material deposit on the rotor surface."
+        ],
+        diagnosticAdvice: "If you only feel shaking when braking, it's almost certainly the rotors. If it shakes all the time at high speed, it's more likely a tire balance issue. Continuing to drive on warped rotors can place extra stress on your suspension and ABS system.",
+        recommendedServiceId: "srv_brakes",
+        renderingEnabled: true
     }
 ];
 

@@ -12,7 +12,7 @@ export function ProfessionalFacilitySection() {
                     {/* Left Column */}
                     <Reveal>
                         <div className="max-w-xl">
-                            <h2 className="font-heading text-3xl md:text-5xl font-bold text-navy-950 mb-6 leading-tight">
+                            <h2 id="missoula-auto-repair-facility" className="font-heading text-3xl md:text-5xl font-bold text-navy-950 mb-6 leading-tight">
                                 Professional Facility. Professional Standards.
                             </h2>
                             <PrecisionDivider />

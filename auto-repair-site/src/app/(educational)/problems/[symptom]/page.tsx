@@ -16,12 +16,26 @@ export async function generateMetadata({ params }: { params: Promise<{ symptom: 
     const resolvedParams = await params;
     const problem = getProblemBySlug(resolvedParams.symptom);
     if (!problem) return { title: "Not Found" };
+    
+    const baseUrl = "https://www.benchmarkmissoula.com";
+    const url = `${baseUrl}/problems/${problem.slug}`;
+    
     return {
         title: problem.seo.title,
         description: problem.seo.description,
-        alternates: { canonical: `/problems/${problem.slug}` }
+        alternates: { 
+            canonical: url
+        },
+        openGraph: {
+            url: url,
+            title: problem.seo.title,
+            description: problem.seo.description,
+            type: 'article'
+        }
     };
 }
+
+import { Breadcrumbs } from "@/components/widgets/breadcrumbs";
 
 export default async function SymptomPage({ params }: { params: Promise<{ symptom: string }> }) {
     const resolvedParams = await params;
@@ -29,9 +43,58 @@ export default async function SymptomPage({ params }: { params: Promise<{ sympto
     if (!problem) return notFound();
 
     const relatedService = getServiceById(problem.recommendedServiceId);
+    
+    const baseUrl = "https://www.benchmarkmissoula.com";
+    const url = `${baseUrl}/problems/${problem.slug}`;
+
+    const schema = [
+        {
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": problem.title,
+            "description": problem.seo.description,
+            "author": {
+                "@type": "Organization",
+                "name": "Benchmark Automotive Service"
+            },
+            "publisher": {
+                "@type": "AutoRepair",
+                "@id": "https://www.benchmarkmissoula.com/#business"
+            },
+            "url": url
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": `${baseUrl}/`
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Symptom Troubleshooting",
+                    "item": `${baseUrl}/services` // Assuming symtom hub might not exist, pointing back to services
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": problem.title,
+                    "item": url
+                }
+            ]
+        }
+    ];
 
     return (
         <article className="flex flex-col min-h-[100dvh]">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+            />
             <section className="bg-navy-950 py-20 text-surface">
                 <div className="container mx-auto px-4 md:px-6 max-w-4xl">
                     <div className="inline-flex items-center gap-2 rounded-full border border-copper/30 bg-surface/10 px-3 py-1 text-sm font-medium mb-6">
@@ -40,6 +103,14 @@ export default async function SymptomPage({ params }: { params: Promise<{ sympto
                     <h1 className="font-heading text-4xl md:text-5xl font-bold mb-6">{problem.title}</h1>
                 </div>
             </section>
+
+            <Breadcrumbs
+                items={[
+                    { label: "Home", href: "/" },
+                    { label: "Symptoms", href: "/services" },
+                    { label: problem.title }
+                ]}
+            />
 
             <section className="py-16 bg-surface">
                 <div className="container mx-auto px-4 md:px-6 max-w-4xl">

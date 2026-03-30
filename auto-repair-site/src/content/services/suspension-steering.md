@@ -20,7 +20,7 @@ faqs:
 
 ## Suspension & Steering Repair in Missoula, MT
 
-Your suspension and steering systems are mechanically linked — what wears in one affects the behavior of the other. When Missoula drivers notice a car [pulling to one side](/services/car-pulling-to-one-side), a rough ride over frost heaves, or a vague and wandering steering feel, the cause is almost always a specific worn component rather than a system-wide failure. Identifying which part is responsible determines what actually needs to be repaired.
+Your suspension and steering systems are mechanically linked — what wears in one affects the behavior of the other. When Missoula drivers notice a car [pulling to one side](/services/steering-vibration), a rough ride over frost heaves, or a vague and wandering steering feel, the cause is almost always a specific worn component rather than a system-wide failure. Identifying which part is responsible determines what actually needs to be repaired.
 
 ---
 
@@ -56,7 +56,7 @@ Shock absorbers and struts are the most commonly replaced suspension components.
 
 Ball joints connect the steering knuckle to the control arm and allow the wheel to pivot for steering while also moving through the suspension's vertical travel. They wear at the bearing surface inside the joint. A worn ball joint develops measurable play that shows up as clunking over bumps and, at advanced stages, as looseness in the steering response. Complete ball joint failure — the ball separating from the socket — causes sudden loss of wheel control, which is why a joint showing significant play warrants prompt attention.
 
-Tie rod ends are the link between the steering rack and the steering knuckle. Their ball socket allows the wheels to steer while the suspension moves up and down. As the socket wears, steering response degrades — the wheel may move slightly before the front tires follow, and [steering wheel shimmy at speed](/services/car-shaking-while-driving) can develop as the joint allows small oscillations. Worn tie rod ends also allow toe angle to shift unpredictably, which produces inner or outer edge tire wear that looks like an alignment problem but won't hold an alignment.
+Tie rod ends are the link between the steering rack and the steering knuckle. Their ball socket allows the wheels to steer while the suspension moves up and down. As the socket wears, steering response degrades — the wheel may move slightly before the front tires follow, and [steering wheel shimmy at speed](/services/steering-vibration) can develop as the joint allows small oscillations. Worn tie rod ends also allow toe angle to shift unpredictably, which produces inner or outer edge tire wear that looks like an alignment problem but won't hold an alignment.
 
 Control arm bushings are rubber or polyurethane sleeves pressed into the control arm at its pivot points. They absorb vibration and let the arm rotate without metal-on-metal contact. When the rubber hardens, cracks, or tears, the control arm pivot loses its isolation and the suspension geometry becomes less stable under load. Worn bushings are a frequent source of front-end clunking that doesn't immediately point to a single joint — the noise comes from the control arm moving against its metal bracket during compression.
 

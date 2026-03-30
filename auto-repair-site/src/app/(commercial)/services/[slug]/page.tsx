@@ -59,16 +59,17 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     }
 
     const { title, description } = result.data;
+    const displayTitle = title.toLowerCase().includes("missoula") ? title : `${title} in Missoula, MT`;
 
     return {
-        title: `${title} in Missoula, MT`,
+        title: displayTitle,
         description: description || `Professional ${title.toLowerCase()} in Missoula. Accurate testing, honest recommendations, and confirmed repairs.`,
         alternates: {
             canonical: `https://www.benchmarkmissoula.com/services/${slug}`
         },
         openGraph: {
             url: `https://www.benchmarkmissoula.com/services/${slug}`,
-            title: `${title} in Missoula, MT`,
+            title: displayTitle,
             description: description || `Professional ${title.toLowerCase()} in Missoula. Accurate testing, honest recommendations, and confirmed repairs.`
         }
     };
@@ -99,14 +100,21 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
         name: serviceName,
         description: data.description || `Professional ${serviceName.toLowerCase()}`,
         serviceType: serviceName,
-        areaServed: {
-            "@type": "City",
-            name: "Missoula, MT"
-        },
+        areaServed: [
+            {
+                "@type": "City",
+                "name": "Missoula, MT"
+            },
+            {
+                "@type": "City",
+                "name": "Lolo, MT"
+            }
+        ],
         provider: {
             "@type": "AutoRepair",
             "@id": "https://www.benchmarkmissoula.com/#business"
         },
+        image: `${baseUrl}/diagnostic_hero_bg_v2.png`,
         url: `${baseUrl}/services/${slug}`
     };
 
@@ -248,7 +256,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
                         {/* Dynamic FAQ Block */}
                         {data.faqs && data.faqs.length > 0 && (
                             <div className="mt-16 pt-16 border-t border-border">
-                                <h2 className="font-heading text-3xl font-bold text-navy-950 mb-8">Frequently Asked Questions</h2>
+                                <h2 id="faq-section" className="font-heading text-3xl font-bold text-navy-950 mb-8">Frequently Asked Questions</h2>
                                 <div className="space-y-6">
                                     {data.faqs.map((faq, index) => (
                                         <div key={index} className="bg-bg p-6 rounded-sm border border-border">
