@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { HeroSection } from "@/components/widgets/hero-section";
 import { ServicesSection } from "@/components/widgets/services-section";
 import { DiagnosticConfidenceStrip } from "@/components/widgets/diagnostic-confidence-strip";
@@ -11,6 +12,12 @@ import { TestimonialsSection } from "@/components/widgets/testimonials-section";
 import { WhatWeDontDoSection } from "@/components/widgets/what-we-dont-do-section";
 import { FinalCtaBand } from "@/components/widgets/final-cta-band";
 import { ServiceAreasSection } from "@/components/widgets/service-areas-section";
+
+export const metadata: Metadata = {
+  title: {
+    absolute: "Benchmark Automotive Service | Auto Repair in Missoula, MT",
+  },
+};
 
 export default function Home() {
   return (
