@@ -87,48 +87,47 @@ export default function BonnerServiceAreaPage() {
                 <div className="container mx-auto px-4 md:px-6">
                     <div className="max-w-3xl mx-auto space-y-12">
 
-                        {/* Introduction */}
+                                                {/* Introduction */}
                         <Reveal>
                             <div className="space-y-6 text-text-secondary text-lg leading-relaxed">
                                 <p>
-                                    Drivers from Bonner often make the short trip into Missoula when they want a vehicle problem diagnosed correctly before money gets spent on the wrong repair. Whether it’s a warning light, an electrical issue, a suspension noise, or a car that just doesn’t feel right, Benchmark Automotive Service gives Bonner drivers a place to get clear answers before parts are replaced.
+                                    If you commute from Bonner, you rely heavily on your vehicle to power through all seasons. When a dashboard light disrupts your day, you shouldn't have to settle for a mechanic who simply clears the code. Benchmark Automotive Service is dedicated to finding the genuine root cause.
                                 </p>
                                 <p>
-                                    At Benchmark Automotive Service, we take a diagnostic-first approach. We inspect the vehicle, test the system causing the problem, confirm the cause, and explain what we found before recommending repairs. For Bonner drivers who rely on their vehicles for commuting, family use, and year-round Montana driving conditions, that kind of accuracy matters.
+                                    Our diagnostic-first standard guarantees that we evaluate every facet of the reported symptom. We verify poor sensor readings, physically test actuators, and trace wiring faults so we can advise you with absolute confidence.
                                 </p>
                             </div>
                         </Reveal>
 
-                        {/* Why Drivers Choose Benchmark */}
+                                                {/* Why Drivers Choose Benchmark */}
                         <Reveal>
-                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Why Drivers From Bonner Choose Benchmark</h2>
+                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">The Benchmark Difference for Bonner</h2>
                             <div className="space-y-6 text-text-secondary text-lg leading-relaxed">
                                 <p>
-                                    Many drivers from Bonner come to us because they want more than a quick guess. They want to know what failed, why it failed, and what the repair is actually meant to fix.
+                                    Residents of Bonner trust us because we respect their time and budget. We eliminate the frustration of returning to a shop multiple times for the exact same unresolved symptom.
                                 </p>
                                 <p>
-                                    We work on everything from check engine lights and electrical problems to brake issues, suspension wear, starting problems, and routine maintenance. Our process is built around careful testing, clear recommendations, and repairs based on confirmed findings instead of trial-and-error part replacement.
+                                    Whether it involves fixing squealing brakes, reviving a sluggish starting system, or overhauling an aging suspension, we handle the repairs meticulously. We want you completely informed before we ever request approval to proceed.
                                 </p>
                             </div>
                         </Reveal>
 
-                        {/* Common Vehicle Issues */}
+                                                {/* Common Vehicle Issues */}
                         <Reveal>
-                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Common Vehicle Issues for Bonner Drivers</h2>
+                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Troubleshooting Bonner Road Challenges</h2>
                             <div className="space-y-6 text-text-secondary text-lg leading-relaxed">
                                 <p>
-                                    Bonner drivers often deal with a mix of interstate travel, local commuting, weather changes, and seasonal road wear. That can bring out issues like:
+                                    Rural driving and highway blending near Bonner create a perfect storm for heavy-duty vehicle wear and tear:
                                 </p>
                                 <ul className="list-disc pl-6 space-y-4">
-                                    <li>battery and charging problems after cold weather or repeated short-trip driving</li>
-                                    <li>warning lights tied to sensors, electrical faults, or drivability issues</li>
-                                    <li>suspension and steering wear from rough roads, potholes, and freeze-thaw damage</li>
-                                    <li>brake wear from commuting, traffic slowdowns, and changing road conditions</li>
-                                    <li>electrical issues caused by moisture, corrosion, or damaged wiring</li>
-                                    <li>vibration, pulling, or uneven tire wear that becomes more noticeable at highway speeds</li>
+                                    <li>Power steering fluid leaks and degraded belts</li>
+                                    <li>Check engine codes relating to O2 sensors and cold-weather idle issues</li>
+                                    <li>Brake rotor warping from continuous heavy-load braking</li>
+                                    <li>Suspension clunks from washboard gravel impacts</li>
+                                    <li>Battery drain faults from after-market accessories or old grounding wires</li>
                                 </ul>
                                 <p>
-                                    Some of these issues start small. Some don’t. The important part is finding out what is actually wrong before it turns into a bigger repair or leads to money spent on the wrong parts.
+                                    Ignoring minor quirks often graduates into major part failures. Getting an accurate read on your car's health puts you back in the driver's seat safely.
                                 </p>
                             </div>
                         </Reveal>

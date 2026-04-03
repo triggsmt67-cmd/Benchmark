@@ -86,14 +86,14 @@ export default function MissoulaServiceAreaPage() {
                 <div className="container mx-auto px-4 md:px-6">
                     <div className="max-w-3xl mx-auto space-y-12">
 
-                        {/* Introduction */}
+                                                {/* Introduction */}
                         <Reveal>
                             <div className="space-y-6 text-text-secondary text-lg leading-relaxed">
                                 <p>
-                                    Missoula is home base for Benchmark Automotive Service. It’s where we work, where our customers live, and where we’ve built our reputation around accurate diagnostics, clear recommendations, and repairs based on what is actually wrong. For drivers in Missoula, that matters. Between daily commuting, stop-and-go traffic, changing weather, rough spring roads, and year-round vehicle use, problems show up fast when something in the system starts to fail.
+                                    As Missoula residents know, local auto repair shops are plentiful, but finding one that prioritizes accurate diagnosis over parts-swapping is a challenge. Benchmark Automotive Service is an independent facility designed entirely around getting you the correct answer the first time. We reject the trial-and-error approach that wastes your time and money.
                                 </p>
                                 <p>
-                                    At Benchmark Automotive Service, we take a diagnostic-first approach. We inspect the vehicle, test the system causing the problem, confirm the cause, and explain what we found before recommending repairs. That applies whether you’re dealing with a warning light, a starting problem, brake noise, steering issues, or a car that just doesn’t feel right on the road.
+                                    When you drop your car off with us, we analyze live data streams, conduct precision circuit checks, and thoroughly pinpoint the hardware failure. Whether you're dealing with a check engine light or rough idle, our evidence-based repair methodology ensures your vehicle is actually fixed.
                                 </p>
                             </div>
                         </Reveal>
@@ -114,23 +114,22 @@ export default function MissoulaServiceAreaPage() {
                             </div>
                         </Reveal>
 
-                        {/* Common Vehicle Issues for Missoula Drivers */}
+                                                {/* Common Vehicle Issues */}
                         <Reveal>
-                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Common Vehicle Issues for Missoula Drivers</h2>
+                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Everyday Town & Highway Stress</h2>
                             <div className="space-y-6 text-text-secondary text-lg leading-relaxed">
                                 <p>
-                                    Missoula vehicles deal with a mix of city traffic, highway driving, seasonal temperature swings, potholes, winter grime, and year-round commuting. That brings out a few common problems:
+                                    Missoula's unique mix of stop-light traffic and high-speed highway commuting inevitably leads to distinct maintenance needs:
                                 </p>
                                 <ul className="list-disc pl-6 space-y-4">
-                                    <li>battery and charging issues after cold weather or repeated short-trip driving</li>
-                                    <li>brake wear from stop-and-go traffic, downhill braking, and changing road conditions</li>
-                                    <li>suspension, tire, and alignment problems from potholes, rough pavement, and freeze-thaw damage</li>
-                                    <li>warning lights tied to sensors, emissions systems, electrical faults, or drivability issues</li>
-                                    <li>vibration, pulling, or uneven tire wear that becomes more noticeable at speed</li>
-                                    <li>electrical problems caused by moisture, corrosion, or damaged wiring</li>
+                                    <li>Premature brake wear and master cylinder failure from stop-and-go driving</li>
+                                    <li>Check engine lights triggered by carbon buildup or fuel system faults</li>
+                                    <li>Starter motor fatigue from frequent short trips around town</li>
+                                    <li>Tire wear and steering pulling from unavoidable city potholes</li>
+                                    <li>Cooling system leaks presenting during hot summer idling</li>
                                 </ul>
                                 <p>
-                                    Some of these issues start small. Some don’t. The important part is figuring out which is which before the wrong repair gets recommended.
+                                    Tackling these urban automotive issues with precise tooling ensures you aren't stranded when you least expect it.
                                 </p>
                             </div>
                         </Reveal>

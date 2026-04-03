@@ -86,47 +86,47 @@ export default function LoloServiceAreaPage() {
                 <div className="container mx-auto px-4 md:px-6">
                     <div className="max-w-3xl mx-auto space-y-12">
 
-                        {/* Introduction */}
+                                                {/* Introduction */}
                         <Reveal>
                             <div className="space-y-6 text-text-secondary text-lg leading-relaxed">
                                 <p>
-                                    Drivers from Lolo often make the trip into Missoula when they want clear answers before spending money on repairs. Whether it’s a warning light, a no-start problem, brake noise, or a car that just doesn’t feel right, Benchmark Automotive Service gives Lolo drivers a place to get the problem tested properly before parts are replaced.
+                                    As a Lolo resident, finding an auto shop you can rely on is crucial when you are commuting up Highway 93 daily. Instead of simply swapping out parts and hoping the issue is resolved, Benchmark Automotive Service provides an alternative: definitive testing. Whether you are dealing with a frustrating electrical drain, a transmission feeling sluggish, or your engine light is constantly on, our Missoula facility is built to give you hard facts.
                                 </p>
                                 <p>
-                                    At Benchmark Automotive Service, we take a diagnostic-first approach. That means we inspect the vehicle, test the system causing the problem, confirm the cause, and explain what we found before recommending repairs. For Lolo drivers who rely on their vehicles for daily commuting, highway travel, and year-round use in the Bitterroot Valley, that kind of clarity matters.
+                                    We do not believe in trial and error. Every repair we recommend is backed by data from our comprehensive diagnostic process. We hook up the scopes, test the circuits, and verify the failure point so your vehicle requires just one trip to the shop.
                                 </p>
                             </div>
                         </Reveal>
 
-                        {/* Why Drivers Choose Benchmark */}
+                                                {/* Why Drivers Choose Benchmark */}
                         <Reveal>
-                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Why Drivers From Lolo Choose Benchmark</h2>
+                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">A Standard of Excellence for Lolo Locals</h2>
                             <div className="space-y-6 text-text-secondary text-lg leading-relaxed">
                                 <p>
-                                    Many drivers from Lolo come to us because they want more than a guess. They want to know what failed, why it failed, and what the repair is actually meant to fix.
+                                    Our reputation with Lolo drivers is built on honest communication and technical precision. We don't just clear fault codes; we trace why they originated in the first place. You will know the exact health of your car, the rationale behind our repairs, and how it directly benefits your daily drive.
                                 </p>
                                 <p>
-                                    We work on everything from check engine lights and electrical problems to brake issues, starting problems, suspension concerns, and routine maintenance. Our process is built around accurate testing, clear recommendations, and repairs based on confirmed findings instead of trial-and-error parts replacement.
+                                    Whether it is time for routine fluid services, extensive suspension overhauls, or uncovering complex drivetrain faults, our trained technicians have the patience and the advanced equipment required to treat your vehicle properly.
                                 </p>
                             </div>
                         </Reveal>
 
-                        {/* Common Vehicle Issues */}
+                                                {/* Common Vehicle Issues */}
                         <Reveal>
-                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Common Vehicle Issues for Lolo Drivers</h2>
+                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Typical Vehicle Wear in the Bitterroot</h2>
                             <div className="space-y-6 text-text-secondary text-lg leading-relaxed">
                                 <p>
-                                    Lolo drivers often put their vehicles through a mix of highway commuting, valley driving, changing weather, and long-term seasonal wear. That can bring out issues like:
+                                    Living in the Bitterroot Valley usually means long commutes and coping with significant temperature shifts, putting localized strain on your car:
                                 </p>
                                 <ul className="list-disc pl-6 space-y-4">
-                                    <li>battery and charging problems after cold weather or repeated short trips</li>
-                                    <li>brake wear from commuting, traffic, and downhill stops</li>
-                                    <li>suspension and steering wear from rough roads and broken pavement</li>
-                                    <li>warning lights tied to sensors, wiring faults, or drivability issues</li>
-                                    <li>vibration, pulling, or uneven tire wear that shows up more at highway speeds</li>
+                                    <li>Rapid battery degradation from sub-zero winter starts</li>
+                                    <li>Premature brake pad wear from downhill highway deceleration</li>
+                                    <li>Strut and tie-rod fatigue from navigating off-highway routes</li>
+                                    <li>Engine misfires triggered by unmanaged sensor faults</li>
+                                    <li>Uneven tire wear or pulling caused by neglected alignment</li>
                                 </ul>
                                 <p>
-                                    Some of these problems start small. Some don’t. The important part is figuring out which issue you’re dealing with before it turns into a bigger repair or leads to more wasted money.
+                                    Catching these signs early keeps smaller issues from developing into catastrophic failures. A professional inspection gives you the leverage to plan maintenance before it becomes an emergency.
                                 </p>
                             </div>
                         </Reveal>

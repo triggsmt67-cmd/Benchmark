@@ -90,44 +90,43 @@ export default function FrenchtownServiceAreaPage() {
                         <Reveal>
                             <div className="space-y-6 text-text-secondary text-lg leading-relaxed">
                                 <p>
-                                    Drivers from Frenchtown often make the trip into Missoula when they want the problem diagnosed correctly before spending money on repairs. Whether it’s a warning light that keeps coming back, a truck that doesn’t feel right at highway speed, or a vehicle that just isn’t starting or shifting the way it should, Benchmark Automotive Service gives Frenchtown drivers a place to get clear answers before parts are replaced.
+                                    If you live in Frenchtown, making the quick trip down I-90 into Missoula is worth it when you need auto repairs done correctly the first time. At Benchmark Automotive Service, we cater to Frenchtown residents who are tired of shops guessing at problems. Whether you are dealing with a mysterious warning light, an electrical glitch, or a work truck that is losing power, we provide definitive diagnostic answers before you spend any money on parts.
                                 </p>
                                 <p>
-                                    At Benchmark Automotive Service, we take a diagnostic-first approach. We inspect the vehicle, test the system causing the problem, confirm the cause, and explain what we found before recommending repairs. For Frenchtown drivers who split time between Interstate 90, rural roads, work trucks, and daily commuting, that kind of accuracy matters.
+                                    Our entire philosophy revolves around testing rather than assuming. Before we recommend any repairs, we thoroughly interrogate your vehicle's systems to isolate the exact point of failure. For drivers navigating rural roads, hauling trailers, or just making the daily commute from Frenchtown, that level of mechanical certainty prevents breakdowns and wasted money.
                                 </p>
                             </div>
                         </Reveal>
 
                         {/* Why Drivers Choose Benchmark */}
                         <Reveal>
-                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Why Drivers From Frenchtown Choose Benchmark</h2>
+                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Why Frenchtown Residents Trust Us</h2>
                             <div className="space-y-6 text-text-secondary text-lg leading-relaxed">
                                 <p>
-                                    Many Frenchtown drivers come to us because they want more than a quick guess. They want to know what failed, why it failed, and what the repair is actually meant to fix.
+                                    People from the Frenchtown area choose our shop because they expect transparency. You want to understand exactly what broke, why it happened, and how our proposed repair will solve it. 
                                 </p>
                                 <p>
-                                    We work on everything from warning lights and electrical problems to brake issues, starting problems, drivability concerns, suspension wear, and routine maintenance. Our process is built around careful testing, clear recommendations, and repairs based on confirmed findings instead of trial-and-error part replacement.
+                                    From standard fluid changes and brake jobs to complex modules, starting systems, and tough drivability issues, we handle it all. Our mechanics rely on professional-grade data, extensive visual inspections, and pinpoint testing to ensure we only repair what is genuinely broken.
                                 </p>
                             </div>
                         </Reveal>
 
                         {/* Common Vehicle Issues */}
                         <Reveal>
-                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Common Vehicle Issues for Frenchtown Drivers</h2>
+                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Local Wear and Tear in Frenchtown</h2>
                             <div className="space-y-6 text-text-secondary text-lg leading-relaxed">
                                 <p>
-                                    Frenchtown vehicles often see a mix of interstate driving, rural roads, heavier use, and year-round weather changes. That can bring out problems like:
+                                    Driving in and around Frenchtown exposes vehicles to intense seasonal weather, high-speed interstate conditions, and dirt roads. These environments frequently lead to:
                                 </p>
                                 <ul className="list-disc pl-6 space-y-4">
-                                    <li>battery and charging issues after cold weather or repeated short-trip driving</li>
-                                    <li>suspension and steering wear from rough roads and broken pavement</li>
-                                    <li>brake wear from highway speeds, traffic slowdowns, and heavier vehicle loads</li>
-                                    <li>warning lights tied to sensors, electrical faults, or drivability problems</li>
-                                    <li>vibration, pulling, or uneven tire wear that becomes more noticeable at higher speeds</li>
-                                    <li>fluid and maintenance needs that show up faster on vehicles used for commuting, hauling, or regular long-distance driving</li>
+                                    <li>Compromised batteries or failing charging systems during deep winter freezes</li>
+                                    <li>Accelerated suspension and linkage wear caused by rural potholes</li>
+                                    <li>Brake pulsation and pad depletion from heavy towing or stop-and-go highway traffic</li>
+                                    <li>Check engine lights triggered by misfiring spark plugs or failing emissions sensors</li>
+                                    <li>Alignment and tire balance issues that cause steering wheel vibration at highway speeds</li>
                                 </ul>
                                 <p>
-                                    Some of these issues show up slowly. Others don’t. The important part is finding out what is actually wrong before it turns into a bigger repair or leads to money spent on the wrong parts.
+                                    Detecting these under-the-hood problems early is the key to minimizing repair bills. If you notice a strange noise or lag in performance, let us isolate the root issue while it is still manageable.
                                 </p>
                             </div>
                         </Reveal>
@@ -155,13 +154,13 @@ export default function FrenchtownServiceAreaPage() {
 
                         {/* Getting Here from Frenchtown */}
                         <Reveal>
-                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Getting Here from Frenchtown</h2>
+                            <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Visiting Us from Frenchtown</h2>
                             <div className="space-y-6 text-text-secondary text-lg leading-relaxed">
                                 <p>
-                                    Getting to our shop from Frenchtown is straightforward for drivers heading into Missoula. Many customers make the drive in because they want the problem checked carefully before committing to repairs.
+                                    Finding our facility is incredibly easy for Frenchtown residents taking I-90 into Missoula. Our customers consistently tell us the brief drive is entirely justified by the peace of mind our thorough diagnostic process provides.
                                 </p>
                                 <p>
-                                    If dropping the vehicle off during the day is difficult, after-hours drop-off is available. We’ll confirm receipt the next business day.
+                                    If your schedule makes a daytime visit tough, take advantage of our secure after-hours drop-off system. Simply leave your vehicle outside regular hours, and we will contact you the following morning.
                                 </p>
                             </div>
                         </Reveal>
