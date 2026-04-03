@@ -111,7 +111,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
             }
         ],
         provider: {
-            "@type": "AutoRepair",
+            "@type": "ProfessionalService",
             "@id": "https://www.benchmarkmissoula.com/#business"
         },
         image: `${baseUrl}/diagnostic_hero_bg_v2.png`,

@@ -9,7 +9,7 @@ export function generateWebSiteSchema() {
         "url": "https://www.benchmarkmissoula.com",
         "description": "Automotive diagnostics and repair services in Missoula, Montana.",
         "publisher": {
-            "@type": "AutoRepair",
+            "@type": "ProfessionalService",
             "@id": "https://www.benchmarkmissoula.com/#business"
         }
     };

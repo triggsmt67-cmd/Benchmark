@@ -72,7 +72,7 @@ export default async function GuidePage({ params }: { params: Promise<{ topic: s
                 "name": "Benchmark Automotive Service"
             },
             "publisher": {
-                "@type": "AutoRepair",
+                "@type": "ProfessionalService",
                 "@id": "https://www.benchmarkmissoula.com/#business"
             },
             "url": `${baseUrl}/guides/${topic}`

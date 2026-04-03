@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default function ServiceAreasIndexPage() {
     const bSchema = {
         "@context": "https://schema.org",
-        "@type": "AutoRepair",
+        "@type": "ProfessionalService",
         "@id": "https://www.benchmarkmissoula.com/#business",
         "name": siteConfig.businessName,
         "url": "https://www.benchmarkmissoula.com",

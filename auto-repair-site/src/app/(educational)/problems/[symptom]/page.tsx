@@ -58,7 +58,7 @@ export default async function SymptomPage({ params }: { params: Promise<{ sympto
                 "name": "Benchmark Automotive Service"
             },
             "publisher": {
-                "@type": "AutoRepair",
+                "@type": "ProfessionalService",
                 "@id": "https://www.benchmarkmissoula.com/#business"
             },
             "url": url
