@@ -105,7 +105,11 @@ export function Footer() {
                 </Reveal>
 
                 <div className="mt-12 pt-8 border-t border-navy-900 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-muted/60">
-                    <p>&copy; {new Date().getFullYear()} {siteConfig.businessName}. All rights reserved.</p>
+                    <div className="flex flex-col md:flex-row items-center gap-2 md:gap-4">
+                        <p>&copy; {new Date().getFullYear()} {siteConfig.businessName}. All rights reserved.</p>
+                        <span className="hidden md:inline">|</span>
+                        <p>Powered by <a href="https://truepath406.com" target="_blank" rel="noopener noreferrer" className="hover:text-surface transition-colors font-medium">Truepathdigital</a></p>
+                    </div>
                     <div className="flex items-center gap-4">
                         <Link href="/privacy" className="hover:text-surface transition-colors">Privacy Policy</Link>
                         <Link href="/terms" className="hover:text-surface transition-colors">Terms of Service</Link>

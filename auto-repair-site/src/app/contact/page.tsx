@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import { siteConfig } from "@/lib/siteConfig";
 import { MapPin, Phone, Clock, KeySquare, Mail } from "lucide-react";
 import { Reveal } from "@/components/motion/Reveal";
-import { Button } from "@/components/ui/button";
+import { ContactForm } from "@/components/forms/contact-form";
 
 export const metadata: Metadata = {
     title: "Contact",
@@ -110,71 +110,7 @@ export default function ContactPage() {
                                     </p>
                                 </div>
 
-                                <form className="space-y-6" action="#" method="POST">
-                                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                                        {/* Name Line */}
-                                        <div className="space-y-2">
-                                            <label htmlFor="name" className="text-sm font-medium text-navy-900 block">Name <span className="text-brand-red">*</span></label>
-                                            <input type="text" id="name" required className="flex h-12 w-full rounded-sm border border-input bg-surface px-4 py-2 text-[15px] outline-none transition-colors hover:border-copper/50 focus:border-copper focus:ring-1 focus:ring-copper/20" />
-                                        </div>
-
-                                        {/* Phone Line */}
-                                        <div className="space-y-2">
-                                            <label htmlFor="phone" className="text-sm font-medium text-navy-900 block">Phone <span className="text-brand-red">*</span></label>
-                                            <input type="tel" id="phone" required className="flex h-12 w-full rounded-sm border border-input bg-surface px-4 py-2 text-[15px] outline-none transition-colors hover:border-copper/50 focus:border-copper focus:ring-1 focus:ring-copper/20" />
-                                        </div>
-                                    </div>
-
-                                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                                        {/* Email Line */}
-                                        <div className="space-y-2">
-                                            <label htmlFor="email" className="text-sm font-medium text-navy-900 block">Email <span className="text-muted-foreground font-normal">(optional but recommended)</span></label>
-                                            <input type="email" id="email" className="flex h-12 w-full rounded-sm border border-input bg-surface px-4 py-2 text-[15px] outline-none transition-colors hover:border-copper/50 focus:border-copper focus:ring-1 focus:ring-copper/20" />
-                                        </div>
-
-                                        {/* Vehicle Info */}
-                                        <div className="space-y-2">
-                                            <label htmlFor="vehicle" className="text-sm font-medium text-navy-900 block">Vehicle Year / Make / Model</label>
-                                            <input type="text" id="vehicle" placeholder="e.g. 2018 Ford F-150" className="flex h-12 w-full rounded-sm border border-input bg-surface px-4 py-2 text-[15px] outline-none transition-colors hover:border-copper/50 focus:border-copper focus:ring-1 focus:ring-copper/20 placeholder:text-muted/60" />
-                                        </div>
-                                    </div>
-
-                                    <div className="space-y-2">
-                                        <label htmlFor="issue" className="text-sm font-medium text-navy-900 block">Describe the Issue</label>
-                                        <textarea id="issue" rows={4} className="flex w-full rounded-sm border border-input bg-surface px-4 py-3 text-[15px] outline-none transition-colors hover:border-copper/50 focus:border-copper focus:ring-1 focus:ring-copper/20 resize-y" />
-                                    </div>
-
-                                    <div className="space-y-2">
-                                        <label htmlFor="contact_method" className="text-sm font-medium text-navy-900 block">Preferred Contact Method</label>
-                                        <select id="contact_method" className="flex h-12 w-full rounded-sm border border-input bg-surface px-4 py-2 text-[15px] outline-none transition-colors hover:border-copper/50 focus:border-copper focus:ring-1 focus:ring-copper/20 appearance-none bg-no-repeat bg-[url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%2364748b%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E')] bg-[position:right_12px_center]">
-                                            <option value="call">Call</option>
-                                            <option value="text">Text</option>
-                                            <option value="email">Email</option>
-                                        </select>
-                                    </div>
-
-                                    <div className="pt-4 flex flex-col sm:flex-row gap-8 items-start sm:items-center justify-between">
-                                        <Button type="button" size="lg" className="w-full sm:w-auto bg-brand-red hover:bg-brand-red-hover text-white h-14 px-10 text-lg rounded-sm">
-                                            Schedule Service
-                                        </Button>
-
-                                        {/* What Happens Next - Compact format matching tone */}
-                                        <div className="space-y-3 w-full sm:w-auto p-4 sm:p-0 bg-surface sm:bg-transparent rounded-sm border border-border sm:border-transparent">
-                                            <h3 className="font-heading font-semibold text-navy-950 text-sm">What Happens Next</h3>
-                                            <ol className="text-sm text-text-secondary space-y-2">
-                                                <li className="flex gap-2">
-                                                    <span className="text-copper font-medium">1.</span> We review your request.
-                                                </li>
-                                                <li className="flex gap-2">
-                                                    <span className="text-copper font-medium">2.</span> We confirm availability.
-                                                </li>
-                                                <li className="flex gap-2">
-                                                    <span className="text-copper font-medium">3.</span> We discuss next steps.
-                                                </li>
-                                            </ol>
-                                        </div>
-                                    </div>
-                                </form>
+                                <ContactForm />
                             </Reveal>
                         </div>
                     </div>
