@@ -32,7 +32,7 @@ export function HeroSection() {
 
                     <HeroIntroItem>
                         <h1 className="font-heading text-4xl md:text-5xl lg:text-7xl font-extrabold tracking-tight text-white leading-[1.1]">
-                            Accurate Repairs Start With Accurate Diagnostics.
+                            Automotive Repairs Start With Accurate Diagnostics.
                         </h1>
                     </HeroIntroItem>
 
