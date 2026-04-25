@@ -80,7 +80,7 @@ After repair, we road test under real braking conditions to verify pedal feel, s
 
 Bring it in if pads are making any noise, the pedal feels different than normal, the vehicle pulls when stopping, or the brake warning light is on. These symptoms don't resolve on their own. Metal-on-metal contact between a worn pad and a rotor will score the rotor surface in a short period of continued driving — turning what was a pad-only job into pads plus rotors.
 
-If brakes feel normal but haven't been inspected in two or more years, a visual check during your next oil change or tire rotation is practical — especially on a vehicle that sees significant winter driving.
+If brakes feel normal but haven't been inspected in two or more years, a visual check during your next oil change or tire rotation is practical — especially on a vehicle that sees significant winter driving. This is particularly true for [Lolo-area drivers](/service-areas/lolo) who commute down Highway 93.
 
 ---
 

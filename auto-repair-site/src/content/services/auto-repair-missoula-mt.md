@@ -100,6 +100,7 @@ Mountain driving — regular trips to Seeley Lake, the Bitterroot Valley, or ove
 
 - [General Maintenance](/services/general-maintenance)
 - [Advanced Diagnostics](/services/advanced-diagnostics)
+- [How to Choose a Mechanic in Missoula](/guides/how-to-choose-a-mechanic)
 - [Vehicle Inspection](/services/vehicle-inspection)
 - [Car Not Blowing Cold Air](/services/car-not-blowing-cold-air)
 

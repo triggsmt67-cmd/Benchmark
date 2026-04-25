@@ -99,7 +99,7 @@ Summer heat affects intake air temperature sensor readings and can mask early co
 
 - [Advanced Diagnostics](/services/advanced-diagnostics)
 - [Check Engine Light](/services/check-engine-light)
-- How Vehicle Diagnostic Processes Work
+- [How to Choose a Mechanic in Missoula](/guides/how-to-choose-a-mechanic)
 
 ---
 

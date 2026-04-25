@@ -41,7 +41,7 @@ export function AboutSection() {
                         <div className="space-y-6 text-text-secondary text-lg leading-relaxed mt-8">
                             <StaggerItem>
                                 <p>
-                                    Benchmark Automotive Service is an auto repair shop in Missoula, MT focused on accurate diagnostics, honest recommendations, and repairs done right the first time. Backed by over 20 years of hands-on automotive experience, we service brakes, electrical issues, engine performance concerns, suspension, AC and heating, and routine maintenance. We explain what’s urgent, what can wait, and never recommend repairs without proper testing. If you want clear answers and dependable automotive repair in Missoula, Benchmark is here to help.
+                                    Benchmark Automotive Service is an auto repair shop in Missoula, MT focused on accurate diagnostics, honest recommendations, and repairs done right the first time. Backed by over 20 years of hands-on automotive experience, we service brakes, electrical issues, engine performance concerns, suspension, AC and heating, and routine maintenance. We explain what’s urgent, what can wait, and never recommend repairs without proper testing. If you want clear answers and dependable automotive repair in Missoula, Benchmark is here to help. Read our <a href="/guides/how-to-choose-a-mechanic" className="text-copper font-medium hover:underline">guide on choosing a mechanic</a> to understand our approach.
                                 </p>
                             </StaggerItem>
                         </div>

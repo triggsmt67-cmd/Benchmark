@@ -103,6 +103,7 @@ The city sits at roughly 3,200 feet, and many daily drives go higher — toward 
 ## Related Services
 
 - [Vehicle Inspection](/services/vehicle-inspection)
+- [How to Choose a Mechanic in Missoula](/guides/how-to-choose-a-mechanic)
 - [Used Car Inspection Guide](/services/used-car-inspection-guide)
 - [Is It Worth Fixing My Car?](/services/is-it-worth-fixing-my-car)
 

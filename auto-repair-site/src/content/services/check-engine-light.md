@@ -98,7 +98,7 @@ Backed by over 20 years of hands-on automotive experience, we work on brakes, el
 
 That same approach carries into check engine light diagnostics. We do more than pull a code and guess at parts. We look at the data, test the system, confirm the cause, and explain what we found before you decide how to move forward.
 
-If you want clear answers and dependable automotive repair in Missoula, Benchmark is here to help.
+If you want clear answers and dependable automotive repair in Missoula, Benchmark is here to help. We frequently provide [service for Lolo commuters](/service-areas/lolo) looking for a proper diagnosis before parts get replaced.
 
 After-hours drop-off is available if you cannot make it in during the day. We will review the vehicle the next business day and contact you with findings before any work starts.
 
@@ -117,6 +117,7 @@ If the light is flashing, or the vehicle is running rough, hesitating, or losing
 ## Related Services
 
 - [Advanced Diagnostics](/services/advanced-diagnostics)
+- [How to Choose a Mechanic in Missoula](/guides/how-to-choose-a-mechanic)
 - [Check Engine Light Flashing](/services/check-engine-light-flashing)
 - [Electrical Diagnostics](/services/electrical-diagnostics)
 
