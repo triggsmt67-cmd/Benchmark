@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Playfair_Display } from "next/font/google";
+import { Inter, Geist } from "next/font/google";
 import { Header } from "@/components/widgets/header";
 import { Footer } from "@/components/widgets/footer";
 import { generateLocalBusinessSchema, generateWebSiteSchema } from "@/lib/seo";
@@ -13,8 +13,8 @@ const inter = Inter({
   display: "swap",
 });
 
-const playfair = Playfair_Display({
-  variable: "--font-playfair",
+const geist = Geist({
+  variable: "--font-geist",
   subsets: ["latin"],
   display: "swap",
 });
@@ -57,7 +57,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth" suppressHydrationWarning>
       <body
-        className={`${inter.variable} ${playfair.variable} font-sans antialiased min-h-screen flex flex-col`}
+        className={`${inter.variable} ${geist.variable} font-sans antialiased min-h-screen flex flex-col`}
       >
         <script
           type="application/ld+json"

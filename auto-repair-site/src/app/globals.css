@@ -43,7 +43,7 @@
 
   /* Typography */
   --font-sans: var(--font-inter);
-  --font-heading: var(--font-playfair);
+  --font-heading: var(--font-geist);
 
   /* Radii */
   --radius-sm: calc(var(--radius) - 4px);
