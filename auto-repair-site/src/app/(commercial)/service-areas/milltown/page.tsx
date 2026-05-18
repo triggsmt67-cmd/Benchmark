@@ -19,15 +19,6 @@ export const metadata: Metadata = {
 };
 
 export default function MilltownServiceAreaPage() {
-    const bSchema = {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.benchmarkmissoula.com/#business",
-        "name": siteConfig.businessName,
-        "areaServed": "Milltown MT",
-        "url": "https://www.benchmarkmissoula.com",
-    };
-
     const breadcrumbSchema = {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
@@ -57,7 +48,7 @@ export default function MilltownServiceAreaPage() {
         <article className="flex flex-col min-h-[100dvh]">
             <script
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify([bSchema, breadcrumbSchema]) }}
+                dangerouslySetInnerHTML={{ __html: JSON.stringify([breadcrumbSchema]) }}
             />
             <section className="bg-navy-950 text-white py-24 md:py-32 border-b border-navy-900">
                 <div className="container mx-auto px-4 md:px-6 relative z-10">

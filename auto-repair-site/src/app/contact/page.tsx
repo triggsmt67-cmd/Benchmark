@@ -7,6 +7,9 @@ import { ContactForm } from "@/components/forms/contact-form";
 export const metadata: Metadata = {
     title: "Contact",
     description: "Schedule your automotive service or diagnostic appointment with Benchmark Automotive in Missoula.",
+    alternates: {
+        canonical: "/contact"
+    }
 };
 
 export default function ContactPage() {

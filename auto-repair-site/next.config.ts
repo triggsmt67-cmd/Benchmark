@@ -17,6 +17,20 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   // Reduce powered-by header
   poweredByHeader: false,
+  async redirects() {
+    return [
+      {
+        source: '/services/missoula-battery-drain',
+        destination: '/services/battery-drain',
+        permanent: true,
+      },
+      {
+        source: '/services/undercarriage-and-suspension',
+        destination: '/services/suspension-steering',
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;

@@ -45,7 +45,7 @@ const services = [
         title: "Undercarriage & Suspension",
         description: "Alignments, shocks, struts, and exhaust repairs for a smooth, stable ride.",
         icon: <ArrowDownToLine className="h-6 w-6" />,
-        slug: "undercarriage-and-suspension",
+        slug: "suspension-steering",
         isElevated: false,
     },
 ];

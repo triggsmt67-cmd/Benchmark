@@ -19,31 +19,13 @@ export const metadata: Metadata = {
 };
 
 export default function LoloServiceAreaPage() {
-    const bSchema = {
-        "@context": "https://schema.org",
-        "@type": "AutoRepair",
-        "@id": "https://www.benchmarkmissoula.com/#autorepair",
-        "name": siteConfig.businessName,
-        "url": "https://www.benchmarkmissoula.com/",
-        "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "1914 North Ave W",
-            "addressLocality": "Missoula",
-            "addressRegion": "MT",
-            "postalCode": "59801",
-            "addressCountry": "US"
-        },
-        "telephone": "+14063171405",
-        "areaServed": ["Missoula", "Lolo", "Frenchtown", "Bonner", "East Missoula", "Milltown", "Orchard Homes", "Target Range"]
-    };
-
     const serviceSchema = {
         "@context": "https://schema.org",
         "@type": "Service",
         "@id": "https://www.benchmarkmissoula.com/service-areas/lolo#service",
         "name": "Auto Repair for Lolo, MT Drivers",
         "serviceType": "Auto repair and diagnostic services",
-        "provider": { "@id": "https://www.benchmarkmissoula.com/#autorepair" },
+        "provider": { "@id": "https://www.benchmarkmissoula.com/#business" },
         "areaServed": {
             "@type": "City",
             "name": "Lolo, MT"
@@ -127,7 +109,7 @@ export default function LoloServiceAreaPage() {
         <article className="flex flex-col min-h-[100dvh]">
             <script
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify([bSchema, serviceSchema, breadcrumbSchema, faqSchema]) }}
+                dangerouslySetInnerHTML={{ __html: JSON.stringify([serviceSchema, breadcrumbSchema, faqSchema]) }}
             />
             
             {/* Hero */}

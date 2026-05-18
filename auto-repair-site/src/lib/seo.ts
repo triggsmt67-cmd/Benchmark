@@ -9,7 +9,7 @@ export function generateWebSiteSchema() {
         "url": "https://www.benchmarkmissoula.com",
         "description": "Automotive diagnostics and repair services in Missoula, Montana.",
         "publisher": {
-            "@type": "ProfessionalService",
+            "@type": "AutoRepair",
             "@id": "https://www.benchmarkmissoula.com/#business"
         }
     };
@@ -18,7 +18,7 @@ export function generateWebSiteSchema() {
 export function generateLocalBusinessSchema() {
     return {
         "@context": "https://schema.org",
-        "@type": "ProfessionalService",
+        "@type": "AutoRepair",
         "@id": "https://www.benchmarkmissoula.com/#business",
         "name": siteConfig.businessName,
         "image": "https://www.benchmarkmissoula.com/diagnostic_hero_bg_v2.png",
@@ -50,6 +50,21 @@ export function generateLocalBusinessSchema() {
                 "@type": "City",
                 "name": "Lolo",
                 "sameAs": "https://en.wikipedia.org/wiki/Lolo,_Montana"
+            },
+            {
+                "@type": "City",
+                "name": "Frenchtown",
+                "sameAs": "https://en.wikipedia.org/wiki/Frenchtown,_Montana"
+            },
+            {
+                "@type": "City",
+                "name": "East Missoula",
+                "sameAs": "https://en.wikipedia.org/wiki/East_Missoula,_Montana"
+            },
+            {
+                "@type": "City",
+                "name": "Bonner",
+                "sameAs": "https://en.wikipedia.org/wiki/Bonner-West_Riverside,_Montana"
             }
         ],
         "mainEntityOfPage": {
