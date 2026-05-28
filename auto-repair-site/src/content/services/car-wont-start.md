@@ -1,6 +1,6 @@
 ---
 title: "Car Won't Start"
-description: "Testing batteries, starters, alternators, and fuel delivery systems."
+description: "No-crank and crank-no-start diagnosis in Missoula, MT — batteries, starters, alternators, fuel delivery, ignition, and immobilizer faults."
 categories: ["Vehicle Problems","Diagnostics","All"]
 section: "Common Vehicle Problems"
 isMostRequested: true
@@ -59,23 +59,23 @@ Security system faults are an underappreciated cause. The immobilizer reads a tr
 
 ---
 
-## How We Diagnose It
+## How We Separate No-Crank From No-Start
 
-### Inspect
-We start by reading the battery terminal voltage with the key off, checking for visible terminal corrosion, and confirming the battery hold-down is secure. We also note any warning lights active on the dash before attempting to start the vehicle.
+### No-Crank Checks
+We start by reading battery voltage with the key off, checking for visible terminal corrosion, and confirming the battery hold-down is secure. We also note any warning lights active on the dash before attempting to start the vehicle. If the engine never turns at all, we stay in the starting circuit first instead of jumping ahead to fuel or ignition guesses.
 
-### Test
-Battery load testing measures actual cranking capacity against the battery's rated cold cranking amps — a battery can appear fine at rest and fail under load. We check the battery and charging system with a calibrated conductance tester, then measure starter draw and circuit voltage drop to rule out the starter and alternator as the source. If the starting circuit is sound, we move to fuel pressure testing and ignition circuit checks. A scan tool pull identifies any stored codes related to the crankshaft position sensor, immobilizer, or fuel system. For crank no-start conditions, a noid light test on injectors and a direct spark test confirm whether the ignition system is firing at all.
+### Crank-No-Start Checks
+Battery load testing measures actual cranking capacity against the battery's rated cold cranking amps — a battery can appear fine at rest and fail under load. We check the battery and charging system with a calibrated conductance tester, then measure starter draw and circuit voltage drop. If the starting circuit is sound and the engine cranks normally, we move to fuel pressure testing, ignition checks, and a scan tool review for any crankshaft position sensor, immobilizer, or fuel system faults. A noid light test on injectors and a direct spark test confirm whether the ignition system is firing at all.
 
-### Confirm
-Root cause is confirmed before any repair is recommended. If a weak battery is found, we load test it twice and verify alternator output to confirm the battery isn't being run down by a charging fault. If the starter is suspect, we measure the voltage drop across the starter circuit to separate a failing motor from a wiring or connection problem.
+### What Confirms the Fault
+Root cause is confirmed before any repair is recommended. If a weak battery is found, we load test it twice and verify alternator output to confirm the battery is not simply being run down by a charging fault. If the starter is suspect, we measure voltage drop across the starter circuit to separate a failing motor from a wiring or connection problem. If the engine has fuel and spark but still will not run, we move toward compression or timing confirmation instead of guessing at parts.
 
-### Repair
+### After the Repair
 After repair, the vehicle is started and observed through a warm-up cycle. Charging system output is re-measured to confirm the alternator is maintaining proper voltage. For fuel system repairs, pressure is re-checked at operating temperature. A road test follows for any repair involving the [electrical diagnostics](/services/electrical-diagnostics) or starting circuit.
 
 ---
 
-## When To Schedule Service
+## When Not To Keep Trying It
 
 If the vehicle won't start at all, schedule immediately or use our after-hours drop-off — don't keep cranking the engine in an attempt to force it. Repeated cranking on a weak battery drains remaining capacity and can overheat the starter motor. Intermittent no-start conditions that seem to resolve on their own are worth diagnosing before they strand you: a battery that recovers after sitting is typically showing surface charge, not genuine capacity. If the vehicle started after a jump but has failed again, the battery or charging system needs a proper test — jumping is a bypass, not a fix.
 

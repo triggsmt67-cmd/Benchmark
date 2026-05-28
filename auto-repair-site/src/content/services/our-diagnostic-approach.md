@@ -1,6 +1,6 @@
 ---
 title: "Our Diagnostic Approach in Missoula"
-description: "Learn how Benchmark Automotive Service diagnoses vehicles in Missoula, MT — a structured process that identifies actual root causes before any repair recommendation is made."
+description: "See the step-by-step diagnostic process Benchmark Automotive Service uses in Missoula, MT to inspect, test, confirm, and verify the real fault before recommending repairs."
 category: "Diagnostics"
 featured: false
 order: 1
@@ -18,11 +18,11 @@ faqs:
     answer: "Most diagnostics take 30–60 minutes. Some electrical or intermittent faults require more time, especially if the problem needs to be reproduced under specific driving conditions."
 ---
 
-When a vehicle comes into our Missoula shop, the first job is to understand what's actually wrong — not guess at it. Most misdiagnoses happen when a technician jumps from symptom to repair without confirming the root cause. Our diagnostic process follows a consistent four-step sequence — inspect, test, confirm, and verify — every time, regardless of how straightforward the problem appears.
+When a vehicle comes into our Missoula shop, the first job is to understand what is actually wrong before any repair is sold. This page is not about one symptom. It is the process page — the explanation of how we work through an unknown problem so you are not paying for guesses, duplicate repairs, or parts that never needed to be installed in the first place.
 
 ---
 
-## What This Service Covers
+## What Happens During a Diagnostic Visit
 
 - Physical inspection of systems related to the reported symptom
 - OBD2 scan retrieving stored codes, pending codes, and freeze frame data across all modules — not just powertrain
@@ -33,9 +33,9 @@ When a vehicle comes into our Missoula shop, the first job is to understand what
 
 ---
 
-## Common Symptoms
+## The Problems This Process Is Built For
 
-When drivers come to us for diagnostics, they're usually dealing with one of these:
+Drivers usually end up here when the answer is not obvious from the symptom alone:
 
 - Check engine light is on, flashing, or came on and went off on its own
 - Car won't start, starts intermittently, or cranks without catching
@@ -57,23 +57,29 @@ Skipping confirmation is how shops end up doing the same repair twice. We don't 
 
 ---
 
-## How We Diagnose It
+## The Four Steps We Follow
 
-### Inspect
-The technician starts with a physical walkthrough — checking fluid levels and condition, looking for visible leaks, inspecting belts, hoses, wiring harnesses, and connectors for damage, and verifying the symptom the driver described. If a noise is involved, we replicate it on the lift or during a test drive before touching anything.
+### 1. Understand the Complaint
+We start with the driver's description of the problem and the conditions around it. Cold start or hot restart. Highway speed or idle. Uphill, downhill, turning, braking, or after sitting overnight. The symptom pattern matters because it tells us which test conditions we need to reproduce.
 
-### Test
-We connect a professional-grade scan tool to the OBD2 port and pull the full system scan — powertrain, body, chassis, and network modules. Stored codes, pending codes, and freeze frame data are reviewed together. Live data is monitored while the vehicle runs: fuel trim values, oxygen sensor voltages, misfire counts by individual cylinder, intake air and coolant temperatures. For electrical or intermittent faults, we use bi-directional testing to activate individual components and confirm whether they respond correctly to commands from the scan tool.
+### 2. Inspect and Measure
+The technician then moves into physical inspection and instrumented testing. That may mean checking fluid condition, looking for leaks or damaged connectors, pulling a full-system scan, reviewing freeze frame data, or measuring fuel pressure, current draw, or compression depending on the complaint.
 
-### Confirm
-Before anything is written up, the technician confirms the root cause — matching the code or symptom to the data, eliminating the most common alternative causes, and reproducing the fault under the same conditions where it originally appeared when possible. A confirmed diagnosis is specific: one component, one cause, one documented test that supports the conclusion. If the data doesn't support a clear answer yet, we say so.
+### 3. Narrow the Cause
+Before anything is written up, we eliminate the common alternatives. A misfire code might be spark, fuel, compression, or timing. A dead battery might be age, charging failure, or parasitic draw. A useful diagnosis is not just a code or a symptom description — it is the point where the possible causes have been narrowed to the one that actually fits the evidence.
 
-### Repair
-After the repair is complete, we run a post-repair scan to verify fault codes are cleared and do not return. For anything involving sensors or control modules, we monitor live data again to confirm the system is reading correctly. We don't call a job done until the data shows the problem is resolved. For more detail on how we handle complex electrical and module faults, see our [advanced diagnostics](/services/advanced-diagnostics) page.
+### 4. Verify the Fix
+After the repair is complete, we verify it. That can mean a post-repair scan, a road test, a monitor reset and rerun, another voltage or pressure measurement, or live-data confirmation that the numbers are back where they should be. We do not treat parts replacement as proof.
 
 ---
 
-## When To Schedule Service
+## What You Should Expect Before Approving Repairs
+
+You should expect a clear explanation of what was found, how it was confirmed, and what happens if you wait. Sometimes the answer is straightforward. Sometimes the right answer is that more testing is needed under a different set of conditions. Either way, you should know whether the recommendation is confirmed, likely, or still in-progress before authorizing parts.
+
+---
+
+## When This Process Saves You Money
 
 Bring the vehicle in when:
 
@@ -83,7 +89,7 @@ Bring the vehicle in when:
 - You're considering buying a used vehicle and want an independent assessment first — see our [pre-purchase inspection](/services/pre-purchase-inspection) service
 - The problem is intermittent — shows up sometimes but not always
 
-Intermittent problems are worth diagnosing while they're still occurring. Waiting until a system fails completely sometimes means the failure itself damages additional components in the process.
+Intermittent problems are worth diagnosing while they are still occurring. Waiting until a system fails completely sometimes means the failure itself damages additional components in the process. It also removes evidence that would have made the first round of testing more efficient.
 
 ---
 
