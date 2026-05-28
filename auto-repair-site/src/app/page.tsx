@@ -17,6 +17,9 @@ export const metadata: Metadata = {
   title: {
     absolute: "Benchmark Automotive Service | Auto Repair in Missoula, MT",
   },
+  alternates: {
+    canonical: "https://www.benchmarkmissoula.com/",
+  },
 };
 
 export default function Home() {

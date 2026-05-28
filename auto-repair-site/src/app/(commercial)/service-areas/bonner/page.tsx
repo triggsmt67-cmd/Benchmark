@@ -6,14 +6,14 @@ import { FinalCtaBand } from "@/components/widgets/final-cta-band";
 import { siteConfig } from "@/lib/siteConfig";
 
 export const metadata: Metadata = {
-    title: "Auto Repair Near Bonner MT | Benchmark Automotive Service",
+    title: "Auto Repair Near Bonner MT",
     description: "Drivers from Bonner, Montana trust Benchmark Automotive Service in Missoula for professional diagnostics, brake repair, and electrical troubleshooting.",
     alternates: {
         canonical: "https://www.benchmarkmissoula.com/service-areas/bonner"
     },
     openGraph: {
         url: "https://www.benchmarkmissoula.com/service-areas/bonner",
-        title: "Auto Repair Near Bonner MT | Benchmark Automotive Service",
+        title: "Auto Repair Near Bonner MT",
         description: "Drivers from Bonner, Montana trust Benchmark Automotive Service in Missoula for professional diagnostics, brake repair, and electrical troubleshooting.",
     }
 };

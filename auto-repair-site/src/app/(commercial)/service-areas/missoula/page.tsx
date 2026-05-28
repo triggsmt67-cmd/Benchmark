@@ -6,14 +6,14 @@ import { FinalCtaBand } from "@/components/widgets/final-cta-band";
 import { siteConfig } from "@/lib/siteConfig";
 
 export const metadata: Metadata = {
-    title: "Auto Repair in Missoula, MT | Benchmark Automotive Service",
+    title: "Auto Repair in Missoula, MT",
     description: "Benchmark Automotive Service is the premier destination for Missoula drivers seeking professional automotive diagnostics, precise repairs, and honest service.",
     alternates: {
         canonical: "https://www.benchmarkmissoula.com/service-areas/missoula"
     },
     openGraph: {
         url: "https://www.benchmarkmissoula.com/service-areas/missoula",
-        title: "Auto Repair in Missoula, MT | Benchmark Automotive Service",
+        title: "Auto Repair in Missoula, MT",
         description: "Benchmark Automotive Service is the premier destination for Missoula drivers seeking professional automotive diagnostics, precise repairs, and honest service.",
     }
 };

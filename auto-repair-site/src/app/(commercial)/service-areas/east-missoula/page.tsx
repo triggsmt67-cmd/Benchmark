@@ -6,14 +6,14 @@ import { FinalCtaBand } from "@/components/widgets/final-cta-band";
 import { siteConfig } from "@/lib/siteConfig";
 
 export const metadata: Metadata = {
-    title: "Auto Repair Near East Missoula MT | Benchmark Automotive Service",
+    title: "Auto Repair Near East Missoula MT",
     description: "East Missoula drivers trust Benchmark Automotive Service for precise diagnostics, electrical repair, and honest vehicle inspections right here in town.",
     alternates: {
         canonical: "https://www.benchmarkmissoula.com/service-areas/east-missoula"
     },
     openGraph: {
         url: "https://www.benchmarkmissoula.com/service-areas/east-missoula",
-        title: "Auto Repair Near East Missoula MT | Benchmark Automotive Service",
+        title: "Auto Repair Near East Missoula MT",
         description: "East Missoula drivers trust Benchmark Automotive Service for precise diagnostics, electrical repair, and honest vehicle inspections right here in town.",
     }
 };

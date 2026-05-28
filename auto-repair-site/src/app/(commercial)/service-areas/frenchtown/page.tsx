@@ -6,14 +6,14 @@ import { FinalCtaBand } from "@/components/widgets/final-cta-band";
 import { siteConfig } from "@/lib/siteConfig";
 
 export const metadata: Metadata = {
-    title: "Auto Repair Near Frenchtown MT | Benchmark Automotive Service",
+    title: "Auto Repair Near Frenchtown MT",
     description: "Drivers from Frenchtown, Montana rely on Benchmark Automotive Service in Missoula for accurate diagnostics, electrical troubleshooting, and complex engine testing.",
     alternates: {
         canonical: "https://www.benchmarkmissoula.com/service-areas/frenchtown"
     },
     openGraph: {
         url: "https://www.benchmarkmissoula.com/service-areas/frenchtown",
-        title: "Auto Repair Near Frenchtown MT | Benchmark Automotive Service",
+        title: "Auto Repair Near Frenchtown MT",
         description: "Drivers from Frenchtown, Montana rely on Benchmark Automotive Service in Missoula for accurate diagnostics, electrical troubleshooting, and complex engine testing.",
     }
 };

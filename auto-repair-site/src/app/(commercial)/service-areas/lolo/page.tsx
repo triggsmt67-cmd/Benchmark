@@ -6,14 +6,14 @@ import { FinalCtaBand } from "@/components/widgets/final-cta-band";
 import { siteConfig } from "@/lib/siteConfig";
 
 export const metadata: Metadata = {
-    title: "Auto Repair for Lolo, MT Drivers | Benchmark Automotive Service",
+    title: "Auto Repair for Lolo, MT Drivers",
     description: "Benchmark Automotive Service helps Lolo drivers with diagnostics, brake repair, electrical issues, inspections, oil changes, and suspension repair from our Missoula shop.",
     alternates: {
         canonical: "https://www.benchmarkmissoula.com/service-areas/lolo"
     },
     openGraph: {
         url: "https://www.benchmarkmissoula.com/service-areas/lolo",
-        title: "Auto Repair for Lolo, MT Drivers | Benchmark Automotive Service",
+        title: "Auto Repair for Lolo, MT Drivers",
         description: "Benchmark Automotive Service helps Lolo drivers with diagnostics, brake repair, electrical issues, inspections, oil changes, and suspension repair from our Missoula shop.",
     }
 };
