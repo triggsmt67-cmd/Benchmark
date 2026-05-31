@@ -73,6 +73,7 @@ export function Footer() {
                                 <Link href="/service-areas/milltown" className="hover:text-copper transition-colors">Milltown</Link>
                                 <Link href="/service-areas/orchard-homes" className="hover:text-copper transition-colors">Orchard Homes</Link>
                                 <Link href="/service-areas/target-range" className="hover:text-copper transition-colors">Target Range</Link>
+                                <Link href="/service-areas" className="hover:text-copper transition-colors font-medium border-t border-navy-900/60 pt-2 mt-1">View All Areas</Link>
                             </nav>
                         </div>
 

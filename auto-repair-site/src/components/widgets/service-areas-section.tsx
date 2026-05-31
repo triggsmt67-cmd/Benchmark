@@ -8,56 +8,28 @@ export function ServiceAreasSection() {
                 <Reveal>
                     <div className="max-w-4xl mx-auto text-center space-y-8">
                         <h2 id="missoula-communities-served" className="font-heading text-3xl md:text-4xl font-bold text-navy-950">
-                            Serving Drivers Throughout the Missoula Area
+                            Serving Missoula and Nearby Communities
                         </h2>
 
-                        <p className="text-lg text-text-secondary leading-relaxed max-w-3xl mx-auto">
-                            Benchmark Automotive Service is located in Missoula and proudly serves drivers from communities throughout the surrounding area. Many customers travel from nearby towns for professional diagnostics, electrical troubleshooting, and reliable automotive repair.
-                        </p>
+                        <div className="text-lg text-text-secondary leading-relaxed max-w-3xl mx-auto space-y-6">
+                            <p>
+                                Benchmark Automotive Service is located in Missoula and helps drivers from nearby communities who want clear answers before spending money on repairs.
+                            </p>
+                            <p>
+                                We regularly work with drivers from Lolo, Frenchtown, Bonner, East Missoula, Milltown, Orchard Homes, Target Range, and the surrounding area.
+                            </p>
+                            <p>
+                                Whether you need diagnostics, electrical troubleshooting, maintenance, inspections, or full-service auto repair, we’ll help you figure out the right next step.
+                            </p>
+                        </div>
 
                         <div className="pt-4">
-                            <ul className="flex flex-wrap justify-center gap-x-8 gap-y-4 text-lg">
-                                <li>
-                                    <Link href="/service-areas/missoula" className="font-medium text-copper hover:text-navy-950 transition-colors">
-                                        Missoula
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="/service-areas/lolo" className="font-medium text-copper hover:text-navy-950 transition-colors">
-                                        Lolo
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="/service-areas/frenchtown" className="font-medium text-copper hover:text-navy-950 transition-colors">
-                                        Frenchtown
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="/service-areas/bonner" className="font-medium text-copper hover:text-navy-950 transition-colors">
-                                        Bonner
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="/service-areas/east-missoula" className="font-medium text-copper hover:text-navy-950 transition-colors">
-                                        East Missoula
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="/service-areas/milltown" className="font-medium text-copper hover:text-navy-950 transition-colors">
-                                        Milltown
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="/service-areas/orchard-homes" className="font-medium text-copper hover:text-navy-950 transition-colors">
-                                        Orchard Homes
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="/service-areas/target-range" className="font-medium text-copper hover:text-navy-950 transition-colors">
-                                        Target Range
-                                    </Link>
-                                </li>
-                            </ul>
+                            <Link 
+                                href="/service-areas" 
+                                className="inline-flex items-center justify-center bg-brand-red hover:bg-brand-red-hover text-white px-8 py-3.5 font-semibold rounded-sm transition-colors text-base shadow-sm"
+                            >
+                                View Service Areas
+                            </Link>
                         </div>
                     </div>
                 </Reveal>
