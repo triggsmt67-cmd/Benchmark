@@ -4,9 +4,8 @@ import Image from "next/image";
 import { Reveal } from "@/components/motion/Reveal";
 import { Breadcrumbs } from "@/components/widgets/breadcrumbs";
 import { siteConfig } from "@/lib/siteConfig";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { PrecisionDivider } from "@/components/widgets/precision-divider";
-import { Phone, ArrowRight, MapPin, KeySquare, CheckCircle2, Wrench, ShieldCheck } from "lucide-react";
+import { Phone, ArrowRight, CheckCircle2, ShieldCheck } from "lucide-react";
 
 export const metadata: Metadata = {
     title: "Auto Repair for Lolo, MT Drivers",

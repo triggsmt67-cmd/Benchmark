@@ -3,7 +3,6 @@ import Link from "next/link";
 import { Reveal } from "@/components/motion/Reveal";
 import { Breadcrumbs } from "@/components/widgets/breadcrumbs";
 import { FinalCtaBand } from "@/components/widgets/final-cta-band";
-import { siteConfig } from "@/lib/siteConfig";
 
 export const metadata: Metadata = {
     title: "Auto Repair Near Milltown MT",

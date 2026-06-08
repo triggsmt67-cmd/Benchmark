@@ -6,8 +6,6 @@ featured: false
 order: 14
 related:
   - vehicle-inspection
-  - used-car-inspection-guide
-  - is-it-worth-fixing-my-car
 faqs:
   - question: "How long does a pre-purchase inspection take?"
     answer: "Plan on about 1.5 to 2 hours. We put the vehicle on a lift, run a full OBD-II scan, test drive it, and document everything. If something needs closer attention, it may run a bit longer."
@@ -61,7 +59,7 @@ Most used car problems aren't obvious at a glance or during a short test drive. 
 
 Deferred maintenance compounds quietly. A timing chain that's stretched past spec, untreated oil weeping at valve cover or rear main seals, corroded battery terminals that test marginal under load — none of this registers in a walk-around. The [battery and charging system](/services/battery-drain) in particular tends to be overlooked by sellers and buyers alike until a vehicle fails to start at –10°F.
 
-Frame damage from prior accidents is the hardest category to catch without a lift. Collision repair quality varies, and a structurally compromised vehicle can be repainted and detailed to show clean. Uneven panel gaps, inconsistent paint depth between adjacent panels, and unusual undercoating patterns around frame rails are what an experienced eye looks for — none of it visible from a standard test drive or a vehicle history report alone. For more detail on what a thorough inspection involves, see the [used car inspection guide](/services/used-car-inspection-guide).
+Frame damage from prior accidents is the hardest category to catch without a lift. Collision repair quality varies, and a structurally compromised vehicle can be repainted and detailed to show clean. Uneven panel gaps, inconsistent paint depth between adjacent panels, and unusual undercoating patterns around frame rails are what an experienced eye looks for — none of it visible from a standard test drive or a vehicle history report alone. For more detail on what a thorough inspection involves, see the [used car inspection guide](/guides/used-car-inspection-guide).
 
 ---
 
@@ -77,7 +75,7 @@ We run an OBD-II scan across all available modules — not just the powertrain. 
 We cross-reference what we find on the lift and in the scan with a test drive. Suspension noise under compression, brake pedal response under hard stops, transmission behavior at highway speed and under load — these either confirm or rule out what we found statically. Anything inconsistent gets noted specifically.
 
 ### Report
-You get a written summary organized by urgency: what needs attention before the purchase, what's likely to come up in the next year, and what's in acceptable condition. That breakdown gives you a specific basis to negotiate, ask the seller to address items, or walk away with a clear picture of the risk. If you're weighing whether the car is worth buying at all, the [is it worth fixing my car guide](/services/is-it-worth-fixing-my-car) covers how to think through that decision.
+You get a written summary organized by urgency: what needs attention before the purchase, what's likely to come up in the next year, and what's in acceptable condition. That breakdown gives you a specific basis to negotiate, ask the seller to address items, or walk away with a clear picture of the risk. If you're weighing whether the car is worth buying at all, the [is it worth fixing my car guide](/guides/living-in-missoula-is-it-worth-fixing-my-car) covers how to think through that decision.
 
 ---
 
@@ -104,8 +102,8 @@ The city sits at roughly 3,200 feet, and many daily drives go higher — toward 
 
 - [Vehicle Inspection](/services/vehicle-inspection)
 - [How to Choose a Mechanic in Missoula](/guides/how-to-choose-a-mechanic)
-- [Used Car Inspection Guide](/services/used-car-inspection-guide)
-- [Is It Worth Fixing My Car?](/services/is-it-worth-fixing-my-car)
+- [Used Car Inspection Guide](/guides/used-car-inspection-guide)
+- [Is It Worth Fixing My Car?](/guides/living-in-missoula-is-it-worth-fixing-my-car)
 
 ---
 

@@ -7,8 +7,7 @@ order: 16
 lastReviewed: "2026-03-20"
 related:
   - suspension-steering
-  - car-shaking-while-driving
-  - car-pulling-to-one-side
+  - steering-vibration
 faqs:
   - question: "How do I know if hitting a pothole actually damaged my car?"
     answer: "Common signs include steering wheel vibration, the car drifting to one side, a flat or slow-leaking tire, a bubble or bulge in the sidewall, a visibly bent rim, or clunking sounds over bumps. Alignment damage has no obvious symptom right away — it shows up as uneven tire wear over the following weeks."
@@ -38,7 +37,7 @@ Montana's freeze-thaw cycle leaves roads in rough shape every spring — and Mis
 - Flat tire or slow leak that started after the hit
 - Visible bubble or bulge on the tire sidewall
 - Bent, cracked, or visibly deformed rim
-- [Steering wheel vibrating at highway speeds](/services/car-shaking-while-driving)
+- [Steering wheel vibrating at highway speeds](/services/steering-vibration)
 - Car drifting or pulling to one side
 - Clunking or rattling noise over bumps or when turning
 - Steering wheel sitting off-center on a straight road
@@ -76,7 +75,7 @@ After any suspension work, we re-check alignment to confirm the geometry is back
 
 ## When To Schedule Service
 
-If a tire went flat, the rim looks bent, or the car won't [track straight](/services/car-pulling-to-one-side) after the hit — bring it in before driving further. A cracked rim or damaged tire sidewall can fail without warning at highway speed.
+If a tire went flat, the rim looks bent, or the car won't [track straight](/services/steering-vibration) after the hit — bring it in before driving further. A cracked rim or damaged tire sidewall can fail without warning at highway speed.
 
 If the car seems to drive normally after the impact, an inspection within a few days still makes sense. Alignment shifts and loosened suspension joints don't always produce obvious symptoms immediately. The first sign is often uneven tire wear discovered at the next oil change — by which point a meaningful amount of tire life has already been lost.
 
@@ -97,8 +96,7 @@ Vehicles that split time between Missoula's urban stop-and-go and open highway p
 ## Related Services
 
 - [Suspension & Steering Repair](/services/suspension-steering)
-- [Car Shaking While Driving](/services/car-shaking-while-driving)
-- [Car Pulling to One Side](/services/car-pulling-to-one-side)
+- [Steering Vibration & Alignment](/services/steering-vibration)
 
 ---
 

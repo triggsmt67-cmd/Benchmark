@@ -7,7 +7,7 @@ order: 11
 lastReviewed: 2026-03-12
 related:
   - brakes-squeaking
-  - car-shaking-while-driving
+  - steering-vibration
   - suspension-steering
 faqs:
   - question: "How do I know if the noise is serious?"
@@ -90,8 +90,8 @@ Missoula winters load suspension and drivetrain components harder than most regi
 
 ## Related Services
 
-- Brakes Squeaking
-- Car Shaking While Driving
+- [Brakes Squeaking](/services/brakes-squeaking)
+- [Steering Vibration](/services/steering-vibration)
 - [Suspension & Steering Repair](/services/suspension-steering)
 
 ---

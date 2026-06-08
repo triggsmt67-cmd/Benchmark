@@ -5,8 +5,8 @@ category: "Repair"
 featured: false
 order: 5
 related:
-  - squeaking-brakes
-  - shaking-brakes
+  - brakes-squeaking
+  - steering-vibration
   - suspension-steering
 faqs:
   - question: "Do I need new rotors every time I replace my brake pads?"

@@ -3,7 +3,6 @@ import Link from "next/link";
 import { Reveal } from "@/components/motion/Reveal";
 import { Breadcrumbs } from "@/components/widgets/breadcrumbs";
 import { FinalCtaBand } from "@/components/widgets/final-cta-band";
-import { siteConfig } from "@/lib/siteConfig";
 
 export const metadata: Metadata = {
     title: "Auto Repair in Missoula, MT",
@@ -81,7 +80,7 @@ export default function MissoulaServiceAreaPage() {
                                     As Missoula residents know, local auto repair shops are plentiful, but finding one that prioritizes accurate diagnosis over parts-swapping is a challenge. Benchmark Automotive Service is an independent facility designed entirely around getting you the correct answer the first time. We reject the trial-and-error approach that wastes your time and money.
                                 </p>
                                 <p>
-                                    When you drop your car off with us, we analyze live data streams, conduct precision circuit checks, and thoroughly pinpoint the hardware failure. Whether you're dealing with a check engine light or rough idle, our evidence-based repair methodology ensures your vehicle is actually fixed.
+                                    When you drop your car off with us, we analyze live data streams, conduct precision circuit checks, and thoroughly pinpoint the hardware failure. Whether you&apos;re dealing with a check engine light or rough idle, our evidence-based repair methodology ensures your vehicle is actually fixed.
                                 </p>
                             </div>
                         </Reveal>
@@ -107,7 +106,7 @@ export default function MissoulaServiceAreaPage() {
                             <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Everyday Town & Highway Stress</h2>
                             <div className="space-y-6 text-text-secondary text-lg leading-relaxed">
                                 <p>
-                                    Missoula's unique mix of stop-light traffic and high-speed highway commuting inevitably leads to distinct maintenance needs:
+                                    Missoula&apos;s unique mix of stop-light traffic and high-speed highway commuting inevitably leads to distinct maintenance needs:
                                 </p>
                                 <ul className="list-disc pl-6 space-y-4">
                                     <li>Premature brake wear and master cylinder failure from stop-and-go driving</li>
@@ -117,7 +116,7 @@ export default function MissoulaServiceAreaPage() {
                                     <li>Cooling system leaks presenting during hot summer idling</li>
                                 </ul>
                                 <p>
-                                    Tackling these urban automotive issues with precise tooling ensures you aren't stranded when you least expect it.
+                                    Tackling these urban automotive issues with precise tooling ensures you aren&apos;t stranded when you least expect it.
                                 </p>
                             </div>
                         </Reveal>

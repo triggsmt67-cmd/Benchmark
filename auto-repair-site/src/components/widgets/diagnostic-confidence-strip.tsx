@@ -50,7 +50,7 @@ export function DiagnosticConfidenceStrip() {
                                             <AlertCircle className="h-5 w-5 stroke-[1.5]" />
                                         </div>
                                         <h3 className="font-heading text-lg font-bold text-navy-950">
-                                            Preventing the "Parts Cannon"
+                                            Preventing the &quot;Parts Cannon&quot;
                                         </h3>
                                     </div>
                                     <p className="text-text-secondary text-sm leading-relaxed">

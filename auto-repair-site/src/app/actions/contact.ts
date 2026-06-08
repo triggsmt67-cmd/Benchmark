@@ -1,7 +1,6 @@
 "use server";
 
 import { Resend } from "resend";
-import { siteConfig } from "@/lib/siteConfig";
 
 const resend = new Resend(process.env.RESEND_API_KEY!);
 
@@ -11,17 +10,29 @@ export type ContactFormState = {
     error?: string;
 };
 
-export async function submitContactForm(prevState: ContactFormState, formData: FormData): Promise<ContactFormState> {
-    const name = formData.get("name") as string;
-    const phone = formData.get("phone") as string;
-    const email = formData.get("email") as string;
-    const vehicle = formData.get("vehicle") as string;
-    const issue = formData.get("issue") as string;
-    const contactMethod = formData.get("contact_method") as string;
+function escapeHtml(unsafe: string): string {
+    return unsafe
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+}
 
-    if (!name || !phone) {
+export async function submitContactForm(prevState: ContactFormState, formData: FormData): Promise<ContactFormState> {
+    const nameRaw = formData.get("name") as string;
+    const phoneRaw = formData.get("phone") as string;
+
+    if (!nameRaw || !phoneRaw) {
         return { success: false, error: "Name and phone are required." };
     }
+
+    const name = escapeHtml(nameRaw);
+    const phone = escapeHtml(phoneRaw);
+    const email = escapeHtml(formData.get("email") as string || "");
+    const vehicle = escapeHtml(formData.get("vehicle") as string || "");
+    const issue = escapeHtml(formData.get("issue") as string || "");
+    const contactMethod = escapeHtml(formData.get("contact_method") as string || "");
 
     try {
         const { error } = await resend.emails.send({

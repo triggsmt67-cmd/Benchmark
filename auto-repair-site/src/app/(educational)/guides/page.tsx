@@ -3,7 +3,7 @@ import { FinalCtaBand } from "@/components/widgets/final-cta-band";
 import { Reveal } from "@/components/motion/Reveal";
 import { Stagger, StaggerItem } from "@/components/motion/Stagger";
 import Link from "next/link";
-import { BookOpen, ChevronRight, Search } from "lucide-react";
+import { BookOpen, ChevronRight } from "lucide-react";
 import { getAllGuideData } from "@/lib/guideContent";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 

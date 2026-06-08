@@ -5,7 +5,7 @@ import { Reveal } from "@/components/motion/Reveal";
 import { Breadcrumbs } from "@/components/widgets/breadcrumbs";
 import { siteConfig } from "@/lib/siteConfig";
 import { PrecisionDivider } from "@/components/widgets/precision-divider";
-import { Phone, ArrowRight, MapPin, KeySquare, CheckCircle2, Wrench, ShieldCheck } from "lucide-react";
+import { Phone, ArrowRight, CheckCircle2 } from "lucide-react";
 
 export const metadata: Metadata = {
     title: "Auto Repair Near Frenchtown MT",
@@ -204,8 +204,8 @@ export default function FrenchtownServiceAreaPage() {
                                     For basic maintenance, staying as close to home as possible makes sense.
                                 </p>
                                 <p>
-                                    But if you are dealing with a complex issue, a warning light that won't go out, or an intermittent noise, the closest shop might not have the diagnostic equipment or experience to find the root cause.
-                                </p>
+                                     But if you are dealing with a complex issue, a warning light that won&apos;t go out, or an intermittent noise, the closest shop might not have the diagnostic equipment or experience to find the root cause.
+                                 </p>
                                 <p>
                                     That is where Benchmark comes in. We run systematic testing first, verify what is broken, and explain our findings before we touch a wrench.
                                 </p>

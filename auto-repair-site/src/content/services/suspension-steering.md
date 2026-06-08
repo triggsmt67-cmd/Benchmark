@@ -6,8 +6,7 @@ featured: false
 order: 5
 lastReviewed: 2026-03-10
 related:
-  - car-pulling-to-one-side
-  - car-shaking-while-driving
+  - steering-vibration
   - brake-repair
 faqs:
   - question: "How do I know if my suspension needs repair or just an alignment?"
@@ -96,7 +95,7 @@ Missoula's roads develop significant pothole damage each spring as frost heaves 
 
 Road salt applied from November through March accelerates corrosion on exposed suspension hardware: ball joint housings, control arm brackets, sway bar mounting points, and strut hat hardware. Corroded hardware increases the complexity of future repairs — a straightforward bushing replacement can turn into a longer job when mounting bolts have seized to the subframe.
 
-Cold temperatures also stiffen the rubber in bushings and CV boots. A bushing that's marginal in summer will often start knocking in October simply because the rubber has hardened past the point of absorbing vibration. For drivers who notice new front-end noise appearing in fall, the underlying wear was usually developing through the warmer months. More on how Montana conditions accelerate these issues is covered in our [Missoula driving conditions guide](/services/driving-conditions-missoula-montana).
+Cold temperatures also stiffen the rubber in bushings and CV boots. A bushing that's marginal in summer will often start knocking in October simply because the rubber has hardened past the point of absorbing vibration. For drivers who notice new front-end noise appearing in fall, the underlying wear was usually developing through the warmer months. More on how Montana conditions accelerate these issues is covered in our [how cold weather affects your car guide](/guides/how-cold-weather-affects-your-car).
 
 ---
 
@@ -104,8 +103,7 @@ Cold temperatures also stiffen the rubber in bushings and CV boots. A bushing th
 ## Related Services
 
 - [Brake Repair](/services/brake-repair)
-- [Car Pulling to One Side](/services/car-pulling-to-one-side)
-- [Car Shaking While Driving](/services/car-shaking-while-driving)
+- [Steering Vibration & Alignment](/services/steering-vibration)
 
 ---
 

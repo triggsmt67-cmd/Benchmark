@@ -8,7 +8,6 @@ lastReviewed: "2026-03-16"
 related:
   - advanced-diagnostics
   - check-engine-light
-  - automotive-diagnostic-process
 faqs:
   - question: "Do you charge for a diagnostic?"
     answer: "Yes. Diagnostic time is billed because identifying root cause accurately requires equipment, training, and time. If you proceed with the repair at our shop, the diagnostic fee is credited toward the total."

@@ -3,7 +3,6 @@ import Link from "next/link";
 import { Reveal } from "@/components/motion/Reveal";
 import { Breadcrumbs } from "@/components/widgets/breadcrumbs";
 import { FinalCtaBand } from "@/components/widgets/final-cta-band";
-import { siteConfig } from "@/lib/siteConfig";
 
 export const metadata: Metadata = {
     title: "Auto Repair Near Orchard Homes MT",
@@ -160,7 +159,7 @@ export default function OrchardHomesServiceAreaPage() {
                             <h2 className="font-heading text-3xl font-bold text-navy-950 mb-6">Driving From Orchard Homes to Benchmark Automotive Service</h2>
                             <div className="space-y-6 text-text-secondary text-lg leading-relaxed">
                                 <p>
-                                    From within Orchard Homes, reaching our location couldn't be simpler. You can utilize 3rd Street or Spurgin Road to access Reserve Street moving south. From Reserve Street, take the quick turn east onto North Ave W. You will see Benchmark Automotive Service directly on your right. Located at 1914 North Ave W, we are positioned specifically to maintain Missoula’s local neighborhoods safely.
+                                    From within Orchard Homes, reaching our location couldn&apos;t be simpler. You can utilize 3rd Street or Spurgin Road to access Reserve Street moving south. From Reserve Street, take the quick turn east onto North Ave W. You will see Benchmark Automotive Service directly on your right. Located at 1914 North Ave W, we are positioned specifically to maintain Missoula’s local neighborhoods safely.
                                 </p>
                             </div>
                         </Reveal>

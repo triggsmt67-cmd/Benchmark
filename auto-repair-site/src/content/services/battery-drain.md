@@ -6,7 +6,6 @@ featured: false
 order: 10
 lastReviewed: 2026-03-12
 related:
-  - battery-keeps-dying
   - electrical-diagnostics
   - car-wont-start
 faqs:
