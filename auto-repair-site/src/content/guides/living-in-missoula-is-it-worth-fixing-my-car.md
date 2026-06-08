@@ -11,14 +11,14 @@ related:
   - how-cold-weather-affects-your-car
 faqs:
   - question: "What's a good starting point for the repair vs. replace decision?"
-    answer: "The 50% rule is a reasonable benchmark: if the repair cost exceeds 50% of the vehicle's current market value, replacing often makes more financial sense — especially if other systems are showing wear. But the number alone doesn't tell the whole story. What the rest of the vehicle looks like changes the math significantly."
+    answer: "The 50% rule is a reasonable benchmark: if the repair cost exceeds 50% of the vehicle's current market value, replacing often makes more financial sense - especially if other systems are showing wear. But the number alone doesn't tell the whole story. What the rest of the vehicle looks like changes the math significantly."
   - question: "Does Missoula's climate actually shorten a vehicle's lifespan?"
     answer: "Yes, measurably. The combination of temperature cycling between sub-zero winters and 90-degree summers, magnesium-chloride road treatment on major routes, and the prevalence of gravel and secondary roads accelerates wear on rubber components, underbody metal, and suspension joints beyond what mileage alone suggests."
   - question: "I can't afford the repair, but I also can't afford a car payment. What do I do?"
-    answer: "Get an honest inspection first. A lot of repairs that look expensive on paper are isolated and one-time — not a sign of broader deterioration. If the rest of the vehicle is structurally sound, paying for the repair is almost always cheaper than financing a replacement at current rates."
+    answer: "Get an honest inspection first. A lot of repairs that look expensive on paper are isolated and one-time - not a sign of broader deterioration. If the rest of the vehicle is structurally sound, paying for the repair is almost always cheaper than financing a replacement at current rates."
 ---
 
-"Is it worth fixing my car in Missoula?" is one of the most financially consequential questions a vehicle owner can ask — and one of the hardest to answer without looking at the actual vehicle. The number on an estimate doesn't tell you whether the rest of the car is sound. This guide lays out how to think through the decision honestly, with Missoula's specific driving and climate conditions factored in.
+"Is it worth fixing my car in Missoula?" is one of the most financially consequential questions a vehicle owner can ask - and one of the hardest to answer without looking at the actual vehicle. The number on an estimate doesn't tell you whether the rest of the car is sound. This guide lays out how to think through the decision honestly, with Missoula's specific driving and climate conditions factored in.
 
 ---
 
@@ -27,7 +27,7 @@ faqs:
 - How to compare repair cost against current vehicle value
 - Which vehicle systems matter most in the repair vs. replace calculation
 - How Missoula's driving and climate conditions affect wear and repair urgency
-- When a repair makes clear financial sense — and when it doesn't
+- When a repair makes clear financial sense - and when it doesn't
 - What a diagnostic inspection actually tells you before you commit either way
 - How to evaluate a replacement vehicle before you buy
 
@@ -51,7 +51,7 @@ But the number alone is incomplete. Two things the 50% rule doesn't account for:
 
 **The condition of everything else.** A $3,000 repair on a vehicle with solid underbody, working cooling system, healthy battery, and good tires is a very different calculation than the same repair on a vehicle with visible corrosion, a marginal alternator, and worn suspension bushings. If the repair is isolated, you're buying continued use of an asset you own outright. If it's the first in a coming series, that changes.
 
-**The actual cost of replacing.** Average new vehicle payments ran over $700 per month in 2025. At that rate, three years of payments costs more than $25,000 before interest. A used vehicle replacement carries its own inspection risk. The financial case for repairing your current vehicle is stronger than it looks in most situations — unless the vehicle has deteriorated to the point where it's becoming unreliable regardless of what gets fixed.
+**The actual cost of replacing.** Average new vehicle payments ran over $700 per month in 2025. At that rate, three years of payments costs more than $25,000 before interest. A used vehicle replacement carries its own inspection risk. The financial case for repairing your current vehicle is stronger than it looks in most situations - unless the vehicle has deteriorated to the point where it's becoming unreliable regardless of what gets fixed.
 
 The real question isn't whether this repair is expensive. It's what this vehicle looks like over the next 18 months. That requires a lift.
 
@@ -61,19 +61,19 @@ The real question isn't whether this repair is expensive. It's what this vehicle
 
 Montana's driving environment produces vehicle wear patterns that don't show up clearly in mileage estimates.
 
-**Road treatment chemistry.** The Montana Department of Transportation has used chemical de-icing for nearly 30 years. The current liquid treatment is a magnesium and sodium chloride mixture, sometimes pre-applied before snow falls. It's less corrosive than pure sodium chloride, but it still accumulates in the underbody — on brake lines, fuel lines, subframe mounting points, and exhaust components. Vehicles that aren't regularly washed underneath carry this forward season over season. Missoula's Reserve Street and Highway 93 corridors see heavy treatment from November through March.
+**Road treatment chemistry.** The Montana Department of Transportation has used chemical de-icing for nearly 30 years. The current liquid treatment is a magnesium and sodium chloride mixture, sometimes pre-applied before snow falls. It's less corrosive than pure sodium chloride, but it still accumulates in the underbody - on brake lines, fuel lines, subframe mounting points, and exhaust components. Vehicles that aren't regularly washed underneath carry this forward season over season. Missoula's Reserve Street and Highway 93 corridors see heavy treatment from November through March.
 
-**Temperature cycling.** Missoula regularly sees overnight lows below zero and summer highs in the 90s. That range — swinging 40 to 60 degrees within a single week during shoulder seasons — stresses rubber components more than stable climates do. Coolant hoses, CV boots, suspension bushings, and door seals degrade faster under repeated thermal cycling. A vehicle that's been in the valley for five years has experienced this regardless of mileage.
+**Temperature cycling.** Missoula regularly sees overnight lows below zero and summer highs in the 90s. That range - swinging 40 to 60 degrees within a single week during shoulder seasons - stresses rubber components more than stable climates do. Coolant hoses, CV boots, suspension bushings, and door seals degrade faster under repeated thermal cycling. A vehicle that's been in the valley for five years has experienced this regardless of mileage.
 
 **Secondary road and gravel use.** A significant share of Missoula residents commute from Lolo, Florence, Frenchtown, or properties along the east and west edges of the valley and connect to pavement from gravel. Consistent gravel driving adds stone chip damage, accelerates surface rust onset, and wears CV axles and wheel bearings at a rate that highway-only mileage numbers don't reflect.
 
-None of this automatically makes your vehicle not worth repairing. It does mean the inspection has to look at corrosion and climate wear specifically — not just the fault code or the system that triggered the estimate.
+None of this automatically makes your vehicle not worth repairing. It does mean the inspection has to look at corrosion and climate wear specifically - not just the fault code or the system that triggered the estimate.
 
 ---
 
 ## How We Assess It
 
-A [vehicle inspection](/services/vehicle-inspection) for this purpose covers both the system that failed and the overall condition of the vehicle — because the repair decision depends on both.
+A [vehicle inspection](/services/vehicle-inspection) for this purpose covers both the system that failed and the overall condition of the vehicle - because the repair decision depends on both.
 
 ### Inspect
 
@@ -89,14 +89,14 @@ We determine whether the repair that prompted the visit is isolated or part of a
 
 ### Repair
 
-If repair is the right call, we verify the fix fully addressed the root cause — not just that a part was replaced, but that the system is functioning correctly and the underlying condition won't recur.
+If repair is the right call, we verify the fix fully addressed the root cause - not just that a part was replaced, but that the system is functioning correctly and the underlying condition won't recur.
 
 ---
 
 ## When the Decision Leans Toward Repair
 
 - The repair is isolated to one system and the rest of the vehicle shows no structural corrosion
-- The vehicle has clean underbody for its age — especially brake and fuel lines
+- The vehicle has clean underbody for its age - especially brake and fuel lines
 - You own it outright and a replacement payment would be a genuine financial strain
 - The vehicle has a documented maintenance history
 - Comparable used vehicles in Missoula's market are priced at or above what the repair costs
@@ -105,7 +105,7 @@ If repair is the right call, we verify the fix fully addressed the root cause �
 
 ## When the Decision Leans Toward Replacing
 
-- Structural rust on frame rails, subframe, or brake and fuel lines — repairs in this zone become compounding
+- Structural rust on frame rails, subframe, or brake and fuel lines - repairs in this zone become compounding
 - Multiple major systems failing within a short window (transmission, cooling, electrical)
 - Repair cost approaches or exceeds the vehicle's private-party sale value
 - Unknown maintenance history and the current repair reveals evidence of deferred work

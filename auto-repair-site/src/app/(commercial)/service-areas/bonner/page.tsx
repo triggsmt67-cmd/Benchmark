@@ -288,7 +288,7 @@ export default function BonnerServiceAreaPage() {
                             </h2>
                             <PrecisionDivider />
                             <p className="text-lg text-text-secondary leading-relaxed mt-6">
-                                You do not need to diagnose the failure before calling us. Most of our customers simply describe what they are noticing—a loose feel in the steering, a squeal in the brakes, or an engine that hesitates when merging onto I-90.
+                                You do not need to diagnose the failure before calling us. Most of our customers simply describe what they are noticing - a loose feel in the steering, a squeal in the brakes, or an engine that hesitates when merging onto I-90.
                             </p>
                             <p className="text-lg text-text-secondary leading-relaxed">
                                 That description is all we need to start. Benchmark Automotive Service supports Bonner drivers with:

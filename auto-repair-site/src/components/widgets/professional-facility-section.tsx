@@ -17,7 +17,7 @@ export function ProfessionalFacilitySection() {
                             </h2>
                             <PrecisionDivider />
                             <p className="text-lg text-text-secondary leading-relaxed mt-8">
-                                Modern vehicle repair requires more than tools — it requires process, organization, and attention to detail. Every vehicle is handled methodically, from intake through final verification.
+                                Modern vehicle repair requires more than tools - it requires process, organization, and attention to detail. Every vehicle is handled methodically, from intake through final verification.
                             </p>
                         </div>
                     </Reveal>

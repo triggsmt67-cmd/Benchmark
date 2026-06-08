@@ -35,7 +35,7 @@ When your check engine light comes on, the immediate question usually isn't "wha
 
 ## Common Symptoms
 
-- Check engine light on — solid or flashing
+- Check engine light on - solid or flashing
 - Rough idle or uneven engine operation
 - Hesitation or stumbling during acceleration
 - Noticeable drop in fuel economy
@@ -67,7 +67,7 @@ Montana conditions can add another layer. Cold starts, low battery voltage, and 
 ## How We Turn a Code Into a Real Answer
 
 ### Scan
-We start by pulling stored codes, pending codes, and freeze frame data. Freeze frame matters because it shows the exact conditions present when the light came on — coolant temperature, engine load, RPM, speed, and fuel trim.
+We start by pulling stored codes, pending codes, and freeze frame data. Freeze frame matters because it shows the exact conditions present when the light came on - coolant temperature, engine load, RPM, speed, and fuel trim.
 
 ### Interpret
 We compare the code against live data, readiness monitor status, and the way the vehicle is actually running. A P0171 lean code, for example, can come from a vacuum leak, weak fuel delivery, bad airflow data, or an exhaust issue affecting sensor feedback. The code alone doesn't sort that out.

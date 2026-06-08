@@ -21,7 +21,7 @@ faqs:
 
 A vehicle inspection helps identify wear, safety concerns, and potential repairs before they turn into bigger problems.
 
-At Benchmark Automotive Service, inspections focus on real condition — not assumptions — so you understand what’s working well and what may need attention.
+At Benchmark Automotive Service, inspections focus on real condition - not assumptions - so you understand what’s working well and what may need attention.
 
 ---
 

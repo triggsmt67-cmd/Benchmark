@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   description: "A trusted local shop delivering precise diagnostics, honest recommendations, and repairs built to last.",
   openGraph: {
     title: siteConfig.businessName,
-    description: "Auto Repair Done Right — The First Time.",
+    description: "Auto Repair Done Right - The First Time.",
     siteName: siteConfig.businessName,
     locale: "en_US",
     type: "website",

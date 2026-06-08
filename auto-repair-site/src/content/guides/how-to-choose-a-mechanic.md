@@ -101,7 +101,7 @@ To learn more about how this works, review our [diagnostic approach](/services/o
 ## Questions to Ask Before Leaving Your Vehicle
 
 **What will the diagnostic process look like for my specific problem?**  
-A good answer explains the testing steps—like reading live data or pressure testing—rather than just "we'll look at it."
+A good answer explains the testing steps - like reading live data or pressure testing - rather than just "we'll look at it."
 
 **Will I receive a written estimate before work begins?**  
 A good shop will guarantee this. If they refuse, find another mechanic.

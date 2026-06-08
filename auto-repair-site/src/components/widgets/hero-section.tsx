@@ -38,7 +38,7 @@ export function HeroSection() {
 
                     <HeroIntroItem>
                         <p className="text-lg md:text-xl text-white/90 max-w-2xl leading-relaxed">
-                            Full-service automotive repair in Missoula built on precise testing, honest recommendations, and repairs confirmed — not guessed.
+                            Full-service automotive repair in Missoula built on precise testing, honest recommendations, and repairs confirmed - not guessed.
                         </p>
                     </HeroIntroItem>
 

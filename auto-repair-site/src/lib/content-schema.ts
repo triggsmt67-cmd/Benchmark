@@ -97,7 +97,7 @@ export const SERVICES: ServiceContent[] = [
             headline: "Confident Stopping Power. No Shortcuts.",
             subheadline: "Complete brake system diagnostics and premium replacements, ensuring your safety on every drive."
         },
-        overview: `Your brakes are the most critical safety system on your vehicle. At ${siteConfig.businessName}, we don't just 'slap pads on' — we perform a comprehensive inspection of your rotors, calipers, hydraulic lines, and master cylinder to ensure everything operates to OEM standards.`,
+        overview: `Your brakes are the most critical safety system on your vehicle. At ${siteConfig.businessName}, we don't just 'slap pads on' - we perform a comprehensive inspection of your rotors, calipers, hydraulic lines, and master cylinder to ensure everything operates to OEM standards.`,
         symptoms: [
             "Squeaking, grinding, or squealing noises when applying brakes.",
             "Vibration or pulsation in the steering wheel or brake pedal.",

@@ -10,7 +10,7 @@ export function FinalCtaBand() {
             <div className="container mx-auto px-4 md:px-6 text-center">
                 <Reveal>
                     <h2 className="font-heading text-3xl md:text-5xl font-bold text-surface mb-6">
-                        Let’s Get You Back on the Road — Confidently.
+                        Let’s Get You Back on the Road - Confidently.
                     </h2>
                     <p className="text-muted/80 text-lg max-w-2xl mx-auto mb-10">
                         Stop wondering if your car is truly fixed. Experience the difference of premium independent automotive care.
