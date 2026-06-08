@@ -28,10 +28,10 @@ export default function Home() {
       <ProfessionalFacilitySection />
       <ProcessTimelineSection />
       <ModernVehiclesSection />
+      <TestimonialsSection />
       <AfterHoursDropOff />
       <TrustBar />
       <AboutSection />
-      <TestimonialsSection />
       <WhatWeDontDoSection />
       <ServiceAreasSection />
       <FinalCtaBand />

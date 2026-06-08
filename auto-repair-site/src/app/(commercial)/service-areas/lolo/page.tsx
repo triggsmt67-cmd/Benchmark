@@ -25,7 +25,7 @@ export default function LoloServiceAreaPage() {
     const bSchema = {
         "@context": "https://schema.org",
         "@type": "AutoRepair",
-        "@id": "https://www.benchmarkmissoula.com/#autorepair",
+        "@id": "https://www.benchmarkmissoula.com/#business",
         "name": siteConfig.businessName,
         "url": "https://www.benchmarkmissoula.com/",
         "logo": "https://www.benchmarkmissoula.com/apple-icon.png",
@@ -52,7 +52,7 @@ export default function LoloServiceAreaPage() {
         "@id": "https://www.benchmarkmissoula.com/service-areas/lolo#service",
         "name": "Auto Repair for Lolo, MT Drivers",
         "serviceType": "Auto repair and diagnostic services",
-        "provider": { "@id": "https://www.benchmarkmissoula.com/#autorepair" },
+        "provider": { "@id": "https://www.benchmarkmissoula.com/#business" },
         "areaServed": {
             "@type": "City",
             "name": "Lolo, MT"
@@ -74,7 +74,7 @@ export default function LoloServiceAreaPage() {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Service Areas",
-                "item": "https://www.benchmarkmissoula.com/service-areas/"
+                "item": "https://www.benchmarkmissoula.com/service-areas"
             },
             {
                 "@type": "ListItem",

@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     title: "Auto Repair Near Missoula, MT | Benchmark Automotive Service",
     description: "Benchmark Automotive Service provides auto repair, diagnostics, maintenance, inspections, brake repair, and more for drivers in Missoula, Lolo, Frenchtown, Bonner, East Missoula, and nearby communities.",
     alternates: {
-        canonical: "https://www.benchmarkmissoula.com/service-areas/"
+        canonical: "https://www.benchmarkmissoula.com/service-areas"
     },
     openGraph: {
-        url: "https://www.benchmarkmissoula.com/service-areas/",
+        url: "https://www.benchmarkmissoula.com/service-areas",
         title: "Auto Repair Near Missoula, MT | Benchmark Automotive Service",
         description: "Benchmark Automotive Service provides auto repair, diagnostics, maintenance, inspections, brake repair, and more for drivers in Missoula, Lolo, Frenchtown, Bonner, East Missoula, and nearby communities.",
     }
@@ -24,7 +24,7 @@ export default function ServiceAreasIndexPage() {
     const bSchema = {
         "@context": "https://schema.org",
         "@type": "AutoRepair",
-        "@id": "https://www.benchmarkmissoula.com/#autorepair",
+        "@id": "https://www.benchmarkmissoula.com/#business",
         "name": siteConfig.businessName,
         "url": "https://www.benchmarkmissoula.com/",
         "logo": "https://www.benchmarkmissoula.com/apple-icon.png",
@@ -68,7 +68,7 @@ export default function ServiceAreasIndexPage() {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Service Areas",
-                "item": "https://www.benchmarkmissoula.com/service-areas/"
+                "item": "https://www.benchmarkmissoula.com/service-areas"
             }
         ]
     };

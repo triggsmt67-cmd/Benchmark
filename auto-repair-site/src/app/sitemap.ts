@@ -10,9 +10,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     const routes = [
         '',
         '/services',
-        '/about',
         '/contact',
         '/service-areas',
+        '/site-map',
         '/service-areas/missoula',
         '/service-areas/lolo',
         '/service-areas/frenchtown',

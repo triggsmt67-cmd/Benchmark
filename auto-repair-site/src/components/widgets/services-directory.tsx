@@ -66,7 +66,7 @@ function ServiceCard({ service }: { service: ServiceItem }) {
                         </span>
                     )}
                     {!isComingSoon && (
-                        <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-200 text-copper transform -translate-x-2 group-hover:translate-x-0">
+                        <div className="text-copper/70 group-hover:text-copper transition-all duration-200 transform translate-x-0 group-hover:translate-x-1 shrink-0">
                             <ChevronRight className="w-5 h-5" />
                         </div>
                     )}
