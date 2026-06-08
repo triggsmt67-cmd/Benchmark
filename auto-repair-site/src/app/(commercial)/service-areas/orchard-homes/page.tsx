@@ -6,14 +6,14 @@ import { FinalCtaBand } from "@/components/widgets/final-cta-band";
 import { siteConfig } from "@/lib/siteConfig";
 
 export const metadata: Metadata = {
-    title: "Auto Repair Near Orchard Homes MT | Benchmark Automotive Service",
+    title: "Auto Repair Near Orchard Homes MT",
     description: "Benchmark Automotive Service provides drivers in Orchard Homes, MT with honest mechanic services, brake repair, and electrical troubleshooting in Missoula.",
     alternates: {
         canonical: "https://www.benchmarkmissoula.com/service-areas/orchard-homes"
     },
     openGraph: {
         url: "https://www.benchmarkmissoula.com/service-areas/orchard-homes",
-        title: "Auto Repair Near Orchard Homes MT | Benchmark Automotive Service",
+        title: "Auto Repair Near Orchard Homes MT",
         description: "Benchmark Automotive Service provides drivers in Orchard Homes, MT with honest mechanic services, brake repair, and electrical troubleshooting in Missoula.",
     }
 };

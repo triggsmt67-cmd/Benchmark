@@ -56,19 +56,19 @@ Battery chemistry also plays a role. Lead-acid batteries have a service life of 
 
 ---
 
-## How We Diagnose It
+## How We Catch the Drain
 
-### Inspect
-We start with a visual check of the battery terminals and cable ends for corrosion, physical damage, and secure connection. Corroded terminals create resistance that reduces charging efficiency and can mimic the symptoms of a failing battery or alternator. We also note the battery's approximate age and visible condition.
+### Battery First
+We start with a visual check of the battery terminals and cable ends for corrosion, physical damage, and secure connection. Corroded terminals create resistance that reduces charging efficiency and can mimic the symptoms of a failing battery or alternator. We also note the battery's age and visible condition, because an old battery can be both weak and hiding a larger charging problem.
 
-### Test
-We run a load test on the battery to measure actual capacity under current demand — resting voltage alone doesn't tell you whether a battery can deliver current when it needs to. We then test the alternator's output voltage at idle and under electrical load, and run an AC ripple test to detect whether failing diodes are allowing alternating current to bleed into the DC circuit. If the battery and alternator both check out, we move to a resting current draw test — measuring milliamp draw with the vehicle fully off and all modules given time to enter sleep mode. The standard wait before measuring is 20 to 45 minutes, since some modules stay briefly active after shutdown. This is part of the same systematic process we use for [electrical diagnostics](/services/electrical-diagnostics) across the vehicle.
+### Charging System Next
+We run a load test on the battery to measure actual capacity under current demand — resting voltage alone doesn't tell you whether a battery can deliver current when it needs to. We then test the alternator's output voltage at idle and under electrical load, and run an AC ripple test to detect whether failing diodes are allowing alternating current to bleed into the DC circuit.
 
-### Confirm
-If the resting draw exceeds 85 milliamps, we use the fuse-pull method — removing fuses one circuit at a time while monitoring the ammeter until the draw drops. This pinpoints the circuit pulling excess current. From there we narrow down to the specific component or wiring segment responsible.
+### Sleep-State Draw Test
+If the battery and alternator both check out, we move to a resting current draw test — measuring milliamp draw with the vehicle fully off and all modules given time to enter sleep mode. The standard wait before measuring is 20 to 45 minutes, since some modules stay briefly active after shutdown. This is part of the same systematic process we use for [electrical diagnostics](/services/electrical-diagnostics) across the vehicle.
 
-### Repair
-After completing the repair, we retest resting current draw to confirm it's within spec, and retest alternator output to confirm the charging system is maintaining proper voltage. Any battery that failed a load test is replaced at this stage.
+### Circuit Isolation and Retest
+If the resting draw exceeds 85 milliamps, we use the fuse-pull method — removing fuses one circuit at a time while monitoring the ammeter until the draw drops. This pinpoints the circuit pulling excess current. From there we narrow down to the specific component or wiring segment responsible. After repair, we retest resting current draw to confirm it is within spec and retest alternator output to confirm the charging system is maintaining proper voltage.
 
 ---
 

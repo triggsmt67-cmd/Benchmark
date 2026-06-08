@@ -89,6 +89,9 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
         .split("-")
         .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
         .join(" ");
+    const heroDescription =
+        data.description ||
+        `Professional ${serviceName.toLowerCase()} in Missoula. Accurate testing, honest recommendations, and confirmed repairs.`;
 
     const baseUrl = "https://www.benchmarkmissoula.com";
     const offerConfig = serviceOfferConfigs[slug];
@@ -199,7 +202,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
                         {serviceName}
                     </h1>
                     <p className="text-lg md:text-xl text-white/90 max-w-2xl leading-relaxed animate-fade-in-up" style={{ animationDelay: "100ms" }}>
-                        Professional {serviceName.toLowerCase()} in Missoula. Accurate testing, honest recommendations, and confirmed repairs.
+                        {heroDescription}
                     </p>
                 </div>
             </section>

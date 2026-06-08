@@ -9,15 +9,15 @@ import { PrecisionDivider } from "@/components/widgets/precision-divider";
 import { Phone, ArrowRight, MapPin, KeySquare, CheckCircle2, Wrench, ShieldCheck } from "lucide-react";
 
 export const metadata: Metadata = {
-    title: "Auto Repair Near Lolo, MT | Benchmark Automotive Service",
-    description: "Benchmark Automotive Service in Missoula helps Lolo drivers with diagnostics, maintenance, inspections, brake repair, electrical issues, suspension concerns, and full-service auto repair.",
+    title: "Auto Repair for Lolo, MT Drivers",
+    description: "Benchmark Automotive Service helps Lolo drivers with diagnostics, brake repair, electrical issues, inspections, oil changes, and suspension repair from our Missoula shop.",
     alternates: {
         canonical: "https://www.benchmarkmissoula.com/service-areas/lolo"
     },
     openGraph: {
         url: "https://www.benchmarkmissoula.com/service-areas/lolo",
-        title: "Auto Repair Near Lolo, MT | Benchmark Automotive Service",
-        description: "Benchmark Automotive Service in Missoula helps Lolo drivers with diagnostics, maintenance, inspections, brake repair, electrical issues, suspension concerns, and full-service auto repair.",
+        title: "Auto Repair for Lolo, MT Drivers",
+        description: "Benchmark Automotive Service helps Lolo drivers with diagnostics, brake repair, electrical issues, inspections, oil changes, and suspension repair from our Missoula shop.",
     }
 };
 

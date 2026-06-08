@@ -6,14 +6,14 @@ import { FinalCtaBand } from "@/components/widgets/final-cta-band";
 import { siteConfig } from "@/lib/siteConfig";
 
 export const metadata: Metadata = {
-    title: "Auto Repair Near Milltown MT | Benchmark Automotive Service",
+    title: "Auto Repair Near Milltown MT",
     description: "Benchmark Automotive Service in Missoula provides Milltown residents with precise, diagnostic-first vehicle repair, electrical testing, and maintenance.",
     alternates: {
         canonical: "https://www.benchmarkmissoula.com/service-areas/milltown"
     },
     openGraph: {
         url: "https://www.benchmarkmissoula.com/service-areas/milltown",
-        title: "Auto Repair Near Milltown MT | Benchmark Automotive Service",
+        title: "Auto Repair Near Milltown MT",
         description: "Benchmark Automotive Service in Missoula provides Milltown residents with precise, diagnostic-first vehicle repair, electrical testing, and maintenance.",
     }
 };

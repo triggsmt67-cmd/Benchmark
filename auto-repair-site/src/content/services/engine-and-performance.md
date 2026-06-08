@@ -1,6 +1,6 @@
 ---
 title: "Engine and Performance"
-description: "Professional engine performance diagnostics and repair in Missoula, MT."
+description: "Engine performance diagnosis in Missoula, MT for hesitation, rough idle, low power, misfires, fuel-trim problems, and under-load drivability complaints."
 category: "Engine"
 featured: false
 order: 10
@@ -18,7 +18,7 @@ faqs:
 
 ## Engine and Performance in Missoula, MT
 
-When your engine isn't running the way it should — hesitation on acceleration, rough idle, unexpected power loss — something in the system has shifted. This page explains what we look at, why these issues develop, and how we diagnose them before recommending any repair.
+When an engine still starts but no longer feels right, drivers often describe it the same way: sluggish, uneven, down on power, or just not clean under load. This page is for those drivability complaints. The goal is to figure out whether the problem is spark, fuel, airflow, sensor data, or a deeper mechanical issue before you start replacing parts around the symptom.
 
 ---
 
@@ -54,17 +54,16 @@ Timing issues are less common but more serious. The timing chain or belt synchro
 
 ---
 
-## How We Diagnose It
+## What We Test When the Engine Feels Off
 
-### Inspect
-We start with a visual walkthrough of the engine bay: checking for obvious vacuum leaks at hoses and intake boots, inspecting ignition wires for cracking or carbon tracking, and looking for oil or coolant contamination around the spark plug tubes — a sign of seal failure that often causes misfires.
+### Air and Fuel
+We start with a visual walkthrough of the engine bay, checking for obvious vacuum leaks at hoses and intake boots, and then move into live data. Fuel trims, airflow readings, oxygen sensor behavior, and throttle response help tell us whether the engine is getting the right mixture and whether the sensors feeding the ECM are believable.
 
-### Test
-We connect to the OBD-II port and pull live data alongside any stored codes. Freeze frame data tells us what conditions were present when the fault triggered. From there we test fuel pressure at idle and under load, perform a cylinder balance test to isolate weak cylinders, and use a lab scope to evaluate ignition coil output waveforms. Compression testing and leak-down testing confirm whether the issue is mechanical — worn rings, leaking valves — or system-level.
+### Ignition and Load
+We pull live data alongside any stored codes and use freeze frame data to see what conditions were present when the fault triggered. From there we test fuel pressure at idle and under load, perform a cylinder balance test to isolate weak cylinders, and use a lab scope to evaluate ignition coil output waveforms. Problems that only show up under acceleration or hill load usually need more than an idle-only scan.
 
-### Confirm
-We don't recommend a repair based on a code alone. A P0301 (cylinder 1 misfire) could mean a spark plug, coil, injector, or low compression in that cylinder. We confirm the root cause before any parts are ordered or quoted.
+### Mechanical Proof
+Compression testing and leak-down testing confirm whether the issue is mechanical — worn rings, leaking valves, or timing that has shifted. We do not recommend a repair based on a code alone. A P0301 misfire can be spark, injector, or low compression in that cylinder, and those are very different repairs.
 
-### Repair
-After the repair, we clear codes and run a drive cycle to confirm the misfire monitors pass. Live data is reviewed again to verify fuel trims, sensor readings, and idle quality are within spec. The fix is verified — not assumed.
-
+### Confirmation Drive
+After the repair, we clear codes and run a drive cycle to confirm the misfire monitors pass. Live data is reviewed again to verify fuel trims, sensor readings, and idle quality are within spec. The fix is verified under the conditions that exposed the complaint in the first place.

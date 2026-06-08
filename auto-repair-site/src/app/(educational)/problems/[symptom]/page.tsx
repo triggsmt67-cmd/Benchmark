@@ -6,6 +6,10 @@ import { AlertCircle, ArrowRight, CheckCircle2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { FinalCtaBand } from "@/components/widgets/final-cta-band";
 
+function stripBrandFromTitle(title: string) {
+    return title.replace(/\s*\|\s*Benchmark Automotive Service$/, "");
+}
+
 export async function generateStaticParams() {
     return PROBLEMS.filter(p => p.renderingEnabled).map(problem => ({
         symptom: problem.slug,
@@ -19,16 +23,17 @@ export async function generateMetadata({ params }: { params: Promise<{ symptom: 
     
     const baseUrl = "https://www.benchmarkmissoula.com";
     const url = `${baseUrl}/problems/${problem.slug}`;
+    const cleanTitle = stripBrandFromTitle(problem.seo.title);
     
     return {
-        title: problem.seo.title,
+        title: cleanTitle,
         description: problem.seo.description,
         alternates: { 
             canonical: url
         },
         openGraph: {
             url: url,
-            title: problem.seo.title,
+            title: cleanTitle,
             description: problem.seo.description,
             type: 'article'
         }

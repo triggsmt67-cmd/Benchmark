@@ -8,15 +8,15 @@ import { PrecisionDivider } from "@/components/widgets/precision-divider";
 import { Phone, ArrowRight, MapPin } from "lucide-react";
 
 export const metadata: Metadata = {
-    title: "Auto Repair Near Missoula, MT | Benchmark Automotive Service",
-    description: "Benchmark Automotive Service provides auto repair, diagnostics, maintenance, inspections, brake repair, and more for drivers in Missoula, Lolo, Frenchtown, Bonner, East Missoula, and nearby communities.",
+    title: "Areas We Serve Around Missoula",
+    description: "Benchmark Automotive Service proudly provides professional automotive repair and diagnostics for drivers throughout Missoula and surrounding communities.",
     alternates: {
         canonical: "https://www.benchmarkmissoula.com/service-areas"
     },
     openGraph: {
         url: "https://www.benchmarkmissoula.com/service-areas",
-        title: "Auto Repair Near Missoula, MT | Benchmark Automotive Service",
-        description: "Benchmark Automotive Service provides auto repair, diagnostics, maintenance, inspections, brake repair, and more for drivers in Missoula, Lolo, Frenchtown, Bonner, East Missoula, and nearby communities.",
+        title: "Areas We Serve Around Missoula",
+        description: "Benchmark Automotive Service proudly provides professional automotive repair and diagnostics for drivers throughout Missoula and surrounding communities.",
     }
 };
 

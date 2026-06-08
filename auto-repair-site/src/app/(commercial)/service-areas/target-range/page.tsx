@@ -6,14 +6,14 @@ import { FinalCtaBand } from "@/components/widgets/final-cta-band";
 import { siteConfig } from "@/lib/siteConfig";
 
 export const metadata: Metadata = {
-    title: "Auto Repair Near Target Range MT | Benchmark Automotive Service",
+    title: "Auto Repair Near Target Range MT",
     description: "Drivers in Target Range, Montana choose Benchmark Automotive Service for honest vehicle inspections, diagnostic precision, and complete routine maintenance.",
     alternates: {
         canonical: "https://www.benchmarkmissoula.com/service-areas/target-range"
     },
     openGraph: {
         url: "https://www.benchmarkmissoula.com/service-areas/target-range",
-        title: "Auto Repair Near Target Range MT | Benchmark Automotive Service",
+        title: "Auto Repair Near Target Range MT",
         description: "Drivers in Target Range, Montana choose Benchmark Automotive Service for honest vehicle inspections, diagnostic precision, and complete routine maintenance.",
     }
 };

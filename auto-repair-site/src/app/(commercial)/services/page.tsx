@@ -99,7 +99,7 @@ export default async function ServicesHubPage() {
                         "@type": "ItemList",
                         "name": "Benchmark Automotive Service Offerings",
                         "description": "Comprehensive list of auto repair and diagnostic services in Missoula, MT.",
-                        "itemListElement": allItems.map((s, index) => ({
+                        "itemListElement": services.map((s, index) => ({
                             "@type": "ListItem",
                             "position": index + 1,
                             "item": {

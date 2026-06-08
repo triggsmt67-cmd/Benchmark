@@ -8,15 +8,15 @@ import { PrecisionDivider } from "@/components/widgets/precision-divider";
 import { Phone, ArrowRight, MapPin, KeySquare, CheckCircle2, Wrench, ShieldCheck } from "lucide-react";
 
 export const metadata: Metadata = {
-    title: "Auto Repair Near Frenchtown, MT | Benchmark Automotive Service",
-    description: "Benchmark Automotive Service in Missoula serves Frenchtown drivers with precise diagnostics, steering and suspension repair, heating/cooling services, and full mechanical repairs.",
+    title: "Auto Repair Near Frenchtown MT",
+    description: "Drivers from Frenchtown, Montana rely on Benchmark Automotive Service in Missoula for accurate diagnostics, electrical troubleshooting, and complex engine testing.",
     alternates: {
         canonical: "https://www.benchmarkmissoula.com/service-areas/frenchtown"
     },
     openGraph: {
         url: "https://www.benchmarkmissoula.com/service-areas/frenchtown",
-        title: "Auto Repair Near Frenchtown, MT | Benchmark Automotive Service",
-        description: "Benchmark Automotive Service in Missoula serves Frenchtown drivers with precise diagnostics, steering and suspension repair, heating/cooling services, and full mechanical repairs.",
+        title: "Auto Repair Near Frenchtown MT",
+        description: "Drivers from Frenchtown, Montana rely on Benchmark Automotive Service in Missoula for accurate diagnostics, electrical troubleshooting, and complex engine testing.",
     }
 };
 

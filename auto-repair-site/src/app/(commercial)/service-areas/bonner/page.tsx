@@ -8,15 +8,15 @@ import { PrecisionDivider } from "@/components/widgets/precision-divider";
 import { Phone, ArrowRight, MapPin, KeySquare, CheckCircle2, Wrench, ShieldCheck } from "lucide-react";
 
 export const metadata: Metadata = {
-    title: "Auto Repair Near Bonner, MT | Benchmark Automotive Service",
-    description: "Benchmark Automotive Service in Missoula serves Bonner drivers with precise diagnostics, steering and suspension repair, heating/cooling services, and full mechanical repairs.",
+    title: "Auto Repair Near Bonner MT",
+    description: "Drivers from Bonner, Montana trust Benchmark Automotive Service in Missoula for professional diagnostics, brake repair, and electrical troubleshooting.",
     alternates: {
         canonical: "https://www.benchmarkmissoula.com/service-areas/bonner"
     },
     openGraph: {
         url: "https://www.benchmarkmissoula.com/service-areas/bonner",
-        title: "Auto Repair Near Bonner, MT | Benchmark Automotive Service",
-        description: "Benchmark Automotive Service in Missoula serves Bonner drivers with precise diagnostics, steering and suspension repair, heating/cooling services, and full mechanical repairs.",
+        title: "Auto Repair Near Bonner MT",
+        description: "Drivers from Bonner, Montana trust Benchmark Automotive Service in Missoula for professional diagnostics, brake repair, and electrical troubleshooting.",
     }
 };
 
