@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: { params: Promise<{ topic: st
     const { title, description } = result.data;
 
     return {
-        title: `${title} | Benchmark Automotive Service`,
+        title: title,
         description: description || `Professional automotive guide in Missoula, MT.`,
         alternates: {
             canonical: `https://www.benchmarkmissoula.com/guides/${topic}`
@@ -72,7 +72,7 @@ export default async function GuidePage({ params }: { params: Promise<{ topic: s
                 "name": "Benchmark Automotive Service"
             },
             "publisher": {
-                "@type": "ProfessionalService",
+                "@type": "AutoRepair",
                 "@id": "https://www.benchmarkmissoula.com/#business"
             },
             "url": `${baseUrl}/guides/${topic}`

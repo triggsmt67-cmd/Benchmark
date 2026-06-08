@@ -26,13 +26,9 @@ export const metadata: Metadata = {
     template: `%s | ${siteConfig.businessName}`,
   },
   description: "A trusted local shop delivering precise diagnostics, honest recommendations, and repairs built to last.",
-  alternates: {
-    canonical: "/",
-  },
   openGraph: {
     title: siteConfig.businessName,
     description: "Auto Repair Done Right — The First Time.",
-    url: "/",
     siteName: siteConfig.businessName,
     locale: "en_US",
     type: "website",

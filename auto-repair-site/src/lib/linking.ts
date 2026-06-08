@@ -52,7 +52,6 @@ export function generateSitemapUrls() {
 
     // Core
     urls.push(`${baseUrl}/`);
-    urls.push(`${baseUrl}/about`);
     urls.push(`${baseUrl}/contact`);
 
     // Commercial Base & Locations

@@ -108,8 +108,8 @@ export default async function ServicesHubPage() {
                                 "description": s.description,
                                 "url": `https://www.benchmarkmissoula.com/services/${s.slug}`,
                                 "provider": {
-                                    "@type": "ProfessionalService",
-                                    "name": "Benchmark Automotive Service"
+                                    "@type": "AutoRepair",
+                                    "@id": "https://www.benchmarkmissoula.com/#business"
                                 }
                             }
                         }))

@@ -9,15 +9,7 @@ export default function robots(): MetadataRoute.Robots {
                 disallow: '/private/',
             },
             {
-                userAgent: 'OAI-SearchBot',
-                allow: '/',
-            },
-            {
-                userAgent: 'GPTBot',
-                allow: ['/blog/', '/guides/'],
-            },
-            {
-                userAgent: 'Google-Extended',
+                userAgent: ['GPTBot', 'OAI-SearchBot', 'Google-Extended', 'Anthropic-ai', 'PerplexityBot', 'ClaudeBot', 'Claude-Web'],
                 allow: '/',
             },
         ],

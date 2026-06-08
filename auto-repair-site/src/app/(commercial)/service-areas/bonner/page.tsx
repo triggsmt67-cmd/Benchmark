@@ -21,30 +21,6 @@ export const metadata: Metadata = {
 };
 
 export default function BonnerServiceAreaPage() {
-    const bSchema = {
-        "@context": "https://schema.org",
-        "@type": "AutoRepair",
-        "@id": "https://www.benchmarkmissoula.com/#business",
-        "name": siteConfig.businessName,
-        "url": "https://www.benchmarkmissoula.com/",
-        "logo": "https://www.benchmarkmissoula.com/apple-icon.png",
-        "image": "https://www.benchmarkmissoula.com/diagnostic_hero_bg_v2.png",
-        "address": {
-            "@type": "PostalAddress",
-            "streetAddress": siteConfig.address.street,
-            "addressLocality": siteConfig.address.city,
-            "addressRegion": siteConfig.address.state,
-            "postalCode": siteConfig.address.zip,
-            "addressCountry": siteConfig.address.country
-        },
-        "telephone": siteConfig.phone.schema,
-        "priceRange": "$$",
-        "areaServed": [
-            "Missoula, MT",
-            "Bonner, MT"
-        ]
-    };
-
     const serviceSchema = {
         "@context": "https://schema.org",
         "@type": "Service",
@@ -58,7 +34,6 @@ export default function BonnerServiceAreaPage() {
         },
         "url": "https://www.benchmarkmissoula.com/service-areas/bonner"
     };
-
     const breadcrumbSchema = {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
@@ -143,7 +118,7 @@ export default function BonnerServiceAreaPage() {
         <article className="flex flex-col min-h-[100dvh]">
             <script
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify([bSchema, serviceSchema, breadcrumbSchema, faqSchema]) }}
+                dangerouslySetInnerHTML={{ __html: JSON.stringify([serviceSchema, breadcrumbSchema, faqSchema]) }}
             />
 
             {/* Hero Section */}

@@ -1,5 +1,5 @@
 ---
-title: "How to Choose a Mechanic in Missoula, MT | Benchmark Automotive Service"
+title: "How to Choose a Mechanic in Missoula, MT"
 description: "Learn how to choose a mechanic in Missoula by checking certifications, diagnostic process, estimates, reviews, warranties, and local repair experience."
 category: "Educational"
 featured: true
