@@ -12,6 +12,7 @@ import { TestimonialsSection } from "@/components/widgets/testimonials-section";
 import { WhatWeDontDoSection } from "@/components/widgets/what-we-dont-do-section";
 import { FinalCtaBand } from "@/components/widgets/final-cta-band";
 import { ServiceAreasSection } from "@/components/widgets/service-areas-section";
+import { generateLocalBusinessSchema, generateWebSiteSchema } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: {
@@ -23,8 +24,17 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
+  const schema = [
+    generateWebSiteSchema(),
+    generateLocalBusinessSchema()
+  ];
+
   return (
     <article className="flex flex-col min-h-[100dvh]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
       <HeroSection />
       <ServicesSection />
       <DiagnosticConfidenceStrip />

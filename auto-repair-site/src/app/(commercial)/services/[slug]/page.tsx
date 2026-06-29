@@ -61,28 +61,6 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
     const { title, description } = result.data;
     const displayTitle = title.toLowerCase().includes("missoula") ? title : `${title} in Missoula, MT`;
-    const serviceName = result.data.title || slug
-        .split("-")
-        .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-        .join(" ");
-    const heroDescription =
-        description ||
-        `Professional ${serviceName.toLowerCase()} in Missoula. Accurate testing, honest recommendations, and confirmed repairs.`;
-    const offerConfig = serviceOfferConfigs[slug];
-
-    const unifiedGraphPayload = getServiceDetailSchema({
-        slug,
-        name: serviceName,
-        description: description || heroDescription,
-        offerConfig: offerConfig ? {
-            title: offerConfig.title,
-            price: offerConfig.price,
-            description: offerConfig.description,
-            includes: offerConfig.includes,
-            disclaimer: offerConfig.disclaimer
-        } : undefined,
-        faqs: result.data.faqs
-    });
 
     return {
         title: displayTitle,
@@ -94,9 +72,6 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
             url: `https://www.benchmarkmissoula.com/services/${slug}`,
             title: displayTitle,
             description: description || `Professional ${title.toLowerCase()} in Missoula. Accurate testing, honest recommendations, and confirmed repairs.`
-        },
-        other: {
-            'structured-data': JSON.stringify(unifiedGraphPayload)
         }
     };
 }
@@ -121,8 +96,30 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
 
     const offerConfig = serviceOfferConfigs[slug];
 
+    const schema = getServiceDetailSchema({
+        slug,
+        name: serviceName,
+        description: data.description || heroDescription,
+        offerConfig: offerConfig ? {
+            title: offerConfig.title,
+            price: offerConfig.price,
+            description: offerConfig.description,
+            includes: offerConfig.includes,
+            disclaimer: offerConfig.disclaimer
+        } : undefined,
+        faqs: data.faqs
+    });
+
+    const cleanSchemaString = JSON.stringify(schema)
+        .replace(/</g, '\\u003c')
+        .replace(/>/g, '\\u003e');
+
     return (
         <article className="flex flex-col min-h-[100dvh]">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: cleanSchemaString }}
+            />
             {/* Service Hero */}
             <section className="bg-navy-950 text-white py-24 md:py-32 border-b border-navy-900">
                 <div className="container mx-auto px-4 md:px-6 relative z-10">

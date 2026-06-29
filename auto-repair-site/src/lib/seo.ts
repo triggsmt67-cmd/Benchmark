@@ -256,10 +256,11 @@ export interface ServiceSchemaOptions {
     faqs?: { question: string; answer: string }[];
 }
 
-export function getServiceDetailSchema(options: ServiceSchemaOptions) {
+export function getServiceDetailSchema(options: ServiceSchemaOptions): any[] {
     const pageUrl = `https://www.benchmarkmissoula.com/services/${options.slug}`;
-    const pageName = `${options.name} in Missoula, MT`;
-    const base = getBaseGraph(pageUrl, pageName);
+    
+    const website = generateWebSiteSchema();
+    const business = generateLocalBusinessSchema();
     
     const service: any = {
         "@type": "Service",
@@ -270,18 +271,14 @@ export function getServiceDetailSchema(options: ServiceSchemaOptions) {
         "provider": {
             "@id": "https://www.benchmarkmissoula.com/#business"
         },
-        "areaServed": [
-            {
+        "areaServed": Object.keys(CITY_LOOKUP).map(key => {
+            const city = CITY_LOOKUP[key];
+            return {
                 "@type": "City",
-                "name": "Missoula, MT",
-                "sameAs": "https://en.wikipedia.org/wiki/Missoula,_Montana"
-            },
-            {
-                "@type": "City",
-                "name": "Lolo, MT",
-                "sameAs": "https://en.wikipedia.org/wiki/Lolo,_Montana"
-            }
-        ],
+                "name": city.name.split(",")[0],
+                "sameAs": city.sameAs
+            };
+        }),
         "image": "https://www.benchmarkmissoula.com/diagnostic_hero_bg_v2.png",
         "url": pageUrl
     };
@@ -335,7 +332,7 @@ export function getServiceDetailSchema(options: ServiceSchemaOptions) {
         ]
     };
     
-    const nodes = [...base, service, breadcrumbs];
+    const nodes: any[] = [website, business, service, breadcrumbs];
     
     if (options.faqs && options.faqs.length > 0) {
         const faqPage = {
@@ -353,7 +350,15 @@ export function getServiceDetailSchema(options: ServiceSchemaOptions) {
         nodes.push(faqPage);
     }
     
-    return buildUnifiedGraph(nodes);
+    return nodes.map((node, index) => {
+        const cleaned = { ...node };
+        if (index === 0) {
+            cleaned["@context"] = "https://schema.org";
+        } else {
+            delete cleaned["@context"];
+        }
+        return cleaned;
+    });
 }
 
 export interface CityServiceSchemaOptions {

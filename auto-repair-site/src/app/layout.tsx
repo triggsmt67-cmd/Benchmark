@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Inter, Geist } from "next/font/google";
 import { Header } from "@/components/widgets/header";
 import { Footer } from "@/components/widgets/footer";
-import { generateLocalBusinessSchema, generateWebSiteSchema } from "@/lib/seo";
 import { siteConfig } from "@/lib/siteConfig";
 import Script from "next/script";
 import "./globals.css";
@@ -45,20 +44,11 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const schema = [
-    generateWebSiteSchema(),
-    generateLocalBusinessSchema()
-  ];
-
   return (
     <html lang="en" className="scroll-smooth" suppressHydrationWarning>
       <body
         className={`${inter.variable} ${geist.variable} font-sans antialiased min-h-screen flex flex-col`}
       >
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-        />
         {/* Google Tag Manager (noscript) */}
         <noscript>
           <iframe
