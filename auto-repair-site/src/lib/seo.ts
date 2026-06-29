@@ -136,7 +136,7 @@ export function generateLocalBusinessSchema() {
             return {
                 "@type": "City",
                 "name": city.name.split(",")[0],
-                "sameAs": city.sameAs[0]
+                "sameAs": city.sameAs
             };
         }),
         "mainEntityOfPage": {
