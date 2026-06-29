@@ -259,6 +259,9 @@ export interface ServiceSchemaOptions {
 export function escapeText(str: string): string {
     if (!str) return "";
     return str
+        .replace(/"/g, '“') // Ensure no straight double quotes break JSON serialization
+        .replace(/\n/g, " ") // Clean up line breaks
+        .replace(/\r/g, "")
         .replace(/[\u0000-\u001F\u007F-\u009F]/g, "") // strip control characters
         .trim();
 }
@@ -281,7 +284,7 @@ function cleanGraphContext(nodes: any[]): any[] {
     });
 }
 
-export function getServiceDetailSchema(options: ServiceSchemaOptions): any[] {
+export function getServiceDetailSchema(options: ServiceSchemaOptions): any {
     const pageUrl = `https://www.benchmarkmissoula.com/services/${options.slug}`;
     
     const website = generateWebSiteSchema();
@@ -375,7 +378,7 @@ export function getServiceDetailSchema(options: ServiceSchemaOptions): any[] {
         nodes.push(faqPage);
     }
     
-    return cleanGraphContext(nodes);
+    return buildUnifiedGraph(nodes);
 }
 
 export interface CityServiceSchemaOptions {
