@@ -103,7 +103,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
         offerConfig: offerConfig ? {
             title: offerConfig.title,
             price: offerConfig.price,
-            description: offerConfig.description,
+            description: offerConfig.description || "",
             includes: offerConfig.includes,
             disclaimer: offerConfig.disclaimer
         } : undefined,
