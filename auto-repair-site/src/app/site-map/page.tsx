@@ -6,7 +6,7 @@ import { PROBLEMS } from "@/lib/content-schema";
 import { Breadcrumbs } from "@/components/widgets/breadcrumbs";
 import { Reveal } from "@/components/motion/Reveal";
 import { PrecisionDivider } from "@/components/widgets/precision-divider";
-import { buildUnifiedGraph, serializeSchema } from "@/lib/seo";
+import { buildUnifiedGraph, serializeSchema, generateWebSiteSchema, generateLocalBusinessSchema } from "@/lib/seo";
 
 export const metadata: Metadata = {
     title: "Sitemap | Benchmark Automotive Service",
@@ -53,6 +53,8 @@ export default async function SitemapPage() {
 
     // Unified graph schema for the sitemap page
     const schema = buildUnifiedGraph([
+        generateWebSiteSchema(),
+        generateLocalBusinessSchema(),
         {
             "@type": "BreadcrumbList",
             "@id": "https://www.benchmarkmissoula.com/site-map#breadcrumb",

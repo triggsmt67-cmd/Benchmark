@@ -6,7 +6,7 @@ import { FinalCtaBand } from "@/components/widgets/final-cta-band";
 import { Breadcrumbs } from "@/components/widgets/breadcrumbs";
 import { RelatedServices } from "@/components/widgets/related-services";
 import { BookOpen } from "lucide-react";
-import { buildUnifiedGraph, escapeText, serializeSchema } from "@/lib/seo";
+import { getGuideDetailSchema, serializeSchema } from "@/lib/seo";
 
 // 1. Generate Static Params for build time
 export async function generateStaticParams() {
@@ -60,63 +60,12 @@ export default async function GuidePage({ params }: { params: Promise<{ topic: s
         .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
         .join(" ");
 
-    const baseUrl = "https://www.benchmarkmissoula.com";
-
-    const nodes: Record<string, unknown>[] = [
-        {
-            "@type": "Article",
-            "headline": escapeText(guideTitle),
-            "description": escapeText(data.description),
-            "author": {
-                "@type": "Organization",
-                "name": "Benchmark Automotive Service"
-            },
-            "publisher": {
-                "@type": "AutoRepair",
-                "@id": "https://www.benchmarkmissoula.com/#business"
-            },
-            "url": `${baseUrl}/guides/${topic}`
-        },
-        {
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-                {
-                    "@type": "ListItem",
-                    "position": 1,
-                    "name": "Home",
-                    "item": `${baseUrl}/`
-                },
-                {
-                    "@type": "ListItem",
-                    "position": 2,
-                    "name": "Guides",
-                    "item": `${baseUrl}/guides`
-                },
-                {
-                    "@type": "ListItem",
-                    "position": 3,
-                    "name": escapeText(guideTitle),
-                    "item": `${baseUrl}/guides/${topic}`
-                }
-            ]
-        }
-    ];
-
-    if (data.faqs && data.faqs.length > 0) {
-        nodes.push({
-            "@type": "FAQPage",
-            "mainEntity": data.faqs.map((faq: { question: string; answer: string }) => ({
-                "@type": "Question",
-                "name": escapeText(faq.question),
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": escapeText(faq.answer)
-                }
-            }))
-        });
-    }
-
-    const schema = buildUnifiedGraph(nodes);
+    const schema = getGuideDetailSchema({
+        slug: topic,
+        title: guideTitle,
+        description: data.description || `Professional automotive guide in Missoula, MT.`,
+        faqs: data.faqs
+    });
 
     return (
         <article className="flex flex-col min-h-[100dvh]">

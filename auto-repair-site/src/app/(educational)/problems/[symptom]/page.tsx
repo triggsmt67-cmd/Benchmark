@@ -5,7 +5,8 @@ import Link from "next/link";
 import { AlertCircle, ArrowRight, CheckCircle2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { FinalCtaBand } from "@/components/widgets/final-cta-band";
-import { buildUnifiedGraph, escapeText, serializeSchema } from "@/lib/seo";
+import { Breadcrumbs } from "@/components/widgets/breadcrumbs";
+import { getProblemDetailSchema, serializeSchema } from "@/lib/seo";
 
 function stripBrandFromTitle(title: string) {
     return title.replace(/\s*\|\s*Benchmark Automotive Service$/, "");
@@ -41,57 +42,18 @@ export async function generateMetadata({ params }: { params: Promise<{ symptom: 
     };
 }
 
-import { Breadcrumbs } from "@/components/widgets/breadcrumbs";
-
 export default async function SymptomPage({ params }: { params: Promise<{ symptom: string }> }) {
     const resolvedParams = await params;
     const problem = getProblemBySlug(resolvedParams.symptom);
     if (!problem) return notFound();
 
     const relatedService = getServiceById(problem.recommendedServiceId);
-    
-    const baseUrl = "https://www.benchmarkmissoula.com";
-    const url = `${baseUrl}/problems/${problem.slug}`;
 
-    const schema = buildUnifiedGraph([
-        {
-            "@type": "Article",
-            "headline": escapeText(problem.title),
-            "description": escapeText(problem.seo.description),
-            "author": {
-                "@type": "Organization",
-                "name": "Benchmark Automotive Service"
-            },
-            "publisher": {
-                "@type": "AutoRepair",
-                "@id": "https://www.benchmarkmissoula.com/#business"
-            },
-            "url": url
-        },
-        {
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-                {
-                    "@type": "ListItem",
-                    "position": 1,
-                    "name": "Home",
-                    "item": `${baseUrl}/`
-                },
-                {
-                    "@type": "ListItem",
-                    "position": 2,
-                    "name": "Symptom Troubleshooting",
-                    "item": `${baseUrl}/services`
-                },
-                {
-                    "@type": "ListItem",
-                    "position": 3,
-                    "name": escapeText(problem.title),
-                    "item": url
-                }
-            ]
-        }
-    ]);
+    const schema = getProblemDetailSchema({
+        slug: problem.slug,
+        title: problem.title,
+        description: problem.seo.description
+    });
 
     return (
         <article className="flex flex-col min-h-[100dvh]">

@@ -263,6 +263,136 @@ export function getHomepageSchema(): { "@context": string; "@graph": any[] } {
 }
 
 // ---------------------------------------------------------------------------
+// GUIDE DETAIL — unified graph: WebSite + AutoRepair + Article + Breadcrumbs + FAQ
+// ---------------------------------------------------------------------------
+
+export interface GuideDetailSchemaOptions {
+    slug: string;
+    title: string;
+    description: string;
+    faqs?: { question: string; answer: string }[];
+}
+
+export function getGuideDetailSchema(options: GuideDetailSchemaOptions): { "@context": string; "@graph": any[] } {
+    const pageUrl = `https://www.benchmarkmissoula.com/guides/${options.slug}`;
+
+    const article = {
+        "@type": "Article",
+        "@id": `${pageUrl}#article`,
+        "headline": escapeText(options.title),
+        "description": escapeText(options.description),
+        "author": {
+            "@type": "Organization",
+            "name": "Benchmark Automotive Service"
+        },
+        "publisher": {
+            "@id": "https://www.benchmarkmissoula.com/#business"
+        },
+        "url": pageUrl
+    };
+
+    const breadcrumbs = {
+        "@type": "BreadcrumbList",
+        "@id": `${pageUrl}#breadcrumb`,
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.benchmarkmissoula.com/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Guides",
+                "item": "https://www.benchmarkmissoula.com/guides"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": escapeText(options.title),
+                "item": pageUrl
+            }
+        ]
+    };
+
+    const nodes: any[] = [websiteNode(), businessNode(), article, breadcrumbs];
+
+    if (options.faqs && options.faqs.length > 0) {
+        nodes.push({
+            "@type": "FAQPage",
+            "@id": `${pageUrl}#faq`,
+            "mainEntity": options.faqs.map(faq => ({
+                "@type": "Question",
+                "name": escapeText(faq.question),
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": escapeText(faq.answer)
+                }
+            }))
+        });
+    }
+
+    return buildUnifiedGraph(nodes);
+}
+
+// ---------------------------------------------------------------------------
+// PROBLEM/SYMPTOM DETAIL — unified graph: WebSite + AutoRepair + Article + Breadcrumbs
+// ---------------------------------------------------------------------------
+
+export interface ProblemDetailSchemaOptions {
+    slug: string;
+    title: string;
+    description: string;
+}
+
+export function getProblemDetailSchema(options: ProblemDetailSchemaOptions): { "@context": string; "@graph": any[] } {
+    const pageUrl = `https://www.benchmarkmissoula.com/problems/${options.slug}`;
+
+    const article = {
+        "@type": "Article",
+        "@id": `${pageUrl}#article`,
+        "headline": escapeText(options.title),
+        "description": escapeText(options.description),
+        "author": {
+            "@type": "Organization",
+            "name": "Benchmark Automotive Service"
+        },
+        "publisher": {
+            "@id": "https://www.benchmarkmissoula.com/#business"
+        },
+        "url": pageUrl
+    };
+
+    const breadcrumbs = {
+        "@type": "BreadcrumbList",
+        "@id": `${pageUrl}#breadcrumb`,
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.benchmarkmissoula.com/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Symptom Troubleshooting",
+                "item": "https://www.benchmarkmissoula.com/services"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": escapeText(options.title),
+                "item": pageUrl
+            }
+        ]
+    };
+
+    return buildUnifiedGraph([websiteNode(), businessNode(), article, breadcrumbs]);
+}
+
+// ---------------------------------------------------------------------------
 // SERVICES HUB — unified graph with WebSite + AutoRepair + ItemList + Breadcrumbs
 // ---------------------------------------------------------------------------
 
