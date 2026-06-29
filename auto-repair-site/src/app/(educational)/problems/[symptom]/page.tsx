@@ -5,6 +5,7 @@ import Link from "next/link";
 import { AlertCircle, ArrowRight, CheckCircle2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { FinalCtaBand } from "@/components/widgets/final-cta-band";
+import { buildUnifiedGraph, escapeText, serializeSchema } from "@/lib/seo";
 
 function stripBrandFromTitle(title: string) {
     return title.replace(/\s*\|\s*Benchmark Automotive Service$/, "");
@@ -52,12 +53,11 @@ export default async function SymptomPage({ params }: { params: Promise<{ sympto
     const baseUrl = "https://www.benchmarkmissoula.com";
     const url = `${baseUrl}/problems/${problem.slug}`;
 
-    const schema = [
+    const schema = buildUnifiedGraph([
         {
-            "@context": "https://schema.org",
             "@type": "Article",
-            "headline": problem.title,
-            "description": problem.seo.description,
+            "headline": escapeText(problem.title),
+            "description": escapeText(problem.seo.description),
             "author": {
                 "@type": "Organization",
                 "name": "Benchmark Automotive Service"
@@ -69,7 +69,6 @@ export default async function SymptomPage({ params }: { params: Promise<{ sympto
             "url": url
         },
         {
-            "@context": "https://schema.org",
             "@type": "BreadcrumbList",
             "itemListElement": [
                 {
@@ -82,23 +81,23 @@ export default async function SymptomPage({ params }: { params: Promise<{ sympto
                     "@type": "ListItem",
                     "position": 2,
                     "name": "Symptom Troubleshooting",
-                    "item": `${baseUrl}/services` // Assuming symtom hub might not exist, pointing back to services
+                    "item": `${baseUrl}/services`
                 },
                 {
                     "@type": "ListItem",
                     "position": 3,
-                    "name": problem.title,
+                    "name": escapeText(problem.title),
                     "item": url
                 }
             ]
         }
-    ];
+    ]);
 
     return (
         <article className="flex flex-col min-h-[100dvh]">
             <script
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+                dangerouslySetInnerHTML={{ __html: serializeSchema(schema) }}
             />
             <section className="bg-navy-950 py-20 text-surface">
                 <div className="container mx-auto px-4 md:px-6 max-w-4xl">

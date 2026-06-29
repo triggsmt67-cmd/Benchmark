@@ -12,7 +12,7 @@ import { TestimonialsSection } from "@/components/widgets/testimonials-section";
 import { WhatWeDontDoSection } from "@/components/widgets/what-we-dont-do-section";
 import { FinalCtaBand } from "@/components/widgets/final-cta-band";
 import { ServiceAreasSection } from "@/components/widgets/service-areas-section";
-import { generateLocalBusinessSchema, generateWebSiteSchema, serializeSchema } from "@/lib/seo";
+import { getHomepageSchema, serializeSchema } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: {
@@ -24,10 +24,7 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
-  const schema = [
-    generateWebSiteSchema(),
-    generateLocalBusinessSchema()
-  ];
+  const schema = getHomepageSchema();
 
   return (
     <article className="flex flex-col min-h-[100dvh]">

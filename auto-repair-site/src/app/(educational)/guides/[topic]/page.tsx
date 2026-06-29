@@ -6,6 +6,7 @@ import { FinalCtaBand } from "@/components/widgets/final-cta-band";
 import { Breadcrumbs } from "@/components/widgets/breadcrumbs";
 import { RelatedServices } from "@/components/widgets/related-services";
 import { BookOpen } from "lucide-react";
+import { buildUnifiedGraph, escapeText, serializeSchema } from "@/lib/seo";
 
 // 1. Generate Static Params for build time
 export async function generateStaticParams() {
@@ -61,12 +62,11 @@ export default async function GuidePage({ params }: { params: Promise<{ topic: s
 
     const baseUrl = "https://www.benchmarkmissoula.com";
 
-    const schema = [
+    const nodes: Record<string, unknown>[] = [
         {
-            "@context": "https://schema.org",
             "@type": "Article",
-            "headline": guideTitle,
-            "description": data.description,
+            "headline": escapeText(guideTitle),
+            "description": escapeText(data.description),
             "author": {
                 "@type": "Organization",
                 "name": "Benchmark Automotive Service"
@@ -78,7 +78,6 @@ export default async function GuidePage({ params }: { params: Promise<{ topic: s
             "url": `${baseUrl}/guides/${topic}`
         },
         {
-            "@context": "https://schema.org",
             "@type": "BreadcrumbList",
             "itemListElement": [
                 {
@@ -96,33 +95,34 @@ export default async function GuidePage({ params }: { params: Promise<{ topic: s
                 {
                     "@type": "ListItem",
                     "position": 3,
-                    "name": guideTitle,
+                    "name": escapeText(guideTitle),
                     "item": `${baseUrl}/guides/${topic}`
                 }
             ]
         }
-    ] as Record<string, unknown>[];
+    ];
 
     if (data.faqs && data.faqs.length > 0) {
-        schema.push({
-            "@context": "https://schema.org",
+        nodes.push({
             "@type": "FAQPage",
-            "mainEntity": data.faqs.map((faq) => ({
+            "mainEntity": data.faqs.map((faq: { question: string; answer: string }) => ({
                 "@type": "Question",
-                "name": faq.question,
+                "name": escapeText(faq.question),
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": faq.answer
+                    "text": escapeText(faq.answer)
                 }
             }))
-        } as Record<string, unknown>);
+        });
     }
+
+    const schema = buildUnifiedGraph(nodes);
 
     return (
         <article className="flex flex-col min-h-[100dvh]">
             <script
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+                dangerouslySetInnerHTML={{ __html: serializeSchema(schema) }}
             />
             
             {/* Guide Hero */}

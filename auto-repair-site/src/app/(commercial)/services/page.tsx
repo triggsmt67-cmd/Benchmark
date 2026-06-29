@@ -95,7 +95,7 @@ export default async function ServicesHubPage() {
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{
-                    __html: JSON.stringify(getServicesHubSchema(services))
+                    __html: serializeSchema(getServicesHubSchema(services))
                 }}
             />
 

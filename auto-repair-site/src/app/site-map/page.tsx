@@ -6,6 +6,7 @@ import { PROBLEMS } from "@/lib/content-schema";
 import { Breadcrumbs } from "@/components/widgets/breadcrumbs";
 import { Reveal } from "@/components/motion/Reveal";
 import { PrecisionDivider } from "@/components/widgets/precision-divider";
+import { buildUnifiedGraph, serializeSchema } from "@/lib/seo";
 
 export const metadata: Metadata = {
     title: "Sitemap | Benchmark Automotive Service",
@@ -50,31 +51,33 @@ export default async function SitemapPage() {
     // Filter problems that are enabled for rendering
     const enabledProblems = PROBLEMS.filter((p) => p.renderingEnabled);
 
-    // Breadcrumb schema
-    const breadcrumbSchema = {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.benchmarkmissoula.com/"
-            },
-            {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Sitemap",
-                "item": "https://www.benchmarkmissoula.com/site-map"
-            }
-        ]
-    };
+    // Unified graph schema for the sitemap page
+    const schema = buildUnifiedGraph([
+        {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.benchmarkmissoula.com/site-map#breadcrumb",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.benchmarkmissoula.com/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Sitemap",
+                    "item": "https://www.benchmarkmissoula.com/site-map"
+                }
+            ]
+        }
+    ]);
 
     return (
         <article className="flex flex-col min-h-[100dvh]">
             <script
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+                dangerouslySetInnerHTML={{ __html: serializeSchema(schema) }}
             />
 
             {/* Hero Section */}
