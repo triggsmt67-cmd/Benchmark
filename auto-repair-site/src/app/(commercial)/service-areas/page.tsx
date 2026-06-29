@@ -6,6 +6,7 @@ import { siteConfig } from "@/lib/siteConfig";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { PrecisionDivider } from "@/components/widgets/precision-divider";
 import { Phone, ArrowRight, MapPin } from "lucide-react";
+import { getServiceAreasHubSchema } from "@/lib/seo";
 
 export const metadata: Metadata = {
     title: "Areas We Serve Around Missoula",
@@ -21,78 +22,36 @@ export const metadata: Metadata = {
 };
 
 export default function ServiceAreasIndexPage() {
+    const faqs = [
+        {
+            q: "Do you only serve Missoula drivers?",
+            a: "No. Benchmark Automotive Service is located in Missoula and serves drivers from nearby communities including Lolo, Frenchtown, Bonner, East Missoula, Clinton, Huson, Wye, and surrounding areas."
+        },
+        {
+            q: "Is it worth driving into Missoula for auto repair?",
+            a: "It depends on the problem. For routine maintenance, convenience matters. But for diagnostics, warning lights, brake concerns, electrical issues, suspension noise, or problems that are hard to pin down, a clear diagnosis can save time and money."
+        },
+        {
+            q: "Do you offer after-hours drop-off?",
+            a: "Yes. After-hours drop-off is available. We’ll confirm receipt the next business day."
+        },
+        {
+            q: "Can I schedule online?",
+            a: "Yes. You can schedule service online or call the shop directly at (406) 317-1405."
+        },
+        {
+            q: "What if I am not sure what service my vehicle needs?",
+            a: "That is okay. Tell us what you are noticing, and we’ll help determine the right next step."
+        }
+    ];
 
-    const breadcrumbSchema = {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.benchmarkmissoula.com/"
-            },
-            {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Service Areas",
-                "item": "https://www.benchmarkmissoula.com/service-areas"
-            }
-        ]
-    };
-
-    const faqSchema = {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "Do you only serve Missoula drivers?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "No. Benchmark Automotive Service is located in Missoula and serves drivers from nearby communities including Lolo, Frenchtown, Bonner, East Missoula, Clinton, Huson, Wye, and surrounding areas."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Is it worth driving into Missoula for auto repair?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "It depends on the problem. For routine maintenance, convenience matters. But for diagnostics, warning lights, brake concerns, electrical issues, suspension noise, or problems that are hard to pin down, a clear diagnosis can save time and money."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Do you offer after-hours drop-off?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. After-hours drop-off is available. We’ll confirm receipt the next business day."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can I schedule online?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. You can schedule service online or call the shop directly at (406) 317-1405."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What if I am not sure what service my vehicle needs?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "That is okay. Tell us what you are noticing, and we’ll help determine the right next step."
-                }
-            }
-        ]
-    };
+    const schema = getServiceAreasHubSchema(faqs);
 
     return (
         <article className="flex flex-col min-h-[100dvh]">
             <script
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify([breadcrumbSchema, faqSchema]) }}
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
             />
 
             {/* 1. Hero Section */}

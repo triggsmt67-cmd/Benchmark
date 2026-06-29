@@ -6,6 +6,7 @@ import { Breadcrumbs } from "@/components/widgets/breadcrumbs";
 import { siteConfig } from "@/lib/siteConfig";
 import { PrecisionDivider } from "@/components/widgets/precision-divider";
 import { Phone, ArrowRight, CheckCircle2 } from "lucide-react";
+import { getServiceAreaDetailSchema } from "@/lib/seo";
 
 export const metadata: Metadata = {
     title: "Auto Repair Near Bonner MT",
@@ -21,104 +22,45 @@ export const metadata: Metadata = {
 };
 
 export default function BonnerServiceAreaPage() {
-    const serviceSchema = {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.benchmarkmissoula.com/service-areas/bonner#service",
-        "name": "Auto Repair for Bonner, MT Drivers",
-        "serviceType": "Auto repair and diagnostic services",
-        "provider": { "@id": "https://www.benchmarkmissoula.com/#business" },
-        "areaServed": {
-            "@type": "City",
-            "name": "Bonner, MT"
+    const faqs = [
+        {
+            question: "Do you serve drivers from Bonner?",
+            answer: "Yes. Benchmark Automotive Service is located in Missoula and regularly helps drivers traveling in from Bonner, West Riverside, Piltzville, and up the Blackfoot Valley."
         },
-        "url": "https://www.benchmarkmissoula.com/service-areas/bonner"
-    };
-    const breadcrumbSchema = {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.benchmarkmissoula.com/"
-            },
-            {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Service Areas",
-                "item": "https://www.benchmarkmissoula.com/service-areas"
-            },
-            {
-                "@type": "ListItem",
-                "position": 3,
-                "name": "Bonner",
-                "item": "https://www.benchmarkmissoula.com/service-areas/bonner"
-            }
-        ]
-    };
+        {
+            question: "Is the drive from Bonner to Missoula worth it for auto service?",
+            answer: "Yes. While basic maintenance can be done anywhere, complex electrical diagnostics, high-speed steering vibrations, or check engine light troubleshooting are best handled by a shop specializing in testing rather than part-guessing."
+        },
+        {
+            question: "Can I drop off my car outside of normal business hours?",
+            answer: "Yes. We offer a secure after-hours drop-off system. Leave your vehicle and drop the keys in our secure box; we will confirm receipt the next business morning."
+        },
+        {
+            question: "What types of vehicle maintenance and repairs do you offer?",
+            answer: "We handle all core auto repair needs, including advanced electrical testing, check engine light scans, brake replacements, oil changes, battery testing, steering/suspension adjustments, and cooling system repairs."
+        },
+        {
+            question: "What if my vehicle has an issue but no warning light is on?",
+            answer: "That is very common. Mechanical issues like worn wheel bearings, ball joints, or brake noise will not trigger dashboard lights. Tell us the noises or vibrations you experience, and we will perform a physical inspection to isolate the cause."
+        },
+        {
+            question: "Where is Benchmark Automotive Service located?",
+            answer: "Benchmark Automotive Service is located at 1914 North Ave W in Missoula, which is easily accessible via the Reserve Street exit off I-90."
+        }
+    ];
 
-    const faqSchema = {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "Do you serve drivers from Bonner?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. Benchmark Automotive Service is located in Missoula and regularly helps drivers traveling in from Bonner, West Riverside, Piltzville, and up the Blackfoot Valley."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Is the drive from Bonner to Missoula worth it for auto service?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. While basic maintenance can be done anywhere, complex electrical diagnostics, high-speed steering vibrations, or check engine light troubleshooting are best handled by a shop specializing in testing rather than part-guessing."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can I drop off my car outside of normal business hours?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. We offer a secure after-hours drop-off system. Leave your vehicle and drop the keys in our secure box; we will confirm receipt the next business morning."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What types of vehicle maintenance and repairs do you offer?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "We handle all core auto repair needs, including advanced electrical testing, check engine light scans, brake replacements, oil changes, battery testing, steering/suspension adjustments, and cooling system repairs."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What if my vehicle has an issue but no warning light is on?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "That is very common. Mechanical issues like worn wheel bearings, ball joints, or brake noise will not trigger dashboard lights. Tell us the noises or vibrations you experience, and we will perform a physical inspection to isolate the cause."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Where is Benchmark Automotive Service located?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Benchmark Automotive Service is located at 1914 North Ave W in Missoula, which is easily accessible via the Reserve Street exit off I-90."
-                }
-            }
-        ]
-    };
+    const schema = getServiceAreaDetailSchema({
+        citySlug: "bonner",
+        cityName: "Bonner",
+        title: "Auto Repair Near Bonner MT",
+        faqs
+    });
 
     return (
         <article className="flex flex-col min-h-[100dvh]">
             <script
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify([serviceSchema, breadcrumbSchema, faqSchema]) }}
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
             />
 
             {/* Hero Section */}

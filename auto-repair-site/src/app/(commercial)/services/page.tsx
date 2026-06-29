@@ -4,6 +4,7 @@ import { FinalCtaBand } from "@/components/widgets/final-cta-band";
 import { Reveal } from "@/components/motion/Reveal";
 import Link from "next/link";
 import { Phone, ArrowRight } from "lucide-react";
+import { getServicesHubSchema } from "@/lib/seo";
 
 export const metadata: Metadata = {
     title: "Services in Missoula, MT",
@@ -90,55 +91,11 @@ export default async function ServicesHubPage() {
 
     return (
         <article className="flex flex-col min-h-[100dvh]">
-            {/* Structured Data: ItemList of Services */}
+            {/* Structured Data: Unified Graph */}
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{
-                    __html: JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "ItemList",
-                        "name": "Benchmark Automotive Service Offerings",
-                        "description": "Comprehensive list of auto repair and diagnostic services in Missoula, MT.",
-                        "itemListElement": services.map((s, index) => ({
-                            "@type": "ListItem",
-                            "position": index + 1,
-                            "item": {
-                                "@type": "Service",
-                                "name": s.title,
-                                "description": s.description,
-                                "url": `https://www.benchmarkmissoula.com/services/${s.slug}`,
-                                "provider": {
-                                    "@type": "AutoRepair",
-                                    "@id": "https://www.benchmarkmissoula.com/#business"
-                                }
-                            }
-                        }))
-                    })
-                }}
-            />
-
-            {/* Structured Data: BreadcrumbList */}
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{
-                    __html: JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            {
-                                "@type": "ListItem",
-                                "position": 1,
-                                "name": "Home",
-                                "item": "https://www.benchmarkmissoula.com/"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 2,
-                                "name": "Services",
-                                "item": "https://www.benchmarkmissoula.com/services"
-                            }
-                        ]
-                    })
+                    __html: JSON.stringify(getServicesHubSchema(services))
                 }}
             />
 

@@ -6,6 +6,7 @@ import { Breadcrumbs } from "@/components/widgets/breadcrumbs";
 import { siteConfig } from "@/lib/siteConfig";
 import { PrecisionDivider } from "@/components/widgets/precision-divider";
 import { Phone, ArrowRight, CheckCircle2, ShieldCheck } from "lucide-react";
+import { getServiceAreaDetailSchema } from "@/lib/seo";
 
 export const metadata: Metadata = {
     title: "Auto Repair for Lolo, MT Drivers",
@@ -21,106 +22,45 @@ export const metadata: Metadata = {
 };
 
 export default function LoloServiceAreaPage() {
-
-    const serviceSchema = {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.benchmarkmissoula.com/service-areas/lolo#service",
-        "name": "Auto Repair for Lolo, MT Drivers",
-        "serviceType": "Auto repair and diagnostic services",
-        "provider": { "@id": "https://www.benchmarkmissoula.com/#business" },
-        "areaServed": {
-            "@type": "City",
-            "name": "Lolo, MT"
+    const faqs = [
+        {
+            question: "Do you serve drivers from Lolo?",
+            answer: "Yes. Benchmark Automotive Service is located in Missoula and helps drivers from Lolo and nearby communities."
         },
-        "url": "https://www.benchmarkmissoula.com/service-areas/lolo"
-    };
+        {
+            question: "Is it worth driving into Missoula for auto repair?",
+            answer: "It depends on the problem. For basic maintenance, convenience matters. But if the issue is hard to diagnose, keeps coming back, or only happens sometimes, a clear answer can save time and money."
+        },
+        {
+            question: "Can I drop my vehicle off after hours?",
+            answer: "Yes. After-hours drop-off is available. We will confirm receipt the next business day."
+        },
+        {
+            question: "Do you handle both maintenance and repairs?",
+            answer: "Yes. We handle routine maintenance, inspections, diagnostics, brake repair, suspension and steering work, electrical issues, starting and charging problems, heating and A/C concerns, and other common auto repair needs."
+        },
+        {
+            question: "What if I am not sure what is wrong with my vehicle?",
+            answer: "That is normal. Tell us what you are noticing, when it happens, and whether it happens during city driving, highway driving, braking, turning, cold starts, or longer trips. We will help you figure out the right next step."
+        },
+        {
+            question: "Where is Benchmark Automotive Service located?",
+            answer: "Benchmark Automotive Service is located at 1914 North Ave W in Missoula."
+        }
+    ];
 
-    const breadcrumbSchema = {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.benchmarkmissoula.com/"
-            },
-            {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Service Areas",
-                "item": "https://www.benchmarkmissoula.com/service-areas"
-            },
-            {
-                "@type": "ListItem",
-                "position": 3,
-                "name": "Lolo",
-                "item": "https://www.benchmarkmissoula.com/service-areas/lolo"
-            }
-        ]
-    };
-
-    const faqSchema = {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "Do you serve drivers from Lolo?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. Benchmark Automotive Service is located in Missoula and helps drivers from Lolo and nearby communities."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Is it worth driving into Missoula for auto repair?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "It depends on the problem. For basic maintenance, convenience matters. But if the issue is hard to diagnose, keeps coming back, or only happens sometimes, a clear answer can save time and money."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can I drop my vehicle off after hours?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. After-hours drop-off is available. We will confirm receipt the next business day."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Do you handle both maintenance and repairs?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. We handle routine maintenance, inspections, diagnostics, brake repair, suspension and steering work, electrical issues, starting and charging problems, heating and A/C concerns, and other common auto repair needs."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What if I am not sure what is wrong with my vehicle?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "That is normal. Tell us what you are noticing, when it happens, and whether it happens during city driving, highway driving, braking, turning, cold starts, or longer trips. We will help you figure out the right next step."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Where is Benchmark Automotive Service located?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Benchmark Automotive Service is located at 1914 North Ave W in Missoula."
-                }
-            }
-        ]
-    };
+    const schema = getServiceAreaDetailSchema({
+        citySlug: "lolo",
+        cityName: "Lolo",
+        title: "Auto Repair for Lolo, MT Drivers",
+        faqs
+    });
 
     return (
         <article className="flex flex-col min-h-[100dvh]">
             <script
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify([serviceSchema, breadcrumbSchema, faqSchema]) }}
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
             />
 
             {/* Hero Section */}

@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Reveal } from "@/components/motion/Reveal";
 import { Breadcrumbs } from "@/components/widgets/breadcrumbs";
 import { FinalCtaBand } from "@/components/widgets/final-cta-band";
+import { getServiceAreaDetailSchema } from "@/lib/seo";
 
 export const metadata: Metadata = {
     title: "Auto Repair Near East Missoula MT",
@@ -18,36 +19,37 @@ export const metadata: Metadata = {
 };
 
 export default function EastMissoulaServiceAreaPage() {
-    const breadcrumbSchema = {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.benchmarkmissoula.com/"
-            },
-            {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Service Areas",
-                "item": "https://www.benchmarkmissoula.com/service-areas"
-            },
-            {
-                "@type": "ListItem",
-                "position": 3,
-                "name": "East Missoula, MT",
-                "item": "https://www.benchmarkmissoula.com/service-areas/east-missoula"
-            }
-        ]
-    };
+    const faqs = [
+        {
+            question: "Do you serve drivers from East Missoula?",
+            answer: "Yes. Benchmark Automotive Service helps East Missoula drivers with diagnostics, brake repair, maintenance, inspections, electrical concerns, and general auto repair from our Missoula shop."
+        },
+        {
+            question: "Is the drive from East Missoula to Missoula worth it for auto service?",
+            answer: "Yes. While standard maintenance can be done anywhere, complex electrical diagnostics, steering vibrations, or check engine light troubleshooting are best handled by a shop specializing in testing rather than part-guessing."
+        },
+        {
+            question: "Can I drop off my car outside of normal business hours?",
+            answer: "Yes. We offer a secure after-hours drop-off system. Leave your vehicle and drop the keys in our secure box; we will confirm receipt the next business morning."
+        },
+        {
+            question: "What types of vehicle maintenance and repairs do you offer?",
+            answer: "We handle all core auto repair needs, including advanced electrical testing, check engine light scans, brake replacements, oil changes, battery testing, steering/suspension adjustments, and cooling system repairs."
+        }
+    ];
+
+    const schema = getServiceAreaDetailSchema({
+        citySlug: "east-missoula",
+        cityName: "East Missoula",
+        title: "Auto Repair Near East Missoula MT",
+        faqs
+    });
 
     return (
         <article className="flex flex-col min-h-[100dvh]">
             <script
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify([breadcrumbSchema]) }}
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
             />
             {/* Hero */}
             <section className="bg-navy-950 text-white py-24 md:py-32 border-b border-navy-900">

@@ -8,6 +8,7 @@ import { Breadcrumbs } from "@/components/widgets/breadcrumbs";
 import { RelatedServices } from "@/components/widgets/related-services";
 import { NewCustomerOffer } from "@/components/widgets/new-customer-offer";
 import { serviceOfferConfigs } from "@/lib/serviceOfferConfigs";
+import { getServiceDetailSchema } from "@/lib/seo";
 
 /**
  * Splits markdown content at the end of a target section.
@@ -96,98 +97,19 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
     const baseUrl = "https://www.benchmarkmissoula.com";
     const offerConfig = serviceOfferConfigs[slug];
 
-    // Build the Service schema, optionally with an Offer
-    const serviceSchema: Record<string, unknown> = {
-        "@context": "https://schema.org",
-        "@type": "Service",
+    const schema = getServiceDetailSchema({
+        slug,
         name: serviceName,
-        description: data.description || `Professional ${serviceName.toLowerCase()}`,
-        serviceType: serviceName,
-        areaServed: [
-            {
-                "@type": "City",
-                "name": "Missoula, MT"
-            },
-            {
-                "@type": "City",
-                "name": "Lolo, MT"
-            }
-        ],
-        provider: {
-            "@type": "AutoRepair",
-            "@id": "https://www.benchmarkmissoula.com/#business"
-        },
-        image: `${baseUrl}/diagnostic_hero_bg_v2.png`,
-        url: `${baseUrl}/services/${slug}`
-    };
-
-    // Attach Offer structured data when an offer config exists
-    if (offerConfig) {
-        const priceValue = offerConfig.price.replace(/[^0-9.]/g, "");
-        serviceSchema.hasOfferCatalog = {
-            "@type": "OfferCatalog",
-            name: `${serviceName} Offers`,
-            itemListElement: [
-                {
-                    "@type": "Offer",
-                    name: offerConfig.title,
-                    price: priceValue,
-                    priceCurrency: "USD",
-                    description: [
-                        offerConfig.description,
-                        offerConfig.includes ? `Includes: ${offerConfig.includes.join(", ")}` : "",
-                    ].filter(Boolean).join(" "),
-                    eligibleCustomerType: "http://schema.org/NewCustomer",
-                    availability: "https://schema.org/InStock",
-                    ...(offerConfig.disclaimer ? { termsOfService: offerConfig.disclaimer } : {}),
-                    url: `${baseUrl}/services/${slug}`
-                }
-            ]
-        };
-    }
-
-    const schema = [
-        serviceSchema,
-        {
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-                {
-                    "@type": "ListItem",
-                    "position": 1,
-                    "name": "Home",
-                    "item": `${baseUrl}/`
-                },
-                {
-                    "@type": "ListItem",
-                    "position": 2,
-                    "name": "Services",
-                    "item": `${baseUrl}/services`
-                },
-                {
-                    "@type": "ListItem",
-                    "position": 3,
-                    "name": serviceName,
-                    "item": `${baseUrl}/services/${slug}`
-                }
-            ]
-        }
-    ] as Record<string, unknown>[];
-
-    if (data.faqs && data.faqs.length > 0) {
-        schema.push({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": data.faqs.map((faq) => ({
-                "@type": "Question",
-                "name": faq.question,
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": faq.answer
-                }
-            }))
-        } as Record<string, unknown>);
-    }
+        description: data.description || heroDescription,
+        offerConfig: offerConfig ? {
+            title: offerConfig.title,
+            price: offerConfig.price,
+            description: offerConfig.description,
+            includes: offerConfig.includes,
+            disclaimer: offerConfig.disclaimer
+        } : undefined,
+        faqs: data.faqs
+    });
 
     return (
         <article className="flex flex-col min-h-[100dvh]">

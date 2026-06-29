@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Reveal } from "@/components/motion/Reveal";
 import { Breadcrumbs } from "@/components/widgets/breadcrumbs";
 import { FinalCtaBand } from "@/components/widgets/final-cta-band";
+import { getServiceAreaDetailSchema } from "@/lib/seo";
 
 export const metadata: Metadata = {
     title: "Auto Repair Near Orchard Homes MT",
@@ -18,36 +19,37 @@ export const metadata: Metadata = {
 };
 
 export default function OrchardHomesServiceAreaPage() {
-    const breadcrumbSchema = {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.benchmarkmissoula.com/"
-            },
-            {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Service Areas",
-                "item": "https://www.benchmarkmissoula.com/service-areas"
-            },
-            {
-                "@type": "ListItem",
-                "position": 3,
-                "name": "Orchard Homes, MT",
-                "item": "https://www.benchmarkmissoula.com/service-areas/orchard-homes"
-            }
-        ]
-    };
+    const faqs = [
+        {
+            question: "Do you serve drivers from Orchard Homes?",
+            answer: "Yes. Benchmark Automotive Service is located in Missoula and regularly serves drivers from Orchard Homes, the Target Range area, and nearby neighborhoods."
+        },
+        {
+            question: "Is it worth driving into Missoula for auto care?",
+            answer: "Yes. Since we are located right here in Missoula (near Reserve St and 3rd St), the drive is extremely short. We offer diagnostic-first testing to make sure we find the exact failure before any repairs are performed."
+        },
+        {
+            question: "Can I drop off my car outside of normal business hours?",
+            answer: "Yes. We offer a secure after-hours drop-off system. Leave your vehicle and drop the keys in our secure box; we will confirm receipt the next business morning."
+        },
+        {
+            question: "What types of vehicle maintenance and repairs do you offer?",
+            answer: "We handle all core auto repair needs, including advanced electrical testing, check engine light scans, brake replacements, oil changes, battery testing, steering/suspension adjustments, and cooling system repairs."
+        }
+    ];
+
+    const schema = getServiceAreaDetailSchema({
+        citySlug: "orchard-homes",
+        cityName: "Orchard Homes",
+        title: "Auto Repair Near Orchard Homes MT",
+        faqs
+    });
 
     return (
         <article className="flex flex-col min-h-[100dvh]">
             <script
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify([breadcrumbSchema]) }}
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
             />
             {/* Hero */}
             <section className="bg-navy-950 text-white py-24 md:py-32 border-b border-navy-900">

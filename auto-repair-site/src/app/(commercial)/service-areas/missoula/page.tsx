@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Reveal } from "@/components/motion/Reveal";
 import { Breadcrumbs } from "@/components/widgets/breadcrumbs";
 import { FinalCtaBand } from "@/components/widgets/final-cta-band";
+import { getServiceAreaDetailSchema } from "@/lib/seo";
 
 export const metadata: Metadata = {
     title: "Auto Repair in Missoula, MT",
@@ -18,36 +19,41 @@ export const metadata: Metadata = {
 };
 
 export default function MissoulaServiceAreaPage() {
-    const breadcrumbSchema = {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.benchmarkmissoula.com/"
-            },
-            {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Service Areas",
-                "item": "https://www.benchmarkmissoula.com/service-areas"
-            },
-            {
-                "@type": "ListItem",
-                "position": 3,
-                "name": "Missoula, MT",
-                "item": "https://www.benchmarkmissoula.com/service-areas/missoula"
-            }
-        ]
-    };
+    const faqs = [
+        {
+            question: "Where is Benchmark Automotive Service located in Missoula?",
+            answer: "We are located at 1914 North Ave W in Missoula, MT 59801, which is easily accessible via the Reserve Street exit off I-90."
+        },
+        {
+            question: "Do you serve other communities besides Missoula?",
+            answer: "Yes. In addition to Missoula, we serve Lolo, Frenchtown, Bonner, East Missoula, Clinton, Huson, Wye, and surrounding communities."
+        },
+        {
+            question: "Can I drop off my car outside of normal business hours?",
+            answer: "Yes. We offer a secure after-hours drop-off system. Leave your vehicle and drop the keys in our secure box; we will confirm receipt the next business morning."
+        },
+        {
+            question: "What types of vehicle maintenance and repairs do you offer?",
+            answer: "We handle all core auto repair needs, including advanced electrical testing, check engine light scans, brake replacements, oil changes, battery testing, steering/suspension adjustments, and cooling system repairs."
+        },
+        {
+            question: "What if my vehicle has an issue but no warning light is on?",
+            answer: "That is very common. Mechanical issues like worn wheel bearings, ball joints, or brake noise will not trigger dashboard lights. Tell us the noises or vibrations you experience, and we will perform a physical inspection to isolate the cause."
+        }
+    ];
+
+    const schema = getServiceAreaDetailSchema({
+        citySlug: "missoula",
+        cityName: "Missoula",
+        title: "Auto Repair in Missoula, MT",
+        faqs
+    });
 
     return (
         <article className="flex flex-col min-h-[100dvh]">
             <script
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify([breadcrumbSchema]) }}
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
             />
             {/* Hero */}
             <section className="bg-navy-950 text-white py-24 md:py-32 border-b border-navy-900">
