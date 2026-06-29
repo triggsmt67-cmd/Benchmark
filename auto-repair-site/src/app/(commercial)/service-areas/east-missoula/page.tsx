@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Reveal } from "@/components/motion/Reveal";
 import { Breadcrumbs } from "@/components/widgets/breadcrumbs";
 import { FinalCtaBand } from "@/components/widgets/final-cta-band";
-import { getServiceAreaDetailSchema } from "@/lib/seo";
+import { getServiceAreaDetailSchema, serializeSchema } from "@/lib/seo";
 
 export const metadata: Metadata = {
     title: "Auto Repair Near East Missoula MT",
@@ -49,7 +49,7 @@ export default function EastMissoulaServiceAreaPage() {
         <article className="flex flex-col min-h-[100dvh]">
             <script
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+                dangerouslySetInnerHTML={{ __html: serializeSchema(schema) }}
             />
             {/* Hero */}
             <section className="bg-navy-950 text-white py-24 md:py-32 border-b border-navy-900">

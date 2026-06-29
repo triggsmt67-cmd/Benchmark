@@ -256,6 +256,31 @@ export interface ServiceSchemaOptions {
     faqs?: { question: string; answer: string }[];
 }
 
+export function escapeText(str: string): string {
+    if (!str) return "";
+    return str
+        .replace(/[\u0000-\u001F\u007F-\u009F]/g, "") // strip control characters
+        .trim();
+}
+
+export function serializeSchema(schema: any): string {
+    return JSON.stringify(schema)
+        .replace(/</g, '\\u003c')
+        .replace(/>/g, '\\u003e');
+}
+
+function cleanGraphContext(nodes: any[]): any[] {
+    return nodes.map((node, index) => {
+        const cleaned = { ...node };
+        if (index === 0) {
+            cleaned["@context"] = "https://schema.org";
+        } else {
+            delete cleaned["@context"];
+        }
+        return cleaned;
+    });
+}
+
 export function getServiceDetailSchema(options: ServiceSchemaOptions): any[] {
     const pageUrl = `https://www.benchmarkmissoula.com/services/${options.slug}`;
     
@@ -265,9 +290,9 @@ export function getServiceDetailSchema(options: ServiceSchemaOptions): any[] {
     const service: any = {
         "@type": "Service",
         "@id": `${pageUrl}#service`,
-        "name": options.name,
-        "description": options.description,
-        "serviceType": options.name,
+        "name": escapeText(options.name),
+        "description": escapeText(options.description),
+        "serviceType": escapeText(options.name),
         "provider": {
             "@id": "https://www.benchmarkmissoula.com/#business"
         },
@@ -287,21 +312,21 @@ export function getServiceDetailSchema(options: ServiceSchemaOptions): any[] {
         const priceValue = options.offerConfig.price.replace(/[^0-9.]/g, "");
         service.hasOfferCatalog = {
             "@type": "OfferCatalog",
-            "name": `${options.name} Offers`,
+            "name": `${escapeText(options.name)} Offers`,
             "itemListElement": [
                 {
                     "@type": "Offer",
-                    "name": options.offerConfig.title,
+                    "name": escapeText(options.offerConfig.title),
                     "price": priceValue,
                     "priceCurrency": "USD",
                     "description": [
-                        options.offerConfig.description,
-                        options.offerConfig.includes ? `Includes: ${options.offerConfig.includes.join(", ")}` : "",
+                        escapeText(options.offerConfig.description),
+                        options.offerConfig.includes ? `Includes: ${options.offerConfig.includes.map(escapeText).join(", ")}` : "",
                     ].filter(Boolean).join(" "),
                     "eligibleCustomerType": "http://schema.org/NewCustomer",
                     "availability": "https://schema.org/InStock",
                     "url": pageUrl,
-                    ...(options.offerConfig.disclaimer ? { "termsOfService": options.offerConfig.disclaimer } : {})
+                    ...(options.offerConfig.disclaimer ? { "termsOfService": escapeText(options.offerConfig.disclaimer) } : {})
                 }
             ]
         };
@@ -326,7 +351,7 @@ export function getServiceDetailSchema(options: ServiceSchemaOptions): any[] {
             {
                 "@type": "ListItem",
                 "position": 3,
-                "name": options.name,
+                "name": escapeText(options.name),
                 "item": pageUrl
             }
         ]
@@ -340,25 +365,17 @@ export function getServiceDetailSchema(options: ServiceSchemaOptions): any[] {
             "@id": `${pageUrl}#faq`,
             "mainEntity": options.faqs.map(faq => ({
                 "@type": "Question",
-                "name": faq.question,
+                "name": escapeText(faq.question),
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": faq.answer
+                    "text": escapeText(faq.answer)
                 }
             }))
         };
         nodes.push(faqPage);
     }
     
-    return nodes.map((node, index) => {
-        const cleaned = { ...node };
-        if (index === 0) {
-            cleaned["@context"] = "https://schema.org";
-        } else {
-            delete cleaned["@context"];
-        }
-        return cleaned;
-    });
+    return cleanGraphContext(nodes);
 }
 
 export interface CityServiceSchemaOptions {
@@ -371,25 +388,26 @@ export interface CityServiceSchemaOptions {
     faqs?: { question: string; answer: string }[];
 }
 
-export function getCityServiceSchema(options: CityServiceSchemaOptions) {
+export function getCityServiceSchema(options: CityServiceSchemaOptions): any[] {
     const cityEntity = getNormalizedCityEntity(options.citySlug);
     const pageUrl = `https://www.benchmarkmissoula.com/services/${options.slug}/${options.citySlug}`;
-    const pageName = `${options.serviceName} in ${options.cityName}, ${options.cityState} | ${siteConfig.businessName}`;
-    const base = getBaseGraph(pageUrl, pageName);
+    
+    const website = generateWebSiteSchema();
+    const business = generateLocalBusinessSchema();
     
     const service: any = {
         "@type": "Service",
         "@id": `${pageUrl}#service`,
-        "name": `${options.serviceName} in ${options.cityName}, ${options.cityState}`,
-        "description": options.serviceDescription,
-        "serviceType": options.serviceName,
+        "name": escapeText(`${options.serviceName} in ${options.cityName}, ${options.cityState}`),
+        "description": escapeText(options.serviceDescription),
+        "serviceType": escapeText(options.serviceName),
         "provider": {
             "@id": "https://www.benchmarkmissoula.com/#business"
         },
         "areaServed": {
             "@type": "City",
             "name": cityEntity.name.split(",")[0],
-            "sameAs": cityEntity.sameAs[0]
+            "sameAs": cityEntity.sameAs
         },
         "image": "https://www.benchmarkmissoula.com/diagnostic_hero_bg_v2.png",
         "url": pageUrl
@@ -414,19 +432,19 @@ export function getCityServiceSchema(options: CityServiceSchemaOptions) {
             {
                 "@type": "ListItem",
                 "position": 3,
-                "name": options.serviceName,
+                "name": escapeText(options.serviceName),
                 "item": `https://www.benchmarkmissoula.com/services/${options.slug}`
             },
             {
                 "@type": "ListItem",
                 "position": 4,
-                "name": options.cityName,
+                "name": escapeText(options.cityName),
                 "item": pageUrl
             }
         ]
     };
     
-    const nodes = [...base, service, breadcrumbs];
+    const nodes = [website, business, service, breadcrumbs];
     
     if (options.faqs && options.faqs.length > 0) {
         const faqPage = {
@@ -434,23 +452,25 @@ export function getCityServiceSchema(options: CityServiceSchemaOptions) {
             "@id": `${pageUrl}#faq`,
             "mainEntity": options.faqs.map(faq => ({
                 "@type": "Question",
-                "name": faq.question,
+                "name": escapeText(faq.question),
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": faq.answer
+                    "text": escapeText(faq.answer)
                 }
             }))
         };
         nodes.push(faqPage);
     }
     
-    return buildUnifiedGraph(nodes);
+    return cleanGraphContext(nodes);
 }
 
-export function getServiceAreasHubSchema(faqs: { q: string; a: string }[]) {
+export function getServiceAreasHubSchema(faqs: { q: string; a: string }[]): any[] {
     const pageUrl = "https://www.benchmarkmissoula.com/service-areas";
     const pageName = "Areas We Serve Around Missoula";
-    const base = getBaseGraph(pageUrl, pageName);
+    
+    const website = generateWebSiteSchema();
+    const business = generateLocalBusinessSchema();
     
     const breadcrumbs = {
         "@type": "BreadcrumbList",
@@ -476,15 +496,15 @@ export function getServiceAreasHubSchema(faqs: { q: string; a: string }[]) {
         "@id": `${pageUrl}#faq`,
         "mainEntity": faqs.map(faq => ({
             "@type": "Question",
-            "name": faq.q,
+            "name": escapeText(faq.q),
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": faq.a
+                "text": escapeText(faq.a)
             }
         }))
     };
     
-    return buildUnifiedGraph([...base, breadcrumbs, faqPage]);
+    return cleanGraphContext([website, business, breadcrumbs, faqPage]);
 }
 
 export interface ServiceAreaDetailSchemaOptions {
@@ -494,16 +514,17 @@ export interface ServiceAreaDetailSchemaOptions {
     faqs: { question: string; answer: string }[];
 }
 
-export function getServiceAreaDetailSchema(options: ServiceAreaDetailSchemaOptions) {
+export function getServiceAreaDetailSchema(options: ServiceAreaDetailSchemaOptions): any[] {
     const cityEntity = getNormalizedCityEntity(options.citySlug);
     const pageUrl = `https://www.benchmarkmissoula.com/service-areas/${options.citySlug}`;
-    const pageName = options.title;
-    const base = getBaseGraph(pageUrl, pageName);
+    
+    const website = generateWebSiteSchema();
+    const business = generateLocalBusinessSchema();
     
     const service = {
         "@type": "Service",
         "@id": `${pageUrl}#service`,
-        "name": `Auto Repair for ${cityEntity.name} Drivers`,
+        "name": escapeText(`Auto Repair for ${cityEntity.name} Drivers`),
         "serviceType": "Auto repair and diagnostic services",
         "provider": {
             "@id": "https://www.benchmarkmissoula.com/#business"
@@ -511,7 +532,7 @@ export function getServiceAreaDetailSchema(options: ServiceAreaDetailSchemaOptio
         "areaServed": {
             "@type": "City",
             "name": cityEntity.name.split(",")[0],
-            "sameAs": cityEntity.sameAs[0]
+            "sameAs": cityEntity.sameAs
         },
         "url": pageUrl
     };
@@ -535,24 +556,29 @@ export function getServiceAreaDetailSchema(options: ServiceAreaDetailSchemaOptio
             {
                 "@type": "ListItem",
                 "position": 3,
-                "name": options.cityName,
+                "name": escapeText(options.cityName),
                 "item": pageUrl
             }
         ]
     };
     
-    const faqPage = {
-        "@type": "FAQPage",
-        "@id": `${pageUrl}#faq`,
-        "mainEntity": options.faqs.map(faq => ({
-            "@type": "Question",
-            "name": faq.question,
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": faq.answer
-            }
-        }))
-    };
+    const nodes: any[] = [website, business, service, breadcrumbs];
     
-    return buildUnifiedGraph([...base, service, breadcrumbs, faqPage]);
+    if (options.faqs && options.faqs.length > 0) {
+        const faqPage = {
+            "@type": "FAQPage",
+            "@id": `${pageUrl}#faq`,
+            "mainEntity": options.faqs.map(faq => ({
+                "@type": "Question",
+                "name": escapeText(faq.question),
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": escapeText(faq.answer)
+                }
+            }))
+        };
+        nodes.push(faqPage);
+    }
+    
+    return cleanGraphContext(nodes);
 }

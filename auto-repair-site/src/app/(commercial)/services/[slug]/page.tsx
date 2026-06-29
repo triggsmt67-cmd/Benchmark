@@ -8,7 +8,7 @@ import { Breadcrumbs } from "@/components/widgets/breadcrumbs";
 import { RelatedServices } from "@/components/widgets/related-services";
 import { NewCustomerOffer } from "@/components/widgets/new-customer-offer";
 import { serviceOfferConfigs } from "@/lib/serviceOfferConfigs";
-import { getServiceDetailSchema } from "@/lib/seo";
+import { getServiceDetailSchema, serializeSchema } from "@/lib/seo";
 
 /**
  * Splits markdown content at the end of a target section.
@@ -110,15 +110,11 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
         faqs: data.faqs
     });
 
-    const cleanSchemaString = JSON.stringify(schema)
-        .replace(/</g, '\\u003c')
-        .replace(/>/g, '\\u003e');
-
     return (
         <article className="flex flex-col min-h-[100dvh]">
             <script
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: cleanSchemaString }}
+                dangerouslySetInnerHTML={{ __html: serializeSchema(schema) }}
             />
             {/* Service Hero */}
             <section className="bg-navy-950 text-white py-24 md:py-32 border-b border-navy-900">

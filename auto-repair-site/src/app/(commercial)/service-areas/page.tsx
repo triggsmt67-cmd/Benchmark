@@ -6,7 +6,7 @@ import { siteConfig } from "@/lib/siteConfig";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { PrecisionDivider } from "@/components/widgets/precision-divider";
 import { Phone, ArrowRight, MapPin } from "lucide-react";
-import { getServiceAreasHubSchema } from "@/lib/seo";
+import { getServiceAreasHubSchema, serializeSchema } from "@/lib/seo";
 
 export const metadata: Metadata = {
     title: "Areas We Serve Around Missoula",
@@ -51,7 +51,7 @@ export default function ServiceAreasIndexPage() {
         <article className="flex flex-col min-h-[100dvh]">
             <script
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+                dangerouslySetInnerHTML={{ __html: serializeSchema(schema) }}
             />
 
             {/* 1. Hero Section */}

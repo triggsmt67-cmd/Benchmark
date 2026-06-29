@@ -4,7 +4,7 @@ import { FinalCtaBand } from "@/components/widgets/final-cta-band";
 import { Reveal } from "@/components/motion/Reveal";
 import Link from "next/link";
 import { Phone, ArrowRight } from "lucide-react";
-import { getServicesHubSchema } from "@/lib/seo";
+import { getServicesHubSchema, serializeSchema } from "@/lib/seo";
 
 export const metadata: Metadata = {
     title: "Services in Missoula, MT",

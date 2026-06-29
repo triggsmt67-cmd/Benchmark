@@ -6,7 +6,7 @@ import { Breadcrumbs } from "@/components/widgets/breadcrumbs";
 import { siteConfig } from "@/lib/siteConfig";
 import { PrecisionDivider } from "@/components/widgets/precision-divider";
 import { Phone, ArrowRight, CheckCircle2 } from "lucide-react";
-import { getServiceAreaDetailSchema } from "@/lib/seo";
+import { getServiceAreaDetailSchema, serializeSchema } from "@/lib/seo";
 
 export const metadata: Metadata = {
     title: "Auto Repair Near Bonner MT",
@@ -60,7 +60,7 @@ export default function BonnerServiceAreaPage() {
         <article className="flex flex-col min-h-[100dvh]">
             <script
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+                dangerouslySetInnerHTML={{ __html: serializeSchema(schema) }}
             />
 
             {/* Hero Section */}
