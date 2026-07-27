@@ -37,4 +37,22 @@ export const serviceOfferConfigs: Record<string, NewCustomerOfferProps> = {
     "general-maintenance": { ...defaultOffer },
     "how-cold-weather-affects-your-car": { ...defaultOffer },
     "auto-repair-missoula-mt": { ...defaultOffer },
+
+    // - AC & Climate -
+    "car-not-blowing-cold-air": {
+        eyebrow: "AC Service Special",
+        title: "AC Diagnostic & Recharge",
+        price: "$349.00",
+        description:
+            "Full-system AC diagnosis with leak detection, pressure testing, and refrigerant recharge to manufacturer spec.",
+        includes: [
+            "Manifold gauge pressure test",
+            "UV dye leak detection",
+            "Compressor & clutch inspection",
+            "Refrigerant recharge to spec",
+        ],
+        ctaLabel: "Book Appointment",
+        ctaHref: "/contact",
+        disclaimer: "Standard systems up to R-134a. R-1234yf systems may vary.",
+    },
 };
