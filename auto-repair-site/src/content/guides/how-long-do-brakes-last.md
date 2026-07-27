@@ -11,18 +11,18 @@ related:
   - vehicle-inspection
 faqs:
   - question: "How long do brake pads actually last in Montana?"
-    answer: "In mostly flat city driving, 30,000–50,000 miles is realistic. If you're regularly on mountain passes, towing, or driving a heavy truck or SUV, expect closer to 20,000–35,000 miles. Grade and load matter more than mileage alone."
+    answer: "There is no dependable mileage that applies to every vehicle. Pad material, vehicle weight, towing, mountain grades, and driving habits all change the rate of wear. Measuring the remaining friction material is more reliable than replacing brakes at a generic mileage."
   - question: "My brakes are squealing. Is it safe to keep driving?"
-    answer: "Squealing usually means the wear indicator - a small metal tab on the pad - is touching the rotor. That's a warning signal, not an immediate emergency. It typically gives you a few hundred miles. Grinding is different. If you hear metal-on-metal, the friction material is gone and the rotor is being damaged. Don't wait on grinding."
+    answer: "A brief squeal after the vehicle sits may be surface rust, while a persistent squeal can indicate a wear tab, glazed friction material, or sticking hardware. Because those conditions sound similar from the driver's seat, persistent noise should be inspected. Stop driving and arrange service if the sound becomes grinding or braking performance changes."
   - question: "How often should brake fluid be replaced?"
-    answer: "Most shops recommend every 2–3 years, but the real test is moisture content. A moisture meter takes two minutes and tells you whether your fluid's boiling point has dropped. DOT 3 fluid starts with a boiling point around 400°F. Add moisture absorption and that drops to around 285°F - a real problem on long mountain descents."
+    answer: "The vehicle manufacturer's schedule is the starting point, but fluid condition matters too. Brake fluid absorbs moisture over time, which lowers its boiling point. We test moisture content and consider the vehicle's service history before recommending replacement."
 ---
 
 Most brake pads are rated for 30,000 to 70,000 miles. That range assumes mostly flat roads, average vehicle weight, and steady driving habits. In Montana, those assumptions don't hold. Mountain grades, heavy trucks and SUVs, and spring roads loaded with sand and grit all push brakes harder than the box accounts for. Knowing what actually shortens brake life helps Missoula drivers decide when a [brake inspection](/services/brake-repair) makes sense - before something goes wrong on a mountain pass.
 
 ---
 
-## What This Service Covers
+## What This Guide Covers
 
 - Brake pad thickness measured at all four corners using a pad gauge
 - Rotor surface inspection for scoring, grooves, and heat discoloration

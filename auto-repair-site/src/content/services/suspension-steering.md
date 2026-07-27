@@ -1,6 +1,6 @@
 ---
 title: "Suspension & Steering Repair"
-description: "Suspension and steering repair in Missoula, MT. Benchmark Automotive diagnoses and replaces worn shocks, struts, ball joints, tie rods, control arms, and power steering components."
+description: "Suspension and steering repair in Missoula. We inspect shocks, struts, ball joints, tie rods, bushings, alignment, and power steering concerns."
 category: "Repair"
 featured: false
 order: 5
@@ -19,7 +19,7 @@ faqs:
 
 ## Suspension & Steering Repair in Missoula, MT
 
-Your suspension and steering systems are mechanically linked - what wears in one affects the behavior of the other. When Missoula drivers notice a car [pulling to one side](/services/steering-vibration), a rough ride over frost heaves, or a vague and wandering steering feel, the cause is almost always a specific worn component rather than a system-wide failure. Identifying which part is responsible determines what actually needs to be repaired.
+Your suspension and steering systems are mechanically linked - what wears in one affects the behavior of the other. When Missoula drivers notice a car [pulling to one side](/services/steering-vibration), a rough ride over frost heaves, or a vague and wandering steering feel, the cause is often one or more worn components rather than a failure of the entire system. Identifying which part is responsible determines what actually needs to be repaired.
 
 ---
 
@@ -73,7 +73,7 @@ With the vehicle elevated, we check for play at the ball joints and tie rod ends
 
 ### Confirm
 
-A test drive confirms what the lift inspection found. We're noting where noise occurs (over bumps, during turns, only at speed), whether pulling is consistent or changes with load, and whether steering response matches the mechanical findings. Intermittent symptoms that don't reproduce on the lift almost always show up under real driving loads.
+A test drive checks whether the lift inspection explains the symptom. We're noting where noise occurs (over bumps, during turns, only at speed), whether pulling is consistent or changes with load, and whether steering response matches the mechanical findings. Some intermittent symptoms appear only under real driving loads, which is why the road test matters.
 
 ### Repair
 

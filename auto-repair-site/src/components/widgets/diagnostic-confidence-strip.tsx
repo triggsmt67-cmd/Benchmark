@@ -54,7 +54,7 @@ export function DiagnosticConfidenceStrip() {
                                         </h3>
                                     </div>
                                     <p className="text-text-secondary text-sm leading-relaxed">
-                                        Many shops read a sensor code and immediately replace the sensor itself. However, the code could be triggered by a wire break, circuit corrosion, or mechanical wear elsewhere. We perform target testing on circuits and components directly so you never pay for parts you do not need.
+                                        A sensor code does not prove the sensor itself failed. The same code can be triggered by a wiring fault, circuit corrosion, or a mechanical problem elsewhere. We test the circuit and component directly to reduce unnecessary parts replacement.
                                     </p>
                                 </div>
 
@@ -102,7 +102,7 @@ export function DiagnosticConfidenceStrip() {
                                         </h3>
                                     </div>
                                     <p className="text-text-secondary text-sm leading-relaxed">
-                                        We do not just install a part, clear the dashboard fault light, and hand you your keys. Every repair is subjected to a validation test drive and secondary system scan under load to confirm the vehicle is 100% resolved.
+                                        We do not just install a part, clear the dashboard fault light, and hand you your keys. We repeat the relevant test, scan, or road-test under the conditions that produced the concern to confirm the repair result.
                                     </p>
                                 </div>
 

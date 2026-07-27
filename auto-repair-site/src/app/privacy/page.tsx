@@ -3,8 +3,11 @@ import { siteConfig } from "@/lib/siteConfig";
 import { Reveal } from "@/components/motion/Reveal";
 
 export const metadata: Metadata = {
-    title: "Privacy Policy | Benchmark Automotive Service",
+    title: "Privacy Policy",
     description: "Learn how Benchmark Automotive Service in Missoula, MT handles and protects your personal information.",
+    alternates: {
+        canonical: "https://www.benchmarkmissoula.com/privacy"
+    }
 };
 
 export default function PrivacyPage() {
@@ -19,7 +22,7 @@ export default function PrivacyPage() {
                             Privacy Policy
                         </h1>
                         <p className="text-white/80 max-w-2xl mx-auto">
-                            Last Updated: {new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
+                            Last Updated: July 27, 2026
                         </p>
                     </Reveal>
                 </div>

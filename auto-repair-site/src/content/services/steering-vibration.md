@@ -1,6 +1,6 @@
 ---
 title: "Steering Vibration"
-description: "Steering wheel vibration in Missoula, MT can point to tire imbalance, worn tie rod ends, a failing wheel bearing, or CV axle wear. Benchmark Automotive Service diagnoses the cause before recommending any repair."
+description: "Steering vibration diagnosis in Missoula for tire imbalance, wheel damage, bearings, CV axles, and worn steering or suspension components."
 category: "Problem"
 featured: false
 order: 11

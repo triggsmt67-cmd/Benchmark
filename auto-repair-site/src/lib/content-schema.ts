@@ -142,7 +142,7 @@ export const PROBLEMS: ProblemContent[] = [
         ],
         diagnosticAdvice: "If the squeal goes away after a few stops in the morning, it's likely just moisture. If the noise is constant, metallic, or turns into a grinding sound, you need an immediate inspection. Do not ignore persistent brake noises.",
         recommendedServiceId: "srv_brakes",
-        renderingEnabled: true
+        renderingEnabled: false
     },
     {
         id: "prob_shaking_brakes",
@@ -161,7 +161,7 @@ export const PROBLEMS: ProblemContent[] = [
         ],
         diagnosticAdvice: "If you only feel shaking when braking, it's almost certainly the rotors. If it shakes all the time at high speed, it's more likely a tire balance issue. Continuing to drive on warped rotors can place extra stress on your suspension and ABS system.",
         recommendedServiceId: "srv_brakes",
-        renderingEnabled: true
+        renderingEnabled: false
     }
 ];
 

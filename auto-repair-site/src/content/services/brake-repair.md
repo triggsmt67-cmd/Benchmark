@@ -4,6 +4,7 @@ description: "Brake repair in Missoula, MT - pads, rotors, calipers, and hydraul
 category: "Repair"
 featured: false
 order: 5
+lastReviewed: 2026-07-27
 related:
   - brakes-squeaking
   - steering-vibration
@@ -50,9 +51,9 @@ When brakes start making noise, pulling, or feeling different underfoot, the sym
 
 ## Why It Happens
 
-Brake pads wear down through normal use - that's expected. The rate varies significantly based on driving habits, pad material, and vehicle weight. City driving with frequent stops chews through pads faster than highway miles. When the friction material wears to the metal backing plate, a small wear indicator tab contacts the rotor and produces the high-pitched squeal most drivers recognize. If that warning goes unaddressed, the metal backing plate begins grinding directly into the rotor face. If [brakes are squeaking](/problems/squeaking-brakes) after the vehicle has sat for several days, surface rust is usually the cause - but if the sound persists after a few stops, the rotor surface may need evaluation.
+Brake pads wear down through normal use - that's expected. The rate varies significantly based on driving habits, pad material, and vehicle weight. City driving with frequent stops chews through pads faster than highway miles. When the friction material wears to the metal backing plate, a small wear indicator tab contacts the rotor and produces the high-pitched squeal most drivers recognize. If that warning goes unaddressed, the metal backing plate begins grinding directly into the rotor face. If [brakes are squeaking](/services/brakes-squeaking) after the vehicle has sat for several days, surface rust is usually the cause - but if the sound persists after a few stops, the rotor surface may need evaluation.
 
-Rotors fail through a combination of wear, heat, and corrosion. Each brake application generates heat; repeated hard stops without adequate cooling time can cause the rotor to develop thickness variation - an uneven surface where the pad contacts different amounts of material at different points around the rotor face. This shows up as a rhythmic pulsation through the brake pedal. A [car shaking while driving](/services/steering-vibration) that worsens specifically during braking almost always has rotor thickness variation or lateral runout as the cause, not a suspension component.
+Rotors fail through a combination of wear, heat, and corrosion. Each brake application generates heat; repeated hard stops without adequate cooling time can cause the rotor to develop thickness variation - an uneven surface where the pad contacts different amounts of material at different points around the rotor face. This shows up as a rhythmic pulsation through the brake pedal. A [car shaking while driving](/services/steering-vibration) that worsens specifically during braking often points to rotor thickness variation or lateral runout, but the brake and suspension systems still need to be inspected before the cause is confirmed.
 
 Calipers are the hydraulic clamps that press pads against the rotor. They fail in two main ways: the piston sticks in its bore and won't retract after the pedal is released - causing the pad to drag continuously and generate heat - or the caliper slide pins seize from corrosion or dried-out grease, preventing the caliper from floating evenly across the rotor face. Either condition causes uneven pad wear, generates excess heat, and pulls the vehicle to one side under braking. A [car pulling to one side](/services/steering-vibration) specifically when stopping is one of the more reliable signs of a seized caliper or stuck slide pin.
 
@@ -95,8 +96,8 @@ Spring is a reasonable time to inspect brakes after winter exposure, before corr
 
 ## Related Services
 
-- [Brakes Squeaking](/problems/squeaking-brakes)
-- [Brakes Shaking](/problems/shaking-brakes)
+- [Brakes Squeaking](/services/brakes-squeaking)
+- [Steering Vibration](/services/steering-vibration)
 - [Suspension & Steering](/services/suspension-steering)
 
 ---

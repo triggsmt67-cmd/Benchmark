@@ -1,7 +1,20 @@
 import { MetadataRoute } from 'next';
-import { getAllServiceSlugs } from '@/lib/serviceContent';
-import { getAllGuideSlugs } from '@/lib/guideContent';
+import { getAllServiceData } from '@/lib/serviceContent';
+import { getAllGuideData } from '@/lib/guideContent';
 import { PROBLEMS } from '@/lib/content-schema';
+
+function parseLastReviewed(value: unknown): Date | undefined {
+    if (value instanceof Date && !Number.isNaN(value.getTime())) {
+        return value;
+    }
+
+    if (typeof value !== 'string') {
+        return undefined;
+    }
+
+    const date = new Date(value);
+    return Number.isNaN(date.getTime()) ? undefined : date;
+}
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     const baseUrl = "https://www.benchmarkmissoula.com";
@@ -9,9 +22,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     // Core routes
     const routes = [
         '',
+        '/about',
         '/services',
         '/contact',
         '/service-areas',
+        '/guides',
         '/site-map',
         '/service-areas/missoula',
         '/service-areas/lolo',
@@ -23,37 +38,33 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         '/service-areas/target-range'
     ].map((route) => ({
         url: `${baseUrl}${route}`,
-        lastModified: new Date(),
-        changeFrequency: 'weekly' as const,
-        priority: route === '' ? 1 : 0.8,
     }));
 
     // Dynamic service routes (from markdown)
-    const serviceSlugs = await getAllServiceSlugs();
-    const serviceRoutes = serviceSlugs.map((slug) => ({
-        url: `${baseUrl}/services/${slug}`,
-        lastModified: new Date(),
-        changeFrequency: 'weekly' as const,
-        priority: 0.9,
-    }));
+    const services = await getAllServiceData();
+    const serviceRoutes = services.map((service) => {
+        const lastModified = parseLastReviewed(service.lastReviewed);
+        return {
+            url: `${baseUrl}/services/${service.slug}`,
+            ...(lastModified ? { lastModified } : {}),
+        };
+    });
 
     // Dynamic guide routes (from markdown)
-    const guideSlugs = await getAllGuideSlugs();
-    const guideRoutes = guideSlugs.map((slug) => ({
-        url: `${baseUrl}/guides/${slug}`,
-        lastModified: new Date(),
-        changeFrequency: 'weekly' as const,
-        priority: 0.7,
-    }));
+    const guides = await getAllGuideData();
+    const guideRoutes = guides.map((guide) => {
+        const lastModified = parseLastReviewed(guide.lastReviewed);
+        return {
+            url: `${baseUrl}/guides/${guide.slug}`,
+            ...(lastModified ? { lastModified } : {}),
+        };
+    });
 
     // Dynamic problem routes (from static array)
     const problemRoutes = PROBLEMS
         .filter(p => p.renderingEnabled)
         .map((p) => ({
             url: `${baseUrl}/problems/${p.slug}`,
-            lastModified: new Date(),
-            changeFrequency: 'weekly' as const,
-            priority: 0.7,
         }));
 
     return [...routes, ...serviceRoutes, ...guideRoutes, ...problemRoutes];

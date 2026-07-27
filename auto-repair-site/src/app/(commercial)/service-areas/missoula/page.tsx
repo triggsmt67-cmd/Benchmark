@@ -6,15 +6,15 @@ import { FinalCtaBand } from "@/components/widgets/final-cta-band";
 import { getServiceAreaDetailSchema, serializeSchema } from "@/lib/seo";
 
 export const metadata: Metadata = {
-    title: "Auto Repair in Missoula, MT",
-    description: "Benchmark Automotive Service is the premier destination for Missoula drivers seeking professional automotive diagnostics, precise repairs, and honest service.",
+    title: "Automotive Service for Missoula Drivers",
+    description: "Benchmark Automotive Service serves Missoula drivers with diagnostic-first repairs, maintenance, inspections, and convenient after-hours drop-off.",
     alternates: {
         canonical: "https://www.benchmarkmissoula.com/service-areas/missoula"
     },
     openGraph: {
         url: "https://www.benchmarkmissoula.com/service-areas/missoula",
-        title: "Auto Repair in Missoula, MT",
-        description: "Benchmark Automotive Service is the premier destination for Missoula drivers seeking professional automotive diagnostics, precise repairs, and honest service.",
+        title: "Automotive Service for Missoula Drivers",
+        description: "Benchmark Automotive Service serves Missoula drivers with diagnostic-first repairs, maintenance, inspections, and convenient after-hours drop-off.",
     }
 };
 
@@ -45,7 +45,7 @@ export default function MissoulaServiceAreaPage() {
     const schema = getServiceAreaDetailSchema({
         citySlug: "missoula",
         cityName: "Missoula",
-        title: "Auto Repair in Missoula, MT",
+        title: "Automotive Service for Missoula Drivers",
         faqs
     });
 

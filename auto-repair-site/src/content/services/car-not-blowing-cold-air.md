@@ -1,6 +1,6 @@
 ---
 title: "Car Not Blowing Cold Air"
-description: "When your car's AC stops blowing cold air in Missoula, MT, the cause is rarely a simple recharge. Benchmark Automotive diagnoses refrigerant loss, compressor failure, expansion valve issues, and electrical faults to find the real problem."
+description: "Car AC not blowing cold in Missoula? We test refrigerant charge, leaks, compressor operation, airflow, controls, and electrical faults before repair."
 category: "Problem"
 featured: false
 order: 10
@@ -62,7 +62,7 @@ We start with a visual scan of the compressor clutch, condenser fins, refrigeran
 
 ### Test
 
-We connect a manifold gauge set to both the high and low pressure service ports and record pressures with the engine running and AC at maximum cooling. On a properly charged R-134a system, low-side pressure should read 25–35 psi and high-side between 150–200 psi. A near-vacuum reading on the low side points to a blocked expansion valve or orifice tube. Elevated high-side pressure with a normal low-side reading suggests condenser restriction or insufficient condenser fan airflow. If refrigerant is low, we introduce UV dye and use an electronic leak detector to locate the source before recommending any recharge. For vehicles using R-1234yf - found on most post-2017 models - we use equipment specific to that refrigerant type, which is not compatible with R-134a tooling.
+We connect a manifold gauge set to both the high and low pressure service ports and record pressures with the engine running and AC at maximum cooling. Normal pressure ranges vary with refrigerant type, ambient temperature, humidity, and manufacturer specifications, so we interpret both sides together instead of treating one generic number as a diagnosis. A near-vacuum low-side reading can point to a restriction, while elevated high-side pressure can indicate airflow or condenser problems. If refrigerant is low, we introduce UV dye and use an electronic leak detector to locate the source before recommending a recharge. Vehicles using R-1234yf require equipment specific to that refrigerant and cannot be serviced with R-134a tooling.
 
 ### Confirm
 

@@ -1,10 +1,10 @@
 ---
 title: "Engine Overheating"
-description: "Engine overheating diagnosis and cooling system repair in Missoula, MT. We identify the actual root cause - thermostat, water pump, head gasket, or coolant leak - before recommending any repair."
+description: "Engine overheating diagnosis in Missoula, MT. We test leaks, pressure, coolant flow, fans, thermostat operation, and combustion-gas concerns."
 category: "Problem"
 featured: false
 order: 3
-lastReviewed: 2026-03-11
+lastReviewed: 2026-07-27
 related:
   - fluid-services
   - advanced-diagnostics
@@ -56,10 +56,6 @@ The thermostat is the next most frequent culprit. It's a wax-pellet valve that o
 
 Water pump failure has its own pattern. The impeller - the internal fan that circulates coolant under pressure - erodes over time, particularly in systems that haven't had regular [coolant service](/services/fluid-services). Acidic, depleted coolant attacks the impeller blades and the shaft seal. A pump that's mechanically spinning but moving little fluid causes overheating that shows up under load or at higher RPM. A failing water pump bearing usually signals itself first with a grinding or whining noise from the front of the engine. Radiator fan failure is different: overheating at idle or low speeds but not at highway speeds, because at speed, airflow through the radiator compensates for the absent fan.
 
-Deferred maintenance compounds quietly. A timing chain that's stretched past spec, untreated oil weeping at valve cover or rear main seals, corroded battery terminals that test marginal under load - none of this registers in a walk-around. The battery and charging system in particular tends to be overlooked by sellers and buyers alike until a vehicle fails to start at –10°F.
-
-Frame damage from prior accidents is the hardest category to catch without a lift. Collision repair quality varies, and a structurally compromised vehicle can be repainted and detailed to show clean. Uneven panel gaps, inconsistent paint depth between adjacent panels, and unusual undercoating patterns around frame rails are what an experienced eye looks for - none of it visible from a standard test drive or a vehicle history report alone. For more detail on what a thorough inspection involves, see the used car inspection guide.
-
 ---
 
 ## How We Diagnose It
@@ -68,16 +64,13 @@ Frame damage from prior accidents is the hardest category to catch without a lif
 Diagnosis starts with a visual pass through the entire cooling system: coolant level and condition, hoses for soft spots and cracks, the radiator for bent fins or leak staining, the overflow reservoir, and the area around the water pump for seepage or mineral deposits.
 
 ### Test
-The cooling system is pressure-tested using a hand pump and adapter fitted to the radiator cap neck or reservoir fill point. Most systems hold 12–16 psi. If the system won't hold pressure, the rate of drop and the presence or absence of an external leak tells us whether we're dealing with an external leak or an internal one. When pressure drops without a visible external source, we run a combustion leak test - drawing air from the cooling system through a chemical test fluid that turns yellow in the presence of combustion gases. That's the definitive indicator of a head gasket breach or cracked head.
+The cooling system is pressure-tested using a hand pump and the correct adapter for the vehicle. The specified test pressure varies by system. If pressure falls, the rate of loss and any visible leakage help separate an external leak from a possible internal one. When pressure drops without a visible external source, we may run a combustion-gas test. A positive result is strong evidence that combustion gases are entering the cooling system and warrants further confirmation before major engine work is recommended.
 
 ### Confirm
 Root cause is confirmed before any repair recommendation is made. A vehicle with a stuck thermostat and a vehicle with a failing water pump can produce nearly identical symptoms. The pressure test, combustion test, thermostat evaluation, and fan check together establish which component is actually responsible.
 
 ### Repair
 After any repair - thermostat replacement, hose, water pump, or head gasket service - the cooling system is refilled with fresh coolant at the correct concentration, bled of air pockets, and pressure-tested again. The vehicle is then run to full operating temperature to verify the repair resolved the overheating condition before it leaves the shop.
-
-### Report
-You get a written summary organized by urgency: what needs attention before the purchase, what's likely to come up in the next year, and what's in acceptable condition. That breakdown gives you a specific basis to negotiate, ask the seller to address items, or walk away with a clear picture of the risk. If you're weighing whether the car is worth buying at all, the is it worth fixing my car guide covers how to think through that decision.
 
 ---
 

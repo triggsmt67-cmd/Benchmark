@@ -15,14 +15,14 @@ faqs:
   - question: "Is it safe to drive with an electrical problem?"
     answer: "It depends on what's failing. A weak battery may leave you stranded but won't damage other systems. A failing alternator will drain the battery while you drive and can cause the engine to stall. A burning smell from wiring or the cabin is not something to drive on - stop and have it checked."
   - question: "How much does it cost to diagnose a car electrical problem?"
-    answer: "A focused electrical diagnostic typically runs $75–$150. Complex wiring faults that require circuit tracing take longer and cost more. At Benchmark, we explain what we found and what it will take to fix before any repair work starts."
+    answer: "Diagnostic cost depends on how much testing and circuit tracing the fault requires. At Benchmark, we explain the diagnostic fee before testing begins and credit that fee toward the repair if you approve and complete the recommended work with us."
 ---
 
 Car electrical problems show up in a lot of different ways - a car that won't start, a battery warning light, headlights that flicker while you're driving, or accessories that stop working without any obvious cause. Drivers in Missoula run into these more often than average because of cold winters and wide temperature swings. Getting the diagnosis right before replacing parts is what separates a one-trip fix from a frustrating chain of part-swapping.
 
 ---
 
-## What This Service Covers
+## What This Guide Covers
 
 - Battery condition and load testing
 - Alternator output and charging system testing
@@ -50,7 +50,7 @@ Car electrical problems show up in a lot of different ways - a car that won't st
 
 Most electrical problems trace back to one of four areas: the battery, the alternator, the wiring, or the fuses and relays.
 
-**Battery.** A car battery is built around lead plates submerged in a sulfuric acid electrolyte. As it ages - typically three to five years - those plates corrode and the battery loses its ability to hold a full charge. Cold weather speeds this up. At 0°F, a battery delivers roughly 40% of its rated cranking power. A battery that tested acceptable in October can fail completely in January after a stretch of hard cold nights.
+**Battery.** A car battery is built around lead plates submerged in a sulfuric acid electrolyte. As it ages, those plates corrode and the battery loses its ability to hold a full charge. Cold weather reduces available battery power while the engine requires more current to crank. A marginal battery that starts the car in October can fail during a January cold snap.
 
 **Alternator.** The alternator charges the battery and powers the car's electrical systems while the engine runs. It does this by spinning a rotor inside a set of copper windings, converting that AC output to DC through internal diodes. When the diodes fail or the carbon brushes that supply current to the rotor wear down, the alternator stops producing adequate voltage. A healthy alternator outputs 13.5–14.5 volts at the battery terminals under load. Below that range, the battery slowly drains while you drive.
 
@@ -107,6 +107,12 @@ Rodent damage to wiring is more common here than many drivers expect. Vehicles t
 - [Electrical Diagnostics](/services/electrical-diagnostics)
 - [Battery & Charging System Service](/services/battery-drain)
 - [Car Won't Start](/services/car-wont-start)
+
+---
+
+## Source
+
+- [NHTSA winter vehicle and battery preparation guidance](https://www.nhtsa.gov/winter-driving-tips)
 
 ---
 

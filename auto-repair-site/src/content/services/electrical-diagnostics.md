@@ -4,6 +4,7 @@ description: "Electrical diagnostics in Missoula, MT for battery drains, chargin
 category: "Diagnostics"
 featured: false
 order: 10
+lastReviewed: 2026-07-27
 related:
   - check-engine-light
   - battery-drain

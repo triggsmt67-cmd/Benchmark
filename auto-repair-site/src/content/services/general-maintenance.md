@@ -1,9 +1,10 @@
 ---
 title: "General Maintenance"
-description: "Professional General Maintenance in Missoula, MT."
+description: "General vehicle maintenance in Missoula, including oil, fluids, filters, belts, hoses, brakes, tires, and battery testing based on actual condition."
 category: "Maintenance"
 featured: false
 order: 10
+lastReviewed: 2026-07-27
 related:
   - fluid-services
   - vehicle-inspection
@@ -77,4 +78,3 @@ We cross-reference your mileage and service history against manufacturer mainten
 
 ### Repair
 After service is complete, we reset maintenance reminders, confirm all fluid levels are correct, and do a short road test to verify normal operation. You leave with a written summary of what was done and, if anything was flagged for future attention, a clear explanation of what it is and how urgent it actually is.
-

@@ -15,7 +15,7 @@ faqs:
   - question: "Does Missoula's climate actually shorten a vehicle's lifespan?"
     answer: "Yes, measurably. The combination of temperature cycling between sub-zero winters and 90-degree summers, magnesium-chloride road treatment on major routes, and the prevalence of gravel and secondary roads accelerates wear on rubber components, underbody metal, and suspension joints beyond what mileage alone suggests."
   - question: "I can't afford the repair, but I also can't afford a car payment. What do I do?"
-    answer: "Get an honest inspection first. A lot of repairs that look expensive on paper are isolated and one-time - not a sign of broader deterioration. If the rest of the vehicle is structurally sound, paying for the repair is almost always cheaper than financing a replacement at current rates."
+    answer: "Get an honest inspection first. Some expensive repairs are isolated rather than signs of broader deterioration. If the rest of the vehicle is structurally sound, compare the repair cost and expected remaining service life against the full cost, financing, and condition of a replacement."
 ---
 
 "Is it worth fixing my car in Missoula?" is one of the most financially consequential questions a vehicle owner can ask - and one of the hardest to answer without looking at the actual vehicle. The number on an estimate doesn't tell you whether the rest of the car is sound. This guide lays out how to think through the decision honestly, with Missoula's specific driving and climate conditions factored in.
@@ -119,7 +119,7 @@ A 2015 pickup from Phoenix and a 2015 pickup from Missoula aren't the same vehic
 
 If you're buying a replacement and considering used vehicles, a [pre-purchase inspection](/services/pre-purchase-inspection) on the replacement vehicle is the most direct way to avoid trading one set of problems for another. We've inspected vehicles from drier climates that looked good on paper but had deferred maintenance visible on the lift within the first hour.
 
-For a broader look at how Missoula's roads and seasons affect specific vehicle systems, see Driving Conditions in Missoula, Montana.
+For a broader look at how Missoula's seasons affect specific vehicle systems, see [how cold weather affects your car](/guides/how-cold-weather-affects-your-car).
 
 ---
 
@@ -127,7 +127,12 @@ For a broader look at how Missoula's roads and seasons affect specific vehicle s
 
 - [Pre-Purchase Inspection](/services/pre-purchase-inspection)
 - [Vehicle Inspection](/services/vehicle-inspection)
-- When to Repair vs. Replace a Vehicle
+
+---
+
+## Source
+
+- [Federal Trade Commission used-car buying guidance](https://consumer.ftc.gov/articles/buying-used-car-dealer)
 
 ---
 

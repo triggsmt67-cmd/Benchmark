@@ -10,6 +10,7 @@ export interface ServiceData {
     order: number;
     related?: string[];
     faqs?: { question: string; answer: string }[];
+    lastReviewed?: string | Date;
     [key: string]: unknown;
 }
 

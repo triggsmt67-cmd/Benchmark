@@ -34,7 +34,7 @@ const steps = [
     {
         num: "4",
         title: "Repair & Validate",
-        desc: "Our technicians execute precision repairs using high-quality parts. We then run a second round of testing and a validation test drive to guarantee the issue is completely resolved before you pick up.",
+        desc: "Our technicians complete the approved repair using high-quality parts. We then repeat the relevant tests and road-test when appropriate to confirm the original concern has been addressed.",
         icon: <Wrench className="h-6 w-6" />,
         accentClass: "bg-brand-red",
         iconClass: "bg-red-50 text-brand-red group-hover:bg-brand-red group-hover:text-white",
