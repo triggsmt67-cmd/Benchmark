@@ -3,8 +3,11 @@ import { siteConfig } from "@/lib/siteConfig";
 import { Reveal } from "@/components/motion/Reveal";
 
 export const metadata: Metadata = {
-    title: "Terms of Service | Benchmark Automotive Service",
+    title: "Terms of Service",
     description: "Terms and conditions for automotive repair and maintenance services at Benchmark Automotive Service in Missoula, MT.",
+    alternates: {
+        canonical: "https://www.benchmarkmissoula.com/terms"
+    }
 };
 
 export default function TermsPage() {
@@ -19,7 +22,7 @@ export default function TermsPage() {
                             Terms of Service
                         </h1>
                         <p className="text-white/80 max-w-2xl mx-auto">
-                            Last Updated: {new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
+                            Last Updated: July 27, 2026
                         </p>
                     </Reveal>
                 </div>
@@ -61,7 +64,7 @@ export default function TermsPage() {
 
                             <h2>5. Diagnostic Fees</h2>
                             <p>
-                                Complex electrical and mechanical diagnostics require specialized equipment and expertise. A diagnostic fee may apply to any vehicle that requires testing to identify the cause of a failure. If you choose to proceed with the recommended repair, the diagnostic fee may be applied toward the total repair cost at the shop&apos;s discretion.
+                                Complex electrical and mechanical diagnostics require specialized equipment and technician time. We explain the diagnostic fee before testing begins. If you approve and complete the recommended repair at our shop, that diagnostic fee is credited toward the repair total.
                             </p>
 
                             <h2>6. Content Accuracy</h2>

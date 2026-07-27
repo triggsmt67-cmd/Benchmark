@@ -1,6 +1,6 @@
 ---
 title: "Auto Repair in Missoula, MT"
-description: "Benchmark Automotive Service provides diagnostic-first auto repair in Missoula, MT. We find the actual cause before recommending work - on brakes, engines, cooling systems, electrical, and more."
+description: "Full-service auto repair in Missoula, MT with testing-first diagnostics, clear estimates, quality parts, and verified repairs at Benchmark Automotive Service."
 category: "Repair"
 featured: true
 order: 1
@@ -78,7 +78,7 @@ After the repair is finished, we verify it. Electrical work gets rechecked with 
 
 A few conditions call for same-day or next-day service: brakes that aren't stopping the car normally, an engine temperature gauge that's climbing, a [check engine light that's flashing](/services/check-engine-light-flashing), or any fluid loss you can't identify. These situations can cause significantly more damage if the vehicle keeps running.
 
-For non-emergency symptoms - a new noise, a gradual change in handling, a warning light that's been steady for a while - we can usually schedule within a few days. Most drivers wait longer than they should. Diagnosis is almost always less expensive than a failure caused by ignoring a smaller problem.
+For non-emergency symptoms - a new noise, a gradual change in handling, a warning light that's been steady for a while - we can usually schedule within a few days. Most drivers wait longer than they should. Diagnosis is usually less expensive than repairing secondary damage after a smaller problem is ignored.
 
 If you're not sure whether something is urgent, call us. Describing what you're noticing takes a couple of minutes and takes the guesswork out of the decision.
 

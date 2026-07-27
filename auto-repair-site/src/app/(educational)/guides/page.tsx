@@ -8,7 +8,7 @@ import { getAllGuideData } from "@/lib/guideContent";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 
 export const metadata: Metadata = {
-    title: "Educational Guides | Benchmark Automotive Service",
+    title: "Educational Guides",
     description: "Expert automotive guides for Missoula, MT drivers. Learn about diagnostics, used car inspections, and vehicle maintenance.",
     alternates: {
         canonical: "https://www.benchmarkmissoula.com/guides",

@@ -35,7 +35,6 @@ export const serviceOfferConfigs: Record<string, NewCustomerOfferProps> = {
     // - Maintenance section - "fluid-services": { ...defaultOffer },
     "oil-change": { ...defaultOffer },
     "general-maintenance": { ...defaultOffer },
-    "suspension-steering": { ...defaultOffer },
     "how-cold-weather-affects-your-car": { ...defaultOffer },
     "auto-repair-missoula-mt": { ...defaultOffer },
 };

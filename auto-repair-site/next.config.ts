@@ -29,6 +29,16 @@ const nextConfig: NextConfig = {
         destination: '/services/suspension-steering',
         permanent: true,
       },
+      {
+        source: '/problems/squeaking-brakes',
+        destination: '/services/brakes-squeaking',
+        permanent: true,
+      },
+      {
+        source: '/problems/shaking-brakes',
+        destination: '/services/brake-repair',
+        permanent: true,
+      },
     ];
   },
 };

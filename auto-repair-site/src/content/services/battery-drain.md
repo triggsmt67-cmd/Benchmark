@@ -1,6 +1,6 @@
 ---
 title: "Battery Drain"
-description: "Car battery draining in Missoula, MT? Benchmark Automotive diagnoses parasitic draws, charging system failures, and battery issues - so you know what's actually causing it before replacing anything."
+description: "Battery drain diagnostics in Missoula, MT. We test batteries, alternators, parasitic draw, modules, wiring, and starting circuits before replacing parts."
 category: "Problem"
 featured: false
 order: 10
@@ -17,7 +17,7 @@ faqs:
     answer: "Yes. The alternator needs engine runtime to recharge the battery. Short trips - especially in winter when electrical loads are higher - often don't give the alternator enough time to recover what the starter used. Over several days this compounds, and eventually the battery can't crank the engine."
 ---
 
-A car battery that keeps dying is rarely just a bad battery. Most repeat cases trace back to a parasitic draw, a charging system problem, or both - and the only way to know which is to test the system. Missoula drivers dealing with a dead battery more than once should have the full electrical system evaluated before replacing parts, since putting in a new battery without diagnosing the cause usually produces the same result a few weeks later.
+A car battery that keeps dying is rarely just a bad battery. Most repeat cases trace back to a parasitic draw, a charging system problem, or both. Testing the full system separates those causes before another battery is installed. Missoula drivers dealing with a dead battery more than once should have the electrical system evaluated before replacing parts, since a new battery will not correct an unresolved draw or charging fault.
 
 ---
 

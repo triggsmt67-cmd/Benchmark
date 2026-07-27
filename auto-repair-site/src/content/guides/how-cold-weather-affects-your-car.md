@@ -11,7 +11,7 @@ related:
   - fluid-services
 faqs:
   - question: "At what temperature does a car battery start to struggle?"
-    answer: "Battery capacity drops to roughly 50% of its rated output at 0°F, while the engine simultaneously requires more current to crank through cold, thickened oil. In Missoula, where overnight lows regularly hit single digits from December through February, a battery already weakened by age or repeated deep discharge will often fail to start the car when it matters most."
+    answer: "Battery power falls as temperatures drop, while a cold engine needs more current to crank. In Missoula, a battery already weakened by age or repeated deep discharge may start normally in mild weather and fail during the first hard cold snap."
   - question: "Should I switch to a different oil grade for winter driving in Montana?"
     answer: "If your vehicle is running a 10W-30 or a conventional oil with a lot of miles on it, switching to a 5W-30 or 0W-20 full synthetic reduces cold-start viscosity and gets oil circulating to bearings and the valve train faster. Most wear in cold climates accumulates during those first seconds after a frigid overnight. Check your owner's manual for approved viscosities."
   - question: "How do I know if my coolant mixture will hold up through a Missoula winter?"
@@ -22,7 +22,7 @@ Missoula winters expose the gaps in a vehicle's maintenance history. When temper
 
 ---
 
-## What This Service Covers
+## What This Guide Covers
 
 - Battery load testing and replacement
 - Cold-weather oil service and viscosity review
@@ -82,7 +82,7 @@ October is the practical window - before the first hard freeze, while there's st
 
 If the car is already cranking slowly on cold mornings, that's a direct indicator the battery is at the edge of its range. Slow cranking means you're close to the point where it won't start at all.
 
-For a full system-by-system walkthrough before winter, see our winter car preparation guide.
+For broader maintenance planning before winter, see our [general maintenance service](/services/general-maintenance).
 
 ---
 
@@ -101,6 +101,13 @@ The [battery and charging system](/services/battery-drain) is the most common fa
 - [Battery Drain & Charging System](/services/battery-drain)
 - [Oil Change](/services/oil-change)
 - [Fluid Services (Coolant)](/services/fluid-services)
+
+---
+
+## Sources
+
+- [NHTSA winter driving and vehicle preparation guidance](https://www.nhtsa.gov/winter-driving-tips)
+- [U.S. Department of Energy: cold-temperature effects on fuel economy](https://www.energy.gov/cmei/vehicles/articles/fotw-1164-december-14-2020-effect-cold-temperatures-fuel-economy)
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Fluid Services"
-description: "Transmission fluid, brake fluid, coolant, differential fluid, and transfer case fluid services in Missoula, MT. Benchmark Automotive inspects and replaces vehicle fluids before degradation causes mechanical damage."
+description: "Automotive fluid services in Missoula for coolant, brake, transmission, differential, and transfer-case fluids, based on condition and manufacturer guidance."
 category: "Maintenance"
 featured: false
 order: 9

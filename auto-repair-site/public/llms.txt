@@ -25,7 +25,6 @@
 - [https://www.benchmarkmissoula.com/services/car-wont-start](https://www.benchmarkmissoula.com/services/car-wont-start): Testing of batteries, starters, alternators, and fuel delivery systems to identify why a vehicle won't start.
 - [https://www.benchmarkmissoula.com/services/check-engine-light-flashing](https://www.benchmarkmissoula.com/services/check-engine-light-flashing): Immediate diagnostic services for flashing check engine lights, which indicate active engine misfires.
 - [https://www.benchmarkmissoula.com/services/engine-overheating](https://www.benchmarkmissoula.com/services/engine-overheating): Diagnosis and repair of overheating engines, including thermostat, water pump, and radiator failures.
-- [https://www.benchmarkmissoula.com/services/undercarriage-and-suspension](https://www.benchmarkmissoula.com/services/undercarriage-and-suspension): Professional inspection and repair of vehicle undercarriage and suspension systems in Missoula, MT.
 - [https://www.benchmarkmissoula.com/services/our-diagnostic-approach](https://www.benchmarkmissoula.com/services/our-diagnostic-approach): Documentation of the structured diagnostic process used at Benchmark Automotive Service to identify root causes before repairs.
 
 ## Authority Content
@@ -35,11 +34,9 @@
 - [https://www.benchmarkmissoula.com/guides/how-to-choose-a-mechanic](https://www.benchmarkmissoula.com/guides/how-to-choose-a-mechanic): Professional advice on evaluating auto repair shops based on certifications, diagnostics, and transparency.
 - [https://www.benchmarkmissoula.com/guides/living-in-missoula-is-it-worth-fixing-my-car](https://www.benchmarkmissoula.com/guides/living-in-missoula-is-it-worth-fixing-my-car): A guide to evaluating vehicle repair costs versus replacement value based on local conditions and market trends.
 - [https://www.benchmarkmissoula.com/guides/used-car-inspection-guide](https://www.benchmarkmissoula.com/guides/used-car-inspection-guide): Essential checklist and strategy for pre-purchase used car evaluations to protect yourself from undisclosed damage and maintenance debt.
-- [https://www.benchmarkmissoula.com/problems/squeaking-brakes](https://www.benchmarkmissoula.com/problems/squeaking-brakes): Technical analysis of causes for brake noise, distinguishing between harmless moisture and critical brake pad wear.
-- [https://www.benchmarkmissoula.com/problems/shaking-brakes](https://www.benchmarkmissoula.com/problems/shaking-brakes): Explanation of steering wheel vibration caused by warped rotors, lateral runout, or suspension component wear.
 
 ## Support
-- [https://www.benchmarkmissoula.com/about](https://www.benchmarkmissoula.com/about): Information on Benchmark Automotive Service’s commitment to diagnostic accuracy, honest mechanical advice, and high-fidelity repair.
+- [https://www.benchmarkmissoula.com/about](https://www.benchmarkmissoula.com/about): Shop experience, ASE Master Technician review standards, diagnostic process, repair verification, and contact details for Benchmark Automotive Service.
 - [https://www.benchmarkmissoula.com/contact](https://www.benchmarkmissoula.com/contact): Scheduling portal and official contact information for Benchmark Automotive Service in Missoula, MT.
 - [https://www.benchmarkmissoula.com/service-areas](https://www.benchmarkmissoula.com/service-areas): Comprehensive list of communities and neighborhoods served by Benchmark Automotive Service in the greater Missoula region.
 - [https://www.benchmarkmissoula.com/service-areas/missoula](https://www.benchmarkmissoula.com/service-areas/missoula): Specialized automotive repair and diagnostic services for residents and commuters in the city of Missoula, MT.

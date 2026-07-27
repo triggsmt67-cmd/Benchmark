@@ -1,9 +1,10 @@
 ---
 title: "Pre-Purchase Inspection"
-description: "Get a professional pre-purchase inspection in Missoula, MT before buying a used car. Our technicians check mechanical systems, run diagnostics, and give you a full documented report on what you're actually buying."
+description: "Pre-purchase inspections in Missoula with a lift inspection, road test, diagnostic scan, and written report before you buy a used vehicle."
 category: "Diagnostics"
 featured: false
 order: 14
+lastReviewed: 2026-07-27
 related:
   - vehicle-inspection
 faqs:

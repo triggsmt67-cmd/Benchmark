@@ -1,11 +1,10 @@
 import { notFound } from "next/navigation";
 import { Metadata } from "next";
+import Link from "next/link";
 import { getServiceMarkdown, getAllServiceSlugs } from "@/lib/serviceContent";
 import ReactMarkdown from "react-markdown";
 import { FinalCtaBand } from "@/components/widgets/final-cta-band";
-import { ServiceCTABand } from "@/components/widgets/service-cta-band";
 import { Breadcrumbs } from "@/components/widgets/breadcrumbs";
-import { RelatedServices } from "@/components/widgets/related-services";
 import { NewCustomerOffer } from "@/components/widgets/new-customer-offer";
 import { serviceOfferConfigs } from "@/lib/serviceOfferConfigs";
 import { getServiceDetailSchema, serializeSchema } from "@/lib/seo";
@@ -76,6 +75,20 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     };
 }
 
+function formatReviewDate(value: string | Date | undefined): string | null {
+    if (!value) return null;
+
+    const date = value instanceof Date ? value : new Date(value);
+    if (Number.isNaN(date.getTime())) return null;
+
+    return new Intl.DateTimeFormat("en-US", {
+        month: "long",
+        day: "numeric",
+        year: "numeric",
+        timeZone: "UTC",
+    }).format(date);
+}
+
 // 3. Page Assembly
 export default async function ServicePage({ params }: { params: Promise<{ slug: string }> }) {
     const resolvedParams = await params;
@@ -95,11 +108,13 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
         `Professional ${serviceName.toLowerCase()} in Missoula. Accurate testing, honest recommendations, and confirmed repairs.`;
 
     const offerConfig = serviceOfferConfigs[slug];
+    const reviewDate = formatReviewDate(data.lastReviewed);
 
     const schema = getServiceDetailSchema({
         slug,
         name: serviceName,
         description: data.description || heroDescription,
+        lastReviewed: data.lastReviewed,
         offerConfig: offerConfig ? {
             title: offerConfig.title,
             price: offerConfig.price,
@@ -141,6 +156,17 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
             <section className="py-12 md:py-28 bg-surface">
                 <div className="container mx-auto px-4 md:px-6">
                     <div className="max-w-3xl mx-auto">
+                        <div className="mb-10 border-l-4 border-copper bg-copper/5 px-5 py-4 text-sm text-navy-950">
+                            <p className="font-semibold">
+                                Reviewed by ASE Master Technicians at{" "}
+                                <Link href="/about" className="text-copper hover:underline">
+                                    Benchmark Automotive Service
+                                </Link>.
+                            </p>
+                            {reviewDate ? (
+                                <p className="mt-1 text-text-secondary">Last reviewed {reviewDate}.</p>
+                            ) : null}
+                        </div>
                         {(() => {
                             const markdownStyles = `max-w-none text-text-secondary text-[17px] md:text-lg
                                 [&>h1]:font-heading [&>h1]:text-4xl [&>h1]:text-navy-950 [&>h1]:font-bold [&>h1]:mt-12 [&>h1]:mb-6
@@ -194,11 +220,6 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
                     </div>
                 </div>
             </section>
-
-            {/* Related Services block */}
-            <RelatedServices slugs={data.related || []} />
-
-            <ServiceCTABand />
 
             <FinalCtaBand />
         </article>

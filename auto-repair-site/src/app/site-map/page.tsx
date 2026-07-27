@@ -29,6 +29,7 @@ export default async function SitemapPage() {
     // Core static routes
     const corePages = [
         { label: "Home", href: "/" },
+        { label: "About Benchmark", href: "/about" },
         { label: "Our Services Directory", href: "/services" },
         { label: "Schedule Service / Contact", href: "/contact" },
         { label: "Service Areas Directory", href: "/service-areas" },

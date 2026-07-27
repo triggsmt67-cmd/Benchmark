@@ -7,6 +7,21 @@ import { Breadcrumbs } from "@/components/widgets/breadcrumbs";
 import { RelatedServices } from "@/components/widgets/related-services";
 import { BookOpen } from "lucide-react";
 import { getGuideDetailSchema, serializeSchema } from "@/lib/seo";
+import Link from "next/link";
+
+function formatReviewDate(value: string | Date | undefined): string | null {
+    if (!value) return null;
+
+    const date = value instanceof Date ? value : new Date(value);
+    if (Number.isNaN(date.getTime())) return null;
+
+    return new Intl.DateTimeFormat("en-US", {
+        month: "long",
+        day: "numeric",
+        year: "numeric",
+        timeZone: "UTC",
+    }).format(date);
+}
 
 // 1. Generate Static Params for build time
 export async function generateStaticParams() {
@@ -64,8 +79,10 @@ export default async function GuidePage({ params }: { params: Promise<{ topic: s
         slug: topic,
         title: guideTitle,
         description: data.description || `Professional automotive guide in Missoula, MT.`,
+        lastReviewed: data.lastReviewed,
         faqs: data.faqs
     });
+    const reviewDate = formatReviewDate(data.lastReviewed);
 
     return (
         <article className="flex flex-col min-h-[100dvh]">
@@ -99,6 +116,15 @@ export default async function GuidePage({ params }: { params: Promise<{ topic: s
             <section className="py-12 md:py-24 bg-surface">
                 <div className="container mx-auto px-4 md:px-6">
                     <div className="max-w-3xl mx-auto">
+                        <div className="mb-10 border-l-4 border-copper bg-copper/5 px-5 py-4 text-sm text-navy-950">
+                            <p className="font-semibold">
+                                Written from Benchmark&apos;s shop experience and reviewed by ASE Master Technicians.
+                            </p>
+                            <p className="mt-1 text-text-secondary">
+                                <Link href="/about" className="text-copper hover:underline">Our content and review standards</Link>
+                                {reviewDate ? ` · Last reviewed ${reviewDate}` : ""}
+                            </p>
+                        </div>
                         <div className="max-w-none text-text-secondary text-[17px] md:text-lg
                                 [&>h1]:font-heading [&>h1]:text-4xl [&>h1]:text-navy-950 [&>h1]:font-bold [&>h1]:mt-12 [&>h1]:mb-6
                                 [&>h2]:font-heading [&>h2]:text-3xl [&>h2]:text-navy-950 [&>h2]:font-bold [&>h2]:mt-12 [&>h2]:mb-6

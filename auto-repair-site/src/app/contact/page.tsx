@@ -3,6 +3,7 @@ import { siteConfig } from "@/lib/siteConfig";
 import { MapPin, Phone, Clock, KeySquare, Mail } from "lucide-react";
 import { Reveal } from "@/components/motion/Reveal";
 import { ContactForm } from "@/components/forms/contact-form";
+import { getContactPageSchema, serializeSchema } from "@/lib/seo";
 
 export const metadata: Metadata = {
     title: "Contact",
@@ -13,8 +14,14 @@ export const metadata: Metadata = {
 };
 
 export default function ContactPage() {
+    const schema = getContactPageSchema();
+
     return (
         <div className="flex flex-col min-h-[100dvh]">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: serializeSchema(schema) }}
+            />
             <main className="flex-grow pt-28 pb-16 md:pt-36 md:pb-24 bg-bg">
                 <div className="container mx-auto px-4 md:px-6">
                     <Reveal>

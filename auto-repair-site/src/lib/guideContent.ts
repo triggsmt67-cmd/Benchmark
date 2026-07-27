@@ -10,7 +10,7 @@ export interface GuideData {
     order: number;
     related?: string[];
     faqs?: { question: string; answer: string }[];
-    lastReviewed?: string;
+    lastReviewed?: string | Date;
     [key: string]: unknown;
 }
 

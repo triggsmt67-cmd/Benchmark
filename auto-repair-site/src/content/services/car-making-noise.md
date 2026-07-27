@@ -1,6 +1,6 @@
 ---
 title: "Car Making Noise"
-description: "Strange car noises diagnosed at the source in Missoula, MT. Grinding, clunking, squealing, or rattling - Benchmark Automotive identifies what's causing it before recommending any repair."
+description: "Car noise diagnosis in Missoula, MT for grinding, clunking, squealing, rattling, or ticking. We identify the source before recommending repair."
 category: "Problem"
 featured: false
 order: 11

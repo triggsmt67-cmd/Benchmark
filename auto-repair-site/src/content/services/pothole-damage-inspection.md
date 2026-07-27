@@ -1,6 +1,6 @@
 ---
 title: "Pothole Damage Inspection in Missoula, MT"
-description: "Hit a pothole in Missoula, MT? Benchmark Automotive Service inspects tires, wheels, suspension, and alignment to find hidden damage before it becomes a bigger problem."
+description: "Pothole damage inspection in Missoula for tires, wheels, alignment, steering, and suspension. We measure the damage before recommending repairs."
 category: "Diagnostics"
 featured: false
 order: 16

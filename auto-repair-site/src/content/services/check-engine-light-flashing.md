@@ -1,6 +1,6 @@
 ---
 title: "Flashing Check Engine Light"
-description: "A flashing check engine light in Missoula, MT means your engine is actively misfiring - not just storing a fault code. Benchmark Automotive diagnoses the root cause before recommending any repair."
+description: "A flashing check engine light can signal an active misfire. Benchmark Automotive diagnoses ignition, fuel, sensor, and mechanical causes in Missoula."
 category: "Problem"
 featured: false
 order: 10

@@ -115,12 +115,22 @@ function businessNode() {
         "@type": "AutoRepair",
         "@id": "https://www.benchmarkmissoula.com/#business",
         "name": siteConfig.businessName,
-        "image": "https://www.benchmarkmissoula.com/diagnostic_hero_bg_v2.png",
-        "logo": "https://www.benchmarkmissoula.com/diagnostic_hero_bg_v2.png",
+        "image": "https://www.benchmarkmissoula.com/images/Benchmark%20Automotive.webp",
         "url": "https://www.benchmarkmissoula.com",
+        "email": siteConfig.email,
         "hasMap": "https://maps.app.goo.gl/k1AJiMky4sBqGitA9",
+        "sameAs": [
+            "https://maps.app.goo.gl/k1AJiMky4sBqGitA9"
+        ],
         "telephone": "+14063171405",
         "priceRange": "$$",
+        "knowsAbout": [
+            "Automotive diagnostics",
+            "Electrical diagnostics",
+            "Brake repair",
+            "Suspension and steering repair",
+            "Vehicle maintenance"
+        ],
         "address": {
             "@type": "PostalAddress",
             "streetAddress": siteConfig.address.street,
@@ -224,6 +234,7 @@ export interface ServiceSchemaOptions {
     slug: string;
     name: string;
     description: string;
+    lastReviewed?: string | Date;
     offerConfig?: {
         title: string;
         price: string;
@@ -263,6 +274,100 @@ export function getHomepageSchema(): { "@context": string; "@graph": any[] } {
 }
 
 // ---------------------------------------------------------------------------
+// CONTACT PAGE — unified graph: WebSite + AutoRepair + ContactPage + Breadcrumbs
+// ---------------------------------------------------------------------------
+
+export function getContactPageSchema() {
+    const pageUrl = "https://www.benchmarkmissoula.com/contact";
+
+    return buildUnifiedGraph([
+        websiteNode(),
+        businessNode(),
+        {
+            "@type": "ContactPage",
+            "@id": `${pageUrl}#webpage`,
+            "url": pageUrl,
+            "name": "Contact Benchmark Automotive Service",
+            "description": "Schedule automotive service or a diagnostic appointment with Benchmark Automotive Service in Missoula, Montana.",
+            "isPartOf": {
+                "@id": "https://www.benchmarkmissoula.com/#website"
+            },
+            "about": {
+                "@id": "https://www.benchmarkmissoula.com/#business"
+            },
+            "mainEntity": {
+                "@id": "https://www.benchmarkmissoula.com/#business"
+            }
+        },
+        {
+            "@type": "BreadcrumbList",
+            "@id": `${pageUrl}#breadcrumb`,
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.benchmarkmissoula.com/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Contact",
+                    "item": pageUrl
+                }
+            ]
+        }
+    ]);
+}
+
+// ---------------------------------------------------------------------------
+// ABOUT PAGE — unified graph: WebSite + AutoRepair + AboutPage + Breadcrumbs
+// ---------------------------------------------------------------------------
+
+export function getAboutPageSchema() {
+    const pageUrl = "https://www.benchmarkmissoula.com/about";
+
+    return buildUnifiedGraph([
+        websiteNode(),
+        businessNode(),
+        {
+            "@type": "AboutPage",
+            "@id": `${pageUrl}#webpage`,
+            "url": pageUrl,
+            "name": "About Benchmark Automotive Service",
+            "description": "Learn about Benchmark Automotive Service, its diagnostic-first process, technician review standards, and Missoula repair facility.",
+            "isPartOf": {
+                "@id": "https://www.benchmarkmissoula.com/#website"
+            },
+            "about": {
+                "@id": "https://www.benchmarkmissoula.com/#business"
+            },
+            "mainEntity": {
+                "@id": "https://www.benchmarkmissoula.com/#business"
+            }
+        },
+        {
+            "@type": "BreadcrumbList",
+            "@id": `${pageUrl}#breadcrumb`,
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.benchmarkmissoula.com/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "About",
+                    "item": pageUrl
+                }
+            ]
+        }
+    ]);
+}
+
+// ---------------------------------------------------------------------------
 // GUIDE DETAIL — unified graph: WebSite + AutoRepair + Article + Breadcrumbs + FAQ
 // ---------------------------------------------------------------------------
 
@@ -270,6 +375,7 @@ export interface GuideDetailSchemaOptions {
     slug: string;
     title: string;
     description: string;
+    lastReviewed?: string | Date;
     faqs?: { question: string; answer: string }[];
 }
 
@@ -283,11 +389,21 @@ export function getGuideDetailSchema(options: GuideDetailSchemaOptions): { "@con
         "description": escapeText(options.description),
         "author": {
             "@type": "Organization",
-            "name": "Benchmark Automotive Service"
+            "name": "Benchmark Automotive Service",
+            "url": "https://www.benchmarkmissoula.com/about"
+        },
+        "reviewedBy": {
+            "@type": "Organization",
+            "@id": "https://www.benchmarkmissoula.com/#business"
         },
         "publisher": {
             "@id": "https://www.benchmarkmissoula.com/#business"
         },
+        ...(options.lastReviewed ? { "dateModified": new Date(options.lastReviewed).toISOString() } : {}),
+        "image": [
+            "https://www.benchmarkmissoula.com/images/Inspection%20Bay.webp",
+            "https://www.benchmarkmissoula.com/images/Brake%20%26%20Suspension%20Evaluation.webp"
+        ],
         "url": pageUrl
     };
 
@@ -524,7 +640,26 @@ export function getServiceDetailSchema(options: ServiceSchemaOptions): { "@conte
         ]
     };
 
-    const nodes: any[] = [websiteNode(), businessNode(), service, breadcrumbs];
+    const webPage = {
+        "@type": "WebPage",
+        "@id": `${pageUrl}#webpage`,
+        "url": pageUrl,
+        "name": escapeText(options.name),
+        "description": escapeText(options.description),
+        "isPartOf": {
+            "@id": "https://www.benchmarkmissoula.com/#website"
+        },
+        "about": {
+            "@id": `${pageUrl}#service`
+        },
+        "reviewedBy": {
+            "@type": "Organization",
+            "@id": "https://www.benchmarkmissoula.com/#business"
+        },
+        ...(options.lastReviewed ? { "dateModified": new Date(options.lastReviewed).toISOString() } : {})
+    };
+
+    const nodes: any[] = [websiteNode(), businessNode(), webPage, service, breadcrumbs];
 
     if (options.faqs && options.faqs.length > 0) {
         nodes.push({

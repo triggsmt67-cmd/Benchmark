@@ -48,7 +48,7 @@ export function Footer() {
                             <h4 className="font-heading text-lg font-semibold text-surface">Quick Links</h4>
                             <nav className="flex flex-col space-y-2 text-sm text-muted/80">
                                 <Link href="/services" className="hover:text-copper transition-colors">Our Services</Link>
-                                <Link href="/#about" className="hover:text-copper transition-colors">About Us</Link>
+                                <Link href="/about" className="hover:text-copper transition-colors">About Us</Link>
                                 <a 
                                     href="https://maps.app.goo.gl/k1AJiMky4sBqGitA9" 
                                     target="_blank" 

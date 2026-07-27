@@ -1,10 +1,10 @@
 ---
 title: "Brakes Squeaking"
-description: "Squeaking brakes in Missoula, MT can mean worn pads, surface rust, a sticking caliper, or glazed rotors. Benchmark Automotive Service diagnoses the cause before recommending any repair."
+description: "Squeaking brakes in Missoula can mean surface rust, worn pads, glazed friction material, or sticking hardware. We inspect the cause before repair."
 category: "Problem"
 featured: false
 order: 6
-lastReviewed: 2026-03-13
+lastReviewed: 2026-07-27
 related:
   - brake-repair
   - vehicle-inspection
@@ -17,14 +17,14 @@ faqs:
     answer: "Cost depends on what's actually wrong. Replacing worn pads is straightforward. If the rotors are worn below spec or need resurfacing, that adds to the job. A sticking caliper costs more to address than a pad swap. We won't know the right answer until we inspect the system - which is why we diagnose before quoting."
 ---
 
-Squeaking brakes are one of the more common reasons drivers in Missoula bring their vehicles in, and the sound can originate from several different places in the braking system. Some causes are minor and self-resolving. Others indicate that the pads are at the end of their service life, or that a caliper isn't releasing properly. Getting the diagnosis right before replacing parts is the only way to fix what's actually wrong.
+Squeaking brakes are one of the more common reasons drivers in Missoula bring their vehicles in, and the sound can originate from several different places in the braking system. Some causes are minor and self-resolving. Others indicate that the pads are at the end of their service life, or that a caliper isn't releasing properly. Inspection and measurement separate those causes before parts are recommended.
 
 ---
 
 ## What This Service Covers
 
 - Visual inspection of brake pads, rotors, and calipers on the affected axle
-- Measurement of remaining pad thickness and rotor depth
+- Measurement of remaining pad thickness and rotor thickness
 - Caliper slide pin and piston inspection for sticking or corrosion
 - Rotor surface evaluation for rust buildup, glazing, or scoring
 - Assessment of brake hardware - clips, shims, and anti-squeal backing plates

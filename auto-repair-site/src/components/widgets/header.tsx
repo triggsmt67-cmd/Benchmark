@@ -48,7 +48,7 @@ export function Header() {
                     <Link href="/services" className={`transition-colors ${(pathname === "/services" || pathname.startsWith("/services/")) ? "text-brand-red" : "text-text-secondary hover:text-brand-red"}`}>
                         Services
                     </Link>
-                    <Link href="/#about" className="text-text-secondary hover:text-brand-red transition-colors">
+                    <Link href="/about" className={`transition-colors ${pathname === "/about" ? "text-brand-red" : "text-text-secondary hover:text-brand-red"}`}>
                         About
                     </Link>
                     <Link href="/#testimonials" className="text-text-secondary hover:text-brand-red transition-colors">
@@ -85,7 +85,7 @@ export function Header() {
                         <Link href="/services" className={`py-4 border-b border-muted/30 transition-colors ${(pathname === "/services" || pathname.startsWith("/services/")) ? "text-brand-red font-semibold" : "text-navy-950 hover:text-brand-red"}`} onClick={closeMobileMenu}>
                             Services
                         </Link>
-                        <Link href="/#about" className="py-4 border-b border-muted/30 text-navy-950 hover:text-brand-red transition-colors" onClick={closeMobileMenu}>
+                        <Link href="/about" className={`py-4 border-b border-muted/30 transition-colors ${pathname === "/about" ? "text-brand-red font-semibold" : "text-navy-950 hover:text-brand-red"}`} onClick={closeMobileMenu}>
                             About
                         </Link>
                         <Link href="/#testimonials" className="py-4 border-b border-muted/30 text-navy-950 hover:text-brand-red transition-colors" onClick={closeMobileMenu}>

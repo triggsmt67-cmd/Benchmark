@@ -1,9 +1,10 @@
 ---
 title: "AC & Heating Service"
-description: "AC and heating repair and diagnostics in Missoula, MT. Benchmark Automotive Service diagnoses refrigerant leaks, compressor failures, heater cores, blend door actuators, and blower motor issues."
+description: "Auto AC and heating repair in Missoula, MT. We test refrigerant pressure, airflow, electrical controls, heater performance, and leaks before repair."
 category: "Repair"
 featured: false
 order: 5
+lastReviewed: 2026-07-27
 related:
   - car-not-blowing-cold-air
   - fluid-services
@@ -14,7 +15,7 @@ faqs:
   - question: "Can I just recharge the system myself with a kit from the parts store?"
     answer: "A DIY recharge adds refrigerant without finding or fixing the leak, so the same problem returns in weeks or months. Overcharging also puts excess pressure on the compressor. Different model years use different refrigerant types - R-134a vs. R-1234yf - and using the wrong PAG oil damages the compressor. Diagnosis first, recharge second."
   - question: "My heat works, but the fan only blows at one speed. What's wrong?"
-    answer: "That's almost always the blower motor resistor. The resistor controls fan speed by varying electrical resistance; when it fails, the blower usually defaults to high speed only. It's a straightforward replacement once confirmed."
+    answer: "A failed blower motor resistor or electronic blower-control module is a common cause, but switch, wiring, and control-head faults can create similar symptoms. We test the circuit before replacing the control component."
 ---
 
 ## AC & Heating Service in Missoula, MT
@@ -78,7 +79,7 @@ After repair, we recharge the AC system, verify pressures at spec, and measure c
 
 ## When To Schedule Service
 
-Schedule AC service before temperatures consistently hit the 80s. Systems marginal in spring often fail completely on the first real heat wave, and refrigerant leaks don't stabilize on their own. If your compressor clutch is cycling rapidly or the system blows only slightly cool, the refrigerant level is already low and the compressor is under strain.
+Schedule AC service before temperatures consistently hit the 80s. A marginal system may stop cooling effectively as ambient temperature and system load increase, and refrigerant leaks do not correct themselves. Rapid compressor cycling or only slightly cool vent air warrants pressure, temperature, and electrical testing before the cause is assumed.
 
 For heating issues, any sign of coolant loss - a sweet smell in the cabin, interior window fogging, or a dropping overflow tank - warrants attention before it affects the engine.
 

@@ -5,49 +5,16 @@ import { Stagger, StaggerItem } from "@/components/motion/Stagger";
 
 const testimonials = [
     {
-        name: "Michael T.",
-        quote: "Finally, a mechanic I don't feel is trying to squeeze every dime out of me. Diagnosed an electrical issue the dealership couldn't find for months. Professional, clean shop, and straight shooters.",
-        timing: "2 weeks ago"
+        name: "Jesse Francis",
+        quote: "Dan and David at Benchmark Automotive did an excellent job on my vehicle. They charged me fairly and went above and beyond to help.",
     },
     {
-        name: "J. Johnson",
-        quote: "I went in for an oil change and the guys noticed I had a leaky axle seal. They caught it before my warranty ran out. That saved me thousands of dollars. Thanks guys.",
-        timing: "1 month ago"
+        name: "Ricky Hanson",
+        quote: "Had a great experience with Benchmark! They gave a much better quote than the other shops I looked at.",
     },
     {
-        name: "J. Fritz",
-        quote: "These guys did a great job! They were able to fit me in quickly and did a really good job on my brake service.",
-        timing: "Recent Visit"
-    },
-    {
-        name: "Sarah L.",
-        quote: "Honest work, quick turnaround, and fair pricing. They walked me through exactly what was wrong with my suspension and showed me the worn control arm bushings before starting.",
-        timing: "Recent Visit"
-    },
-    {
-        name: "David K.",
-        quote: "Benchmark is my go-to shop now. They are the only mechanics in Missoula who actually test components with scopes instead of just replacing parts until the light goes off.",
-        timing: "2 months ago"
-    },
-    {
-        name: "Amanda M.",
-        quote: "Super professional and clean facility. They took the time to explain which fluid services were urgent and which ones could wait. I highly recommend them to anyone in Missoula.",
-        timing: "Recent Visit"
-    },
-    {
-        name: "James R.",
-        quote: "Benchmark solved a parasitic battery drain that had been killing my SUV's battery for weeks. They isolated it to a stuck relay in the dash and fixed it without replacing the whole fuse box. Very fair price and super smart technicians.",
-        timing: "3 weeks ago"
-    },
-    {
-        name: "Emily W.",
-        quote: "Excellent customer service. They diagnosed my check engine light and explained that it was just a loose gas cap sealing ring. They didn't charge me for a full diagnostic fee and were very honest. I'll definitely be back for any future repairs.",
-        timing: "1 month ago"
-    },
-    {
-        name: "Robert P.",
-        quote: "I brought my truck in for a pre-trip inspection before driving out to Glacier. They found worn steering tie rods and showed me the play in the joint on the lift. Outstanding service, professional, and very thorough.",
-        timing: "Recent Visit"
+        name: "Stephen Masters",
+        quote: "They are accurate, honest and efficient. Their expertise is next level and they are great to work with.",
     }
 ];
 
@@ -64,7 +31,7 @@ export function TestimonialsSection() {
                             What Local Drivers Are Saying
                         </h2>
                         <p className="text-text-secondary text-base md:text-lg leading-relaxed">
-                            Read verified feedback from drivers across Missoula County who trust us for diagnostic accuracy.
+                            Short excerpts from customer reviews currently published on Google.
                         </p>
                         <div className="flex justify-center mt-6">
                             <PrecisionDivider instant />
@@ -87,7 +54,7 @@ export function TestimonialsSection() {
                                             ))}
                                         </div>
                                         <span className="text-[11px] text-muted-foreground font-semibold uppercase tracking-wider">
-                                            Verified Google Review
+                                            Google review excerpt
                                         </span>
                                     </div>
                                     
@@ -106,19 +73,10 @@ export function TestimonialsSection() {
                                     &quot;{t.quote}&quot;
                                 </blockquote>
                                 
-                                <div className="border-t border-border/60 pt-4 flex items-center justify-between">
-                                    <div>
-                                        <cite className="font-heading font-bold text-navy-950 text-base not-italic">
-                                            {t.name}
-                                        </cite>
-                                        <p className="text-xs text-muted-foreground mt-0.5">
-                                            {t.timing}
-                                        </p>
-                                    </div>
-                                    <div className="flex items-center gap-1.5 bg-emerald-50 text-emerald-700 px-2.5 py-1 rounded-full text-xs font-semibold">
-                                        <span className="h-1.5 w-1.5 rounded-full bg-emerald-600" />
-                                        <span>Verified</span>
-                                    </div>
+                                <div className="border-t border-border/60 pt-4">
+                                    <cite className="font-heading font-bold text-navy-950 text-base not-italic">
+                                        {t.name}
+                                    </cite>
                                 </div>
                             </article>
                         </StaggerItem>

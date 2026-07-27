@@ -10,18 +10,18 @@ related:
   - vehicle-inspection
 faqs:
   - question: "How much does a pre-purchase inspection cost?"
-    answer: "Most independent shops charge between $100 and $150. A single overlooked issue - a leaking rear main seal, worn CV axles, or an overdue timing service - can cost $500 to $2,000 to repair after purchase. The inspection pays for itself the first time it catches something the seller wasn't disclosing."
+    answer: "Pricing varies with the inspection scope and vehicle. Ask what is included, whether the vehicle will be lifted and road-tested, and whether you will receive a written report before comparing prices."
   - question: "What if the seller won't let me have it inspected?"
     answer: "That's meaningful information on its own. A seller who refuses an independent inspection before the sale has limited their credibility significantly. There's no standard reason to refuse unless there's something to hide. We'd treat refusal as a serious flag, not a minor inconvenience."
   - question: "Can a car pass inspection and still have problems later?"
     answer: "Yes. An inspection gives you a snapshot of the vehicle's condition on a specific day. It can't predict bearing failure six months out or catch an intermittent electrical fault that doesn't trigger during the inspection window. What it reliably identifies is deferred maintenance, existing mechanical wear, and damage that's already visible - which covers the majority of problems that blindside used car buyers."
 ---
 
-If you're buying a used car in Missoula, the vehicle's condition and its asking price may have very little to do with each other. A pre-purchase inspection from an independent mechanic is the only way to know what you're actually buying before the title transfers - and a used car inspection guide starts with understanding exactly what that process uncovers.
+If you're buying a used car in Missoula, the vehicle's condition and its asking price may have very little to do with each other. An independent pre-purchase inspection gives you evidence that a listing, test drive, and vehicle-history report can miss before the title transfers.
 
 ---
 
-## What This Service Covers
+## What This Guide Covers
 
 A thorough used car inspection covers the full mechanical picture, not just the surface items:
 
@@ -111,7 +111,14 @@ Mountain driving adds load that flat-state miles don't replicate. Brake rotors a
 
 - [Pre-Purchase Inspection](/services/pre-purchase-inspection)
 - [Vehicle Inspection](/services/vehicle-inspection)
-- Is It Worth Fixing My Car?
+- [Is It Worth Fixing My Car?](/guides/living-in-missoula-is-it-worth-fixing-my-car)
+
+---
+
+## Sources
+
+- [Federal Trade Commission: buying a used car from a dealer](https://consumer.ftc.gov/articles/buying-used-car-dealer)
+- [NHTSA vehicle recall lookup](https://www.nhtsa.gov/recalls)
 
 ---
 

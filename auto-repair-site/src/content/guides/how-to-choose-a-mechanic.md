@@ -14,7 +14,7 @@ related:
   - suspension-steering
 faqs:
   - question: "How do I verify that a mechanic is ASE certified?"
-    answer: "ASE certifications can be verified at ase.com using the technician's name or certification number. You can also look for the ASE Blue Seal logo at the shop. Direct verification removes any ambiguity."
+    answer: "Ask the technician or shop for the technician's ASE ID. ASE requires that ID when you request certification-status verification. Current certificates and ASE insignia can also help confirm which credentials are active."
   - question: "Is an independent shop or dealership better for my car?"
     answer: "Dealerships are best for active warranty repairs and open recalls. Independent shops are often better for diagnostics, brakes, suspension, and maintenance. The real difference is fit, process, and communication."
   - question: "How do I know if a shop is being straight with me?"
@@ -26,8 +26,6 @@ faqs:
   - question: "What makes a mechanic familiar with Missoula driving conditions?"
     answer: "They understand the impact of cold winter starts on batteries, how rough gravel roads and freeze-thaw cycles damage suspension, and how highway driving affects brake wear."
 ---
-
-# How to Choose a Mechanic in Missoula, Montana
 
 Choosing a mechanic in Missoula is not just about finding the closest shop or the lowest hourly rate. Between cold starts, rough roads, gravel, freeze-thaw damage, highway driving, and vehicles that need real diagnostic work, the better question is whether the shop can prove what is wrong before selling you a repair.
 
@@ -79,7 +77,7 @@ Certification matters, but it is not the only quality signal. Process, communica
 
 A trouble code is not a diagnosis. It is merely a starting point. 
 
-Good shops use scan tools, live data, electrical testing, measurements, and physical inspection to find the real issue. They should be able to explain what failed, why it failed, and how they confirmed it before writing an estimate. Furthermore, they separate urgent safety repairs from long-term maintenance and verify the fix after the work is done.
+Good shops use scan tools, live data, electrical testing, measurements, and physical inspection to find the real issue. They should be able to explain what failed, why it failed, and how they confirmed it before writing an estimate. They should also separate urgent safety repairs from long-term maintenance and verify the fix after the work is done.
 
 To learn more about how this works, review our [diagnostic approach](/services/our-diagnostic-approach) or see how we handle [check engine light diagnosis](/services/check-engine-light) and full [vehicle inspections](/services/vehicle-inspection).
 
@@ -104,7 +102,7 @@ To learn more about how this works, review our [diagnostic approach](/services/o
 A good answer explains the testing steps - like reading live data or pressure testing - rather than just "we'll look at it."
 
 **Will I receive a written estimate before work begins?**  
-A good shop will guarantee this. If they refuse, find another mechanic.
+A good shop will provide a written estimate before repair work begins. If a shop refuses, consider another mechanic.
 
 **What is urgent, and what can wait?**  
 An honest shop helps you prioritize safety issues over optional maintenance without pressure.
@@ -116,7 +114,7 @@ Look for a clear minimum warranty, typically at least 12 months or 12,000 miles.
 They should explain their post-repair testing and road-test procedures.
 
 **Will you call before doing additional work?**  
-A reputable shop will never surprise you with unauthorized charges.
+A reputable shop gets your approval before adding work or charges.
 
 ---
 
@@ -184,3 +182,10 @@ Benchmark Automotive Service may be a good fit if you want a shop that tests fir
 - [Brake Repair](/services/brake-repair)
 - [Suspension and Steering](/services/suspension-steering)
 - [Schedule Service](/contact)
+
+---
+
+## Sources and Verification
+
+- [ASE certification verification requirements](https://www.ase.com/faq/)
+- [NHTSA vehicle recall lookup](https://www.nhtsa.gov/recalls)

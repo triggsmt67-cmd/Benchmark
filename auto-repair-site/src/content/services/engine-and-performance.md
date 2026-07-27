@@ -4,12 +4,13 @@ description: "Engine performance diagnosis in Missoula, MT for hesitation, rough
 category: "Engine"
 featured: false
 order: 10
+lastReviewed: 2026-07-27
 related:
   - check-engine-light
   - advanced-diagnostics
 faqs:
   - question: "My car runs fine most of the time. Do I really need to address this now?"
-    answer: "Intermittent misfires are often a sign that a component is failing gradually - not that everything is fine. Running a misfiring cylinder sends unburned fuel into the catalytic converter, which can damage it. Addressing the root cause early is almost always less expensive than waiting."
+    answer: "Intermittent misfires can indicate a developing ignition, fuel, sensor, or mechanical fault. A continuing misfire may send unburned fuel into the catalytic converter and damage it, so diagnosing the cause early can prevent a more expensive secondary repair."
   - question: "Can a bad spark plug really cause all these symptoms?"
     answer: "Yes. A single fouled or worn plug can cause rough idle, reduced power, poor fuel economy, and a check engine light simultaneously. It's one of the more common cases where a relatively simple repair resolves multiple complaints at once."
   - question: "How long does engine performance diagnostics take?"

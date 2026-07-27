@@ -1,6 +1,7 @@
 ---
 title: "Car Won't Start"
 description: "No-crank and crank-no-start diagnosis in Missoula, MT - batteries, starters, alternators, fuel delivery, ignition, and immobilizer faults."
+lastReviewed: 2026-07-27
 categories: ["Vehicle Problems","Diagnostics","All"]
 section: "Common Vehicle Problems"
 isMostRequested: true
@@ -11,7 +12,7 @@ related:
   - electrical-diagnostics
 faqs:
   - question: "How do I know if it's the battery or the starter?"
-    answer: "A dead battery typically produces rapid clicking, dim interior lights, or complete silence. A bad starter usually produces one loud mechanical click with normal interior lighting. The distinction isn't always clean - a battery load test and starter circuit voltage drop measurement are the definitive tools."
+    answer: "A weak battery often produces rapid clicking, dim interior lights, or silence. A starter fault may produce one mechanical click with otherwise normal lighting, but the symptoms can overlap. A battery load test and starter-circuit voltage-drop test help separate the two."
   - question: "If I can jump-start the car, does that mean the battery is fine?"
     answer: "No. Jump-starting bypasses the battery - it supplies external current to the starter. A battery that won't hold a charge may be failing on its own, or it may be draining faster than the alternator can recharge it due to a parasitic draw or an alternator that isn't putting out enough amperage. Load testing will show whether it has real capacity or just surface charge."
   - question: "Can a security system prevent the car from starting?"
@@ -51,7 +52,7 @@ When your car doesn't start, the cause can be anywhere in a chain of systems - b
 
 The two most distinct no-start conditions are "no crank" and "crank no-start," and they point in completely different directions.
 
-A **no-crank condition** - where the engine doesn't turn over at all - is almost always electrical. The most common cause is a discharged or failed battery. Lead-acid batteries degrade gradually; terminal voltage can read acceptable at rest but collapse under the load of cranking. Battery terminals corroded with sulfate buildup add resistance that the starter can't overcome. The starter motor itself can fail - brushes wear, solenoid contacts burn, or the bendix gear jams - producing either a single loud click or complete silence. A failed neutral safety switch (in automatics) or clutch safety switch (in manuals) can block the start signal entirely. Blown fuses or a failed ignition relay are less common but fast to eliminate.
+A **no-crank condition** - where the engine doesn't turn over at all - usually points to the battery, starting circuit, starter motor, or a control that prevents cranking. The most common cause is a discharged or failed battery. Lead-acid batteries degrade gradually; terminal voltage can read acceptable at rest but collapse under the load of cranking. Battery terminals corroded with sulfate buildup add resistance that the starter can't overcome. The starter motor itself can fail - brushes wear, solenoid contacts burn, or the bendix gear jams - producing either a single loud click or complete silence. A failed neutral safety switch (in automatics) or clutch safety switch (in manuals) can block the start signal entirely. Blown fuses or a failed ignition relay are less common but fast to eliminate.
 
 A **crank no-start condition** - where the engine turns over but won't fire - requires checking three things: fuel, spark, and compression. Fuel delivery failures come from a dead fuel pump, a clogged fuel filter, a failing fuel pressure regulator, or clogged fuel injectors. Direct-injection engines have a high-pressure fuel pump driven by the camshaft in addition to the low-pressure in-tank pump, and either can fail independently. Spark failures trace to worn or fouled spark plugs, failed ignition coils, or a bad crankshaft position sensor - the sensor the ECU uses to determine when to fire each cylinder. Without a valid signal from the crank sensor, the engine management system won't trigger spark or fuel injection regardless of other conditions. Compression issues - caused by worn piston rings, a jumped timing chain, or a failed head gasket - are less common but produce a distinct pattern: the engine cranks at an unusually fast, light-sounding speed because cylinder pressure isn't building.
 

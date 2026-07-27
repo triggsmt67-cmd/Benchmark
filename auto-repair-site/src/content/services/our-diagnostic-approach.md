@@ -1,6 +1,6 @@
 ---
 title: "Our Diagnostic Approach in Missoula"
-description: "See the step-by-step diagnostic process Benchmark Automotive Service uses in Missoula, MT to inspect, test, confirm, and verify the real fault before recommending repairs."
+description: "See how Benchmark Automotive diagnoses vehicle problems in Missoula using inspection, scan data, measurements, circuit tests, and repair verification."
 category: "Diagnostics"
 featured: false
 order: 1
@@ -48,7 +48,7 @@ Drivers usually end up here when the answer is not obvious from the symptom alon
 
 ## Why It Happens
 
-Diagnostic errors - and repeat repairs - almost always trace back to the same mistake: treating a trouble code as a confirmed diagnosis. A P0420 code (catalyst efficiency below threshold) doesn't mean the catalytic converter is bad. It means a downstream oxygen sensor detected a threshold deviation. The actual cause could be the converter, a faulty oxygen sensor, an exhaust leak upstream of the sensor, or a fuel trim issue pushing combustion lean. Replacing the converter without testing those variables first costs the driver money without fixing the car.
+Many diagnostic errors and repeat repairs begin with the same mistake: treating a trouble code as a confirmed diagnosis. A P0420 code (catalyst efficiency below threshold) doesn't mean the catalytic converter is bad. It means a downstream oxygen sensor detected a threshold deviation. The actual cause could be the converter, a faulty oxygen sensor, an exhaust leak upstream of the sensor, or a fuel trim issue pushing combustion lean. Replacing the converter without testing those variables first costs the driver money without fixing the car.
 
 The same logic applies to physical symptoms. A knocking noise from under the hood points toward a list of candidates - rod bearings, piston slap, collapsed lifters, exhaust manifold leaks, accessory drive components - not a single obvious answer. The inspection narrows the field. Targeted tests confirm which component is actually failing.
 

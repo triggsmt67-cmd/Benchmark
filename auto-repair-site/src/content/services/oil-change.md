@@ -1,6 +1,6 @@
 ---
 title: "Oil Change"
-description: "Oil change service in Missoula, MT at Benchmark Automotive Service. Manufacturer-specified oil and filter, fluid inspection, and oil life reset. Call (406) 317-1405."
+description: "Oil change service in Missoula, MT with manufacturer-specified oil, a quality filter, fluid checks, and oil-life reset. Call (406) 317-1405."
 category: "Maintenance"
 featured: false
 order: 10
