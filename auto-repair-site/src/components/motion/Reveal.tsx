@@ -1,7 +1,7 @@
 "use client";
 
-import { motion, useReducedMotion } from "framer-motion";
-import { ReactNode, useEffect, useState } from "react";
+import { motion } from "framer-motion";
+import { ReactNode } from "react";
 import { motionTokens } from "@/lib/motion";
 
 interface RevealProps {
@@ -19,7 +19,7 @@ export function Reveal({
     direction = "up",
     instant = false,
 }: RevealProps) {
-    const shouldReduceMotion = useReducedMotion();
+
 
     const yOffset = direction === "up" ? motionTokens.distance.sm : direction === "down" ? -motionTokens.distance.sm : 0;
     const xOffset = direction === "left" ? motionTokens.distance.sm : direction === "right" ? -motionTokens.distance.sm : 0;

@@ -191,9 +191,11 @@ export function generateLocalBusinessSchema() {
 // individual nodes, and wraps them in a single { @context, @graph } object.
 // ---------------------------------------------------------------------------
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function buildUnifiedGraph(nodes: any[]): { "@context": string; "@graph": any[] } {
     const cleanedNodes = nodes.map(node => {
         if (node && node["@context"]) {
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
             const { "@context": _, ...rest } = node;
             return rest;
         }
@@ -220,6 +222,7 @@ export function escapeText(str: string): string {
         .trim();
 }
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function serializeSchema(schema: any): string {
     return JSON.stringify(schema)
         .replace(/</g, '\\u003c')
@@ -266,6 +269,7 @@ export interface ServiceAreaDetailSchemaOptions {
 // HOMEPAGE — unified graph with WebSite + AutoRepair
 // ---------------------------------------------------------------------------
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function getHomepageSchema(): { "@context": string; "@graph": any[] } {
     return buildUnifiedGraph([
         websiteNode(),
@@ -379,6 +383,7 @@ export interface GuideDetailSchemaOptions {
     faqs?: { question: string; answer: string }[];
 }
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function getGuideDetailSchema(options: GuideDetailSchemaOptions): { "@context": string; "@graph": any[] } {
     const pageUrl = `https://www.benchmarkmissoula.com/guides/${options.slug}`;
 
@@ -432,6 +437,7 @@ export function getGuideDetailSchema(options: GuideDetailSchemaOptions): { "@con
         ]
     };
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
     const nodes: any[] = [websiteNode(), businessNode(), article, breadcrumbs];
 
     if (options.faqs && options.faqs.length > 0) {
@@ -462,6 +468,7 @@ export interface ProblemDetailSchemaOptions {
     description: string;
 }
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function getProblemDetailSchema(options: ProblemDetailSchemaOptions): { "@context": string; "@graph": any[] } {
     const pageUrl = `https://www.benchmarkmissoula.com/problems/${options.slug}`;
 
@@ -512,6 +519,7 @@ export function getProblemDetailSchema(options: ProblemDetailSchemaOptions): { "
 // SERVICES HUB — unified graph with WebSite + AutoRepair + ItemList + Breadcrumbs
 // ---------------------------------------------------------------------------
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function getServicesHubSchema(services: { title: string; description: string; slug: string }[]): { "@context": string; "@graph": any[] } {
     const pageUrl = "https://www.benchmarkmissoula.com/services";
 
@@ -567,9 +575,11 @@ export function getServicesHubSchema(services: { title: string; description: str
 // SERVICE DETAIL — unified graph: WebSite + AutoRepair + Service + Breadcrumbs + FAQ
 // ---------------------------------------------------------------------------
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function getServiceDetailSchema(options: ServiceSchemaOptions): { "@context": string; "@graph": any[] } {
     const pageUrl = `https://www.benchmarkmissoula.com/services/${options.slug}`;
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
     const service: any = {
         "@type": "Service",
         "@id": `${pageUrl}#service`,
@@ -659,6 +669,7 @@ export function getServiceDetailSchema(options: ServiceSchemaOptions): { "@conte
         ...(options.lastReviewed ? { "dateModified": new Date(options.lastReviewed).toISOString() } : {})
     };
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
     const nodes: any[] = [websiteNode(), businessNode(), webPage, service, breadcrumbs];
 
     if (options.faqs && options.faqs.length > 0) {
@@ -683,10 +694,12 @@ export function getServiceDetailSchema(options: ServiceSchemaOptions): { "@conte
 // CITY SERVICE PAGE — unified graph: WebSite + AutoRepair + Service + Breadcrumbs + FAQ
 // ---------------------------------------------------------------------------
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function getCityServiceSchema(options: CityServiceSchemaOptions): { "@context": string; "@graph": any[] } {
     const cityEntity = getNormalizedCityEntity(options.citySlug);
     const pageUrl = `https://www.benchmarkmissoula.com/services/${options.slug}/${options.citySlug}`;
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
     const service: any = {
         "@type": "Service",
         "@id": `${pageUrl}#service`,
@@ -736,6 +749,7 @@ export function getCityServiceSchema(options: CityServiceSchemaOptions): { "@con
         ]
     };
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
     const nodes: any[] = [websiteNode(), businessNode(), service, breadcrumbs];
 
     if (options.faqs && options.faqs.length > 0) {
@@ -760,6 +774,7 @@ export function getCityServiceSchema(options: CityServiceSchemaOptions): { "@con
 // SERVICE AREAS HUB — unified graph: WebSite + AutoRepair + Breadcrumbs + FAQ
 // ---------------------------------------------------------------------------
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function getServiceAreasHubSchema(faqs: { q: string; a: string }[]): { "@context": string; "@graph": any[] } {
     const pageUrl = "https://www.benchmarkmissoula.com/service-areas";
 
@@ -802,6 +817,7 @@ export function getServiceAreasHubSchema(faqs: { q: string; a: string }[]): { "@
 // SERVICE AREA DETAIL — unified graph: WebSite + AutoRepair + Service + Breadcrumbs + FAQ
 // ---------------------------------------------------------------------------
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function getServiceAreaDetailSchema(options: ServiceAreaDetailSchemaOptions): { "@context": string; "@graph": any[] } {
     const cityEntity = getNormalizedCityEntity(options.citySlug);
     const pageUrl = `https://www.benchmarkmissoula.com/service-areas/${options.citySlug}`;
@@ -847,6 +863,7 @@ export function getServiceAreaDetailSchema(options: ServiceAreaDetailSchemaOptio
         ]
     };
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
     const nodes: any[] = [websiteNode(), businessNode(), service, breadcrumbs];
 
     if (options.faqs && options.faqs.length > 0) {

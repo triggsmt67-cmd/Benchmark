@@ -6,7 +6,7 @@ featured: false
 order: 5
 lastReviewed: 2026-07-27
 related:
-  - brakes-squeaking
+
   - steering-vibration
   - suspension-steering
 faqs:

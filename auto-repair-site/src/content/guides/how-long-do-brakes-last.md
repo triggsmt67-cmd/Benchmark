@@ -7,7 +7,7 @@ order: 10
 lastReviewed: 2026-04-08
 related:
   - brake-repair
-  - brakes-squeaking
+  - brake-repair
   - vehicle-inspection
 faqs:
   - question: "How long do brake pads actually last in Montana?"
@@ -35,11 +35,11 @@ Most brake pads are rated for 30,000 to 70,000 miles. That range assumes mostly 
 
 ## Common Symptoms
 
-- Squealing or high-pitched noise when slowing down - a wear indicator signal ([learn more about brake squeaking](/services/brakes-squeaking))
+- Squealing or high-pitched noise when slowing down - a wear indicator signal ([learn more about brake repair](/services/brake-repair))
 - Grinding or metal-on-metal scraping when stopping
 - Vibration through the steering wheel or brake pedal under braking
 - Pedal feels soft, spongy, or sinks lower than usual before engaging
-- Vehicle [pulls to one side when braking](/services/car-pulling-to-one-side)
+- Vehicle pulls to one side when braking (requires [brake inspection](/services/brake-repair))
 - Stopping distances feel longer than they used to
 - Brake warning light illuminated on the dashboard
 
@@ -112,7 +112,7 @@ Spring is a practical time to get eyes on your brakes. Montana roads carry road 
 ## Related Services
 
 - [Brake Repair and Replacement](/services/brake-repair)
-- [Brakes Squeaking](/services/brakes-squeaking)
+- [Brake Repair](/services/brake-repair)
 - [Vehicle Inspection](/services/vehicle-inspection)
 
 ---

@@ -6,7 +6,7 @@ featured: false
 order: 20
 lastReviewed: "2026-03-16"
 related:
-  - battery-drain
+  - electrical-diagnostics
   - oil-change
   - fluid-services
 faqs:
@@ -92,13 +92,13 @@ Missoula sits in the Clark Fork River valley, which holds cold air during winter
 
 Road salt and abrasive sand applied on Missoula streets and along the I-90 corridor accelerate battery terminal corrosion and work into brake hardware and suspension components over the season. If you're doing regular winter miles on the interstate, Highway 93, or the Bitterroot corridor, your vehicle sees more chemical and abrasive exposure than a vehicle stored or driven in a milder climate.
 
-The [battery and charging system](/services/battery-drain) is the most common failure point in Missoula winters. The [cooling system](/services/fluid-services) and an [oil change](/services/oil-change) to a cold-appropriate viscosity round out what most vehicles need before temperatures drop.
+The [battery and charging system](/services/electrical-diagnostics) is the most common failure point in Missoula winters. The [cooling system](/services/fluid-services) and an [oil change](/services/oil-change) to a cold-appropriate viscosity round out what most vehicles need before temperatures drop.
 
 ---
 
 ## Related Services
 
-- [Battery Drain & Charging System](/services/battery-drain)
+- [Electrical Diagnostics](/services/electrical-diagnostics)
 - [Oil Change](/services/oil-change)
 - [Fluid Services (Coolant)](/services/fluid-services)
 

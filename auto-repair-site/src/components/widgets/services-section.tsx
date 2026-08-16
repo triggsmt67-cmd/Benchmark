@@ -24,7 +24,7 @@ const services = [
         title: "Electrical Diagnostics",
         description: "Advanced diagnostics for alternators, starters, batteries, and complex wiring issues.",
         icon: <Zap className="h-6 w-6" />,
-        slug: "advanced-diagnostics",
+        slug: "engine-and-performance",
         isElevated: true,
     },
     {

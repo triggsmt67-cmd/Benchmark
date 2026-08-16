@@ -91,7 +91,7 @@ Missoula winters put real load on starting systems. A fully charged battery at 3
 
 ## Related Services
 
-- [Battery Drain & Charging System](/services/battery-drain)
+- [Electrical Diagnostics](/services/electrical-diagnostics)
 - Starter & Alternator Repair
 - [Electrical Diagnostics](/services/electrical-diagnostics)
 

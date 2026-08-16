@@ -135,7 +135,7 @@ export default function MissoulaServiceAreaPage() {
                                     Missoula drivers often come to us for services like:
                                 </p>
                                 <ul className="list-disc pl-6 space-y-4">
-                                    <li><Link href="/services/advanced-diagnostics" className="text-copper hover:underline font-medium">Advanced Diagnostics</Link></li>
+                                    <li><Link href="/services/engine-and-performance" className="text-copper hover:underline font-medium">Engine & Performance Diagnostics</Link></li>
                                     <li><Link href="/services/brake-repair" className="text-copper hover:underline font-medium">Brake Repair</Link></li>
                                     <li><Link href="/services/electrical-diagnostics" className="text-copper hover:underline font-medium">Electrical Diagnostics</Link></li>
                                     <li><Link href="/services/oil-change" className="text-copper hover:underline font-medium">Oil Change</Link></li>

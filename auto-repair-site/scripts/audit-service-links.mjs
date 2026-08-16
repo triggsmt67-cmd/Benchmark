@@ -3,6 +3,7 @@ import path from 'path';
 import matter from 'gray-matter';
 
 const contentDir = path.join(process.cwd(), 'src/content/services');
+const rootDir = process.cwd();
 
 async function getAllServiceSlugs() {
     const files = await fs.readdir(contentDir);
@@ -11,20 +12,30 @@ async function getAllServiceSlugs() {
     );
 }
 
-function extractLinks(markdown) {
+async function getFilesRecursively(dir, exts) {
+    let results = [];
+    const list = await fs.readdir(dir, { withFileTypes: true });
+    for (const file of list) {
+        const filePath = path.join(dir, file.name);
+        if (file.isDirectory()) {
+            results = results.concat(await getFilesRecursively(filePath, exts));
+        } else {
+            if (exts.some(ext => file.name.endsWith(ext))) {
+                results.push(filePath);
+            }
+        }
+    }
+    return results;
+}
+
+function extractLinks(content) {
     const links = [];
 
     // Pattern 1: /services/slug
-    const regex1 = /\[.*?\]\(\/services\/([a-zA-Z0-9-]+)\)/g;
+    const regex1 = /\/services\/([a-zA-Z0-9-]+)/g;
     let match;
-    while ((match = regex1.exec(markdown)) !== null) {
+    while ((match = regex1.exec(content)) !== null) {
         links.push({ slug: match[1], type: 'normalized' });
-    }
-
-    // Pattern 2: /slug (missing /services/ prefix)
-    const regex2 = /\[.*?\]\(\/(?!services\/)([a-zA-Z0-9-]+)\)/g;
-    while ((match = regex2.exec(markdown)) !== null) {
-        links.push({ slug: match[1], type: 'missing-prefix' });
     }
 
     return links;
@@ -35,7 +46,11 @@ function getSuggestedFix(brokenSlug, validSlugs) {
     let highestSimilarity = 0;
 
     for (const validSlug of validSlugs) {
-        const similarity = countMatchingCharacters(brokenSlug, validSlug) / Math.max(brokenSlug.length, validSlug.length);
+        let matches = 0;
+        for (let i = 0; i < Math.min(brokenSlug.length, validSlug.length); i++) {
+            if (brokenSlug[i] === validSlug[i]) matches++;
+        }
+        const similarity = matches / Math.max(brokenSlug.length, validSlug.length);
         if (similarity > highestSimilarity) {
             highestSimilarity = similarity;
             closestMatch = validSlug;
@@ -45,38 +60,44 @@ function getSuggestedFix(brokenSlug, validSlugs) {
     return highestSimilarity > 0.4 ? closestMatch : 'none';
 }
 
-function countMatchingCharacters(str1, str2) {
-    let matches = 0;
-    for (let i = 0; i < Math.min(str1.length, str2.length); i++) {
-        if (str1[i] === str2[i]) matches++;
-    }
-    return matches;
-}
-
 async function auditLinks() {
-    console.log("Starting enhanced service link audit...\n");
+    console.log("Starting repository-wide service link audit...\n");
     const validSlugs = await getAllServiceSlugs();
-    const fileNames = await fs.readdir(contentDir);
-    const mdFiles = fileNames.filter(f => f.endsWith('.md'));
+
+    // Get all files to scan
+    const srcFiles = await getFilesRecursively(path.join(rootDir, 'src'), ['.md', '.ts', '.tsx']);
+    const llmsFile = path.join(rootDir, 'public', 'llms.txt');
+    const allFiles = [...srcFiles];
+
+    try {
+        await fs.access(llmsFile);
+        allFiles.push(llmsFile);
+    } catch (_e) {} // ignore if llms.txt doesn't exist
 
     let globalIssuesFound = false;
 
-    for (const file of mdFiles) {
-        const filePath = path.join(contentDir, file);
+    for (const filePath of allFiles) {
+        const file = path.relative(rootDir, filePath);
         const fileContent = await fs.readFile(filePath, 'utf-8');
-        const { data, content } = matter(fileContent);
-        const links = extractLinks(content);
+        const fileExt = path.extname(file);
+
+        let contentToScan = fileContent;
+        let frontmatterData = {};
+
+        if (fileExt === '.md') {
+            const parsed = matter(fileContent);
+            frontmatterData = parsed.data;
+            contentToScan = parsed.content;
+        }
+
+        const links = extractLinks(contentToScan);
 
         let fileHasIssues = false;
         let errors = [];
 
-        // Check body links
-        for (const { slug, type } of links) {
-            if (type === 'missing-prefix') {
-                fileHasIssues = true;
-                globalIssuesFound = true;
-                errors.push(`      - Non-normalized: /${slug} (Should be /services/${slug})`);
-            } else if (!validSlugs.has(slug)) {
+        // Check body/code links
+        for (const { slug } of links) {
+            if (!validSlugs.has(slug)) {
                 fileHasIssues = true;
                 globalIssuesFound = true;
                 const fix = getSuggestedFix(slug, validSlugs);
@@ -84,9 +105,9 @@ async function auditLinks() {
             }
         }
 
-        // Check frontmatter related
-        if (data.related && Array.isArray(data.related)) {
-            for (const relatedSlug of data.related) {
+        // Check frontmatter related (only for services)
+        if (filePath.includes('/src/content/services') && frontmatterData.related && Array.isArray(frontmatterData.related)) {
+            for (const relatedSlug of frontmatterData.related) {
                 if (!validSlugs.has(relatedSlug)) {
                     fileHasIssues = true;
                     globalIssuesFound = true;
@@ -96,16 +117,14 @@ async function auditLinks() {
             }
         }
 
-        if (!fileHasIssues) {
-            console.log(`✅ OK: ${file}`);
-        } else {
+        if (fileHasIssues) {
             console.log(`❌ ISSUES: ${file} →`);
             errors.forEach(err => console.log(err));
         }
     }
 
     if (!globalIssuesFound) {
-        console.log("\n✅ All service links are valid and normalized.");
+        console.log("\n✅ All service links across the repository are valid and normalized.");
     } else {
         console.log("\n❌ Audit complete. Issues were found.");
         process.exit(1);

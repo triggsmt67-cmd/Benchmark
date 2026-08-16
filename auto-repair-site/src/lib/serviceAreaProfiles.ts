@@ -53,7 +53,7 @@ export const serviceAreaProfiles: Record<string, ServiceAreaProfile> = {
         services: [
             {
                 title: "Advanced Diagnostics",
-                href: "/services/advanced-diagnostics",
+                href: "/services/engine-and-performance",
                 description: "For intermittent warning lights, drivability faults, and problems that require live data or circuit testing."
             },
             {
@@ -135,7 +135,7 @@ export const serviceAreaProfiles: Record<string, ServiceAreaProfile> = {
             },
             {
                 title: "Check Engine Light Diagnostics",
-                href: "/services/check-engine-light",
+                href: "/services/engine-and-performance",
                 description: "Code retrieval followed by testing of the system that set the fault."
             },
             {
@@ -197,7 +197,7 @@ export const serviceAreaProfiles: Record<string, ServiceAreaProfile> = {
         services: [
             {
                 title: "Battery Drain Diagnostics",
-                href: "/services/battery-drain",
+                href: "/services/electrical-diagnostics",
                 description: "Testing for repeat dead batteries, parasitic draw, alternator faults, and circuit problems."
             },
             {
@@ -423,7 +423,7 @@ export const serviceAreaProfiles: Record<string, ServiceAreaProfile> = {
             },
             {
                 title: "Advanced Diagnostics",
-                href: "/services/advanced-diagnostics",
+                href: "/services/engine-and-performance",
                 description: "Live-data, circuit, module, and intermittent-fault testing for difficult problems."
             },
             {

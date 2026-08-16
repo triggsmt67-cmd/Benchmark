@@ -6,8 +6,8 @@ featured: false
 order: 10
 lastReviewed: 2026-07-27
 related:
-  - check-engine-light
-  - battery-drain
+  - engine-and-performance
+
   - vehicle-inspection
 faqs:
   - question: "My battery keeps dying. Do I need a new battery or something else?"
@@ -36,7 +36,7 @@ Electrical problems usually do one of four things: they kill the battery, interr
 ## Common Symptoms
 
 - Battery goes dead overnight or after sitting for a few days
-- Warning lights on for ABS, airbag/SRS, stability control, or [check engine](/services/check-engine-light)
+- Warning lights on for ABS, airbag/SRS, stability control, or [check engine](/services/engine-and-performance)
 - Accessories behaving intermittently - windows, locks, lights, infotainment
 - Vehicle won't crank or start with no obvious reason
 - Fuses that blow repeatedly without explanation
@@ -47,7 +47,7 @@ Electrical problems usually do one of four things: they kill the battery, interr
 
 Most electrical complaints trace back to one of three failures: a component drawing power it should not, a module losing clean power or ground, or a wiring fault interrupting a circuit that should be stable.
 
-[Parasitic draw](/services/battery-drain) - battery drain while the vehicle is off - is one of the more common complaints we see. A normal vehicle pulls 20–50 milliamps in key-off sleep mode to maintain memory in modules like the ECM and BCM. Above 50mA, something isn't sleeping correctly. The most frequent culprits are a stuck relay, a body control module that won't enter sleep mode, a failed alternator diode in the rectifier assembly (which allows current to flow backward from the battery into the alternator when the engine is off), or an aftermarket accessory wired without a proper switched power source.
+[Parasitic draw](/services/electrical-diagnostics) - battery drain while the vehicle is off - is one of the more common complaints we see. A normal vehicle pulls 20–50 milliamps in key-off sleep mode to maintain memory in modules like the ECM and BCM. Above 50mA, something isn't sleeping correctly. The most frequent culprits are a stuck relay, a body control module that won't enter sleep mode, a failed alternator diode in the rectifier assembly (which allows current to flow backward from the battery into the alternator when the engine is off), or an aftermarket accessory wired without a proper switched power source.
 
 Communication faults show up when a control module loses power or ground, or when the CAN bus network connecting those modules develops an open or short. A U0100 code - lost communication with the ECM - often traces back not to a failed computer but to a voltage drop in the module's power supply circuit severe enough to prevent proper operation. The same applies to ABS and airbag modules: the fault code points to where to start looking, not what to replace.
 
@@ -70,4 +70,4 @@ We trace each fault to its root cause before recommending repair. A code pointin
 
 ## When This Is the Right Page
 
-Choose electrical diagnostics when the complaint is about power, charging, repeated battery failure, module communication, accessory behavior, wiring, or blown fuses. If the problem is broader - intermittent drivability with no code, multi-system behavior under specific load conditions, or a hard-to-reproduce issue after another shop already scanned it - [advanced diagnostics](/services/advanced-diagnostics) is usually the better fit.
+Choose electrical diagnostics when the complaint is about power, charging, repeated battery failure, module communication, accessory behavior, wiring, or blown fuses. If the problem is broader - intermittent drivability with no code, multi-system behavior under specific load conditions, or a hard-to-reproduce issue after another shop already scanned it - [engine and performance diagnostics](/services/engine-and-performance) is usually the better fit.

@@ -7,7 +7,7 @@ order: 5
 lastReviewed: 2026-07-27
 related:
   - pre-purchase-inspection
-  - advanced-diagnostics
+  - engine-and-performance
   - brake-repair
 faqs:
   - question: "How is this different from a pre-purchase inspection?"

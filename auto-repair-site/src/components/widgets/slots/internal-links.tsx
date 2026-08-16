@@ -1,7 +1,7 @@
 import { ServiceContent } from "@/lib/content-schema";
 import { getGuidesForService } from "@/lib/linking";
 import Link from "next/link";
-import { ArrowRight, BookOpen, AlertTriangle } from "lucide-react";
+import { ArrowRight, BookOpen } from "lucide-react";
 
 interface Props {
     content: ServiceContent;

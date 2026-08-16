@@ -1,7 +1,7 @@
 "use client";
 
-import { motion, useReducedMotion } from "framer-motion";
-import { ReactNode, useEffect, useState } from "react";
+import { motion } from "framer-motion";
+import { ReactNode } from "react";
 import { motionTokens } from "@/lib/motion";
 
 interface StaggerProps {
@@ -17,7 +17,7 @@ export function Stagger({
     staggerDelay = motionTokens.stagger.md,
     instant = false,
 }: StaggerProps) {
-    const shouldReduceMotion = useReducedMotion();
+
 
     const containerVariants = {
         hidden: {},
@@ -48,7 +48,7 @@ interface StaggerItemProps {
 }
 
 export function StaggerItem({ children, className = "" }: StaggerItemProps) {
-    const shouldReduceMotion = useReducedMotion();
+
 
     const itemVariants = {
         hidden: { opacity: 0, y: motionTokens.distance.sm },

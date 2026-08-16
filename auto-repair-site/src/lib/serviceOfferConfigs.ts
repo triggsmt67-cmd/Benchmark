@@ -36,10 +36,10 @@ export const serviceOfferConfigs: Record<string, NewCustomerOfferProps> = {
     "oil-change": { ...defaultOffer },
     "general-maintenance": { ...defaultOffer },
     "how-cold-weather-affects-your-car": { ...defaultOffer },
-    "auto-repair-missoula-mt": { ...defaultOffer },
+
 
     // - AC & Climate -
-    "car-not-blowing-cold-air": {
+    "ac-heating": {
         eyebrow: "AC Service Special",
         title: "AC Diagnostic & Recharge",
         price: "$349.00",

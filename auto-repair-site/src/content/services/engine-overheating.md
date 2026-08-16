@@ -7,7 +7,7 @@ order: 3
 lastReviewed: 2026-07-27
 related:
   - fluid-services
-  - advanced-diagnostics
+  - engine-and-performance
 faqs:
   - question: "Can I drive a short distance if my engine is overheating?"
     answer: "No. Driving on an overheating engine - even a short distance - can warp an aluminum cylinder head, which turns a minor repair into a major one. Pull over, shut it off, and wait for it to cool before driving or calling for a tow."
@@ -19,7 +19,7 @@ faqs:
 
 ## Engine Overheating in Missoula, MT
 
-Engine overheating causes specific, predictable damage - warped cylinder heads, failed head gaskets, or a cracked block - when the cooling system can no longer manage heat. If your temperature gauge is climbing or you're seeing steam from under the hood in Missoula, that's a cooling system problem that needs an accurate [diagnosis](/services/advanced-diagnostics) before any part gets replaced.
+Engine overheating causes specific, predictable damage - warped cylinder heads, failed head gaskets, or a cracked block - when the cooling system can no longer manage heat. If your temperature gauge is climbing or you're seeing steam from under the hood in Missoula, that's a cooling system problem that needs an accurate [diagnosis](/services/engine-and-performance) before any part gets replaced.
 
 ---
 
@@ -96,7 +96,7 @@ Missoula's stop-and-go traffic near the university and downtown, especially duri
 ## Related Services
 
 - [Fluid Services (Coolant)](/services/fluid-services)
-- [Advanced Diagnostics](/services/advanced-diagnostics)
+- [Engine & Performance Diagnostics](/services/engine-and-performance)
 
 ---
 

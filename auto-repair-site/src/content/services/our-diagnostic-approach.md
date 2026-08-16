@@ -6,8 +6,8 @@ featured: false
 order: 1
 lastReviewed: "2026-03-16"
 related:
-  - advanced-diagnostics
-  - check-engine-light
+  - engine-and-performance
+
 faqs:
   - question: "Do you charge for a diagnostic?"
     answer: "Yes. Diagnostic time is billed because identifying root cause accurately requires equipment, training, and time. If you proceed with the repair at our shop, the diagnostic fee is credited toward the total."
@@ -102,8 +102,8 @@ Summer heat affects intake air temperature sensor readings and can mask early co
 
 ## Related Services
 
-- [Advanced Diagnostics](/services/advanced-diagnostics)
-- [Check Engine Light](/services/check-engine-light)
+- [Engine & Performance Diagnostics](/services/engine-and-performance)
+
 - [How to Choose a Mechanic in Missoula](/guides/how-to-choose-a-mechanic)
 
 ---

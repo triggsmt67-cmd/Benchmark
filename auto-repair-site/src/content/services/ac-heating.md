@@ -6,7 +6,7 @@ featured: false
 order: 5
 lastReviewed: 2026-07-27
 related:
-  - car-not-blowing-cold-air
+
   - fluid-services
   - general-maintenance
 faqs:
@@ -98,7 +98,7 @@ Summer wildfire smoke loads cabin air filters faster than typical driving condit
 
 ## Related Services
 
-- [Car Not Blowing Cold Air](/services/car-not-blowing-cold-air)
+
 - [Fluid Services (Coolant)](/services/fluid-services)
 - [General Maintenance](/services/general-maintenance)
 

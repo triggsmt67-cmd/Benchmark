@@ -243,12 +243,12 @@ export default function LoloServiceAreaPage() {
                         <Reveal>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
                                 {[
-                                    { label: "Check engine light diagnostics", href: "/services/check-engine-light" },
-                                    { label: "Advanced diagnostics", href: "/services/advanced-diagnostics" },
+                                    { label: "Check engine light diagnostics", href: "/services/engine-and-performance" },
+                                    { label: "Advanced diagnostics", href: "/services/engine-and-performance" },
                                     { label: "Electrical diagnostics", href: "/services/electrical-diagnostics" },
                                     { label: "Brake repair", href: "/services/brake-repair" },
                                     { label: "Oil changes and maintenance", href: "/services/oil-change" },
-                                    { label: "Battery and charging system testing", href: "/services/battery-drain" },
+                                    { label: "Battery and charging system testing", href: "/services/electrical-diagnostics" },
                                     { label: "Suspension and steering repair", href: "/services/suspension-steering" },
                                     { label: "Vehicle inspections", href: "/services/vehicle-inspection" },
                                     { label: "Heating and A/C concerns", href: "/services/ac-heating" },

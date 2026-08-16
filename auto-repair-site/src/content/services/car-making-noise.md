@@ -6,7 +6,7 @@ featured: false
 order: 11
 lastReviewed: 2026-03-12
 related:
-  - brakes-squeaking
+  - brake-repair
   - steering-vibration
   - suspension-steering
 faqs:
@@ -64,7 +64,7 @@ Engine and accessory belt noise usually originates at the serpentine belt, tensi
 We start with a visual inspection on the lift: brake pad thickness and rotor condition, CV boot integrity, suspension joint play, exhaust mount and heat shield condition, and belt surface condition. Many noise sources are visible or detectable with a pry bar before any diagnostic tool is connected.
 
 ### Test
-We road test the vehicle with the noise in mind - listening for when it occurs (braking, turning, constant speed, acceleration, cold start), whether it changes with load or vehicle speed, and whether it's localized to one corner or spread across the car. For engine and accessory noise, we use an automotive stethoscope to isolate individual components while the engine is running. For suspension noise, we use a pry bar at each joint on the lift to check for play and confirm whether movement produces the sound the driver reported. Our [advanced diagnostics](/services/advanced-diagnostics) process applies when the noise involves a stored fault code or requires scan tool data.
+We road test the vehicle with the noise in mind - listening for when it occurs (braking, turning, constant speed, acceleration, cold start), whether it changes with load or vehicle speed, and whether it's localized to one corner or spread across the car. For engine and accessory noise, we use an automotive stethoscope to isolate individual components while the engine is running. For suspension noise, we use a pry bar at each joint on the lift to check for play and confirm whether movement produces the sound the driver reported. Our [engine and performance diagnostics](/services/engine-and-performance) process applies when the noise involves a stored fault code or requires scan tool data.
 
 ### Confirm
 Before any repair is recommended, we confirm the suspected component is actually the source. If two components could produce the same sound, we test both. A wheel bearing and a worn CV joint can produce similar noises; they're not treated as interchangeable without confirmation.
@@ -90,7 +90,7 @@ Missoula winters load suspension and drivetrain components harder than most regi
 
 ## Related Services
 
-- [Brakes Squeaking](/services/brakes-squeaking)
+- [Brake Repair](/services/brake-repair)
 - [Steering Vibration](/services/steering-vibration)
 - [Suspension & Steering Repair](/services/suspension-steering)
 

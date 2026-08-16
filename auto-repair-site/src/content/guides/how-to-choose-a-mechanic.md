@@ -7,7 +7,7 @@ order: 1
 lastReviewed: 2026-04-25
 related:
   - our-diagnostic-approach
-  - check-engine-light
+  - engine-and-performance
   - vehicle-inspection
   - pre-purchase-inspection
   - brake-repair
@@ -79,7 +79,7 @@ A trouble code is not a diagnosis. It is merely a starting point.
 
 Good shops use scan tools, live data, electrical testing, measurements, and physical inspection to find the real issue. They should be able to explain what failed, why it failed, and how they confirmed it before writing an estimate. They should also separate urgent safety repairs from long-term maintenance and verify the fix after the work is done.
 
-To learn more about how this works, review our [diagnostic approach](/services/our-diagnostic-approach) or see how we handle [check engine light diagnosis](/services/check-engine-light) and full [vehicle inspections](/services/vehicle-inspection).
+To learn more about how this works, review our [diagnostic approach](/services/our-diagnostic-approach) or see how we handle [engine performance diagnosis](/services/engine-and-performance) and full [vehicle inspections](/services/vehicle-inspection).
 
 ---
 
@@ -177,7 +177,7 @@ Benchmark Automotive Service may be a good fit if you want a shop that tests fir
 ## Related Services and Next Steps
 
 - [Our Diagnostic Approach](/services/our-diagnostic-approach)
-- [Check Engine Light Diagnosis](/services/check-engine-light)
+- [Engine & Performance Diagnostics](/services/engine-and-performance)
 - [Pre-Purchase Inspection](/services/pre-purchase-inspection)
 - [Brake Repair](/services/brake-repair)
 - [Suspension and Steering](/services/suspension-steering)
