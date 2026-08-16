@@ -2,7 +2,6 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { getAllServiceData } from "@/lib/serviceContent";
 import { getAllGuideData } from "@/lib/guideContent";
-import { PROBLEMS } from "@/lib/content-schema";
 import { Breadcrumbs } from "@/components/widgets/breadcrumbs";
 import { Reveal } from "@/components/motion/Reveal";
 import { PrecisionDivider } from "@/components/widgets/precision-divider";
@@ -48,9 +47,6 @@ export default async function SitemapPage() {
         { label: "Orchard Homes, MT", href: "/service-areas/orchard-homes" },
         { label: "Target Range, MT", href: "/service-areas/target-range" },
     ];
-
-    // Filter problems that are enabled for rendering
-    const enabledProblems = PROBLEMS.filter((p) => p.renderingEnabled);
 
     // Unified graph schema for the sitemap page
     const schema = buildUnifiedGraph([
@@ -179,22 +175,6 @@ export default async function SitemapPage() {
                                     </h3>
                                     
                                     <div className="space-y-6 max-h-[350px] overflow-y-auto pr-2 custom-scrollbar">
-                                        <div>
-                                            <h4 className="text-xs font-bold uppercase tracking-wider text-navy-300 mb-2">Symptom Guides</h4>
-                                            <ul className="space-y-3 flex flex-col">
-                                                {enabledProblems.map((item) => (
-                                                    <li key={item.slug}>
-                                                        <Link 
-                                                            href={`/problems/${item.slug}`} 
-                                                            className="text-[15px] font-medium text-text-secondary hover:text-copper hover:translate-x-1 inline-block transition-all duration-200"
-                                                        >
-                                                            {item.title}
-                                                        </Link>
-                                                    </li>
-                                                ))}
-                                            </ul>
-                                        </div>
-                                        
                                         <div>
                                             <h4 className="text-xs font-bold uppercase tracking-wider text-navy-300 mb-2">Technical Guides</h4>
                                             <ul className="space-y-3 flex flex-col">

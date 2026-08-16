@@ -16,6 +16,12 @@ faqs:
     answer: "No. Metal-on-metal contact between worn pads and rotors generates heat, scores rotor surfaces rapidly, and can compromise hydraulic components if the caliper overheats. It also extends stopping distances. If you're hearing grinding, bring it in."
   - question: "How long does brake repair take?"
     answer: "A standard two-axle brake job - pads and rotors - typically takes 1.5 to 2.5 hours. Caliper replacement or hydraulic repairs add time. After-hours drop-off is available if your schedule is tight."
+  - question: "Is it safe to drive with squeaking brakes?"
+    answer: "It depends on the cause. Morning squeaks from surface rust clear up after a few stops and aren't a concern. Squeaks that persist throughout all driving - especially under normal braking pressure - point to worn pads or a sticking caliper, both of which affect stopping performance and should be inspected soon."
+  - question: "Why do my brakes only squeak in the morning?"
+    answer: "Overnight moisture causes a thin layer of surface rust on cast iron rotors. The first few brake applications scrape it off, which produces a brief squeal. It typically disappears after two or three stops. If the noise is lasting longer than that or happening throughout the day, it's worth having the rotors and pads inspected."
+  - question: "How much does brake repair cost in Missoula?"
+    answer: "Cost depends on what's actually wrong. Replacing worn pads is straightforward. If the rotors are worn below spec or need resurfacing, that adds to the job. A sticking caliper costs more to address than a pad swap. We won't know the right answer until we inspect the system - which is why we diagnose before quoting."
 ---
 
 ## Brake Repair in Missoula, MT
@@ -51,7 +57,7 @@ When brakes start making noise, pulling, or feeling different underfoot, the sym
 
 ## Why It Happens
 
-Brake pads wear down through normal use - that's expected. The rate varies significantly based on driving habits, pad material, and vehicle weight. City driving with frequent stops chews through pads faster than highway miles. When the friction material wears to the metal backing plate, a small wear indicator tab contacts the rotor and produces the high-pitched squeal most drivers recognize. If that warning goes unaddressed, the metal backing plate begins grinding directly into the rotor face. If [brakes are squeaking](/services/brakes-squeaking) after the vehicle has sat for several days, surface rust is usually the cause - but if the sound persists after a few stops, the rotor surface may need evaluation.
+Brake pads wear down through normal use - that's expected. The rate varies significantly based on driving habits, pad material, and vehicle weight. City driving with frequent stops chews through pads faster than highway miles. When the friction material wears to the metal backing plate, a small wear indicator tab contacts the rotor and produces the high-pitched squeal most drivers recognize. If that warning goes unaddressed, the metal backing plate begins grinding directly into the rotor face. If brakes are squeaking after the vehicle has sat for several days, surface rust is usually the cause - but if the sound persists after a few stops, the rotor surface may need evaluation.
 
 Rotors fail through a combination of wear, heat, and corrosion. Each brake application generates heat; repeated hard stops without adequate cooling time can cause the rotor to develop thickness variation - an uneven surface where the pad contacts different amounts of material at different points around the rotor face. This shows up as a rhythmic pulsation through the brake pedal. A [car shaking while driving](/services/steering-vibration) that worsens specifically during braking often points to rotor thickness variation or lateral runout, but the brake and suspension systems still need to be inspected before the cause is confirmed.
 
@@ -96,7 +102,6 @@ Spring is a reasonable time to inspect brakes after winter exposure, before corr
 
 ## Related Services
 
-- [Brakes Squeaking](/services/brakes-squeaking)
 - [Steering Vibration](/services/steering-vibration)
 - [Suspension & Steering](/services/suspension-steering)
 

@@ -6,7 +6,6 @@ import { Reveal } from "@/components/motion/Reveal";
 import { Stagger, StaggerItem } from "@/components/motion/Stagger";
 import { PrecisionDivider } from "@/components/widgets/precision-divider";
 
-import { getProblemBySlug } from "@/lib/linking";
 
 interface RelatedServicesProps {
     slugs: string[];
@@ -38,19 +37,9 @@ export async function RelatedServices({ slugs }: RelatedServicesProps) {
                     description: guide.data.description,
                 };
             }
-            // Priority 3: Check for problem in static data
-            const problem = getProblemBySlug(slug);
-            if (problem) {
-                return {
-                    slug,
-                    type: 'problems',
-                    title: problem.title,
-                    description: problem.seo.description,
-                };
-            }
             return null;
         })
-    )).filter((s): s is { slug: string; type: 'services' | 'guides' | 'problems'; title: string; description: string } => s !== null);
+    )).filter((s): s is { slug: string; type: 'services' | 'guides'; title: string; description: string } => s !== null);
 
     if (items.length === 0) return null;
 
@@ -92,7 +81,7 @@ export async function RelatedServices({ slugs }: RelatedServicesProps) {
 
                                     {/* Reveal-style decorative element */}
                                     <div className="mt-auto px-8 pb-6 text-xs font-semibold uppercase tracking-widest text-copper/60 group-hover:text-copper transition-colors">
-                                        {item.type === 'guides' ? 'Read Guide' : item.type === 'problems' ? 'Troubleshoot Symptom' : 'View Service'} &rarr;
+                                        {item.type === 'guides' ? 'Read Guide' : 'View Service'} &rarr;
                                     </div>
                                 </Card>
                             </Link>

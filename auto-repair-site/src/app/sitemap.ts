@@ -1,7 +1,6 @@
 import { MetadataRoute } from 'next';
 import { getAllServiceData } from '@/lib/serviceContent';
 import { getAllGuideData } from '@/lib/guideContent';
-import { PROBLEMS } from '@/lib/content-schema';
 
 function parseLastReviewed(value: unknown): Date | undefined {
     if (value instanceof Date && !Number.isNaN(value.getTime())) {
@@ -60,12 +59,5 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         };
     });
 
-    // Dynamic problem routes (from static array)
-    const problemRoutes = PROBLEMS
-        .filter(p => p.renderingEnabled)
-        .map((p) => ({
-            url: `${baseUrl}/problems/${p.slug}`,
-        }));
-
-    return [...routes, ...serviceRoutes, ...guideRoutes, ...problemRoutes];
+    return [...routes, ...serviceRoutes, ...guideRoutes];
 }

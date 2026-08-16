@@ -40,7 +40,6 @@ export type ServiceContent = {
     faqs: { question: string; answer: string }[];
 
     // Topic Clustering Logic
-    relatedProblems: string[]; // Array of ProblemContent IDs
     relatedMaintenance: string[]; // Array of Maintenance IDs
     availableLocations: string[]; // Array of LocationContent Slugs indicating city support
 
@@ -59,17 +58,7 @@ export type GuideContent = {
     renderingEnabled: boolean;
 };
 
-export type ProblemContent = {
-    id: string;
-    slug: string; // e.g., 'squeaking-brakes'
-    title: string;
-    seo: BaseSeoContent;
-    symptomsTitle: string;
-    symptomsList: string[];
-    diagnosticAdvice: string;
-    recommendedServiceId: string; // Links to commercial offering
-    renderingEnabled: boolean;
-};
+
 
 // DUMMY STATIC DATA LAYER (Pre-CMS readiness)
 export const LOCATIONS: LocationContent[] = [
@@ -116,54 +105,12 @@ export const SERVICES: ServiceContent[] = [
             { question: "How often should I replace my brake pads?", answer: "Typically every 30,000 to 50,000 miles, but this varies heavily based on your driving habits (city vs. highway)." },
             { question: "Do I always need to replace my rotors with the pads?", answer: "Not always, but we highly recommend it if they are warped or below the minimum safe thickness. We will measure them accurately before recommending replacement." }
         ],
-        relatedProblems: ["prob_squeaking_brakes", "prob_shaking_brakes"],
         relatedMaintenance: [],
         availableLocations: [siteConfig.address.city.toLowerCase()],
         renderingEnabled: true
     }
 ];
 
-export const PROBLEMS: ProblemContent[] = [
-    {
-        id: "prob_squeaking_brakes",
-        slug: "squeaking-brakes",
-        title: "Why Are My Brakes Squeaking?",
-        seo: {
-            title: `Why Are My Brakes Squeaking? | ${siteConfig.businessName}`,
-            description: "Learn the common causes of squeaking brakes, from worn pads to moisture, and when it's time to see a mechanic."
-        },
-        symptomsTitle: "Common Causes of Brake Squeak",
-        symptomsList: [
-            "Worn out brake pads hitting the built-in wear indicator (the 'squealer' tab).",
-            "Surface rust or moisture after sitting overnight (usually goes away after a few stops).",
-            "Glazed brake pads from heavy or aggressive braking.",
-            "Lack of lubrication on caliper slide pins or backing plates.",
-            "Cheap, low-quality brake pad materials."
-        ],
-        diagnosticAdvice: "If the squeal goes away after a few stops in the morning, it's likely just moisture. If the noise is constant, metallic, or turns into a grinding sound, you need an immediate inspection. Do not ignore persistent brake noises.",
-        recommendedServiceId: "srv_brakes",
-        renderingEnabled: false
-    },
-    {
-        id: "prob_shaking_brakes",
-        slug: "shaking-brakes",
-        title: "Why Does My Car Shake When I Brake?",
-        seo: {
-            title: `Steering Wheel Shaking When Braking? | ${siteConfig.businessName}`,
-            description: "Car shaking while braking is usually a sign of warped brake rotors or suspension wear. Find out why it happens and how to fix it."
-        },
-        symptomsTitle: "Causes of Braking Vibration",
-        symptomsList: [
-            "Warped brake rotors (lateral runout) from excessive heat.",
-            "Debris or rust buildup on the hub face prevents the rotor from sitting flat.",
-            "Worn front suspension bushings or loose wheel bearings.",
-            "Uneven brake pad material deposit on the rotor surface."
-        ],
-        diagnosticAdvice: "If you only feel shaking when braking, it's almost certainly the rotors. If it shakes all the time at high speed, it's more likely a tire balance issue. Continuing to drive on warped rotors can place extra stress on your suspension and ABS system.",
-        recommendedServiceId: "srv_brakes",
-        renderingEnabled: false
-    }
-];
 
 export const GUIDES: GuideContent[] = [
     {

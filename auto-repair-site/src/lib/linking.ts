@@ -1,7 +1,7 @@
-import { SERVICES, PROBLEMS, GUIDES, LOCATIONS, ServiceContent, ProblemContent, GuideContent } from "./content-schema";
+import { SERVICES, GUIDES, LOCATIONS, ServiceContent, GuideContent } from "./content-schema";
 
-export { SERVICES, PROBLEMS, GUIDES, LOCATIONS };
-export type { ServiceContent, ProblemContent, GuideContent };
+export { SERVICES, GUIDES, LOCATIONS };
+export type { ServiceContent, GuideContent };
 /**
  * Internal Linking Automation Engine
  * Computes logical topic clusters without hardcoded pathways.
@@ -15,23 +15,12 @@ export function getServiceById(id: string): ServiceContent | undefined {
     return SERVICES.find(s => s.id === id && s.renderingEnabled);
 }
 
-export function getProblemBySlug(slug: string): ProblemContent | undefined {
-    return PROBLEMS.find(p => p.slug === slug && p.renderingEnabled);
-}
 
 export function getGuideBySlug(slug: string): GuideContent | undefined {
     return GUIDES.find(g => g.slug === slug && g.renderingEnabled);
 }
 
 // Cluster Resolution Logic
-export function getRelatedProblemsForService(serviceId: string): ProblemContent[] {
-    const service = getServiceById(serviceId);
-    if (!service) return [];
-
-    return PROBLEMS.filter(p =>
-        service.relatedProblems.includes(p.id) && p.renderingEnabled
-    );
-}
 
 export function getGuidesForService(serviceId: string): GuideContent[] {
     return GUIDES.filter(g =>
@@ -67,12 +56,7 @@ export function generateSitemapUrls() {
         });
     });
 
-    // Educational
-    PROBLEMS.forEach(problem => {
-        if (problem.renderingEnabled) {
-            urls.push(`${baseUrl}/problems/${problem.slug}`);
-        }
-    });
+
 
     GUIDES.forEach(guide => {
         if (guide.renderingEnabled) {
