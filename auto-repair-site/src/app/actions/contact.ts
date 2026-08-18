@@ -36,7 +36,7 @@ export async function submitContactForm(prevState: ContactFormState, formData: F
 
     try {
         const { error } = await resend.emails.send({
-            from: "Benchmark Automotive <onboarding@resend.dev>",
+            from: "Benchmark Automotive <notifications@benchmarkmissoula.com>",
             to: ["triggsmt67@gmail.com", "driggs@benchmarkautomotiveservice.com"],
             subject: `New Service Request from ${name}`,
             text: `
