@@ -34,9 +34,14 @@ export async function submitContactForm(prevState: ContactFormState, formData: F
     const issue = escapeHtml(formData.get("issue") as string || "");
     const contactMethod = escapeHtml(formData.get("contact_method") as string || "");
 
+    const fromAddress = "Benchmark Automotive <notifications@benchmarkmissoula.com>";
+    const apiKeyPrefix = process.env.RESEND_API_KEY ? process.env.RESEND_API_KEY.substring(0, 8) + '...' : 'MISSING';
+
+    console.log(`[Contact Form] Attempting to send email. Sender: ${fromAddress}, API Key Prefix: ${apiKeyPrefix}, NODE_ENV: ${process.env.NODE_ENV}`);
+
     try {
-        const { error } = await resend.emails.send({
-            from: "Benchmark Automotive <notifications@benchmarkmissoula.com>",
+        const response = await resend.emails.send({
+            from: fromAddress,
             to: ["triggsmt67@gmail.com", "driggs@benchmarkautomotiveservice.com"],
             subject: `New Service Request from ${name}`,
             text: `
@@ -91,14 +96,15 @@ Preferred Contact Method: ${contactMethod}
             </div>`
         });
 
-        if (error) {
-            console.error("Resend error:", error);
+        if (response.error) {
+            console.error("[Contact Form] Resend API Error:", JSON.stringify(response.error, null, 2));
             return { success: false, error: "Failed to send request. Please try again." };
         }
 
+        console.log("[Contact Form] Email sent successfully:", response.data?.id);
         return { success: true, message: "Thank you! We have received your request." };
     } catch (error) {
-        console.error("Unknown error:", error);
+        console.error("[Contact Form] Unknown error caught:", error);
         return { success: false, error: "An unexpected error occurred. Please try again." };
     }
 }
