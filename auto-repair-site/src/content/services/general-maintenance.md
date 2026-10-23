@@ -1,80 +1,88 @@
 ---
 title: "General Maintenance"
-description: "General vehicle maintenance in Missoula, including oil, fluids, filters, belts, hoses, brakes, tires, and battery testing based on actual condition."
+h1: "Vehicle Maintenance in Missoula"
+description: "Vehicle maintenance at Benchmark Automotive Service in Missoula. Get a written list of findings, clear priorities and recommendations based on your vehicle."
 category: "Maintenance"
 featured: false
 order: 10
-lastReviewed: 2026-07-27
+technicalReviewVerified: false
 related:
   - fluid-services
   - vehicle-inspection
+contactCta:
+  title: "Let's work out what's due"
+  description: "Send your vehicle details, mileage and any service history you have. We'll contact you to confirm appointment availability and expected timing."
+  label: "Request an Appointment"
 faqs:
-  - question: "How do I know what's actually due versus what's just being upsold?"
-    answer: "We'll show you what we found and explain the reasoning behind any recommendation. If a filter looks clean, we say so and move on. If a belt shows no signs of wear and isn't near its service interval, we're not going to suggest replacing it. Manufacturer maintenance schedules are published in your owner's manual - we work from those, not from a flat upsell checklist. If you want to see the part before we replace it, just ask."
-  - question: "My car feels fine. Is maintenance still necessary?"
-    answer: "Most maintenance items don't produce noticeable symptoms until they're significantly overdue. Old oil still pours. A serpentine belt that's 90% through its life looks normal at a glance. Brake fluid with elevated water content feels the same as fresh fluid - until it doesn't. The whole point of routine maintenance is to catch wear before it causes a problem, not after it already has."
-  - question: "How long does a general maintenance visit take?"
-    answer: "A standard oil change with a full multi-point inspection runs 45–60 minutes. If we find items that need additional service - a fluid flush, filter replacements, belt replacement - we'll give you a revised time estimate before we proceed. We don't start work you haven't approved."
-  - question: "What if I don't know the last time my car was serviced?"
-    answer: "That's common, especially with a recently purchased used vehicle. We can pull up any prior service records if the VIN has history in our system. Beyond that, we'll assess fluid condition and component wear visually and give you our honest read on where things stand. From there, we establish a baseline and you'll know exactly what's been done going forward."
+  - question: "How do I know which recommendations need attention first?"
+    answer: "We provide a written list and explain the priorities. Findings may need attention now, be work you can plan and budget for, or be something to monitor and recheck. The category depends on what we find on your vehicle, not just the name of the part or symptom."
+  - question: "Does my car need maintenance if it feels fine?"
+    answer: "Some services are due by time or mileage even when the car feels normal. We compare your service history and the vehicle's maintenance requirements with inspection findings. How it drives is useful information, but it doesn't replace the maintenance schedule."
+  - question: "How long does an oil change take?"
+    answer: "An oil change usually takes 45–60 minutes at Benchmark. Some vehicles, including certain European and high-end models, need more time. Ask about the expected timing when you arrange your visit. If additional work is recommended, we'll discuss it with you before proceeding."
+  - question: "What if I don't know when the car was last serviced?"
+    answer: "Bring any receipts or records you have and tell us what you remember. We'll compare the available history with the vehicle's maintenance requirements. Inspection findings help us assess condition, but they don't tell us exactly when every fluid or part was last changed."
 ---
 
-## General Maintenance in Missoula, MT
+## Not sure what's due? Start with the history
 
-Routine maintenance is the most reliable way to prevent expensive repairs - and the most consistently skipped. If your vehicle hasn't been serviced in a while, or you're not sure what's been done and when, a general maintenance visit gives us a clear picture of where things stand and what actually needs attention. Most major mechanical failures - blown engines, seized calipers, overheated transmissions - have warning signs that show up weeks or months before the breakdown. The problem is they're easy to miss if nobody's looking.
+Bring the service records you have and tell us how you use the vehicle. If the history is missing, say so. We can explain what an inspection tells us and what we still don't know.
 
----
+Benchmark Automotive Service helps Missoula drivers plan maintenance using the vehicle's requirements, available service history and current condition. You leave with a written list of findings and a clearer idea of what to do next.
 
-## What This Service Covers
+## A written list, with priorities explained
 
-- Engine oil and filter replacement with the correct oil type and viscosity for your vehicle and climate
-- Engine air filter inspection and replacement as needed - critical for fuel economy and intake health
-- Cabin air filter check - often overlooked, directly affects HVAC airflow and air quality inside the car
-- Full fluid inspection: coolant, brake fluid, power steering fluid, transmission fluid, and windshield washer fluid
-- Multi-point belt and hose inspection - serpentine belt condition, tension, and coolant hose integrity
-- Brake pad thickness and rotor surface condition check
-- Tire pressure adjustment to manufacturer spec and tread depth measurement
-- Battery load test and terminal inspection - voltage at rest doesn't tell the full story
-- Exterior lighting check: headlights, brake lights, turn signals, and reverse lights
+A list of recommended work is more useful when you understand the priorities. At Benchmark, we talk through three groups:
 
----
+- **Fix now:** Findings that present an immediate safety concern or risk of breakdown or engine damage. These need a conversation about the next step before more driving.
+- **Plan and budget:** Work that the inspection shows can be scheduled for later. We'll explain why it can wait and what timing we recommend.
+- **Monitor and recheck:** Findings that don't call for repair now but should be checked again. We'll explain what we're watching and when to follow up.
 
-## Common Symptoms
+A part name alone doesn't determine its priority. A tire losing air, a worn wiper or a mark on a belt needs to be assessed in context. We'll explain how the finding affects your vehicle and what to do next.
 
-- Oil life indicator or maintenance reminder light is on
-- Sluggish throttle response or noticeable drop in fuel economy
-- Squealing, grinding, or pulsing when braking
-- Unusual smells from under the hood - burning oil, sweet coolant, or hot rubber
-- Cabin air feels musty, weak, or restricted through the vents
-- Battery slow to crank on cold mornings
-- Wipers streaking or chattering in rain
+Keep the written list with your service records. It gives you something to refer to when planning the next visit.
 
----
+## What a maintenance visit can cover
 
-## Why It Happens
+Depending on your vehicle and the work arranged, maintenance checks and service can include:
 
-Most maintenance items don't fail - they degrade. That distinction matters because degradation happens on a predictable schedule, which means it's preventable if you stay ahead of it.
+- Engine oil and filter replacement using the required specification
+- Engine and cabin air filter inspection
+- Accessible fluid levels and condition
+- Belts, hoses and signs of leakage
+- Brake wear and related inspection findings
+- Tire condition, tread wear and pressure
+- Battery condition and connections
+- Exterior lights and wipers
 
-Engine oil is the clearest example. Fresh oil lubricates, carries heat away from metal surfaces, and suspends combustion byproducts so they can be filtered out. Over time and mileage, the additive package breaks down, the oil oxidizes, and it starts leaving deposits instead of cleaning them. An engine running on degraded oil doesn't announce the problem - it just wears faster than it should. Scored cylinder walls and worn main bearings are the downstream result, and those repairs run into the thousands.
+The inspection needs to fit the vehicle. Belt-driven accessories, fluid access and service procedures vary by model. A visual check also has limits, so we'll explain when a finding calls for further testing.
 
-Air filtration follows the same logic. The engine air filter keeps abrasive particles out of the intake and combustion chamber. A clogged filter restricts airflow, throws off the air-fuel ratio, and forces the engine to compensate - usually at the cost of fuel economy and responsiveness. The cabin air filter is a different component sitting in the HVAC path behind the glovebox. When it's saturated with dust, pollen, and debris, airflow through your vents drops noticeably and mold can develop in the evaporator housing - a fix that's more involved than a $20 filter replacement.
+For tires, the pressure target comes from the vehicle's placard or owner's manual. NHTSA recommends checking pressure when the tires are cold, meaning the vehicle hasn't been driven for at least three hours. See its [tire safety guidance](https://www.nhtsa.gov/vehicle-safety/tires).
 
-Belts and hoses are the category most drivers underestimate. The serpentine belt is a single continuous loop that drives your alternator, power steering pump, water pump, and air conditioning compressor simultaneously. It's made of EPDM rubber that degrades from heat cycling and ozone exposure - and unlike older V-belts that would crack visibly before failing, modern serpentine belts often look intact until they let go. When they do, everything they drive stops at once. Coolant hoses develop internal deterioration before the outside shows it. A hose that feels firm can be electrochemically degraded inside, and the first sign of failure is often coolant on the pavement or a temperature gauge climbing toward the red.
+## How we decide whether fluid service is due
 
-Brake fluid is hygroscopic - it absorbs moisture from the air over time. As water content rises, the fluid's boiling point drops. Under hard braking, degraded fluid can vaporize in the caliper, causing a sudden, spongy pedal with significantly reduced stopping power. It's one of the less obvious maintenance items, but the safety implication is straightforward.
+We check fluid levels where the vehicle's design and procedure allow, try to establish how many miles the fluid has been in use, and look at its condition. Burnt fluid or visible metal debris may call for investigation before a routine fluid change.
 
----
+Those checks go alongside the manufacturer's schedule. Color alone can't tell us how overdue a service is, and a fluid that looks clean may still be due for replacement by time or mileage.
 
-## How We Diagnose It
+Our [fluid services page](/services/fluid-services) explains that process in more detail. If you're booking for an [oil change](/services/oil-change), let us know about any other concerns when you contact us.
 
-### Inspect
-We start with a [visual walk-around and under-hood inspection](/services/vehicle-inspection) - fluid levels and condition, belt surface and tension, hose firmness and integrity, brake hardware visibility, tire wear patterns, and battery terminals. Most deferred maintenance surfaces here. This takes roughly 15 minutes and gives us a ranked list of what's actually due versus what can wait.
+## A maintenance reminder is different from a new problem
 
-### Test
-The battery gets a load test to measure cold cranking amps under simulated demand - a battery can read 12.6V at rest and still fail when the starter engages on a cold January morning in Missoula. Brake pad thickness is measured with calipers against minimum spec. Tire pressure is checked with a calibrated gauge and adjusted to the door placard value for your specific vehicle and load.
+Tell us whether you're arranging scheduled service or have noticed a change in how the car drives. Grinding brakes, a temperature warning or an oil-pressure warning need to be discussed as problems, rather than added to a routine maintenance list.
 
-### Confirm
-We cross-reference your mileage and service history against manufacturer maintenance intervals. If records aren't available, fluid condition - color, smell, and viscosity - gives us a reasonable picture of how far overdue any given item might be. We'll tell you what we found and show you if there's something worth seeing.
+Follow your owner's manual for the warning displayed. If braking or steering has changed, or the vehicle feels unstable, stop driving as soon as you can safely pull over and arrange assistance. Don't assume an oil change or inspection appointment makes it safe to drive to the shop.
 
-### Repair
-After service is complete, we reset maintenance reminders, confirm all fluid levels are correct, and do a short road test to verify normal operation. You leave with a written summary of what was done and, if anything was flagged for future attention, a clear explanation of what it is and how urgent it actually is.
+For a broader condition check, see [vehicle inspections](/services/vehicle-inspection). You don't need to diagnose the problem yourself before calling.
+
+## Allow time for your vehicle
+
+An oil change usually takes 45–60 minutes at Benchmark. Certain European and high-end vehicles can need more time, so ask about the expected timing when you arrange the visit.
+
+That range applies to an oil change, not every maintenance job. If we recommend additional work, we'll discuss it with you before proceeding.
+
+## Request a maintenance visit
+
+Call (406) 317-1405 or [send an appointment request](/contact). Include your vehicle's year, make, model and mileage, plus the service you need or anything you've noticed.
+
+Our shop is at 1914 North Ave W in Missoula. We'll contact you to confirm availability. After-hours drop-off is available; ask for the current instructions when you arrange your visit.

@@ -8,7 +8,7 @@ import { PrecisionDivider } from "@/components/widgets/precision-divider";
 import { buildUnifiedGraph, serializeSchema, generateWebSiteSchema, generateLocalBusinessSchema } from "@/lib/seo";
 
 export const metadata: Metadata = {
-    title: "Sitemap | Benchmark Automotive Service",
+    title: "Sitemap",
     description: "Navigate all pages, services, service areas, and auto repair guides for Benchmark Automotive Service in Missoula, MT.",
     alternates: {
         canonical: "https://www.benchmarkmissoula.com/site-map"

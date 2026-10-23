@@ -9,78 +9,67 @@ export const CITY_LOOKUP: Record<string, CityEntity> = {
     "missoula": {
         name: "Missoula, MT",
         sameAs: [
-            "https://en.wikipedia.org/wiki/Missoula,_Montana",
-            "https://www.wikidata.org/wiki/Q189508"
+            "https://en.wikipedia.org/wiki/Missoula,_Montana"
         ]
     },
     "lolo": {
         name: "Lolo, MT",
         sameAs: [
-            "https://en.wikipedia.org/wiki/Lolo,_Montana",
-            "https://www.wikidata.org/wiki/Q2213768"
+            "https://en.wikipedia.org/wiki/Lolo,_Montana"
         ]
     },
     "frenchtown": {
         name: "Frenchtown, MT",
         sameAs: [
-            "https://en.wikipedia.org/wiki/Frenchtown,_Montana",
-            "https://www.wikidata.org/wiki/Q2493393"
+            "https://en.wikipedia.org/wiki/Frenchtown,_Montana"
         ]
     },
     "bonner": {
         name: "Bonner, MT",
         sameAs: [
-            "https://en.wikipedia.org/wiki/Bonner-West_Riverside,_Montana",
-            "https://www.wikidata.org/wiki/Q2398418"
+            "https://en.wikipedia.org/wiki/Bonner-West_Riverside,_Montana"
         ]
     },
     "east-missoula": {
         name: "East Missoula, MT",
         sameAs: [
-            "https://en.wikipedia.org/wiki/East_Missoula,_Montana",
-            "https://www.wikidata.org/wiki/Q2574041"
+            "https://en.wikipedia.org/wiki/East_Missoula,_Montana"
         ]
     },
     "milltown": {
         name: "Milltown, MT",
         sameAs: [
-            "https://en.wikipedia.org/wiki/Milltown,_Montana",
-            "https://www.wikidata.org/wiki/Q6859871"
+            "https://en.wikipedia.org/wiki/Milltown,_Montana"
         ]
     },
     "orchard-homes": {
         name: "Orchard Homes, MT",
         sameAs: [
-            "https://en.wikipedia.org/wiki/Orchard_Homes,_Montana",
-            "https://www.wikidata.org/wiki/Q2481636"
+            "https://en.wikipedia.org/wiki/Orchard_Homes,_Montana"
         ]
     },
     "target-range": {
         name: "Target Range, MT",
         sameAs: [
-            "https://en.wikipedia.org/wiki/Target_Range,_Montana",
-            "https://www.wikidata.org/wiki/Q2353139"
+            "https://en.wikipedia.org/wiki/Target_Range,_Montana"
         ]
     },
     "clinton": {
         name: "Clinton, MT",
         sameAs: [
-            "https://en.wikipedia.org/wiki/Clinton,_Montana",
-            "https://www.wikidata.org/wiki/Q2212351"
+            "https://en.wikipedia.org/wiki/Clinton,_Montana"
         ]
     },
     "huson": {
         name: "Huson, MT",
         sameAs: [
-            "https://en.wikipedia.org/wiki/Huson,_Montana",
-            "https://www.wikidata.org/wiki/Q14704879"
+            "https://en.wikipedia.org/wiki/Huson,_Montana"
         ]
     },
     "wye": {
         name: "Wye, MT",
         sameAs: [
-            "https://en.wikipedia.org/wiki/Wye,_Montana",
-            "https://www.wikidata.org/wiki/Q10825316"
+            "https://en.wikipedia.org/wiki/Wye,_Montana"
         ]
     }
 };
@@ -162,11 +151,6 @@ function businessNode() {
                 "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
                 "opens": "08:00",
                 "closes": "17:00"
-            },
-            {
-                "@type": "OpeningHoursSpecification",
-                "dayOfWeek": "Saturday",
-                "description": "By appointment"
             }
         ]
     };
@@ -215,7 +199,6 @@ export function buildUnifiedGraph(nodes: any[]): { "@context": string; "@graph":
 export function escapeText(str: string): string {
     if (!str) return "";
     return str
-        .replace(/"/g, '\u201C') // Replace straight double quotes with curly open
         .replace(/\n/g, " ")
         .replace(/\r/g, "")
         .replace(/[\u0000-\u001F\u007F-\u009F]/g, "")
@@ -234,6 +217,7 @@ export function serializeSchema(schema: any): string {
 // ---------------------------------------------------------------------------
 
 export interface ServiceSchemaOptions {
+    technicalReviewVerified?: boolean;
     slug: string;
     name: string;
     description: string;
@@ -397,18 +381,10 @@ export function getGuideDetailSchema(options: GuideDetailSchemaOptions): { "@con
             "name": "Benchmark Automotive Service",
             "url": "https://www.benchmarkmissoula.com/about"
         },
-        "reviewedBy": {
-            "@type": "Organization",
-            "@id": "https://www.benchmarkmissoula.com/#business"
-        },
         "publisher": {
             "@id": "https://www.benchmarkmissoula.com/#business"
         },
-        ...(options.lastReviewed ? { "dateModified": new Date(options.lastReviewed).toISOString() } : {}),
-        "image": [
-            "https://www.benchmarkmissoula.com/images/Inspection%20Bay.webp",
-            "https://www.benchmarkmissoula.com/images/Brake%20%26%20Suspension%20Evaluation.webp"
-        ],
+        "mainEntityOfPage": { "@id": `${pageUrl}#webpage` },
         "url": pageUrl
     };
 
@@ -438,7 +414,16 @@ export function getGuideDetailSchema(options: GuideDetailSchemaOptions): { "@con
     };
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const nodes: any[] = [websiteNode(), businessNode(), article, breadcrumbs];
+    const nodes: any[] = [websiteNode(), businessNode(), {
+        "@type": "WebPage",
+        "@id": `${pageUrl}#webpage`,
+        "url": pageUrl,
+        "name": escapeText(options.title),
+        "isPartOf": { "@id": "https://www.benchmarkmissoula.com/#website" },
+        "mainEntity": { "@id": `${pageUrl}#article` },
+        ...(options.lastReviewed ? { "lastReviewed": new Date(options.lastReviewed).toISOString().slice(0, 10) } : {}),
+        "reviewedBy": { "@id": "https://www.benchmarkmissoula.com/#business" }
+    }, article, breadcrumbs];
 
     if (options.faqs && options.faqs.length > 0) {
         nodes.push({
@@ -615,11 +600,9 @@ export function getServiceDetailSchema(options: ServiceSchemaOptions): { "@conte
                     "description": [
                         escapeText(options.offerConfig.description),
                         options.offerConfig.includes ? `Includes: ${options.offerConfig.includes.map(escapeText).join(", ")}` : "",
+                        options.offerConfig.disclaimer ? escapeText(options.offerConfig.disclaimer) : "",
                     ].filter(Boolean).join(" "),
-                    "eligibleCustomerType": "http://schema.org/NewCustomer",
-                    "availability": "https://schema.org/InStock",
-                    "url": pageUrl,
-                    ...(options.offerConfig.disclaimer ? { "termsOfService": escapeText(options.offerConfig.disclaimer) } : {})
+                    "url": pageUrl
                 }
             ]
         };
@@ -662,11 +645,10 @@ export function getServiceDetailSchema(options: ServiceSchemaOptions): { "@conte
         "about": {
             "@id": `${pageUrl}#service`
         },
-        "reviewedBy": {
-            "@type": "Organization",
-            "@id": "https://www.benchmarkmissoula.com/#business"
-        },
-        ...(options.lastReviewed ? { "dateModified": new Date(options.lastReviewed).toISOString() } : {})
+        ...(options.technicalReviewVerified !== false ? {
+            "reviewedBy": { "@id": "https://www.benchmarkmissoula.com/#business" },
+            ...(options.lastReviewed ? { "lastReviewed": new Date(options.lastReviewed).toISOString().slice(0, 10) } : {})
+        } : {})
     };
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any

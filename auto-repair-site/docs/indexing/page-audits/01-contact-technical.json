@@ -1,0 +1,117 @@
+{
+  "pages": [
+    {
+      "host": "https://www.benchmarkmissoula.com",
+      "status": 200,
+      "url": "https://www.benchmarkmissoula.com/contact",
+      "type": "text/html; charset=utf-8",
+      "x_robots_tag": null,
+      "title": "Contact | Benchmark Automotive Service",
+      "h1": [
+        "Schedule Service or Get in Touch"
+      ],
+      "canonical": [
+        "https://www.benchmarkmissoula.com/contact"
+      ],
+      "main_elements": 2,
+      "robots": [],
+      "description": [
+        "Schedule your automotive service or diagnostic appointment with Benchmark Automotive in Missoula."
+      ],
+      "links": [
+        "tel:+14063171405",
+        "/",
+        "/",
+        "/services",
+        "/about",
+        "/#testimonials",
+        "/contact",
+        "/contact",
+        "mailto:driggs@benchmarkautomotiveservice.com",
+        "tel:+14063171405",
+        "mailto:driggs@benchmarkautomotiveservice.com",
+        "https://maps.app.goo.gl/k1AJiMky4sBqGitA9",
+        "/services",
+        "/about",
+        "https://maps.app.goo.gl/k1AJiMky4sBqGitA9",
+        "/contact",
+        "/service-areas/missoula",
+        "/service-areas/lolo",
+        "/service-areas/frenchtown",
+        "/service-areas/bonner",
+        "/service-areas/east-missoula",
+        "/service-areas/milltown",
+        "/service-areas/orchard-homes",
+        "/service-areas/target-range",
+        "/service-areas",
+        "/contact",
+        "https://truepath406.com",
+        "/privacy",
+        "/terms",
+        "/site-map"
+      ],
+      "snippet_controls": []
+    },
+    {
+      "host": "http://127.0.0.1:3000",
+      "status": 200,
+      "url": "http://127.0.0.1:3000/contact",
+      "type": "text/html; charset=utf-8",
+      "x_robots_tag": null,
+      "title": "Contact | Benchmark Automotive Service",
+      "h1": [
+        "Schedule Service or Get in Touch"
+      ],
+      "canonical": [
+        "https://www.benchmarkmissoula.com/contact"
+      ],
+      "main_elements": 2,
+      "robots": [],
+      "description": [
+        "Schedule your automotive service or diagnostic appointment with Benchmark Automotive in Missoula."
+      ],
+      "links": [
+        "tel:+14063171405",
+        "/",
+        "/",
+        "/services",
+        "/about",
+        "/#testimonials",
+        "/contact",
+        "/contact",
+        "/",
+        "/services",
+        "/about",
+        "/#testimonials",
+        "/contact",
+        "/contact",
+        "tel:+14063171405",
+        "mailto:driggs@benchmarkautomotiveservice.com",
+        "tel:+14063171405",
+        "mailto:driggs@benchmarkautomotiveservice.com",
+        "https://maps.app.goo.gl/k1AJiMky4sBqGitA9",
+        "/services",
+        "/about",
+        "https://maps.app.goo.gl/k1AJiMky4sBqGitA9",
+        "/contact",
+        "/service-areas/missoula",
+        "/service-areas/lolo",
+        "/service-areas/frenchtown",
+        "/service-areas/bonner",
+        "/service-areas/east-missoula",
+        "/service-areas/milltown",
+        "/service-areas/orchard-homes",
+        "/service-areas/target-range",
+        "/service-areas",
+        "/contact",
+        "https://truepath406.com",
+        "/privacy",
+        "/terms",
+        "/site-map"
+      ],
+      "snippet_controls": []
+    }
+  ],
+  "live_robots": "User-Agent: *\nAllow: /\nDisallow: /private/\n\nUser-Agent: GPTBot\nUser-Agent: OAI-SearchBot\nUser-Agent: Google-Extended\nUser-Agent: Anthropic-ai\nUser-Agent: PerplexityBot\nUser-Agent: ClaudeBot\nUser-Agent: Claude-Web\nAllow: /\n\nSitemap: https://www.benchmarkmissoula.com/sitemap.xml\n",
+  "contact_in_sitemap": true
+}

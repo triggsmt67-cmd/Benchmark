@@ -31,8 +31,10 @@ export function Reveal({
 
     return (
         <motion.div
+            data-content-motion="true"
             variants={variants}
-            initial="hidden"
+            // Keep server-rendered content visible before JavaScript or viewport observers run.
+            initial={false}
             animate={instant ? "visible" : undefined}
             whileInView={!instant ? "visible" : undefined}
             viewport={!instant ? motionTokens.viewport : undefined}

@@ -1,0 +1,676 @@
+{
+  "live": {
+    "status": 200,
+    "title": [
+      "Car Making Noise in Missoula, MT | Benchmark Automotive Service"
+    ],
+    "canonical": [
+      "https://www.benchmarkmissoula.com/services/car-making-noise"
+    ],
+    "robots": [],
+    "xrobots": null,
+    "has_body": true,
+    "schema": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://www.benchmarkmissoula.com/#website",
+            "name": "Benchmark Automotive Service",
+            "url": "https://www.benchmarkmissoula.com",
+            "description": "Automotive diagnostics and repair services in Missoula, Montana.",
+            "publisher": {
+              "@type": "AutoRepair",
+              "@id": "https://www.benchmarkmissoula.com/#business"
+            }
+          },
+          {
+            "@type": "AutoRepair",
+            "@id": "https://www.benchmarkmissoula.com/#business",
+            "name": "Benchmark Automotive Service",
+            "image": "https://www.benchmarkmissoula.com/images/Benchmark%20Automotive.webp",
+            "url": "https://www.benchmarkmissoula.com",
+            "email": "driggs@benchmarkautomotiveservice.com",
+            "hasMap": "https://maps.app.goo.gl/k1AJiMky4sBqGitA9",
+            "sameAs": [
+              "https://maps.app.goo.gl/k1AJiMky4sBqGitA9"
+            ],
+            "telephone": "+14063171405",
+            "priceRange": "$$",
+            "knowsAbout": [
+              "Automotive diagnostics",
+              "Electrical diagnostics",
+              "Brake repair",
+              "Suspension and steering repair",
+              "Vehicle maintenance"
+            ],
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "1914 North Ave W",
+              "addressLocality": "Missoula",
+              "addressRegion": "MT",
+              "postalCode": "59801",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 46.855018,
+              "longitude": -114.0255
+            },
+            "areaServed": [
+              {
+                "@type": "City",
+                "name": "Missoula",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Missoula,_Montana",
+                  "https://www.wikidata.org/wiki/Q189508"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Lolo",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Lolo,_Montana",
+                  "https://www.wikidata.org/wiki/Q2213768"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Frenchtown",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Frenchtown,_Montana",
+                  "https://www.wikidata.org/wiki/Q2493393"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Bonner",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Bonner-West_Riverside,_Montana",
+                  "https://www.wikidata.org/wiki/Q2398418"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "East Missoula",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/East_Missoula,_Montana",
+                  "https://www.wikidata.org/wiki/Q2574041"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Milltown",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Milltown,_Montana",
+                  "https://www.wikidata.org/wiki/Q6859871"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Orchard Homes",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Orchard_Homes,_Montana",
+                  "https://www.wikidata.org/wiki/Q2481636"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Target Range",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Target_Range,_Montana",
+                  "https://www.wikidata.org/wiki/Q2353139"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Clinton",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Clinton,_Montana",
+                  "https://www.wikidata.org/wiki/Q2212351"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Huson",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Huson,_Montana",
+                  "https://www.wikidata.org/wiki/Q14704879"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Wye",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Wye,_Montana",
+                  "https://www.wikidata.org/wiki/Q10825316"
+                ]
+              }
+            ],
+            "mainEntityOfPage": {
+              "@type": "WebSite",
+              "@id": "https://www.benchmarkmissoula.com/#website"
+            },
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday"
+                ],
+                "opens": "08:00",
+                "closes": "17:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": "Saturday",
+                "description": "By appointment"
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://www.benchmarkmissoula.com/services/car-making-noise#webpage",
+            "url": "https://www.benchmarkmissoula.com/services/car-making-noise",
+            "name": "Car Making Noise",
+            "description": "Car noise diagnosis in Missoula, MT for grinding, clunking, squealing, rattling, or ticking. We identify the source before recommending repair.",
+            "isPartOf": {
+              "@id": "https://www.benchmarkmissoula.com/#website"
+            },
+            "about": {
+              "@id": "https://www.benchmarkmissoula.com/services/car-making-noise#service"
+            },
+            "reviewedBy": {
+              "@type": "Organization",
+              "@id": "https://www.benchmarkmissoula.com/#business"
+            },
+            "dateModified": "2026-03-12T00:00:00.000Z"
+          },
+          {
+            "@type": "Service",
+            "@id": "https://www.benchmarkmissoula.com/services/car-making-noise#service",
+            "name": "Car Making Noise",
+            "description": "Car noise diagnosis in Missoula, MT for grinding, clunking, squealing, rattling, or ticking. We identify the source before recommending repair.",
+            "serviceType": "Car Making Noise",
+            "provider": {
+              "@id": "https://www.benchmarkmissoula.com/#business"
+            },
+            "areaServed": [
+              {
+                "@type": "City",
+                "name": "Missoula",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Missoula,_Montana",
+                  "https://www.wikidata.org/wiki/Q189508"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Lolo",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Lolo,_Montana",
+                  "https://www.wikidata.org/wiki/Q2213768"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Frenchtown",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Frenchtown,_Montana",
+                  "https://www.wikidata.org/wiki/Q2493393"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Bonner",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Bonner-West_Riverside,_Montana",
+                  "https://www.wikidata.org/wiki/Q2398418"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "East Missoula",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/East_Missoula,_Montana",
+                  "https://www.wikidata.org/wiki/Q2574041"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Milltown",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Milltown,_Montana",
+                  "https://www.wikidata.org/wiki/Q6859871"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Orchard Homes",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Orchard_Homes,_Montana",
+                  "https://www.wikidata.org/wiki/Q2481636"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Target Range",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Target_Range,_Montana",
+                  "https://www.wikidata.org/wiki/Q2353139"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Clinton",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Clinton,_Montana",
+                  "https://www.wikidata.org/wiki/Q2212351"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Huson",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Huson,_Montana",
+                  "https://www.wikidata.org/wiki/Q14704879"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Wye",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Wye,_Montana",
+                  "https://www.wikidata.org/wiki/Q10825316"
+                ]
+              }
+            ],
+            "image": "https://www.benchmarkmissoula.com/diagnostic_hero_bg_v2.png",
+            "url": "https://www.benchmarkmissoula.com/services/car-making-noise"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.benchmarkmissoula.com/services/car-making-noise#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.benchmarkmissoula.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Services",
+                "item": "https://www.benchmarkmissoula.com/services"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Car Making Noise",
+                "item": "https://www.benchmarkmissoula.com/services/car-making-noise"
+              }
+            ]
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://www.benchmarkmissoula.com/services/car-making-noise#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "How do I know if the noise is serious?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Metal-on-metal grinding - from the brakes or engine - warrants same-day attention. A rhythmic clunk or pop from the suspension or drivetrain should be checked within a week. Intermittent rattles and minor squeaks are lower urgency but worth diagnosing, since they often precede a more significant failure."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Why does my car make noise only when it's cold?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Lubricant in ball joints, wheel bearings, and CV joints thickens at low temperatures, which amplifies existing wear. Damping fluid in struts and shocks also stiffens in the cold. Noises that appear at startup and fade as the car warms up often indicate wear that will eventually show up year-round."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do I need to pay a diagnostic fee just to find out what the noise is?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. Tracing a noise to its source takes time and uses lift equipment, test drives, and diagnostic tools. The fee covers that labor. It's applied toward any repair we perform."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "local": {
+    "status": 200,
+    "title": [
+      "Car Making Noise in Missoula, MT | Benchmark Automotive Service"
+    ],
+    "canonical": [
+      "https://www.benchmarkmissoula.com/services/car-making-noise"
+    ],
+    "robots": [],
+    "xrobots": null,
+    "has_body": true,
+    "schema": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://www.benchmarkmissoula.com/#website",
+            "name": "Benchmark Automotive Service",
+            "url": "https://www.benchmarkmissoula.com",
+            "description": "Automotive diagnostics and repair services in Missoula, Montana.",
+            "publisher": {
+              "@type": "AutoRepair",
+              "@id": "https://www.benchmarkmissoula.com/#business"
+            }
+          },
+          {
+            "@type": "AutoRepair",
+            "@id": "https://www.benchmarkmissoula.com/#business",
+            "name": "Benchmark Automotive Service",
+            "image": "https://www.benchmarkmissoula.com/images/Benchmark%20Automotive.webp",
+            "url": "https://www.benchmarkmissoula.com",
+            "email": "driggs@benchmarkautomotiveservice.com",
+            "hasMap": "https://maps.app.goo.gl/k1AJiMky4sBqGitA9",
+            "sameAs": [
+              "https://maps.app.goo.gl/k1AJiMky4sBqGitA9"
+            ],
+            "telephone": "+14063171405",
+            "priceRange": "$$",
+            "knowsAbout": [
+              "Automotive diagnostics",
+              "Electrical diagnostics",
+              "Brake repair",
+              "Suspension and steering repair",
+              "Vehicle maintenance"
+            ],
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "1914 North Ave W",
+              "addressLocality": "Missoula",
+              "addressRegion": "MT",
+              "postalCode": "59801",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 46.855018,
+              "longitude": -114.0255
+            },
+            "areaServed": [
+              {
+                "@type": "City",
+                "name": "Missoula",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Missoula,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Lolo",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Lolo,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Frenchtown",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Frenchtown,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Bonner",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Bonner-West_Riverside,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "East Missoula",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/East_Missoula,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Milltown",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Milltown,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Orchard Homes",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Orchard_Homes,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Target Range",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Target_Range,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Clinton",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Clinton,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Huson",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Huson,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Wye",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Wye,_Montana"
+                ]
+              }
+            ],
+            "mainEntityOfPage": {
+              "@type": "WebSite",
+              "@id": "https://www.benchmarkmissoula.com/#website"
+            },
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday"
+                ],
+                "opens": "08:00",
+                "closes": "17:00"
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://www.benchmarkmissoula.com/services/car-making-noise#webpage",
+            "url": "https://www.benchmarkmissoula.com/services/car-making-noise",
+            "name": "Car Making Noise",
+            "description": "Car noise diagnosis in Missoula, MT for grinding, clunking, squealing, rattling, or ticking. We identify the source before recommending repair.",
+            "isPartOf": {
+              "@id": "https://www.benchmarkmissoula.com/#website"
+            },
+            "about": {
+              "@id": "https://www.benchmarkmissoula.com/services/car-making-noise#service"
+            },
+            "reviewedBy": {
+              "@id": "https://www.benchmarkmissoula.com/#business"
+            },
+            "lastReviewed": "2026-03-12"
+          },
+          {
+            "@type": "Service",
+            "@id": "https://www.benchmarkmissoula.com/services/car-making-noise#service",
+            "name": "Car Making Noise",
+            "description": "Car noise diagnosis in Missoula, MT for grinding, clunking, squealing, rattling, or ticking. We identify the source before recommending repair.",
+            "serviceType": "Car Making Noise",
+            "provider": {
+              "@id": "https://www.benchmarkmissoula.com/#business"
+            },
+            "areaServed": [
+              {
+                "@type": "City",
+                "name": "Missoula",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Missoula,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Lolo",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Lolo,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Frenchtown",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Frenchtown,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Bonner",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Bonner-West_Riverside,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "East Missoula",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/East_Missoula,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Milltown",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Milltown,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Orchard Homes",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Orchard_Homes,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Target Range",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Target_Range,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Clinton",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Clinton,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Huson",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Huson,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Wye",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Wye,_Montana"
+                ]
+              }
+            ],
+            "image": "https://www.benchmarkmissoula.com/diagnostic_hero_bg_v2.png",
+            "url": "https://www.benchmarkmissoula.com/services/car-making-noise"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.benchmarkmissoula.com/services/car-making-noise#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.benchmarkmissoula.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Services",
+                "item": "https://www.benchmarkmissoula.com/services"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Car Making Noise",
+                "item": "https://www.benchmarkmissoula.com/services/car-making-noise"
+              }
+            ]
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://www.benchmarkmissoula.com/services/car-making-noise#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "How do I know if the noise is serious?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Metal-on-metal grinding - from the brakes or engine - warrants same-day attention. A rhythmic clunk or pop from the suspension or drivetrain should be checked within a week. Intermittent rattles and minor squeaks are lower urgency but worth diagnosing, since they often precede a more significant failure."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Why does my car make noise only when it's cold?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Lubricant in ball joints, wheel bearings, and CV joints thickens at low temperatures, which amplifies existing wear. Damping fluid in struts and shocks also stiffens in the cold. Noises that appear at startup and fade as the car warms up often indicate wear that will eventually show up year-round."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do I need to pay a diagnostic fee just to find out what the noise is?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. Tracing a noise to its source takes time and uses lift equipment, test drives, and diagnostic tools. The fee covers that labor. It's applied toward any repair we perform."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

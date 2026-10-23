@@ -1,0 +1,44 @@
+[
+  {
+    "width": 360,
+    "clientWidth": 345,
+    "cta": "Request an Appointment ",
+    "emDashes": 0,
+    "h1": "Electrical Diagnostics",
+    "oldBadge": false,
+    "scrollWidth": 345,
+    "sourceLinks": [
+      "https://static.nhtsa.gov/odi/tsbs/2025/MC-11024858-0001.pdf",
+      "https://www.fluke.com/en-us/learn/blog/automotive/electrical-automotive-troubleshooting",
+      "https://www.fordservicecontent.com/Ford_Content/vdirsnet/OwnerManual/Home/Content?ProcUid=G1448512&Uid=G1448459&buildtype=webIt&countryCode=USA&div=f&languageCode=en&userMarket=USA&vFilteringEnabled=False&variantid=2458"
+    ]
+  },
+  {
+    "width": 390,
+    "clientWidth": 375,
+    "cta": "Request an Appointment ",
+    "emDashes": 0,
+    "h1": "Electrical Diagnostics",
+    "oldBadge": false,
+    "scrollWidth": 375,
+    "sourceLinks": [
+      "https://static.nhtsa.gov/odi/tsbs/2025/MC-11024858-0001.pdf",
+      "https://www.fluke.com/en-us/learn/blog/automotive/electrical-automotive-troubleshooting",
+      "https://www.fordservicecontent.com/Ford_Content/vdirsnet/OwnerManual/Home/Content?ProcUid=G1448512&Uid=G1448459&buildtype=webIt&countryCode=USA&div=f&languageCode=en&userMarket=USA&vFilteringEnabled=False&variantid=2458"
+    ]
+  },
+  {
+    "width": 1440,
+    "clientWidth": 1425,
+    "cta": "Request an Appointment ",
+    "emDashes": 0,
+    "h1": "Electrical Diagnostics",
+    "oldBadge": false,
+    "scrollWidth": 1425,
+    "sourceLinks": [
+      "https://static.nhtsa.gov/odi/tsbs/2025/MC-11024858-0001.pdf",
+      "https://www.fluke.com/en-us/learn/blog/automotive/electrical-automotive-troubleshooting",
+      "https://www.fordservicecontent.com/Ford_Content/vdirsnet/OwnerManual/Home/Content?ProcUid=G1448512&Uid=G1448459&buildtype=webIt&countryCode=USA&div=f&languageCode=en&userMarket=USA&vFilteringEnabled=False&variantid=2458"
+    ]
+  }
+]

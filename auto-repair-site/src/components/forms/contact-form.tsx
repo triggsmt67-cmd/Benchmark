@@ -1,6 +1,7 @@
 "use client";
 
 import { useActionState } from "react";
+import Link from "next/link";
 import { submitContactForm, type ContactFormState } from "@/app/actions/contact";
 import { Button } from "@/components/ui/button";
 
@@ -18,7 +19,7 @@ export function ContactForm() {
             <div className="p-8 bg-surface rounded-sm border border-border text-center">
                 <h3 className="text-xl font-bold text-copper mb-2">Request Received</h3>
                 <p className="text-navy-900">{state.message}</p>
-                <p className="text-text-secondary mt-4">We will be in touch shortly.</p>
+                <p className="text-text-secondary mt-4">We’ll contact you to discuss the concern and confirm appointment availability.</p>
             </div>
         );
     }
@@ -69,22 +70,27 @@ export function ContactForm() {
                 </div>
             )}
 
+            <p className="text-sm text-text-secondary">
+                We’ll use these details to respond to your service request. Read our{" "}
+                <Link href="/privacy" className="text-copper hover:underline">Privacy Policy</Link>.
+            </p>
+
             <div className="pt-4 flex flex-col sm:flex-row gap-8 items-start sm:items-center justify-between">
                 <Button type="submit" disabled={isPending} size="lg" className="w-full sm:w-auto bg-brand-red hover:bg-brand-red-hover text-white h-14 px-10 text-lg rounded-sm disabled:opacity-75">
-                    {isPending ? "Sending..." : "Schedule Service"}
+                    {isPending ? "Sending..." : "Request an Appointment"}
                 </Button>
 
                 <div className="space-y-3 w-full sm:w-auto p-4 sm:p-0 bg-surface sm:bg-transparent rounded-sm border border-border sm:border-transparent">
                     <h3 className="font-heading font-semibold text-navy-950 text-sm">What Happens Next</h3>
                     <ol className="text-sm text-text-secondary space-y-2">
                         <li className="flex gap-2">
-                            <span className="text-copper font-medium">1.</span> We review your request.
+                            <span className="text-copper font-medium">1.</span> We review your vehicle details and request.
                         </li>
                         <li className="flex gap-2">
-                            <span className="text-copper font-medium">2.</span> We confirm availability.
+                            <span className="text-copper font-medium">2.</span> We contact you to discuss the concern and confirm availability.
                         </li>
                         <li className="flex gap-2">
-                            <span className="text-copper font-medium">3.</span> We discuss next steps.
+                            <span className="text-copper font-medium">3.</span> We confirm the appointment details with you.
                         </li>
                     </ol>
                 </div>

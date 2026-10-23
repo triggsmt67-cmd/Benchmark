@@ -4,6 +4,7 @@ import matter from "gray-matter";
 
 export interface ServiceData {
     title: string;
+    h1?: string;
     description: string;
     category: string;
     featured: boolean;
@@ -11,6 +12,8 @@ export interface ServiceData {
     related?: string[];
     faqs?: { question: string; answer: string }[];
     lastReviewed?: string | Date;
+    technicalReviewVerified?: boolean;
+    contactCta?: { title: string; description: string; label: string };
     [key: string]: unknown;
 }
 

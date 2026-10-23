@@ -1,109 +1,80 @@
 ---
 title: "AC & Heating Service"
-description: "Auto AC and heating repair in Missoula, MT. We test refrigerant pressure, airflow, electrical controls, heater performance, and leaks before repair."
-category: "Repair"
+h1: "Car AC & Heating Repair in Missoula"
+description: "Car AC, heating and airflow problems in Missoula. Get help with warm AC, weak heat or a fan that isn't working properly at Benchmark Automotive Service."
+categories: ["Repairs", "Comfort & Climate"]
+section: "Repairs"
 featured: false
 order: 5
-lastReviewed: 2026-07-27
+technicalReviewVerified: false
 related:
-
   - fluid-services
   - general-maintenance
+contactCta:
+  title: "Tell us what's happening with your AC or heat"
+  description: "Send your vehicle details and describe the problem. We'll contact you to confirm appointment availability at our Missoula shop."
+  label: "Request an Appointment"
 faqs:
-  - question: "Why does my AC blow cold at first and then gradually get warmer?"
-    answer: "The most common cause is a refrigerant leak. As the system runs, pressure drops low enough to trigger the low-pressure cutoff switch, which prevents the compressor from running to protect it from oil starvation. A UV dye leak test identifies where the refrigerant is escaping."
-  - question: "Can I just recharge the system myself with a kit from the parts store?"
-    answer: "A DIY recharge adds refrigerant without finding or fixing the leak, so the same problem returns in weeks or months. Overcharging also puts excess pressure on the compressor. Different model years use different refrigerant types - R-134a vs. R-1234yf - and using the wrong PAG oil damages the compressor. Diagnosis first, recharge second."
-  - question: "My heat works, but the fan only blows at one speed. What's wrong?"
-    answer: "A failed blower motor resistor or electronic blower-control module is a common cause, but switch, wiring, and control-head faults can create similar symptoms. We test the circuit before replacing the control component."
+  - question: "Why does my AC start cold and then get warm?"
+    answer: "That symptom can have more than one cause. Tell us how long it takes, whether the airflow changes and whether it happens while parked or driving. Testing helps determine whether the problem involves the refrigerant system, airflow or controls."
+  - question: "Will a recharge fix my AC?"
+    answer: "Adding refrigerant does not repair a leak. Before deciding on a recharge, the system needs to be checked and the correct refrigerant identified for your vehicle. Ask what the service includes and whether any repair would be quoted separately."
+  - question: "Why does the fan only work on high?"
+    answer: "The fan controls, wiring or blower components may need attention. That symptom alone doesn't identify which part failed. Let us know which speeds work and whether the problem happens every time."
 ---
 
-## AC & Heating Service in Missoula, MT
+## Is the airflow weak, or is the temperature wrong?
 
-Missoula's climate swings from single-digit January lows to summer highs near 90°F, which means your vehicle's climate control system carries a real load in both directions. When the AC stops blowing cold or the heater stops producing heat, the same symptom can trace back to very different causes - a refrigerant leak, a failed compressor clutch, a stuck blend door actuator, or a clogged heater core all produce warm air from the vents. Diagnosis determines which one before any parts get replaced.
+If the fan is running but the air isn't cold, tell us. If the heater barely warms up or the fan only works on high, that's useful to know too. Those problems can need different checks.
 
----
+Benchmark Automotive Service handles AC, heating and airflow concerns at our Missoula shop. You don't need to know which part failed before making an appointment. Start with what you've noticed.
 
-## What This Service Covers
+## What to tell us before your visit
 
-- Refrigerant leak detection using UV dye and electronic leak detectors
-- AC system pressure testing with manifold gauges
-- Compressor and compressor clutch inspection and replacement
-- Heater core inspection and coolant flow diagnosis
-- Blend door actuator and heater control valve testing
-- Blower motor, blower motor resistor, and cabin air filter service
-- Refrigerant evacuation, recharge, and vent outlet temperature verification
+A few details can help us understand the problem:
 
----
+- Does air come out strongly, weakly or not at all?
+- Is the air too warm with the AC on, or too cold with the heat on?
+- Does the temperature change after a few minutes?
+- Does it happen while parked, while driving or both?
+- Do all the fan speeds work?
+- Have you noticed a new smell, noise or warning message?
 
-## Common Symptoms
+Maybe the AC works on the drive to work but gets warm on the way home. Or the fan sounds normal, yet very little air reaches the vents. Describe that difference when you call, even if the system happens to be working again.
 
-- AC blows warm or barely cool air
-- Heater blows cold or lukewarm air
-- Air comes from vents at only one fan speed
-- No air from vents at any speed
-- Sweet or musty smell when heat or AC is on
-- Clicking or rattling noise when AC engages
-- Windshield takes a long time to defog or defrost
-- AC cools initially but warms up gradually during longer drives
+## Why a recharge may not solve the problem
 
----
+Low refrigerant can affect cooling, but warm air alone doesn't tell us how much refrigerant is in the system or why it isn't cooling. Airflow, controls and other AC components may also need checking.
 
-## Why It Happens
+Adding refrigerant does not fix a leak. The EPA explains the difference between topping off, evacuating and recharging, and repairing leaks in its [guide to AC recharge options](https://www.epa.gov/mvac/options-recharging-your-air-conditioner).
 
-The AC and heating systems share components - the blower motor, cabin air filter, and HVAC housing - but their failure points differ.
+The refrigerant type and amount must match the vehicle's specifications. Ask what a recharge service includes and whether leak repairs or other work would cost extra.
 
-On the AC side, refrigerant leaks are the most common cause of lost cooling. Refrigerant escapes through degraded O-rings, pinhole leaks in the condenser, or a leaking evaporator core buried inside the HVAC housing under the dash - and because it vaporizes rather than pooling, leaks leave no visible trace on the ground. When refrigerant level drops far enough, the low-pressure cutoff switch prevents the compressor from running - protecting it from oil starvation - which is why some systems cool briefly and then warm up after a few minutes of driving.
+## Weak heat needs a different set of checks
 
-Compressor failure is the other major AC cause. The compressor circulates refrigerant through the system; when its clutch fails to engage, internal mechanical components seize, or it runs dry due to low refrigerant, cooling stops. Newer vehicles with variable-displacement compressors - which run continuously without a clutch - require scan tool data alongside pressure testing to diagnose accurately.
+In vehicles that use hot engine coolant for cabin heat, poor heater output can involve coolant temperature, coolant flow or the controls that direct air through the heater. The fan and air passages also matter.
 
-On the heating side, the heater core is a small radiator inside the dash that transfers heat from engine coolant into cabin air. A heater core clogged with scale from neglected coolant produces weak or no heat; a leaking one shows up as a sweet smell in the cabin, foggy interior glass, or coolant loss without an obvious external leak. A stuck-closed thermostat prevents the engine from reaching operating temperature, so the coolant never gets hot enough to heat the cabin. A faulty blend door actuator - the motorized flap that mixes hot and cold airflow - leaves the system stuck at one temperature regardless of what the controls say. Related [cooling system issues](/services/fluid-services) are diagnosed separately when needed.
+A thermostat stuck open can slow engine warm-up. That is different from a thermostat stuck closed, which can lead to overheating. [DENSO's thermostat guidance](https://www.denso-am.eu/news/thermostat-diagnosis-how-to-spot-the-fault-before-overheating-starts) explains the distinction. Weak heat on its own doesn't establish that either fault is present.
 
----
+Heating systems vary by vehicle. We need to check the system your car uses rather than assume every model has the same components.
 
-## How We Diagnose It
+## What the service covers
 
-### Inspect
-We start with coolant level, cabin air filter, and visible refrigerant oil residue around fittings and the condenser. With the engine at operating temperature, we check both heater hoses - both should be hot. One cold hose points to a restricted heater core.
+Depending on the vehicle and the symptoms, AC and heating service can include checking:
 
-### Test
-We connect manifold gauges to read high-side and low-side AC pressures against manufacturer specs for the ambient temperature. For leak detection, we use UV dye with a blacklight or an electronic refrigerant detector. For heating, we verify coolant temperature at the thermostat and test blend door actuator operation with a scan tool on vehicles with electronic climate control. If [electrical faults](/services/electrical-diagnostics) are involved - blown fuses, bad relays, wiring issues - we trace those through the HVAC circuit first.
+- Airflow, fan operation and the cabin air filter
+- AC performance, refrigerant pressures and possible leaks
+- Compressor operation and related controls
+- Heater performance and coolant flow, where applicable
+- Temperature controls and the doors that direct airflow
+- Wiring and other electrical components
 
-### Confirm
-We confirm root cause before quoting. A compressor showing no voltage at the clutch connector is an electrical fault, not a mechanical one. A refrigerant leak at the evaporator requires a different fix than one at the condenser. We don't replace components based on symptoms alone.
+The checks should fit the problem. Not every visit needs a recharge, and not every heating repair involves the cooling system. We'll explain the findings and recommended work before repairs move forward.
 
-### Repair
-After repair, we recharge the AC system, verify pressures at spec, and measure cabin outlet temperature to confirm performance. For heating repairs, we bleed trapped air from the cooling system - which causes gurgling, erratic heat, and can contribute to [engine overheating](/services/engine-overheating) - then verify output across all fan speeds.
+For related concerns, see [electrical diagnostics](/services/electrical-diagnostics), [coolant and fluid services](/services/fluid-services) or [engine overheating](/services/engine-overheating).
 
----
+## Arrange an AC or heating visit
 
-## When To Schedule Service
+Call (406) 317-1405 or [request an appointment](/contact). Include your vehicle's year, make and model, along with what the air or fan is doing.
 
-Schedule AC service before temperatures consistently hit the 80s. A marginal system may stop cooling effectively as ambient temperature and system load increase, and refrigerant leaks do not correct themselves. Rapid compressor cycling or only slightly cool vent air warrants pressure, temperature, and electrical testing before the cause is assumed.
-
-For heating issues, any sign of coolant loss - a sweet smell in the cabin, interior window fogging, or a dropping overflow tank - warrants attention before it affects the engine.
-
-If the defroster is struggling, address it in fall. Missoula's first icing events don't wait.
-
----
-
-## Local Conditions in Missoula
-
-Missoula's temperature range - single digits in January, near 90°F in July - puts a real annual cycle on AC components. Rubber O-rings and seals that sit idle through a cold winter often develop small leaks by the time the AC is first needed in May or June.
-
-Summer wildfire smoke loads cabin air filters faster than typical driving conditions. A clogged cabin air filter restricts airflow over the evaporator and degrades AC performance without any mechanical failure - worth checking annually in Missoula, not just by mileage.
-
----
-
-
-## Related Services
-
-
-- [Fluid Services (Coolant)](/services/fluid-services)
-- [General Maintenance](/services/general-maintenance)
-
----
-
-## Schedule Service
-
-Call us at (406) 317-1405 to schedule AC or heating diagnosis. If drop-off during business hours isn't practical, after-hours drop-off is available at our Missoula location.
+Our shop is at 1914 North Ave W in Missoula. After-hours drop-off is available. Ask for the current instructions when you arrange your visit, and wait for appointment confirmation before bringing the vehicle over.

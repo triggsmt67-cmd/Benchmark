@@ -24,9 +24,11 @@ export function HeroIntro({ children, className = "", instant = true }: HeroIntr
 
     return (
         <motion.div
+            data-content-motion="true"
             className={className}
             variants={containerVariants}
-            initial="hidden"
+            // Keep server-rendered content visible before JavaScript or viewport observers run.
+            initial={false}
             animate={instant ? "visible" : undefined}
             whileInView={!instant ? "visible" : undefined}
             viewport={!instant ? motionTokens.viewport : undefined}
@@ -51,7 +53,7 @@ export function HeroIntroItem({ children, className = "" }: { children: ReactNod
     };
 
     return (
-        <motion.div variants={itemVariants} className={className}>
+        <motion.div data-content-motion="true" variants={itemVariants} className={className}>
             {children}
         </motion.div>
     );

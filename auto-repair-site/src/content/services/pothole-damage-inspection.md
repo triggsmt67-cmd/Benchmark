@@ -1,107 +1,84 @@
 ---
 title: "Pothole Damage Inspection in Missoula, MT"
-description: "Pothole damage inspection in Missoula for tires, wheels, alignment, steering, and suspension. We measure the damage before recommending repairs."
+h1: "Pothole Damage Inspection in Missoula"
+description: "Benchmark checks tires, wheels, steering and suspension after pothole impacts in Missoula. In-house alignment and balancing are separate from the initial inspection."
 category: "Diagnostics"
 featured: false
 order: 16
-lastReviewed: "2026-03-20"
+technicalReviewVerified: false
 related:
   - suspension-steering
   - steering-vibration
+contactCta:
+  title: "Tell us what changed after the hit"
+  description: "Send your vehicle details and describe any tire damage, pressure loss, noise or change in handling. We'll discuss the next step and confirm availability."
+  label: "Request an Appointment"
 faqs:
-  - question: "How do I know if hitting a pothole actually damaged my car?"
-    answer: "Common signs include steering wheel vibration, the car drifting to one side, a flat or slow-leaking tire, a bubble or bulge in the sidewall, a visibly bent rim, or clunking sounds over bumps. Alignment damage has no obvious symptom right away - it shows up as uneven tire wear over the following weeks."
-  - question: "Is pothole damage covered by auto insurance?"
-    answer: "Collision coverage typically covers pothole damage, subject to your deductible. Comprehensive coverage does not. If the repair cost is close to or less than your deductible, filing a claim may not make financial sense. Some Montana roads qualify for municipal damage claims, but those are rarely straightforward to pursue."
   - question: "Can I drive after hitting a pothole if the car seems fine?"
-    answer: "If the tire is holding air and the car tracks straight, short-distance driving is generally okay. But alignment and suspension damage doesn't always feel obvious right away. After a hard hit, an inspection within a few days is a reasonable step - especially before a long drive on the highway."
+    answer: "Holding air and tracking straight don't establish that a vehicle is safe to drive after an impact. If you see tire or wheel damage, lose pressure or notice changes in steering or stability, stop as soon as you can safely pull over and arrange assistance. Contact the shop to discuss inspection and transport."
+  - question: "Does a bubble on the tire sidewall need attention?"
+    answer: "Yes. An outward bulge or bubble can indicate internal tire damage and requires prompt replacement. Don't keep driving on that tire or assume it's safe because it holds air. Arrange assistance with a suitable spare or transport, following your vehicle's instructions."
+  - question: "Are alignment and balancing included in the inspection?"
+    answer: "No. Benchmark performs alignment and wheel balancing in-house, but they are separate from the initial pothole damage inspection. We'll explain when those services are recommended and discuss the additional work before proceeding."
+  - question: "Does an alignment problem prove the pothole damaged a part?"
+    answer: "No. Alignment measurements show the current wheel angles compared with the vehicle's specifications. We consider those readings alongside the inspection and history. The readings alone don't establish when a change happened or which part, if any, is damaged."
 ---
 
-Montana's freeze-thaw cycle leaves roads in rough shape every spring - and Missoula is no exception. A hard pothole hit can damage tires, wheels, suspension components, and alignment in a single impact. Some of that damage is obvious. Some of it isn't. A pothole damage inspection gives you a clear read on what the hit actually did before it turns into a tire failure or uneven wear that shortens the life of a full set of tires.
+## Notice a change after a pothole hit?
 
----
+Maybe the steering wheel started shaking, a tire lost pressure or you heard a new clunk. Tell us what changed and which wheel took the impact, if you know.
 
-## What This Service Covers
+Benchmark Automotive Service checks reported tire, wheel, steering and suspension concerns at our Missoula shop. The inspection helps us assess the vehicle's current condition before recommending work.
 
-- Visual inspection of tires for sidewall bulges, punctures, and structural damage
-- Wheel and rim inspection for bends, cracks, and bead seat damage that cause slow air loss
-- Full suspension check - struts, shocks, control arms, ball joints, tie rod ends, and sway bar links
-- Four-wheel alignment measurement to detect shifts in toe, camber, and caster angles
-- Wheel balance check for vibration caused by an out-of-round wheel after impact
-- Underbody inspection for contact damage to the oil pan, exhaust system, and skid plates
+## Tire damage needs attention before more driving
 
----
+A tire can hold air and still be damaged. Tracking straight also doesn't rule out a problem after a hard impact.
 
-## Common Symptoms
+If you see tire or wheel damage, lose pressure or notice changes in steering or stability, stop as soon as you can safely pull over and arrange assistance. Contact us about inspection and transport rather than assuming it's safe to drive to the shop.
 
-- Flat tire or slow leak that started after the hit
-- Visible bubble or bulge on the tire sidewall
-- Bent, cracked, or visibly deformed rim
-- [Steering wheel vibrating at highway speeds](/services/steering-vibration)
-- Car drifting or pulling to one side
-- Clunking or rattling noise over bumps or when turning
-- Steering wheel sitting off-center on a straight road
-- Vehicle bottomed out or scraped hard on impact
+An outward bulge or bubble in the sidewall is a serious concern. It can indicate internal damage, and that tire needs replacement. Don't continue driving on it. Michelin's [sidewall guidance](https://www.michelinman.com/auto/auto-tips-and-advice/tire-damage/sidewall-problems) explains why a bulge needs attention.
 
----
+## What Benchmark checks first
 
-## Why It Happens
+We start with the tires and wheels. On the tire sidewalls, we look for bulges, bubbles, cuts, punctures and exposed cords. We check the inner and outer wheel edges for bends, dents or cracks, including damage that may contribute to air loss.
 
-Potholes transfer impact force directly through the tire into the wheel and suspension. The tire absorbs some of it, but a sharp, deep hit sends the remainder straight into the metal.
+We also check tire pressure. If a tire is suitable for continued use after assessment, watching for further pressure loss can help reveal a slow leak. Monitoring pressure isn't a substitute for addressing visible damage, and a tire holding pressure isn't proof that it's safe.
 
-Wheels take the first hit. Aluminum rims - now standard on most vehicles - are more susceptible to bending or cracking than old-style steel wheels. A single impact can deform the rim's inner barrel enough to cause a slow air leak at the bead, which is where the tire seals against the wheel. Even a small bend causes vibration that becomes more noticeable as speed increases.
+The concerns you report help guide the rest of the inspection, including steering, suspension or signs of contact underneath the vehicle. Let us know if the car bottomed out or scraped during the hit.
 
-[Suspension components](/services/suspension-steering) sit right behind the wheel and are built to absorb normal road variation through controlled movement. A sudden bottoming-out from a deep hole is outside that range. That kind of impact can bend a strut housing, crack a coil spring, push a ball joint past its designed range of motion, or fatigue a control arm bushing enough that it develops play. Tie rod ends - the steering linkage that connects the rack to the wheel hub - are vulnerable to lateral force from an off-center hit.
+## Alignment and balancing are separate services
 
-Alignment is often what goes unnoticed. The angles that control how your tires contact the road - toe (pointing in or out), camber (tilt), and caster (steering axis lean) - can shift from a single hard impact without anything being visibly bent. That shift wears tires unevenly and can cause the car to pull to one side, sometimes subtly enough that drivers don't register it for weeks.
+Benchmark performs alignment and wheel balancing in-house. Neither is included in the initial pothole damage inspection.
 
----
+If the findings call for those services, we'll explain the recommendation and discuss the additional work before proceeding. Hitting a pothole doesn't automatically mean you need both.
 
-## How We Diagnose It
+Alignment checks measure wheel angles against the vehicle's specifications. Balancing addresses uneven weight distribution in the wheel and tire assembly. Those checks answer different questions; neither replaces inspection for structural damage.
 
-### Inspect
-We start with the tires and wheels - checking for sidewall bulging, punctures, rim deformation, and bead damage. We also inspect the undercarriage for contact marks on the oil pan, exhaust pipe, and any skid plates that may have caught the edge of the hole.
+An alignment reading outside specification doesn't prove that this particular impact caused it. We consider the measurements with the physical findings and what you tell us about the vehicle's history.
 
-### Test
-We put the vehicle on a lift and go through the full suspension - struts, shocks, control arms, ball joints, sway bar end links, and tie rod ends. Each joint and bushing gets checked for looseness, binding, or unusual play. We run a wheel balance to identify any out-of-round condition that would cause vibration.
+## What to tell us before the visit
 
-### Confirm
-We run a four-wheel alignment check. If any angle is out of spec, that confirms the impact shifted the geometry. The alignment data also tells us whether the correction is a simple adjustment or whether it points to a bent component that needs to come off the vehicle for inspection.
+A few details help us plan the inspection:
 
-### Repair
-After any suspension work, we re-check alignment to confirm the geometry is back within manufacturer spec before the vehicle leaves the shop.
+- Which wheel hit the pothole, if you know
+- Whether the tire lost pressure or a warning appeared
+- Any new vibration, pulling, noise or change in steering
+- Whether the steering wheel now sits differently
+- Whether the underside of the car scraped or struck the road
+- Any similar symptoms that were present before the impact
 
----
+You don't need to drive at highway speed to test for a vibration or crawl underneath the car to look for damage. Describe what you've already noticed from a safe position.
 
-## When To Schedule Service
+## Your findings, with priorities explained
 
-If a tire went flat, the rim looks bent, or the car won't [track straight](/services/steering-vibration) after the hit - bring it in before driving further. A cracked rim or damaged tire sidewall can fail without warning at highway speed.
+We provide a written list of findings and explain what needs attention now, what you can plan for and what should be monitored or rechecked. The priority depends on the actual condition of your vehicle.
 
-If the car seems to drive normally after the impact, an inspection within a few days still makes sense. Alignment shifts and loosened suspension joints don't always produce obvious symptoms immediately. The first sign is often uneven tire wear discovered at the next oil change - by which point a meaningful amount of tire life has already been lost.
+We'll also explain what the inspection could establish and whether further checks are needed. Finding wear after an impact doesn't automatically tell us when it began.
 
-Vehicles with higher mileage or already-worn suspension components are more vulnerable. An impact that a newer vehicle absorbs without damage can push an older strut or ball joint over the edge.
+For related concerns, see [suspension and steering repair](/services/suspension-steering) or [steering vibration](/services/steering-vibration).
 
----
+## Arrange a pothole damage inspection
 
-## Local Conditions in Missoula
+Call (406) 317-1405 or [send an appointment request](/contact). Include your vehicle's year, make and model, along with what happened and what changed afterward.
 
-Missoula roads go through a hard freeze-thaw cycle from November through April. Water works into pavement cracks, freezes, expands, and breaks the surface apart. By March, streets across town - including sections of Reserve Street, Brooks Street, and most residential neighborhoods - develop potholes deep enough to cause real vehicle damage.
-
-Montana driving also involves sustained highway speeds on roads that get the same freeze-thaw treatment. I-90 and Highway 93 develop rough stretches during spring that catch drivers off guard, particularly after a winter with heavy moisture.
-
-Vehicles that split time between Missoula's urban stop-and-go and open highway put steady, varied load on suspension. Parts that are approaching the end of their service life can fail from an impact that a fresher suspension would handle without issue.
-
----
-
-## Related Services
-
-- [Suspension & Steering Repair](/services/suspension-steering)
-- [Steering Vibration & Alignment](/services/steering-vibration)
-
----
-
-## Schedule Service
-
-Call us at (406) 317-1405 to schedule a pothole damage inspection. We'll check tires, wheels, suspension, and alignment and give you a clear report on what the impact did - no guesswork.
-
-After-hours drop-off is available. We'll confirm receipt the next business day.
+Our shop is at 1914 North Ave W in Missoula. We'll contact you to confirm availability. If there are concerns about driving the vehicle, discuss transport before bringing it over. After-hours drop-off is available; ask for the current instructions when you arrange your visit.

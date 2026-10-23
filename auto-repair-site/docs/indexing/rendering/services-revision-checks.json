@@ -1,0 +1,104 @@
+{
+  "categories": [
+    {
+      "category": "Diagnostics",
+      "empty": false,
+      "links": [
+        "/services/our-diagnostic-approach",
+        "/services/vehicle-inspection",
+        "/services/electrical-diagnostics",
+        "/services/engine-and-performance",
+        "/services/pre-purchase-inspection",
+        "/services/pothole-damage-inspection",
+        "/services/car-wont-start",
+        "/services/our-diagnostic-approach"
+      ]
+    },
+    {
+      "category": "Repairs",
+      "empty": false,
+      "links": [
+        "/services/ac-heating",
+        "/services/brake-repair",
+        "/services/suspension-steering",
+        "/services/our-diagnostic-approach"
+      ]
+    },
+    {
+      "category": "Maintenance",
+      "empty": false,
+      "links": [
+        "/services/fluid-services",
+        "/services/general-maintenance",
+        "/services/oil-change",
+        "/services/our-diagnostic-approach"
+      ]
+    },
+    {
+      "category": "Vehicle Problems",
+      "empty": false,
+      "links": [
+        "/services/engine-overheating",
+        "/services/car-wont-start",
+        "/services/car-making-noise",
+        "/services/steering-vibration",
+        "/services/our-diagnostic-approach"
+      ]
+    },
+    {
+      "category": "Comfort & Climate",
+      "empty": false,
+      "links": [
+        "/services/ac-heating",
+        "/services/our-diagnostic-approach"
+      ]
+    },
+    {
+      "category": "Guides",
+      "empty": false,
+      "links": [
+        "/guides/how-to-choose-a-mechanic",
+        "/guides/common-car-electrical-problems",
+        "/guides/how-long-do-brakes-last",
+        "/guides/living-in-missoula-is-it-worth-fixing-my-car",
+        "/guides/used-car-inspection-guide",
+        "/guides/how-cold-weather-affects-your-car",
+        "/services/our-diagnostic-approach"
+      ]
+    }
+  ],
+  "mobile": [
+    {
+      "width": 360,
+      "js": true,
+      "acLinks": 1,
+      "clientWidth": 345,
+      "scrollWidth": 345,
+      "toolbarPosition": "static"
+    },
+    {
+      "width": 360,
+      "js": false,
+      "clientWidth": 345,
+      "filtersDisplay": "none",
+      "scrollWidth": 345,
+      "serviceLinks": 16
+    },
+    {
+      "width": 390,
+      "js": true,
+      "acLinks": 1,
+      "clientWidth": 375,
+      "scrollWidth": 375,
+      "toolbarPosition": "static"
+    },
+    {
+      "width": 390,
+      "js": false,
+      "clientWidth": 375,
+      "filtersDisplay": "none",
+      "scrollWidth": 375,
+      "serviceLinks": 16
+    }
+  ]
+}

@@ -6,8 +6,8 @@ import { ContactForm } from "@/components/forms/contact-form";
 import { getContactPageSchema, serializeSchema } from "@/lib/seo";
 
 export const metadata: Metadata = {
-    title: "Contact",
-    description: "Schedule your automotive service or diagnostic appointment with Benchmark Automotive in Missoula.",
+    title: "Contact & Service Requests in Missoula",
+    description: "Contact Benchmark Automotive Service in Missoula to request auto repair or diagnostics. Call the shop, view hours, or send your vehicle details online.",
     alternates: {
         canonical: "/contact"
     }
@@ -22,15 +22,15 @@ export default function ContactPage() {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: serializeSchema(schema) }}
             />
-            <main className="flex-grow pt-28 pb-16 md:pt-36 md:pb-24 bg-bg">
+            <section className="flex-grow pt-28 pb-16 md:pt-36 md:pb-24 bg-bg">
                 <div className="container mx-auto px-4 md:px-6">
                     <Reveal>
                         <div className="mb-12 md:mb-16">
                             <h1 className="font-heading text-4xl md:text-5xl font-bold text-navy-950 mb-4 tracking-tight">
-                                Schedule Service or Get in Touch
+                                Contact Benchmark Automotive Service
                             </h1>
                             <p className="text-lg text-text-secondary max-w-2xl">
-                                Whether it’s routine maintenance or a complex diagnostic issue, we’re here to help.
+                                Request automotive service at our Missoula shop. Call <a href={`tel:${siteConfig.phone.link}`} className="text-copper hover:underline">{siteConfig.phone.display}</a> or tell us about your vehicle below. Sending the form requests an appointment; we’ll contact you to confirm availability.
                             </p>
                         </div>
                     </Reveal>
@@ -47,7 +47,7 @@ export default function ContactPage() {
                                     <div className="p-8 space-y-8">
                                         {/* Address & Phone */}
                                         <div className="space-y-4">
-                                            <h3 className="font-heading text-xl font-bold text-navy-950">{siteConfig.businessName}</h3>
+                                            <h2 className="font-heading text-xl font-bold text-navy-950">{siteConfig.businessName}</h2>
 
                                             <div className="flex items-start gap-4 text-text-secondary">
                                                 <MapPin className="h-5 w-5 text-copper shrink-0 mt-0.5" strokeWidth={1.5} />
@@ -59,12 +59,12 @@ export default function ContactPage() {
 
                                             <div className="flex items-center gap-4 text-text-secondary">
                                                 <Phone className="h-5 w-5 text-copper shrink-0" strokeWidth={1.5} />
-                                                <p className="font-medium text-navy-900">{siteConfig.phone.display}</p>
+                                                <a href={`tel:${siteConfig.phone.link}`} className="font-medium text-navy-900 hover:underline">{siteConfig.phone.display}</a>
                                             </div>
 
                                             <div className="flex items-center gap-4 text-text-secondary">
                                                 <Mail className="h-5 w-5 text-copper shrink-0" strokeWidth={1.5} />
-                                                <a href={`mailto:${siteConfig.email}`} className="font-medium text-copper hover:text-copper-dark transition-colors">{siteConfig.email}</a>
+                                                <a href={`mailto:${siteConfig.email}`} className="min-w-0 break-all font-medium text-copper hover:text-copper-dark transition-colors">{siteConfig.email}</a>
                                             </div>
                                         </div>
 
@@ -73,7 +73,7 @@ export default function ContactPage() {
                                             <div className="flex items-start gap-4">
                                                 <Clock className="h-5 w-5 text-copper shrink-0 mt-0.5" strokeWidth={1.5} />
                                                 <div className="w-full">
-                                                    <h4 className="font-semibold text-navy-950 mb-2">Hours</h4>
+                                                    <h3 className="font-semibold text-navy-950 mb-2">Hours</h3>
                                                     <ul className="space-y-2 text-sm text-text-secondary">
                                                         <li className="flex justify-between">
                                                             <span>Monday – Friday:</span>
@@ -97,9 +97,9 @@ export default function ContactPage() {
                                             <div className="flex items-start gap-4">
                                                 <KeySquare className="h-5 w-5 text-copper shrink-0 mt-0.5" strokeWidth={1.5} />
                                                 <div>
-                                                    <h4 className="font-semibold text-navy-950">After Hours Drop-Off Available</h4>
+                                                    <h3 className="font-semibold text-navy-950">After Hours Drop-Off Available</h3>
                                                     <p className="text-sm text-text-secondary mt-1">
-                                                        We’ll confirm receipt the next business day.
+                                                        Call for instructions before leaving your vehicle. We’ll confirm receipt the next business day.
                                                     </p>
                                                 </div>
                                             </div>
@@ -116,7 +116,7 @@ export default function ContactPage() {
                                 <div className="mb-8">
                                     <h2 className="text-xl font-bold text-navy-950 mb-2">Service Request Form</h2>
                                     <p className="text-text-secondary">
-                                        Provide a few details and we’ll follow up promptly.
+                                        Tell us what you drive and what you’ve noticed. Include any warning lights, noises, or conditions that help explain the concern.
                                     </p>
                                 </div>
 
@@ -144,7 +144,7 @@ export default function ContactPage() {
                         </div>
                     </Reveal>
                 </div>
-            </main>
+            </section>
         </div>
     );
 }

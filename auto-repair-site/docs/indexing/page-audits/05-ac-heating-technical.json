@@ -1,0 +1,711 @@
+{
+  "live": {
+    "status": 200,
+    "xrobots": null,
+    "title": [
+      "AC &amp; Heating Service in Missoula, MT | Benchmark Automotive Service"
+    ],
+    "canonical": [
+      "https://www.benchmarkmissoula.com/services/ac-heating"
+    ],
+    "robots": [],
+    "schema": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://www.benchmarkmissoula.com/#website",
+            "name": "Benchmark Automotive Service",
+            "url": "https://www.benchmarkmissoula.com",
+            "description": "Automotive diagnostics and repair services in Missoula, Montana.",
+            "publisher": {
+              "@type": "AutoRepair",
+              "@id": "https://www.benchmarkmissoula.com/#business"
+            }
+          },
+          {
+            "@type": "AutoRepair",
+            "@id": "https://www.benchmarkmissoula.com/#business",
+            "name": "Benchmark Automotive Service",
+            "image": "https://www.benchmarkmissoula.com/images/Benchmark%20Automotive.webp",
+            "url": "https://www.benchmarkmissoula.com",
+            "email": "driggs@benchmarkautomotiveservice.com",
+            "hasMap": "https://maps.app.goo.gl/k1AJiMky4sBqGitA9",
+            "sameAs": [
+              "https://maps.app.goo.gl/k1AJiMky4sBqGitA9"
+            ],
+            "telephone": "+14063171405",
+            "priceRange": "$$",
+            "knowsAbout": [
+              "Automotive diagnostics",
+              "Electrical diagnostics",
+              "Brake repair",
+              "Suspension and steering repair",
+              "Vehicle maintenance"
+            ],
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "1914 North Ave W",
+              "addressLocality": "Missoula",
+              "addressRegion": "MT",
+              "postalCode": "59801",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 46.855018,
+              "longitude": -114.0255
+            },
+            "areaServed": [
+              {
+                "@type": "City",
+                "name": "Missoula",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Missoula,_Montana",
+                  "https://www.wikidata.org/wiki/Q189508"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Lolo",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Lolo,_Montana",
+                  "https://www.wikidata.org/wiki/Q2213768"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Frenchtown",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Frenchtown,_Montana",
+                  "https://www.wikidata.org/wiki/Q2493393"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Bonner",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Bonner-West_Riverside,_Montana",
+                  "https://www.wikidata.org/wiki/Q2398418"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "East Missoula",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/East_Missoula,_Montana",
+                  "https://www.wikidata.org/wiki/Q2574041"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Milltown",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Milltown,_Montana",
+                  "https://www.wikidata.org/wiki/Q6859871"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Orchard Homes",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Orchard_Homes,_Montana",
+                  "https://www.wikidata.org/wiki/Q2481636"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Target Range",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Target_Range,_Montana",
+                  "https://www.wikidata.org/wiki/Q2353139"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Clinton",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Clinton,_Montana",
+                  "https://www.wikidata.org/wiki/Q2212351"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Huson",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Huson,_Montana",
+                  "https://www.wikidata.org/wiki/Q14704879"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Wye",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Wye,_Montana",
+                  "https://www.wikidata.org/wiki/Q10825316"
+                ]
+              }
+            ],
+            "mainEntityOfPage": {
+              "@type": "WebSite",
+              "@id": "https://www.benchmarkmissoula.com/#website"
+            },
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday"
+                ],
+                "opens": "08:00",
+                "closes": "17:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": "Saturday",
+                "description": "By appointment"
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://www.benchmarkmissoula.com/services/ac-heating#webpage",
+            "url": "https://www.benchmarkmissoula.com/services/ac-heating",
+            "name": "AC & Heating Service",
+            "description": "Auto AC and heating repair in Missoula, MT. We test refrigerant pressure, airflow, electrical controls, heater performance, and leaks before repair.",
+            "isPartOf": {
+              "@id": "https://www.benchmarkmissoula.com/#website"
+            },
+            "about": {
+              "@id": "https://www.benchmarkmissoula.com/services/ac-heating#service"
+            },
+            "reviewedBy": {
+              "@type": "Organization",
+              "@id": "https://www.benchmarkmissoula.com/#business"
+            },
+            "dateModified": "2026-07-27T00:00:00.000Z"
+          },
+          {
+            "@type": "Service",
+            "@id": "https://www.benchmarkmissoula.com/services/ac-heating#service",
+            "name": "AC & Heating Service",
+            "description": "Auto AC and heating repair in Missoula, MT. We test refrigerant pressure, airflow, electrical controls, heater performance, and leaks before repair.",
+            "serviceType": "AC & Heating Service",
+            "provider": {
+              "@id": "https://www.benchmarkmissoula.com/#business"
+            },
+            "areaServed": [
+              {
+                "@type": "City",
+                "name": "Missoula",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Missoula,_Montana",
+                  "https://www.wikidata.org/wiki/Q189508"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Lolo",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Lolo,_Montana",
+                  "https://www.wikidata.org/wiki/Q2213768"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Frenchtown",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Frenchtown,_Montana",
+                  "https://www.wikidata.org/wiki/Q2493393"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Bonner",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Bonner-West_Riverside,_Montana",
+                  "https://www.wikidata.org/wiki/Q2398418"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "East Missoula",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/East_Missoula,_Montana",
+                  "https://www.wikidata.org/wiki/Q2574041"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Milltown",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Milltown,_Montana",
+                  "https://www.wikidata.org/wiki/Q6859871"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Orchard Homes",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Orchard_Homes,_Montana",
+                  "https://www.wikidata.org/wiki/Q2481636"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Target Range",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Target_Range,_Montana",
+                  "https://www.wikidata.org/wiki/Q2353139"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Clinton",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Clinton,_Montana",
+                  "https://www.wikidata.org/wiki/Q2212351"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Huson",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Huson,_Montana",
+                  "https://www.wikidata.org/wiki/Q14704879"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Wye",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Wye,_Montana",
+                  "https://www.wikidata.org/wiki/Q10825316"
+                ]
+              }
+            ],
+            "image": "https://www.benchmarkmissoula.com/diagnostic_hero_bg_v2.png",
+            "url": "https://www.benchmarkmissoula.com/services/ac-heating",
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "name": "AC & Heating Service Offers",
+              "itemListElement": [
+                {
+                  "@type": "Offer",
+                  "name": "AC Diagnostic & Recharge",
+                  "price": "349.00",
+                  "priceCurrency": "USD",
+                  "description": "Full-system AC diagnosis with leak detection, pressure testing, and refrigerant recharge to manufacturer spec. Includes: Manifold gauge pressure test, UV dye leak detection, Compressor & clutch inspection, Refrigerant recharge to spec",
+                  "eligibleCustomerType": "http://schema.org/NewCustomer",
+                  "availability": "https://schema.org/InStock",
+                  "url": "https://www.benchmarkmissoula.com/services/ac-heating",
+                  "termsOfService": "Standard systems up to R-134a. R-1234yf systems may vary."
+                }
+              ]
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.benchmarkmissoula.com/services/ac-heating#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.benchmarkmissoula.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Services",
+                "item": "https://www.benchmarkmissoula.com/services"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "AC & Heating Service",
+                "item": "https://www.benchmarkmissoula.com/services/ac-heating"
+              }
+            ]
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://www.benchmarkmissoula.com/services/ac-heating#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Why does my AC blow cold at first and then gradually get warmer?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The most common cause is a refrigerant leak. As the system runs, pressure drops low enough to trigger the low-pressure cutoff switch, which prevents the compressor from running to protect it from oil starvation. A UV dye leak test identifies where the refrigerant is escaping."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can I just recharge the system myself with a kit from the parts store?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "A DIY recharge adds refrigerant without finding or fixing the leak, so the same problem returns in weeks or months. Overcharging also puts excess pressure on the compressor. Different model years use different refrigerant types - R-134a vs. R-1234yf - and using the wrong PAG oil damages the compressor. Diagnosis first, recharge second."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "My heat works, but the fan only blows at one speed. What's wrong?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "A failed blower motor resistor or electronic blower-control module is a common cause, but switch, wiring, and control-head faults can create similar symptoms. We test the circuit before replacing the control component."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "initial_content": true,
+    "emdash_in_source": 0,
+    "in_sitemap": true
+  },
+  "local": {
+    "status": 200,
+    "xrobots": null,
+    "title": [
+      "AC &amp; Heating Service in Missoula, MT | Benchmark Automotive Service"
+    ],
+    "canonical": [
+      "https://www.benchmarkmissoula.com/services/ac-heating"
+    ],
+    "robots": [],
+    "schema": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://www.benchmarkmissoula.com/#website",
+            "name": "Benchmark Automotive Service",
+            "url": "https://www.benchmarkmissoula.com",
+            "description": "Automotive diagnostics and repair services in Missoula, Montana.",
+            "publisher": {
+              "@type": "AutoRepair",
+              "@id": "https://www.benchmarkmissoula.com/#business"
+            }
+          },
+          {
+            "@type": "AutoRepair",
+            "@id": "https://www.benchmarkmissoula.com/#business",
+            "name": "Benchmark Automotive Service",
+            "image": "https://www.benchmarkmissoula.com/images/Benchmark%20Automotive.webp",
+            "url": "https://www.benchmarkmissoula.com",
+            "email": "driggs@benchmarkautomotiveservice.com",
+            "hasMap": "https://maps.app.goo.gl/k1AJiMky4sBqGitA9",
+            "sameAs": [
+              "https://maps.app.goo.gl/k1AJiMky4sBqGitA9"
+            ],
+            "telephone": "+14063171405",
+            "priceRange": "$$",
+            "knowsAbout": [
+              "Automotive diagnostics",
+              "Electrical diagnostics",
+              "Brake repair",
+              "Suspension and steering repair",
+              "Vehicle maintenance"
+            ],
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "1914 North Ave W",
+              "addressLocality": "Missoula",
+              "addressRegion": "MT",
+              "postalCode": "59801",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 46.855018,
+              "longitude": -114.0255
+            },
+            "areaServed": [
+              {
+                "@type": "City",
+                "name": "Missoula",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Missoula,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Lolo",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Lolo,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Frenchtown",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Frenchtown,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Bonner",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Bonner-West_Riverside,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "East Missoula",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/East_Missoula,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Milltown",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Milltown,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Orchard Homes",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Orchard_Homes,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Target Range",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Target_Range,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Clinton",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Clinton,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Huson",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Huson,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Wye",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Wye,_Montana"
+                ]
+              }
+            ],
+            "mainEntityOfPage": {
+              "@type": "WebSite",
+              "@id": "https://www.benchmarkmissoula.com/#website"
+            },
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday"
+                ],
+                "opens": "08:00",
+                "closes": "17:00"
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://www.benchmarkmissoula.com/services/ac-heating#webpage",
+            "url": "https://www.benchmarkmissoula.com/services/ac-heating",
+            "name": "AC & Heating Service",
+            "description": "Auto AC and heating repair in Missoula, MT. We test refrigerant pressure, airflow, electrical controls, heater performance, and leaks before repair.",
+            "isPartOf": {
+              "@id": "https://www.benchmarkmissoula.com/#website"
+            },
+            "about": {
+              "@id": "https://www.benchmarkmissoula.com/services/ac-heating#service"
+            },
+            "reviewedBy": {
+              "@id": "https://www.benchmarkmissoula.com/#business"
+            },
+            "lastReviewed": "2026-07-27"
+          },
+          {
+            "@type": "Service",
+            "@id": "https://www.benchmarkmissoula.com/services/ac-heating#service",
+            "name": "AC & Heating Service",
+            "description": "Auto AC and heating repair in Missoula, MT. We test refrigerant pressure, airflow, electrical controls, heater performance, and leaks before repair.",
+            "serviceType": "AC & Heating Service",
+            "provider": {
+              "@id": "https://www.benchmarkmissoula.com/#business"
+            },
+            "areaServed": [
+              {
+                "@type": "City",
+                "name": "Missoula",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Missoula,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Lolo",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Lolo,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Frenchtown",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Frenchtown,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Bonner",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Bonner-West_Riverside,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "East Missoula",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/East_Missoula,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Milltown",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Milltown,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Orchard Homes",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Orchard_Homes,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Target Range",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Target_Range,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Clinton",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Clinton,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Huson",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Huson,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Wye",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Wye,_Montana"
+                ]
+              }
+            ],
+            "image": "https://www.benchmarkmissoula.com/diagnostic_hero_bg_v2.png",
+            "url": "https://www.benchmarkmissoula.com/services/ac-heating",
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "name": "AC & Heating Service Offers",
+              "itemListElement": [
+                {
+                  "@type": "Offer",
+                  "name": "AC Diagnostic & Recharge",
+                  "price": "349.00",
+                  "priceCurrency": "USD",
+                  "description": "Full-system AC diagnosis with leak detection, pressure testing, and refrigerant recharge to manufacturer spec. Includes: Manifold gauge pressure test, UV dye leak detection, Compressor & clutch inspection, Refrigerant recharge to spec Standard systems up to R-134a. R-1234yf systems may vary.",
+                  "url": "https://www.benchmarkmissoula.com/services/ac-heating"
+                }
+              ]
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.benchmarkmissoula.com/services/ac-heating#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.benchmarkmissoula.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Services",
+                "item": "https://www.benchmarkmissoula.com/services"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "AC & Heating Service",
+                "item": "https://www.benchmarkmissoula.com/services/ac-heating"
+              }
+            ]
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://www.benchmarkmissoula.com/services/ac-heating#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Why does my AC blow cold at first and then gradually get warmer?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The most common cause is a refrigerant leak. As the system runs, pressure drops low enough to trigger the low-pressure cutoff switch, which prevents the compressor from running to protect it from oil starvation. A UV dye leak test identifies where the refrigerant is escaping."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can I just recharge the system myself with a kit from the parts store?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "A DIY recharge adds refrigerant without finding or fixing the leak, so the same problem returns in weeks or months. Overcharging also puts excess pressure on the compressor. Different model years use different refrigerant types - R-134a vs. R-1234yf - and using the wrong PAG oil damages the compressor. Diagnosis first, recharge second."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "My heat works, but the fan only blows at one speed. What's wrong?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "A failed blower motor resistor or electronic blower-control module is a common cause, but switch, wiring, and control-head faults can create similar symptoms. We test the circuit before replacing the control component."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "initial_content": true,
+    "emdash_in_source": 0,
+    "in_sitemap": true
+  }
+}

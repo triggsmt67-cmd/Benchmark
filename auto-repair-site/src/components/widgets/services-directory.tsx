@@ -7,7 +7,6 @@ import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { Reveal } from "@/components/motion/Reveal";
 import { Stagger, StaggerItem } from "@/components/motion/Stagger";
-import { DiagnosticConfidenceStrip } from "@/components/widgets/diagnostic-confidence-strip";
 import { Search, ChevronRight, Activity, Wrench, AlertTriangle, ThermometerSnowflake, Phone, CarFront } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -20,7 +19,6 @@ export interface ServiceItem {
     slug: string;
     categories: Category[];
     section: "Diagnostics" | "Repairs" | "Maintenance" | "Common Vehicle Problems" | "Comfort & Climate" | "Educational Guides";
-    isMostRequested: boolean;
     isComingSoon?: boolean;
     icon?: string;
     basePath?: string;
@@ -127,13 +125,26 @@ export function ServicesDirectory({ initialServices }: { initialServices: Servic
         "Educational Guides": filteredServices.filter(s => s.section === "Educational Guides"),
     };
 
-    const mostRequested = initialServices.filter(s => s.isMostRequested);
+    const startHereSlugs = ["electrical-diagnostics", "general-maintenance", "vehicle-inspection"];
+    const startHere = startHereSlugs.flatMap(slug =>
+        initialServices.filter(service => service.slug === slug && service.basePath !== "/guides")
+    );
+    const availableCategories = CATEGORIES.filter(category =>
+        category === "All" || initialServices.some(service => service.categories.includes(category))
+    );
 
     return (
         <div className="w-full flex flex-col">
 
+            <noscript>
+                <style>{`.service-directory-controls { display: none; }`}</style>
+                <p className="container mx-auto px-4 py-6 text-text-secondary">
+                    All services and guides are listed below. Search and category filters are available when JavaScript is enabled.
+                </p>
+            </noscript>
+
             {/* Quick Find Toolbar */}
-            <section className="bg-bg py-10 md:py-16 border-b border-border sticky top-0 z-40 shadow-sm">
+            <section className="service-directory-controls bg-bg py-10 md:py-16 border-b border-border shadow-sm">
                 <div className="container mx-auto px-4 md:px-6">
                     <Reveal>
                         <div className="flex flex-col md:flex-row gap-6 items-start md:items-center justify-between">
@@ -149,7 +160,7 @@ export function ServicesDirectory({ initialServices }: { initialServices: Servic
                             </div>
 
                             <div className="flex flex-wrap items-center gap-2 overflow-x-auto pb-2 md:pb-0 w-full md:w-auto">
-                                {CATEGORIES.map(category => (
+                                {availableCategories.map(category => (
                                     <button
                                         key={category}
                                         onClick={() => setActiveCategory(category)}
@@ -173,17 +184,17 @@ export function ServicesDirectory({ initialServices }: { initialServices: Servic
             <div className="bg-surface py-20 md:py-24">
                 <div className="container mx-auto px-4 md:px-6">
 
-                    {/* Featured / Most Requested (Hide when actively searching/filtering heavily to show direct results) */}
+                    {/* Starting points (hide when filters are active) */}
                     {!isFiltered && (
                         <div className="mb-24">
                             <Reveal>
                                 <h2 className="font-heading text-3xl font-bold text-navy-950 mb-8 tracking-tight flex items-center gap-3">
                                     <div className="w-1.5 h-6 bg-copper" />
-                                    Most Requested
+                                    Start Here
                                 </h2>
                             </Reveal>
                             <Stagger className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                                {mostRequested.map((service) => (
+                                {startHere.map((service) => (
                                     <StaggerItem key={service.id}>
                                         <ServiceCard service={service} />
                                     </StaggerItem>
@@ -231,11 +242,6 @@ export function ServicesDirectory({ initialServices }: { initialServices: Servic
                 </div>
             </div>
 
-            {/* Diagnostic Confidence Strip (Compact) */}
-            <div className="border-y border-border">
-                <DiagnosticConfidenceStrip />
-            </div>
-
             {/* "Not Sure What You Need?" Card */}
             <section className="bg-surface py-20 md:py-32">
                 <div className="container mx-auto px-4 md:px-6">
@@ -250,7 +256,9 @@ export function ServicesDirectory({ initialServices }: { initialServices: Servic
                                     Not sure what to pick?
                                 </h2>
                                 <p className="text-lg text-text-secondary mb-10 max-w-2xl">
-                                    Describe the symptoms and we&apos;ll help point you in the right direction. No guesswork, just clear answers.
+                                    The service pages explain the concerns each visit addresses. You can also read about{" "}
+                                    <Link href="/services/our-diagnostic-approach" className="text-copper hover:underline">our diagnostic approach</Link>{" "}
+                                    or contact the shop to discuss what you’ve noticed.
                                 </p>
 
                                 <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto mb-8">

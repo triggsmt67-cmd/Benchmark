@@ -16,7 +16,7 @@ import type { NewCustomerOfferProps } from "@/components/widgets/new-customer-of
  */
 const defaultOffer: NewCustomerOfferProps = {
     eyebrow: "New Customer Offer",
-    title: "Full Synthetic Oil Service",
+    title: "Full Synthetic Oil Service*",
     price: "$79.95",
     description:
         "A simple first visit with clear recommendations and no pressure.",
@@ -28,7 +28,7 @@ const defaultOffer: NewCustomerOfferProps = {
     ],
     ctaLabel: "Book Appointment",
     ctaHref: "/contact",
-    disclaimer: "First-time customers only. Up to 5 quarts.",
+    disclaimer: "*First-time customers only. Up to 5 quarts. Offer may not apply to all vehicles. Additional charges may apply for required oil, filters or quantities outside this offer. We’ll confirm pricing before service.",
 };
 
 export const serviceOfferConfigs: Record<string, NewCustomerOfferProps> = {
@@ -51,7 +51,7 @@ export const serviceOfferConfigs: Record<string, NewCustomerOfferProps> = {
             "Compressor & clutch inspection",
             "Refrigerant recharge to spec",
         ],
-        ctaLabel: "Book Appointment",
+        ctaLabel: "Request an Appointment",
         ctaHref: "/contact",
         disclaimer: "Standard systems up to R-134a. R-1234yf systems may vary.",
     },

@@ -1,0 +1,96 @@
+[
+  {
+    "host": "https://www.benchmarkmissoula.com",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "xRobotsTag": null,
+    "canonical": [
+      "<link rel=\"canonical\" href=\"https://www.benchmarkmissoula.com/services/electrical-diagnostics\"/>"
+    ],
+    "title": [
+      "Electrical Diagnostics in Missoula, MT | Benchmark Automotive Service"
+    ],
+    "robots": [],
+    "mainCount": 1,
+    "links": [
+      "/",
+      "/_next/static/chunks/2gk1jza0orngf.css",
+      "/_next/static/chunks/2vof_ahhg-wge.js",
+      "/_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2",
+      "/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
+      "/about",
+      "/apple-icon.png",
+      "/contact",
+      "/privacy",
+      "/service-areas",
+      "/service-areas/bonner",
+      "/service-areas/east-missoula",
+      "/service-areas/frenchtown",
+      "/service-areas/lolo",
+      "/service-areas/milltown",
+      "/service-areas/missoula",
+      "/service-areas/orchard-homes",
+      "/service-areas/target-range",
+      "/services",
+      "/services/electrical-diagnostics",
+      "/services/engine-and-performance",
+      "/site-map",
+      "/terms"
+    ],
+    "schemaTypes": [
+      "WebSite",
+      "AutoRepair",
+      "WebPage",
+      "Service",
+      "BreadcrumbList",
+      "FAQPage"
+    ]
+  },
+  {
+    "host": "http://127.0.0.1:3001",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "xRobotsTag": null,
+    "canonical": [
+      "<link rel=\"canonical\" href=\"https://www.benchmarkmissoula.com/services/electrical-diagnostics\"/>"
+    ],
+    "title": [
+      "Electrical Diagnostics in Missoula, MT | Benchmark Automotive Service"
+    ],
+    "robots": [],
+    "mainCount": 1,
+    "links": [
+      "/",
+      "/_next/static/chunks/312a4a4wngbsu.css",
+      "/_next/static/chunks/39-a9kmat8xb_.js",
+      "/_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2",
+      "/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
+      "/about",
+      "/apple-icon.png",
+      "/contact",
+      "/privacy",
+      "/service-areas",
+      "/service-areas/bonner",
+      "/service-areas/east-missoula",
+      "/service-areas/frenchtown",
+      "/service-areas/lolo",
+      "/service-areas/milltown",
+      "/service-areas/missoula",
+      "/service-areas/orchard-homes",
+      "/service-areas/target-range",
+      "/services",
+      "/services/electrical-diagnostics",
+      "/services/engine-and-performance",
+      "/site-map",
+      "/terms"
+    ],
+    "schemaTypes": [
+      "WebSite",
+      "AutoRepair",
+      "WebPage",
+      "Service",
+      "BreadcrumbList",
+      "FAQPage"
+    ]
+  }
+]

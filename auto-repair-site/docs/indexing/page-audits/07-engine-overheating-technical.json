@@ -1,0 +1,678 @@
+{
+  "live": {
+    "status": 200,
+    "canonical": [
+      "https://www.benchmarkmissoula.com/services/engine-overheating"
+    ],
+    "robots": [],
+    "xrobots": null,
+    "title": [
+      "Engine Overheating in Missoula, MT | Benchmark Automotive Service"
+    ],
+    "initial_faq": true,
+    "schema": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://www.benchmarkmissoula.com/#website",
+            "name": "Benchmark Automotive Service",
+            "url": "https://www.benchmarkmissoula.com",
+            "description": "Automotive diagnostics and repair services in Missoula, Montana.",
+            "publisher": {
+              "@type": "AutoRepair",
+              "@id": "https://www.benchmarkmissoula.com/#business"
+            }
+          },
+          {
+            "@type": "AutoRepair",
+            "@id": "https://www.benchmarkmissoula.com/#business",
+            "name": "Benchmark Automotive Service",
+            "image": "https://www.benchmarkmissoula.com/images/Benchmark%20Automotive.webp",
+            "url": "https://www.benchmarkmissoula.com",
+            "email": "driggs@benchmarkautomotiveservice.com",
+            "hasMap": "https://maps.app.goo.gl/k1AJiMky4sBqGitA9",
+            "sameAs": [
+              "https://maps.app.goo.gl/k1AJiMky4sBqGitA9"
+            ],
+            "telephone": "+14063171405",
+            "priceRange": "$$",
+            "knowsAbout": [
+              "Automotive diagnostics",
+              "Electrical diagnostics",
+              "Brake repair",
+              "Suspension and steering repair",
+              "Vehicle maintenance"
+            ],
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "1914 North Ave W",
+              "addressLocality": "Missoula",
+              "addressRegion": "MT",
+              "postalCode": "59801",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 46.855018,
+              "longitude": -114.0255
+            },
+            "areaServed": [
+              {
+                "@type": "City",
+                "name": "Missoula",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Missoula,_Montana",
+                  "https://www.wikidata.org/wiki/Q189508"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Lolo",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Lolo,_Montana",
+                  "https://www.wikidata.org/wiki/Q2213768"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Frenchtown",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Frenchtown,_Montana",
+                  "https://www.wikidata.org/wiki/Q2493393"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Bonner",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Bonner-West_Riverside,_Montana",
+                  "https://www.wikidata.org/wiki/Q2398418"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "East Missoula",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/East_Missoula,_Montana",
+                  "https://www.wikidata.org/wiki/Q2574041"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Milltown",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Milltown,_Montana",
+                  "https://www.wikidata.org/wiki/Q6859871"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Orchard Homes",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Orchard_Homes,_Montana",
+                  "https://www.wikidata.org/wiki/Q2481636"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Target Range",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Target_Range,_Montana",
+                  "https://www.wikidata.org/wiki/Q2353139"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Clinton",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Clinton,_Montana",
+                  "https://www.wikidata.org/wiki/Q2212351"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Huson",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Huson,_Montana",
+                  "https://www.wikidata.org/wiki/Q14704879"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Wye",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Wye,_Montana",
+                  "https://www.wikidata.org/wiki/Q10825316"
+                ]
+              }
+            ],
+            "mainEntityOfPage": {
+              "@type": "WebSite",
+              "@id": "https://www.benchmarkmissoula.com/#website"
+            },
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday"
+                ],
+                "opens": "08:00",
+                "closes": "17:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": "Saturday",
+                "description": "By appointment"
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://www.benchmarkmissoula.com/services/engine-overheating#webpage",
+            "url": "https://www.benchmarkmissoula.com/services/engine-overheating",
+            "name": "Engine Overheating",
+            "description": "Engine overheating diagnosis in Missoula, MT. We test leaks, pressure, coolant flow, fans, thermostat operation, and combustion-gas concerns.",
+            "isPartOf": {
+              "@id": "https://www.benchmarkmissoula.com/#website"
+            },
+            "about": {
+              "@id": "https://www.benchmarkmissoula.com/services/engine-overheating#service"
+            },
+            "reviewedBy": {
+              "@type": "Organization",
+              "@id": "https://www.benchmarkmissoula.com/#business"
+            },
+            "dateModified": "2026-07-27T00:00:00.000Z"
+          },
+          {
+            "@type": "Service",
+            "@id": "https://www.benchmarkmissoula.com/services/engine-overheating#service",
+            "name": "Engine Overheating",
+            "description": "Engine overheating diagnosis in Missoula, MT. We test leaks, pressure, coolant flow, fans, thermostat operation, and combustion-gas concerns.",
+            "serviceType": "Engine Overheating",
+            "provider": {
+              "@id": "https://www.benchmarkmissoula.com/#business"
+            },
+            "areaServed": [
+              {
+                "@type": "City",
+                "name": "Missoula",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Missoula,_Montana",
+                  "https://www.wikidata.org/wiki/Q189508"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Lolo",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Lolo,_Montana",
+                  "https://www.wikidata.org/wiki/Q2213768"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Frenchtown",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Frenchtown,_Montana",
+                  "https://www.wikidata.org/wiki/Q2493393"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Bonner",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Bonner-West_Riverside,_Montana",
+                  "https://www.wikidata.org/wiki/Q2398418"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "East Missoula",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/East_Missoula,_Montana",
+                  "https://www.wikidata.org/wiki/Q2574041"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Milltown",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Milltown,_Montana",
+                  "https://www.wikidata.org/wiki/Q6859871"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Orchard Homes",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Orchard_Homes,_Montana",
+                  "https://www.wikidata.org/wiki/Q2481636"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Target Range",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Target_Range,_Montana",
+                  "https://www.wikidata.org/wiki/Q2353139"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Clinton",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Clinton,_Montana",
+                  "https://www.wikidata.org/wiki/Q2212351"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Huson",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Huson,_Montana",
+                  "https://www.wikidata.org/wiki/Q14704879"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Wye",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Wye,_Montana",
+                  "https://www.wikidata.org/wiki/Q10825316"
+                ]
+              }
+            ],
+            "image": "https://www.benchmarkmissoula.com/diagnostic_hero_bg_v2.png",
+            "url": "https://www.benchmarkmissoula.com/services/engine-overheating"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.benchmarkmissoula.com/services/engine-overheating#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.benchmarkmissoula.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Services",
+                "item": "https://www.benchmarkmissoula.com/services"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Engine Overheating",
+                "item": "https://www.benchmarkmissoula.com/services/engine-overheating"
+              }
+            ]
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://www.benchmarkmissoula.com/services/engine-overheating#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Can I drive a short distance if my engine is overheating?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. Driving on an overheating engine - even a short distance - can warp an aluminum cylinder head, which turns a minor repair into a major one. Pull over, shut it off, and wait for it to cool before driving or calling for a tow."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How do I know if my head gasket is blown versus something simpler?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "A combustion leak test is the most reliable indicator. White smoke from the exhaust, coolant disappearing without any visible external leak, milky residue on the oil cap, and bubbling in the coolant reservoir are all signs of combustion gases entering the cooling system. Any of those symptoms warrant a pressure and combustion test before anything else."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What does it cost to fix an overheating engine?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Cost depends entirely on root cause. A thermostat replacement is a relatively minor repair. A water pump is more involved. A head gasket replacement on most engines is a significant job. That's why accurate diagnosis before repair matters - treating the wrong cause doesn't solve the problem and adds unnecessary expense."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sitemap": true
+  },
+  "local": {
+    "status": 200,
+    "canonical": [
+      "https://www.benchmarkmissoula.com/services/engine-overheating"
+    ],
+    "robots": [],
+    "xrobots": null,
+    "title": [
+      "Engine Overheating in Missoula, MT | Benchmark Automotive Service"
+    ],
+    "initial_faq": true,
+    "schema": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://www.benchmarkmissoula.com/#website",
+            "name": "Benchmark Automotive Service",
+            "url": "https://www.benchmarkmissoula.com",
+            "description": "Automotive diagnostics and repair services in Missoula, Montana.",
+            "publisher": {
+              "@type": "AutoRepair",
+              "@id": "https://www.benchmarkmissoula.com/#business"
+            }
+          },
+          {
+            "@type": "AutoRepair",
+            "@id": "https://www.benchmarkmissoula.com/#business",
+            "name": "Benchmark Automotive Service",
+            "image": "https://www.benchmarkmissoula.com/images/Benchmark%20Automotive.webp",
+            "url": "https://www.benchmarkmissoula.com",
+            "email": "driggs@benchmarkautomotiveservice.com",
+            "hasMap": "https://maps.app.goo.gl/k1AJiMky4sBqGitA9",
+            "sameAs": [
+              "https://maps.app.goo.gl/k1AJiMky4sBqGitA9"
+            ],
+            "telephone": "+14063171405",
+            "priceRange": "$$",
+            "knowsAbout": [
+              "Automotive diagnostics",
+              "Electrical diagnostics",
+              "Brake repair",
+              "Suspension and steering repair",
+              "Vehicle maintenance"
+            ],
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "1914 North Ave W",
+              "addressLocality": "Missoula",
+              "addressRegion": "MT",
+              "postalCode": "59801",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 46.855018,
+              "longitude": -114.0255
+            },
+            "areaServed": [
+              {
+                "@type": "City",
+                "name": "Missoula",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Missoula,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Lolo",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Lolo,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Frenchtown",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Frenchtown,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Bonner",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Bonner-West_Riverside,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "East Missoula",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/East_Missoula,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Milltown",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Milltown,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Orchard Homes",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Orchard_Homes,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Target Range",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Target_Range,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Clinton",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Clinton,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Huson",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Huson,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Wye",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Wye,_Montana"
+                ]
+              }
+            ],
+            "mainEntityOfPage": {
+              "@type": "WebSite",
+              "@id": "https://www.benchmarkmissoula.com/#website"
+            },
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday"
+                ],
+                "opens": "08:00",
+                "closes": "17:00"
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://www.benchmarkmissoula.com/services/engine-overheating#webpage",
+            "url": "https://www.benchmarkmissoula.com/services/engine-overheating",
+            "name": "Engine Overheating",
+            "description": "Engine overheating diagnosis in Missoula, MT. We test leaks, pressure, coolant flow, fans, thermostat operation, and combustion-gas concerns.",
+            "isPartOf": {
+              "@id": "https://www.benchmarkmissoula.com/#website"
+            },
+            "about": {
+              "@id": "https://www.benchmarkmissoula.com/services/engine-overheating#service"
+            },
+            "reviewedBy": {
+              "@id": "https://www.benchmarkmissoula.com/#business"
+            },
+            "lastReviewed": "2026-07-27"
+          },
+          {
+            "@type": "Service",
+            "@id": "https://www.benchmarkmissoula.com/services/engine-overheating#service",
+            "name": "Engine Overheating",
+            "description": "Engine overheating diagnosis in Missoula, MT. We test leaks, pressure, coolant flow, fans, thermostat operation, and combustion-gas concerns.",
+            "serviceType": "Engine Overheating",
+            "provider": {
+              "@id": "https://www.benchmarkmissoula.com/#business"
+            },
+            "areaServed": [
+              {
+                "@type": "City",
+                "name": "Missoula",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Missoula,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Lolo",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Lolo,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Frenchtown",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Frenchtown,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Bonner",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Bonner-West_Riverside,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "East Missoula",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/East_Missoula,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Milltown",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Milltown,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Orchard Homes",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Orchard_Homes,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Target Range",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Target_Range,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Clinton",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Clinton,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Huson",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Huson,_Montana"
+                ]
+              },
+              {
+                "@type": "City",
+                "name": "Wye",
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/Wye,_Montana"
+                ]
+              }
+            ],
+            "image": "https://www.benchmarkmissoula.com/diagnostic_hero_bg_v2.png",
+            "url": "https://www.benchmarkmissoula.com/services/engine-overheating"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.benchmarkmissoula.com/services/engine-overheating#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.benchmarkmissoula.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Services",
+                "item": "https://www.benchmarkmissoula.com/services"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Engine Overheating",
+                "item": "https://www.benchmarkmissoula.com/services/engine-overheating"
+              }
+            ]
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://www.benchmarkmissoula.com/services/engine-overheating#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Can I drive a short distance if my engine is overheating?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. Driving on an overheating engine - even a short distance - can warp an aluminum cylinder head, which turns a minor repair into a major one. Pull over, shut it off, and wait for it to cool before driving or calling for a tow."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How do I know if my head gasket is blown versus something simpler?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "A combustion leak test is the most reliable indicator. White smoke from the exhaust, coolant disappearing without any visible external leak, milky residue on the oil cap, and bubbling in the coolant reservoir are all signs of combustion gases entering the cooling system. Any of those symptoms warrant a pressure and combustion test before anything else."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What does it cost to fix an overheating engine?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Cost depends entirely on root cause. A thermostat replacement is a relatively minor repair. A water pump is more involved. A head gasket replacement on most engines is a significant job. That's why accurate diagnosis before repair matters - treating the wrong cause doesn't solve the problem and adds unnecessary expense."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sitemap": true
+  }
+}

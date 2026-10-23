@@ -1,7 +1,7 @@
 ---
 title: "Engine and Performance Diagnostics"
 description: "Engine performance and check-engine light diagnosis in Missoula, MT for hesitation, rough idle, low power, misfires, fuel-trim problems, and advanced intermittent faults."
-category: "Engine"
+category: "Diagnostics"
 featured: false
 order: 10
 lastReviewed: 2026-08-16

@@ -1,10 +1,4 @@
 import { ServiceContent } from "@/lib/content-schema";
-import {
-    Accordion,
-    AccordionContent,
-    AccordionItem,
-    AccordionTrigger,
-} from "@/components/ui/accordion";
 
 interface Props {
     content: ServiceContent;
@@ -20,18 +14,18 @@ export function ServiceFaqs({ content }: Props) {
                     Frequently Asked Questions
                 </h2>
 
-                <Accordion type="single" collapsible className="w-full">
-                    {content.faqs.map((faq, idx) => (
-                        <AccordionItem key={idx} value={`item-${idx}`} className="border-border">
-                            <AccordionTrigger className="text-left font-medium text-navy-900 hover:text-brand-red py-4 text-lg">
+                <div className="w-full">
+                    {content.faqs.map((faq) => (
+                        <details key={faq.question} className="group border-b border-border">
+                            <summary className="cursor-pointer py-4 text-lg font-medium text-navy-900 focus-visible:outline-2 focus-visible:outline-brand-red">
                                 {faq.question}
-                            </AccordionTrigger>
-                            <AccordionContent className="text-text-secondary leading-relaxed pb-6 text-base">
+                            </summary>
+                            <p className="text-text-secondary leading-relaxed pb-6 text-base">
                                 {faq.answer}
-                            </AccordionContent>
-                        </AccordionItem>
+                            </p>
+                        </details>
                     ))}
-                </Accordion>
+                </div>
             </div>
         </section>
     );

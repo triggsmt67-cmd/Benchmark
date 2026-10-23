@@ -4,15 +4,15 @@ import * as React from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Button } from "@/components/ui/button";
-import { MapPin, Phone, Menu, X } from "lucide-react";
+import { MapPin, Phone, Menu } from "lucide-react";
 import { siteConfig } from "@/lib/siteConfig";
 
 export function Header() {
-    const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
+    const mobileMenuRef = React.useRef<HTMLDetailsElement>(null);
     const pathname = usePathname();
-
-    const toggleMobileMenu = () => setIsMobileMenuOpen(!isMobileMenuOpen);
-    const closeMobileMenu = () => setIsMobileMenuOpen(false);
+    const closeMobileMenu = () => {
+        if (mobileMenuRef.current) mobileMenuRef.current.open = false;
+    };
 
     return (
         <header className="sticky top-0 z-50 w-full border-b border-border bg-surface/95 backdrop-blur supports-[backdrop-filter]:bg-surface/80">
@@ -64,42 +64,36 @@ export function Header() {
                         <Link href="/contact">Schedule Service</Link>
                     </Button>
 
-                    {/* Mobile Menu Toggle */}
-                    <button
-                        className="md:hidden flex items-center justify-center p-2 text-navy-950 hover:text-brand-red transition-colors"
-                        onClick={toggleMobileMenu}
-                        aria-label="Toggle Menu"
-                    >
-                        {isMobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-                    </button>
+                    {/* Native disclosure works before hydration and without JavaScript. */}
+                    <details ref={mobileMenuRef} className="md:hidden group">
+                        <summary aria-label="Toggle Menu" className="list-none [&::-webkit-details-marker]:hidden cursor-pointer flex h-11 w-11 items-center justify-center text-navy-950 focus-visible:outline-2 focus-visible:outline-brand-red">
+                            <Menu className="h-6 w-6" aria-hidden="true" />
+                        </summary>
+                        <div className="absolute top-full left-0 right-0 max-h-[calc(100dvh-7rem)] bg-white border-b border-border shadow-lg overflow-y-auto">
+                            <nav className="flex flex-col py-6 px-6 gap-2 font-medium text-lg">
+                                <Link href="/" className={`py-4 border-b border-muted/30 transition-colors ${pathname === "/" ? "text-brand-red font-semibold" : "text-navy-950 hover:text-brand-red"}`} onClick={closeMobileMenu}>
+                                    Home
+                                </Link>
+                                <Link href="/services" className={`py-4 border-b border-muted/30 transition-colors ${(pathname === "/services" || pathname.startsWith("/services/")) ? "text-brand-red font-semibold" : "text-navy-950 hover:text-brand-red"}`} onClick={closeMobileMenu}>
+                                    Services
+                                </Link>
+                                <Link href="/about" className={`py-4 border-b border-muted/30 transition-colors ${pathname === "/about" ? "text-brand-red font-semibold" : "text-navy-950 hover:text-brand-red"}`} onClick={closeMobileMenu}>
+                                    About
+                                </Link>
+                                <Link href="/#testimonials" className="py-4 border-b border-muted/30 text-navy-950 hover:text-brand-red transition-colors" onClick={closeMobileMenu}>
+                                    Reviews
+                                </Link>
+                                <Link href="/contact" className={`py-4 mb-4 transition-colors ${pathname === "/contact" ? "text-brand-red font-semibold" : "text-navy-950 hover:text-brand-red"}`} onClick={closeMobileMenu}>
+                                    Contact
+                                </Link>
+                                <Button asChild className="w-full bg-brand-red hover:bg-brand-red-hover text-white rounded-md py-6 text-lg" onClick={closeMobileMenu}>
+                                    <Link href="/contact">Schedule Service</Link>
+                                </Button>
+                            </nav>
+                        </div>
+                    </details>
                 </div>
             </div>
-
-            {/* Mobile Navigation Dropdown */}
-            {isMobileMenuOpen && (
-                <div className="md:hidden absolute top-full left-0 right-0 h-screen bg-white border-b border-border shadow-lg overflow-y-auto pb-32">
-                    <nav className="flex flex-col py-6 px-6 gap-2 font-medium text-lg">
-                        <Link href="/" className={`py-4 border-b border-muted/30 transition-colors ${pathname === "/" ? "text-brand-red font-semibold" : "text-navy-950 hover:text-brand-red"}`} onClick={closeMobileMenu}>
-                            Home
-                        </Link>
-                        <Link href="/services" className={`py-4 border-b border-muted/30 transition-colors ${(pathname === "/services" || pathname.startsWith("/services/")) ? "text-brand-red font-semibold" : "text-navy-950 hover:text-brand-red"}`} onClick={closeMobileMenu}>
-                            Services
-                        </Link>
-                        <Link href="/about" className={`py-4 border-b border-muted/30 transition-colors ${pathname === "/about" ? "text-brand-red font-semibold" : "text-navy-950 hover:text-brand-red"}`} onClick={closeMobileMenu}>
-                            About
-                        </Link>
-                        <Link href="/#testimonials" className="py-4 border-b border-muted/30 text-navy-950 hover:text-brand-red transition-colors" onClick={closeMobileMenu}>
-                            Reviews
-                        </Link>
-                        <Link href="/contact" className={`py-4 mb-4 transition-colors ${pathname === "/contact" ? "text-brand-red font-semibold" : "text-navy-950 hover:text-brand-red"}`} onClick={closeMobileMenu}>
-                            Contact
-                        </Link>
-                        <Button asChild className="w-full bg-brand-red hover:bg-brand-red-hover text-white rounded-md py-6 text-lg" onClick={closeMobileMenu}>
-                            <Link href="/contact">Schedule Service</Link>
-                        </Button>
-                    </nav>
-                </div>
-            )}
         </header>
     );
 }

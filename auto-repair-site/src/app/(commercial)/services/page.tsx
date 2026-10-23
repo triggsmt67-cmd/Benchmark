@@ -3,26 +3,27 @@ import { ServicesDirectory } from "@/components/widgets/services-directory";
 import { FinalCtaBand } from "@/components/widgets/final-cta-band";
 import { Reveal } from "@/components/motion/Reveal";
 import Link from "next/link";
+import { siteConfig } from "@/lib/siteConfig";
 import { Phone, ArrowRight } from "lucide-react";
 import { getServicesHubSchema, serializeSchema } from "@/lib/seo";
 
 export const metadata: Metadata = {
-    title: "Services in Missoula, MT",
-    description: "Explore diagnostic, repair, and common vehicle problem pages. Clear answers and confirmed repairs in Missoula.",
+    title: "Auto Repair & Diagnostic Services in Missoula",
+    description: "Browse auto repair, maintenance, inspections, and vehicle problem diagnostics at Benchmark Automotive Service in Missoula. Find a service or request an appointment.",
     alternates: {
         canonical: "https://www.benchmarkmissoula.com/services",
     },
     openGraph: {
-        title: "Professional Auto Services in Missoula, MT | Benchmark Automotive Service",
+        title: "Auto Repair & Diagnostic Services in Missoula | Benchmark Automotive Service",
         description: "From advanced diagnostics to routine maintenance, explore our full range of professional auto services in Missoula.",
         url: "https://www.benchmarkmissoula.com/services",
         siteName: "Benchmark Automotive Service",
         images: [
             {
-                url: "/images/og-services.jpg",
+                url: "/images/Inspection%20Bay.webp",
                 width: 1200,
-                height: 630,
-                alt: "Benchmark Automotive Services Hub",
+                height: 900,
+                alt: "Vehicle inspection bay at Benchmark Automotive Service",
             },
         ],
         locale: "en_US",
@@ -65,7 +66,6 @@ export default async function ServicesHubPage() {
             slug: data.slug,
             categories: cats as ServiceItem["categories"],
             section: (data.section || defaultSection) as ServiceItem["section"],
-            isMostRequested: data.isMostRequested === true || data.featured === true,
             isComingSoon: data.isComingSoon === true,
             icon: data.icon as string | undefined,
             order: data.order || 99
@@ -80,7 +80,6 @@ export default async function ServicesHubPage() {
         slug: data.slug,
         categories: ["Guides", "All"],
         section: "Educational Guides",
-        isMostRequested: data.featured === true,
         icon: "CarFront",
         basePath: "/guides",
         order: data.order || 99
@@ -106,15 +105,15 @@ export default async function ServicesHubPage() {
                     <Reveal>
                         <div className="max-w-3xl">
                             <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6">
-                                Services in Missoula, MT
+                                Auto Repair &amp; Diagnostics in Missoula
                             </h1>
                             <p className="font-sans text-lg md:text-xl text-white/90 leading-relaxed mb-10 max-w-2xl">
-                                Clear answers, confirmed repairs, and straightforward communication.
+                                Find the service or vehicle concern closest to what you need. Browse repairs, maintenance and inspections, or start with a symptom such as a no-start, overheating or a new noise. If you’re unsure which page fits, call <a href={`tel:${siteConfig.phone.link}`} className="underline underline-offset-4">{siteConfig.phone.display}</a> and describe the concern.
                             </p>
 
                             <div className="flex flex-col sm:flex-row gap-4 mb-12">
                                 <a
-                                    href="tel:4063171405"
+                                    href={`tel:${siteConfig.phone.link}`}
                                     className="inline-flex items-center justify-center gap-2 bg-brand-red hover:bg-brand-red-hover text-white h-14 px-8 text-lg font-medium rounded-sm transition-colors"
                                     aria-label="Call Now"
                                 >

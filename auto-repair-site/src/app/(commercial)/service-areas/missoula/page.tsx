@@ -19,34 +19,11 @@ export const metadata: Metadata = {
 };
 
 export default function MissoulaServiceAreaPage() {
-    const faqs = [
-        {
-            question: "Where is Benchmark Automotive Service located in Missoula?",
-            answer: "We are located at 1914 North Ave W in Missoula, MT 59801, which is easily accessible via the Reserve Street exit off I-90."
-        },
-        {
-            question: "Do you serve other communities besides Missoula?",
-            answer: "Yes. In addition to Missoula, we serve Lolo, Frenchtown, Bonner, East Missoula, Clinton, Huson, Wye, and surrounding communities."
-        },
-        {
-            question: "Can I drop off my car outside of normal business hours?",
-            answer: "Yes. We offer a secure after-hours drop-off system. Leave your vehicle and drop the keys in our secure box; we will confirm receipt the next business morning."
-        },
-        {
-            question: "What types of vehicle maintenance and repairs do you offer?",
-            answer: "We handle all core auto repair needs, including advanced electrical testing, check engine light scans, brake replacements, oil changes, battery testing, steering/suspension adjustments, and cooling system repairs."
-        },
-        {
-            question: "What if my vehicle has an issue but no warning light is on?",
-            answer: "That is very common. Mechanical issues like worn wheel bearings, ball joints, or brake noise will not trigger dashboard lights. Tell us the noises or vibrations you experience, and we will perform a physical inspection to isolate the cause."
-        }
-    ];
-
     const schema = getServiceAreaDetailSchema({
         citySlug: "missoula",
         cityName: "Missoula",
         title: "Automotive Service for Missoula Drivers",
-        faqs
+        faqs: []
     });
 
     return (

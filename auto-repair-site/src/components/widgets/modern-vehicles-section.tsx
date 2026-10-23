@@ -42,7 +42,7 @@ export function ModernVehiclesSection() {
                                 Electrical System Testing
                             </h3>
                             <p className="text-text-secondary leading-relaxed text-[15px]">
-                                Intermittent faults and wiring issues require methodical testing \u2014 not guesswork.
+                                Intermittent faults and wiring issues require methodical testing — not guesswork.
                             </p>
                         </div>
                     </StaggerItem>

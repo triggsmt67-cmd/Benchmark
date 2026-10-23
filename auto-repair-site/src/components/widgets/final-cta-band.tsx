@@ -4,22 +4,32 @@ import { Phone, ArrowRight } from "lucide-react";
 import { siteConfig } from "@/lib/siteConfig";
 import { Reveal } from "@/components/motion/Reveal";
 
-export function FinalCtaBand() {
+interface FinalCtaBandProps {
+    title?: string;
+    description?: string;
+    label?: string;
+}
+
+export function FinalCtaBand({
+    title = "Let’s Get You Back on the Road - Confidently.",
+    description = "Stop wondering if your car is truly fixed. Experience the difference of premium independent automotive care.",
+    label = "Schedule Service",
+}: FinalCtaBandProps = {}) {
     return (
         <section id="contact" className="py-20 md:py-24 bg-gradient-to-r from-navy-950 to-navy-900 border-t-4 border-brand-red">
             <div className="container mx-auto px-4 md:px-6 text-center">
                 <Reveal>
                     <h2 className="font-heading text-3xl md:text-5xl font-bold text-surface mb-6">
-                        Let’s Get You Back on the Road - Confidently.
+                        {title}
                     </h2>
                     <p className="text-muted/80 text-lg max-w-2xl mx-auto mb-10">
-                        Stop wondering if your car is truly fixed. Experience the difference of premium independent automotive care.
+                        {description}
                     </p>
 
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                         <Button size="lg" asChild className="w-full sm:w-auto bg-brand-red hover:bg-brand-red-hover text-white h-14 px-10 text-lg rounded-md">
                             <Link href="/contact" className="flex items-center gap-2">
-                                Schedule Service <ArrowRight className="h-5 w-5" />
+                                {label} <ArrowRight className="h-5 w-5" />
                             </Link>
                         </Button>
 
